@@ -1,0 +1,143 @@
+﻿{
+    "mapId":  "1a150814-28af-4ef6-a76b-29814789e503",
+    "name":  "Nawabad map",
+    "description":  null,
+    "cluster":  {
+                    "provinceName":  "Kunduz",
+                    "districtCode":  "AF1902",
+                    "districtName":  "Chahar Darah",
+                    "provinceCode":  "AF19",
+                    "clusterName":  "Naw Abad"
+                },
+    "features":  [
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              69.1818151123932,
+                                                              34.551687665755
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "H0m6oZpXUgullUPmHpQ1doAJyaoUX15q",
+                         "type":  "Feature",
+                         "properties":  {
+
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              69.1804901411164,
+                                                              34.55188638040168
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "AtJWJ2l6kL9nb1KaAl6rjB8DlkiR7FZW",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Village 1772969839153",
+                                            "zoneType":  "bridge",
+                                            "createdAt":  "2026-03-08T11:37:19.153Z",
+                                            "description":  "",
+                                            "color":  "#1976d2",
+                                            "updatedAt":  "2026-03-08T11:37:36.920Z"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              [
+                                                                  69.22596885809773,
+                                                                  34.55296566111633
+                                                              ],
+                                                              [
+                                                                  69.22052893833651,
+                                                                  34.538985857053916
+                                                              ],
+                                                              [
+                                                                  69.20986669560057,
+                                                                  34.53038173356941
+                                                              ],
+                                                              [
+                                                                  69.23510792330003,
+                                                                  34.52303167400446
+                                                              ],
+                                                              [
+                                                                  69.24489977887382,
+                                                                  34.527513494819146
+                                                              ],
+                                                              [
+                                                                  69.24555256924543,
+                                                                  34.552786447719996
+                                                              ],
+                                                              [
+                                                                  69.23293195539469,
+                                                                  34.5587002859742
+                                                              ],
+                                                              [
+                                                                  69.22553366451669,
+                                                                  34.55171115923571
+                                                              ],
+                                                              [
+                                                                  69.20856111485739,
+                                                                  34.545796824176676
+                                                              ]
+                                                          ],
+                                          "type":  "LineString"
+                                      },
+                         "id":  "ztKqtEJCjR7eJrPfTth8ronw7oBeiG1S",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Village 1772969882645",
+                                            "zoneType":  "village",
+                                            "createdAt":  "2026-03-08T11:38:02.645Z",
+                                            "color":  "#7cb342",
+                                            "updatedAt":  "2026-03-08T11:38:02.645Z"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              [
+                                                                  69.23648569501276,
+                                                                  34.54281065055025
+                                                              ],
+                                                              [
+                                                                  69.25359200336607,
+                                                                  34.54387054966102
+                                                              ],
+                                                              [
+                                                                  69.26047994168582,
+                                                                  34.534268618006195
+                                                              ],
+                                                              [
+                                                                  69.22808392409581,
+                                                                  34.52928016446437
+                                                              ],
+                                                              [
+                                                                  69.22853807387497,
+                                                                  34.54193778232397
+                                                              ],
+                                                              [
+                                                                  69.23663707827248,
+                                                                  34.54287299792992
+                                                              ]
+                                                          ],
+                                          "type":  "LineString"
+                                      },
+                         "id":  "R2Ph4ZEZ2hgaHpyrrTKYhaNenRjVzHol",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Village 1774856059708",
+                                            "zoneType":  "village",
+                                            "createdAt":  "2026-03-30T07:34:19.708Z",
+                                            "color":  "#7cb342",
+                                            "updatedAt":  "2026-03-30T07:34:19.708Z"
+                                        }
+                     }
+                 ],
+    "createdAt":  "2026-03-08T08:42:06.638Z",
+    "updatedAt":  "2026-03-30T07:35:38.587Z",
+    "mapboxDatasetId":  "cmncvi9oe25zg1orqcmio2hm2",
+    "mapboxTilesetId":  "morahmani.cluster-1a15081428af4ef6a76b29"
+}

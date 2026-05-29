@@ -1,0 +1,1045 @@
+﻿{
+    "mapId":  "b04ffb63-1089-40a2-b250-2b4c04101b89",
+    "name":  "CL #1 Map",
+    "description":  null,
+    "cluster":  {
+                    "provinceName":  "Baghlan",
+                    "districtCode":  "AF0905",
+                    "districtName":  "Baghlan-e-Jadid",
+                    "provinceCode":  "AF09",
+                    "clusterName":  "CL #1"
+                },
+    "features":  [
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              [
+                                                                  [
+                                                                      68.75976470689665,
+                                                                      36.17402325331652
+                                                                  ],
+                                                                  [
+                                                                      68.76686871984217,
+                                                                      36.17489212094583
+                                                                  ],
+                                                                  [
+                                                                      68.76999018007561,
+                                                                      36.176456058399324
+                                                                  ],
+                                                                  [
+                                                                      68.77397273278771,
+                                                                      36.18097392458115
+                                                                  ],
+                                                                  [
+                                                                      68.78086147261308,
+                                                                      36.18123456275819
+                                                                  ],
+                                                                  [
+                                                                      68.78376765972652,
+                                                                      36.176542942898394
+                                                                  ],
+                                                                  [
+                                                                      68.79667498052817,
+                                                                      36.16226855814061
+                                                                  ],
+                                                                  [
+                                                                      68.79679506162373,
+                                                                      36.159441359140864
+                                                                  ],
+                                                                  [
+                                                                      68.79259534507437,
+                                                                      36.159896649025015
+                                                                  ],
+                                                                  [
+                                                                      68.78764257587937,
+                                                                      36.16038076858375
+                                                                  ],
+                                                                  [
+                                                                      68.78025928300394,
+                                                                      36.16283933699971
+                                                                  ],
+                                                                  [
+                                                                      68.76557708112509,
+                                                                      36.16542094398095
+                                                                  ],
+                                                                  [
+                                                                      68.7579348853802,
+                                                                      36.16993944640828
+                                                                  ],
+                                                                  [
+                                                                      68.75976470689665,
+                                                                      36.17402325331652
+                                                                  ]
+                                                              ]
+                                                          ],
+                                          "type":  "Polygon"
+                                      },
+                         "id":  "BiKmHoaJSuqLwXBvdCet68kcFgFn9fIM",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Cluster 1",
+                                            "zoneType":  "cluster",
+                                            "createdAt":  "2026-03-09T10:22:14.469Z",
+                                            "description":  "",
+                                            "color":  "#8e24aa",
+                                            "updatedAt":  "2026-03-09T10:42:47.331Z"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.76855197,
+                                                              36.168264
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-1",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1976d2",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.168264",
+                                                                   "__EMPTY":  "Damage bridge, Laqai Ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Damage bridge, Laqai Ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Damage bridge, Laqai Ha.jpg",
+                                                                   "GPSLongitude":  "68.76855197",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Damage bridge, Laqai Ha.jpg",
+                                            "zoneType":  "bridge",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Damage bridge, Laqai Ha.jpg\nGPSLatitude: 36.168264\nGPSLongitude: 68.76855197\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Damage bridge, Laqai Ha.jpg",
+                                            "id":  "import-1773052170183-1",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77027597,
+                                                              36.16963497
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-3",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1565c0",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.16963497",
+                                                                   "__EMPTY":  "Laqai Ha Secondry School.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Laqai Ha Secondry School.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Laqai Ha Secondry School.jpg",
+                                                                   "GPSLongitude":  "68.77027597",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Laqai Ha Secondry School.jpg",
+                                            "zoneType":  "school",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Laqai Ha Secondry School.jpg\nGPSLatitude: 36.16963497\nGPSLongitude: 68.77027597\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Laqai Ha Secondry School.jpg",
+                                            "id":  "import-1773052170183-3",
+                                            "updatedAt":  "2026-03-09T10:41:56.673Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.76800197,
+                                                              36.17106497
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-4",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17106497",
+                                                                   "__EMPTY":  "Earthquake Damage wall, Laqai Ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Earthquake Damage wall, Laqai Ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Earthquake Damage wall, Laqai Ha.jpg",
+                                                                   "GPSLongitude":  "68.76800197",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Earthquake Damage wall, Laqai Ha.jpg",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Earthquake Damage wall, Laqai Ha.jpg\nGPSLatitude: 36.17106497\nGPSLongitude: 68.76800197\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Earthquake Damage wall, Laqai Ha.jpg",
+                                            "id":  "import-1773052170183-4",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.76827797,
+                                                              36.17116697
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-5",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1565c0",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17116697",
+                                                                   "__EMPTY":  "Laqai Ha Secondry School 2.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Laqai Ha Secondry School 2.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Laqai Ha Secondry School 2.jpg",
+                                                                   "GPSLongitude":  "68.76827797",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Laqai Ha Secondry School 2.jpg",
+                                            "zoneType":  "school",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Laqai Ha Secondry School 2.jpg\nGPSLatitude: 36.17116697\nGPSLongitude: 68.76827797\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Laqai Ha Secondry School 2.jpg",
+                                            "id":  "import-1773052170183-5",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.765557,
+                                                              36.171863
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-6",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1976d2",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.171863",
+                                                                   "__EMPTY":  "Mohammadya Grand Mosque, Laqay ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Mohammadya Grand Mosque, Laqay ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Mohammadya Grand Mosque, Laqay ha.jpg",
+                                                                   "GPSLongitude":  "68.765557",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Mohammadya Grand Mosque, Laqay ha.jpg",
+                                            "zoneType":  "mosque",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Mohammadya Grand Mosque, Laqay ha.jpg\nGPSLatitude: 36.171863\nGPSLongitude: 68.765557\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Mohammadya Grand Mosque, Laqay ha.jpg",
+                                            "id":  "import-1773052170183-6",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.766908,
+                                                              36.172372
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-7",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#ffb300",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.172372",
+                                                                   "__EMPTY":  "Meat Shop, Laqai Ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Meat Shop, Laqai Ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Meat Shop, Laqai Ha.jpg",
+                                                                   "GPSLongitude":  "68.766908",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Meat Shop, Laqai Ha.jpg",
+                                            "zoneType":  "shop",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Meat Shop, Laqai Ha.jpg\nGPSLatitude: 36.172372\nGPSLongitude: 68.766908\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Meat Shop, Laqai Ha.jpg",
+                                            "id":  "import-1773052170183-7",
+                                            "updatedAt":  "2026-03-09T11:05:08.919Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.766908,
+                                                              36.172372
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-8",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#ffb300",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.172372",
+                                                                   "__EMPTY":  "Pharmacy, Laqai Ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Pharmacy, Laqai Ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Pharmacy, Laqai Ha.jpg",
+                                                                   "GPSLongitude":  "68.766908",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Pharmacy, Laqai Ha.jpg",
+                                            "zoneType":  "shop",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Pharmacy, Laqai Ha.jpg\nGPSLatitude: 36.172372\nGPSLongitude: 68.766908\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Pharmacy, Laqai Ha.jpg",
+                                            "id":  "import-1773052170183-8",
+                                            "updatedAt":  "2026-03-09T11:04:56.269Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.766772,
+                                                              36.17247297
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-9",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#ffb300",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17247297",
+                                                                   "__EMPTY":  "Bread Oven, Laqai Ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Bread Oven, Laqai Ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Bread Oven, Laqai Ha.jpg",
+                                                                   "GPSLongitude":  "68.766772",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Bread Oven, Laqai Ha.jpg",
+                                            "zoneType":  "shop",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Bread Oven, Laqai Ha.jpg\nGPSLatitude: 36.17247297\nGPSLongitude: 68.766772\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Bread Oven, Laqai Ha.jpg",
+                                            "id":  "import-1773052170183-9",
+                                            "updatedAt":  "2026-03-09T11:05:02.811Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.765168,
+                                                              36.17309697
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-11",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#ffb300",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17309697",
+                                                                   "__EMPTY":  "Sewing Shop, Laqai Ha.jpg",
+                                                                   "Village":  "Laqai Ha Village",
+                                                                   "FileName":  "Sewing Shop, Laqai Ha.jpg",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Sewing Shop, Laqai Ha.jpg",
+                                                                   "GPSLongitude":  "68.765168",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Sewing Shop, Laqai Ha.jpg",
+                                            "zoneType":  "shop",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Laqai Ha Village/Sewing Shop, Laqai Ha.jpg\nGPSLatitude: 36.17309697\nGPSLongitude: 68.765168\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Laqai Ha Village\n__EMPTY: Sewing Shop, Laqai Ha.jpg",
+                                            "id":  "import-1773052170183-11",
+                                            "updatedAt":  "2026-03-09T11:04:43.323Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77403333,
+                                                              36.173125
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-12",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.173125",
+                                                                   "__EMPTY":  "Flood Prone area, Dara e sof Laqai ha2.HEIC",
+                                                                   "Village":  "Dara-e-Soof Laqai Ha Village",
+                                                                   "FileName":  "Flood Prone area, Dara e sof Laqai ha2.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Flood Prone area, Dara e sof Laqai ha2.HEIC",
+                                                                   "GPSLongitude":  "68.77403333",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Flood Prone area, Dara e sof Laqai ha2.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Flood Prone area, Dara e sof Laqai ha2.HEIC\nGPSLatitude: 36.173125\nGPSLongitude: 68.77403333\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Dara-e-Soof Laqai Ha Village\n__EMPTY: Flood Prone area, Dara e sof Laqai ha2.HEIC",
+                                            "id":  "import-1773052170183-12",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77404722,
+                                                              36.17314167
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-13",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17314167",
+                                                                   "__EMPTY":  "Flood Prone area, Dara e sof Laqai ha.HEIC",
+                                                                   "Village":  "Dara-e-Soof Laqai Ha Village",
+                                                                   "FileName":  "Flood Prone area, Dara e sof Laqai ha.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Flood Prone area, Dara e sof Laqai ha.HEIC",
+                                                                   "GPSLongitude":  "68.77404722",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Flood Prone area, Dara e sof Laqai ha.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Flood Prone area, Dara e sof Laqai ha.HEIC\nGPSLatitude: 36.17314167\nGPSLongitude: 68.77404722\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Dara-e-Soof Laqai Ha Village\n__EMPTY: Flood Prone area, Dara e sof Laqai ha.HEIC",
+                                            "id":  "import-1773052170183-13",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77477222,
+                                                              36.17402222
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-14",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17402222",
+                                                                   "__EMPTY":  "irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
+                                                                   "Village":  "Dara-e-Soof Laqai Ha Village",
+                                                                   "FileName":  "irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
+                                                                   "GPSLongitude":  "68.77477222",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC\nGPSLatitude: 36.17402222\nGPSLongitude: 68.77477222\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Dara-e-Soof Laqai Ha Village\n__EMPTY: irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
+                                            "id":  "import-1773052170183-14",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.78115,
+                                                              36.17463333
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-15",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17463333",
+                                                                   "__EMPTY":  "Around 400M protection wall constructed by MRRD.HEIC",
+                                                                   "Village":  "Dara-e-Soof Laqai Ha Village",
+                                                                   "FileName":  "Around 400M protection wall constructed by MRRD.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Around 400M protection wall constructed by MRRD.HEIC",
+                                                                   "GPSLongitude":  "68.78115",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Around 400M protection wall constructed by MRRD.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Around 400M protection wall constructed by MRRD.HEIC\nGPSLatitude: 36.17463333\nGPSLongitude: 68.78115\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Dara-e-Soof Laqai Ha Village\n__EMPTY: Around 400M protection wall constructed by MRRD.HEIC",
+                                            "id":  "import-1773052170183-15",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.78115833,
+                                                              36.17464167
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-16",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17464167",
+                                                                   "__EMPTY":  "Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC",
+                                                                   "Village":  "Dara-e-Soof Laqai Ha Village",
+                                                                   "FileName":  "Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC",
+                                                                   "GPSLongitude":  "68.78115833",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC\nGPSLatitude: 36.17464167\nGPSLongitude: 68.78115833\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Dara-e-Soof Laqai Ha Village\n__EMPTY: Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC",
+                                            "id":  "import-1773052170183-16",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77307222,
+                                                              36.17480556
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-17",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1976d2",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17480556",
+                                                                   "__EMPTY":  "Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+                                                                   "Village":  "Dara-e-Soof Laqai Ha Village",
+                                                                   "FileName":  "Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+                                                                   "GPSLongitude":  "68.77307222",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+                                            "zoneType":  "mosque",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Dara-e-Soof Laqai Ha Village/Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC\nGPSLatitude: 36.17480556\nGPSLongitude: 68.77307222\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Dara-e-Soof Laqai Ha Village\n__EMPTY: Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+                                            "id":  "import-1773052170183-17",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77796944,
+                                                              36.17530556
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-18",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1976d2",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17530556",
+                                                                   "__EMPTY":  "Shahrak Muhajirin Grand Mosque.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Shahrak Muhajirin Grand Mosque.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin Grand Mosque.HEIC",
+                                                                   "GPSLongitude":  "68.77796944",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Shahrak Muhajirin Grand Mosque.HEIC",
+                                            "zoneType":  "mosque",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin Grand Mosque.HEIC\nGPSLatitude: 36.17530556\nGPSLongitude: 68.77796944\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Shahrak Muhajirin Grand Mosque.HEIC",
+                                            "id":  "import-1773052170183-18",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77856389,
+                                                              36.17753889
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-20",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1565c0",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17753889",
+                                                                   "__EMPTY":  "Shahrak Muhajirin elemntry School2.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Shahrak Muhajirin elemntry School2.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin elemntry School2.HEIC",
+                                                                   "GPSLongitude":  "68.77856389",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Shahrak Muhajirin elemntry School2.HEIC",
+                                            "zoneType":  "school",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin elemntry School2.HEIC\nGPSLatitude: 36.17753889\nGPSLongitude: 68.77856389\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Shahrak Muhajirin elemntry School2.HEIC",
+                                            "id":  "import-1773052170183-20",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77853333,
+                                                              36.17761944
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-21",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1565c0",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17761944",
+                                                                   "__EMPTY":  "Shahrak Muhajirin elemntry School3.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Shahrak Muhajirin elemntry School3.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin elemntry School3.HEIC",
+                                                                   "GPSLongitude":  "68.77853333",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Shahrak Muhajirin elemntry School3.HEIC",
+                                            "zoneType":  "school",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin elemntry School3.HEIC\nGPSLatitude: 36.17761944\nGPSLongitude: 68.77853333\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Shahrak Muhajirin elemntry School3.HEIC",
+                                            "id":  "import-1773052170183-21",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.779,
+                                                              36.17781111
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-22",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17781111",
+                                                                   "__EMPTY":  "Check Dam, Shahrak Muhajirin.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Check Dam, Shahrak Muhajirin.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Check Dam, Shahrak Muhajirin.HEIC",
+                                                                   "GPSLongitude":  "68.779",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Check Dam, Shahrak Muhajirin.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Check Dam, Shahrak Muhajirin.HEIC\nGPSLatitude: 36.17781111\nGPSLongitude: 68.779\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Check Dam, Shahrak Muhajirin.HEIC",
+                                            "id":  "import-1773052170183-22",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77899167,
+                                                              36.17782222
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-23",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#e53935",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17782222",
+                                                                   "__EMPTY":  "Check Dam, Shahrak Muhajirin2.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Check Dam, Shahrak Muhajirin2.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Check Dam, Shahrak Muhajirin2.HEIC",
+                                                                   "GPSLongitude":  "68.77899167",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Check Dam, Shahrak Muhajirin2.HEIC",
+                                            "zoneType":  "gpsPoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Check Dam, Shahrak Muhajirin2.HEIC\nGPSLatitude: 36.17782222\nGPSLongitude: 68.77899167\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Check Dam, Shahrak Muhajirin2.HEIC",
+                                            "id":  "import-1773052170183-23",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77894722,
+                                                              36.17785556
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-24",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#1565c0",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17785556",
+                                                                   "__EMPTY":  "Shahrak Muhajirin elemntry School1.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Shahrak Muhajirin elemntry School1.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin elemntry School1.HEIC",
+                                                                   "GPSLongitude":  "68.77894722",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Shahrak Muhajirin elemntry School1.HEIC",
+                                            "zoneType":  "school",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shahrak Muhajirin elemntry School1.HEIC\nGPSLatitude: 36.17785556\nGPSLongitude: 68.77894722\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Shahrak Muhajirin elemntry School1.HEIC",
+                                            "id":  "import-1773052170183-24",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77483333,
+                                                              36.17861944
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-25",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#0097a7",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17861944",
+                                                                   "__EMPTY":  "Water Well, Shahrak Muhajirin.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Water Well, Shahrak Muhajirin.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Water Well, Shahrak Muhajirin.HEIC",
+                                                                   "GPSLongitude":  "68.77483333",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Water Well, Shahrak Muhajirin.HEIC",
+                                            "zoneType":  "waterWell",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Water Well, Shahrak Muhajirin.HEIC\nGPSLatitude: 36.17861944\nGPSLongitude: 68.77483333\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Water Well, Shahrak Muhajirin.HEIC",
+                                            "id":  "import-1773052170183-25",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77617778,
+                                                              36.17864722
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-26",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#ffb300",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17864722",
+                                                                   "__EMPTY":  "Shop, Shahrak Muhajirin.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Shop, Shahrak Muhajirin.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shop, Shahrak Muhajirin.HEIC",
+                                                                   "GPSLongitude":  "68.77617778",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Shop, Shahrak Muhajirin.HEIC",
+                                            "zoneType":  "shop",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Shop, Shahrak Muhajirin.HEIC\nGPSLatitude: 36.17864722\nGPSLongitude: 68.77617778\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Shop, Shahrak Muhajirin.HEIC",
+                                            "id":  "import-1773052170183-26",
+                                            "updatedAt":  "2026-03-09T11:05:58.556Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              68.77803056,
+                                                              36.17925
+                                                          ],
+                                          "type":  "Point"
+                                      },
+                         "id":  "import-1773052170183-27",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "createdAt":  "2026-03-09T10:29:31.093Z",
+                                            "color":  "#29b6f6",
+                                            "isImported":  true,
+                                            "createdBy":  "csv-import",
+                                            "importedFields":  {
+                                                                   "GPSLatitude":  "36.17925",
+                                                                   "__EMPTY":  "Water Storage, Shahrak Muhajirin.HEIC",
+                                                                   "Village":  "Shahrak Muhajirin village",
+                                                                   "FileName":  "Water Storage, Shahrak Muhajirin.HEIC",
+                                                                   "Cluster":  "Cluster 1",
+                                                                   "SourceFile":  "C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Water Storage, Shahrak Muhajirin.HEIC",
+                                                                   "GPSLongitude":  "68.77803056",
+                                                                   "Province":  "Baghlan"
+                                                               },
+                                            "name":  "Water Storage, Shahrak Muhajirin.HEIC",
+                                            "zoneType":  "waterStorePoint",
+                                            "description":  "SourceFile: C:/ImageGPS/Pic/Baghlan/Cluster 1/Shahrak Muhajirin village/Water Storage, Shahrak Muhajirin.HEIC\nGPSLatitude: 36.17925\nGPSLongitude: 68.77803056\nProvince: Baghlan\nCluster: Cluster 1\nVillage: Shahrak Muhajirin village\n__EMPTY: Water Storage, Shahrak Muhajirin.HEIC",
+                                            "id":  "import-1773052170183-27",
+                                            "updatedAt":  "2026-03-09T10:29:31.093Z",
+                                            "labelField":  "FileName"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              [
+                                                                  [
+                                                                      68.76297755691402,
+                                                                      36.17216586381255
+                                                                  ],
+                                                                  [
+                                                                      68.76427174843622,
+                                                                      36.1739519988393
+                                                                  ],
+                                                                  [
+                                                                      68.76848830791019,
+                                                                      36.17331169096393
+                                                                  ],
+                                                                  [
+                                                                      68.7710766909533,
+                                                                      36.17122222887281
+                                                                  ],
+                                                                  [
+                                                                      68.77278836361074,
+                                                                      36.16913271106958
+                                                                  ],
+                                                                  [
+                                                                      68.77186991,
+                                                                      36.16805423
+                                                                  ],
+                                                                  [
+                                                                      68.77095144661283,
+                                                                      36.166975731031854
+                                                                  ],
+                                                                  [
+                                                                      68.77281126307696,
+                                                                      36.163126082078094
+                                                                  ],
+                                                                  [
+                                                                      68.76410475598186,
+                                                                      36.16909900871323
+                                                                  ],
+                                                                  [
+                                                                      68.76297755691402,
+                                                                      36.17216586381255
+                                                                  ]
+                                                              ]
+                                                          ],
+                                          "type":  "Polygon"
+                                      },
+                         "id":  "MF9bH5gNVQpi90pdA2nviodKc8HJNIla",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Laqai Ha Village",
+                                            "zoneType":  "village",
+                                            "createdAt":  "2026-03-09T10:42:32.017Z",
+                                            "description":  "",
+                                            "color":  "#7cb342",
+                                            "updatedAt":  "2026-03-09T10:42:42.286Z"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              [
+                                                                  [
+                                                                      68.77190060291699,
+                                                                      36.17586870954952
+                                                                  ],
+                                                                  [
+                                                                      68.77247887542097,
+                                                                      36.17773584336936
+                                                                  ],
+                                                                  [
+                                                                      68.7754814441912,
+                                                                      36.18024922247976
+                                                                  ],
+                                                                  [
+                                                                      68.77863970171225,
+                                                                      36.18017741276648
+                                                                  ],
+                                                                  [
+                                                                      68.78213157798535,
+                                                                      36.176820235228746
+                                                                  ],
+                                                                  [
+                                                                      68.78402208424816,
+                                                                      36.17412720809621
+                                                                  ],
+                                                                  [
+                                                                      68.77652678294766,
+                                                                      36.171541814972585
+                                                                  ],
+                                                                  [
+                                                                      68.77283473542323,
+                                                                      36.1727806598215
+                                                                  ],
+                                                                  [
+                                                                      68.77181163791704,
+                                                                      36.17464786722586
+                                                                  ],
+                                                                  [
+                                                                      68.77190060291699,
+                                                                      36.17586870954952
+                                                                  ]
+                                                              ]
+                                                          ],
+                                          "type":  "Polygon"
+                                      },
+                         "id":  "sWE3Do4Tn9eJCwRYszOcFnKoxEh9bcMA",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Shahrak Muhajirin Village",
+                                            "zoneType":  "village",
+                                            "createdAt":  "2026-03-09T10:43:19.739Z",
+                                            "description":  "",
+                                            "color":  "#7cb342",
+                                            "updatedAt":  "2026-03-09T10:43:36.500Z"
+                                        }
+                     },
+                     {
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              [
+                                                                  68.75451158270522,
+                                                                  36.178460829200304
+                                                              ],
+                                                              [
+                                                                  68.76183147936288,
+                                                                  36.180370354416056
+                                                              ],
+                                                              [
+                                                                  68.76225870404818,
+                                                                  36.1767013825837
+                                                              ],
+                                                              [
+                                                                  68.7558116745455,
+                                                                  36.173032270535856
+                                                              ],
+                                                              [
+                                                                  68.75309306768014,
+                                                                  36.17560380816572
+                                                              ],
+                                                              [
+                                                                  68.7546465679936,
+                                                                  36.17867701542042
+                                                              ],
+                                                              [
+                                                                  68.75973425714326,
+                                                                  36.1812797110244
+                                                              ]
+                                                          ],
+                                          "type":  "LineString"
+                                      },
+                         "id":  "LjDyUMjGsAVv334aKxhSmB5BH3MXQS6i",
+                         "type":  "Feature",
+                         "properties":  {
+                                            "name":  "Village 1773342379600",
+                                            "zoneType":  "village",
+                                            "createdAt":  "2026-03-12T19:06:19.600Z",
+                                            "color":  "#7cb342",
+                                            "updatedAt":  "2026-03-12T19:06:19.600Z"
+                                        }
+                     }
+                 ],
+    "createdAt":  "2026-03-09T10:16:15.135Z",
+    "updatedAt":  "2026-03-12T19:06:32.249Z"
+}

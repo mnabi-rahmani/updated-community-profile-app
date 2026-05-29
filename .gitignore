@@ -5,20 +5,8 @@ node_modules/
 .env.local
 *.log
 gh-auth-*.txt
-dist/
-frontend/dist/
 
-# Large map photo assets — deploy to S3 separately, not with frontend builds
-deployed/cursor_v2_map_data/photo_previews/
-deployed/Photos of Clusters and Sub-villages/
-frontend/public/community-priorities-map/cursor_v2_map_data/photo_previews/
-frontend/public/community-priorities-map/Photos of Clusters and Sub-villages/
-
-# AWS recovery artifacts (keep recovered/ for reference but ignore large zips)
+# Large extracted archives (regenerable from zips)
 recovered/extracted-all/
 recovered/extracted/
 recovered/extracted-ws-listMaps/
-recovered/aws-deployments/**/*.zip
-recovered/aws-deployments/**/compiled-cloudformation-template.json
-recovered/aws-deployments/**/serverless-state.json
-recovered/frontend-s3/
