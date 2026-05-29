@@ -1,0 +1,12 @@
+{
+  "name": "community-priorities-map",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "serve . -l 5174",
+    "preview": "serve . -l 5174"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

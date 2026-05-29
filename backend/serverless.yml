@@ -1,0 +1,318 @@
+service: community-profile-api
+
+frameworkVersion: "3"
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: us-east-1
+  stage: ${opt:stage, 'dev'}
+  memorySize: 256
+  timeout: 29
+  httpApi:
+    cors:
+      allowedOrigins:
+        - "*"
+      allowedHeaders:
+        - Content-Type
+        - Authorization
+      allowedMethods:
+        - GET
+        - POST
+        - PUT
+        - DELETE
+        - OPTIONS
+  environment:
+    DYNAMODB_TABLE: ${self:custom.tableName}
+    AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1"
+    JWT_SECRET: ${env:JWT_SECRET}
+    JWT_EXPIRES_IN: ${env:JWT_EXPIRES_IN, '24h'}
+    KOBO_BASE_URL: ${env:KOBO_BASE_URL}
+    KOBO_ASSET_ID: ${env:KOBO_ASSET_ID}
+    AWAAZ_KOBO_ASSET_ID: ${env:AWAAZ_KOBO_ASSET_ID}
+    KOBO_USERNAME: ${env:KOBO_USERNAME}
+    KOBO_PASSWORD: ${env:KOBO_PASSWORD}
+    MAPBOX_SECRET_TOKEN: ${env:MAPBOX_SECRET_TOKEN}
+    MAPBOX_USERNAME: ${env:MAPBOX_USERNAME}
+    ADMIN_CODE_DELETE: ${env:ADMIN_CODE_DELETE, ''}
+    ADMIN_CODE_UPDATE: ${env:ADMIN_CODE_UPDATE, ''}
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:Query
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+            - dynamodb:DeleteItem
+            - dynamodb:BatchWriteItem
+            - dynamodb:BatchGetItem
+          Resource:
+            - !GetAtt CommunityProfilesTable.Arn
+            - !Sub "${CommunityProfilesTable.Arn}/index/*"
+        - Effect: Allow
+          Action:
+            - s3:GetObject
+            - s3:PutObject
+            - s3:HeadObject
+          Resource:
+            - arn:aws:s3:::community-profile-app-cluster-pics/cluster-pics/*
+            - arn:aws:s3:::community-profile-app-cluster-pics/cluster-pics-previews/*
+        - Effect: Allow
+          Action:
+            - lambda:InvokeFunction
+          Resource:
+            - !Sub "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:community-profile-api-${sls:stage}-syncMapToMapbox"
+            - !Sub "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:community-profile-api-${sls:stage}-syncAllMapsToMapbox"
+
+custom:
+  tableName: CommunityProfiles-${sls:stage}
+  esbuild:
+    bundle: true
+    minify: false
+    sourcemap: true
+    target: node20
+    define:
+      require.resolve: undefined
+    platform: node
+    concurrency: 10
+
+plugins:
+  - serverless-esbuild
+
+package:
+  individually: true
+
+functions:
+  authLogin:
+    handler: src/handlers/auth-login.handler
+    events:
+      - httpApi:
+          path: /auth/login
+          method: POST
+  authVerify:
+    handler: src/handlers/auth-verify.handler
+    events:
+      - httpApi:
+          path: /auth/verify
+          method: GET
+  authRefresh:
+    handler: src/handlers/auth-refresh.handler
+    events:
+      - httpApi:
+          path: /auth/refresh
+          method: POST
+  listProfiles:
+    handler: src/handlers/list.handler
+    events:
+      - httpApi:
+          path: /profiles
+          method: GET
+  getProvinces:
+    handler: src/handlers/provinces.handler
+    events:
+      - httpApi:
+          path: /profiles/provinces
+          method: GET
+  getDistricts:
+    handler: src/handlers/districts.handler
+    events:
+      - httpApi:
+          path: /profiles/districts
+          method: GET
+  getClusters:
+    handler: src/handlers/clusters.handler
+    events:
+      - httpApi:
+          path: /profiles/clusters
+          method: GET
+  createProfile:
+    handler: src/handlers/create.handler
+    events:
+      - httpApi:
+          path: /profiles
+          method: POST
+  getProfile:
+    handler: src/handlers/get.handler
+    events:
+      - httpApi:
+          path: /profiles/{submissionUuid}
+          method: GET
+  updateProfile:
+    handler: src/handlers/update.handler
+    events:
+      - httpApi:
+          path: /profiles/{submissionUuid}
+          method: PUT
+  deleteProfile:
+    handler: src/handlers/delete.handler
+    events:
+      - httpApi:
+          path: /profiles/{submissionUuid}
+          method: DELETE
+  koboImport:
+    handler: src/handlers/kobo-import.handler
+    timeout: 300
+    events:
+      - httpApi:
+          path: /profiles/import-from-kobo
+          method: POST
+  listAwaazCases:
+    handler: src/handlers/awaaz-list.handler
+    events:
+      - httpApi:
+          path: /cfm-cases
+          method: GET
+  getAwaazCase:
+    handler: src/handlers/awaaz-get.handler
+    events:
+      - httpApi:
+          path: /cfm-cases/{caseId}
+          method: GET
+  importAwaazCases:
+    handler: src/handlers/awaaz-import.handler
+    timeout: 300
+    events:
+      - httpApi:
+          path: /cfm-cases/import
+          method: POST
+  upsertAwaazCases:
+    handler: src/handlers/awaaz-upsert.handler
+    timeout: 300
+    events:
+      - httpApi:
+          path: /cfm-cases/upsert
+          method: POST
+  importAwaazFromKobo:
+    handler: src/handlers/awaaz-kobo-import.handler
+    timeout: 300
+    events:
+      - httpApi:
+          path: /cfm-cases/import-from-kobo
+          method: POST
+  deleteAwaazBySource:
+    handler: src/handlers/awaaz-delete-by-source.handler
+    timeout: 300
+    events:
+      - httpApi:
+          path: /cfm-cases/delete-by-source
+          method: POST
+  listMaps:
+    handler: src/handlers/maps-list.handler
+    events:
+      - httpApi:
+          path: /maps
+          method: GET
+  clustersLookup:
+    handler: src/handlers/maps-clusters-lookup.handler
+    events:
+      - httpApi:
+          path: /maps/clusters-lookup
+          method: GET
+  createMap:
+    handler: src/handlers/maps-create.handler
+    events:
+      - httpApi:
+          path: /maps
+          method: POST
+  getMap:
+    handler: src/handlers/maps-get.handler
+    events:
+      - httpApi:
+          path: /maps/{mapId}
+          method: GET
+  updateMap:
+    handler: src/handlers/maps-update.handler
+    events:
+      - httpApi:
+          path: /maps/{mapId}
+          method: PUT
+  deleteMap:
+    handler: src/handlers/maps-delete.handler
+    events:
+      - httpApi:
+          path: /maps/{mapId}
+          method: DELETE
+  saveMapFeatures:
+    handler: src/handlers/maps-save-features.handler
+    events:
+      - httpApi:
+          path: /maps/{mapId}/features
+          method: PUT
+  syncMapToMapbox:
+    handler: src/handlers/maps-sync-mapbox.handler
+    timeout: 120
+    events:
+      - httpApi:
+          path: /maps/{mapId}/sync-mapbox
+          method: POST
+  syncAllMapsToMapbox:
+    handler: src/handlers/maps-sync-mapbox-all.handler
+    timeout: 300
+    events:
+      - httpApi:
+          path: /maps/sync-mapbox-all
+          method: POST
+  getMapboxSyncJobStatus:
+    handler: src/handlers/maps-sync-mapbox-status.handler
+    events:
+      - httpApi:
+          path: /maps/sync-mapbox/status/{jobId}
+          method: GET
+  getClusterPicSignedUrl:
+    handler: src/handlers/maps-cluster-pic-signed-url.handler
+    events:
+      - httpApi:
+          path: /maps/cluster-pics/signed-url
+          method: GET
+
+resources:
+  Resources:
+    CommunityProfilesTable:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${self:custom.tableName}
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - AttributeName: PK
+            AttributeType: S
+          - AttributeName: SK
+            AttributeType: S
+          - AttributeName: GSI1PK
+            AttributeType: S
+          - AttributeName: GSI1SK
+            AttributeType: S
+        KeySchema:
+          - AttributeName: PK
+            KeyType: HASH
+          - AttributeName: SK
+            KeyType: RANGE
+        GlobalSecondaryIndexes:
+          - IndexName: GSI1
+            KeySchema:
+              - AttributeName: GSI1PK
+                KeyType: HASH
+              - AttributeName: GSI1SK
+                KeyType: RANGE
+            Projection:
+              ProjectionType: ALL
+        PointInTimeRecoverySpecification:
+          PointInTimeRecoveryEnabled: true
+        Tags:
+          - Key: Project
+            Value: CommunityProfile
+          - Key: Stage
+            Value: ${sls:stage}
+  Outputs:
+    ApiUrl:
+      Description: Community Profile API base URL
+      Value: !Sub "https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com"
+    TableName:
+      Description: DynamoDB table name
+      Value: ${self:custom.tableName}
+    TableArn:
+      Description: DynamoDB table ARN
+      Value: !GetAtt CommunityProfilesTable.Arn

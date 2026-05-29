@@ -1,0 +1,163 @@
+service: community-profile-ws
+
+frameworkVersion: "3"
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: us-east-1
+  stage: ${opt:stage, 'dev'}
+  memorySize: 256
+  timeout: 29
+  httpApi:
+    cors:
+      allowedOrigins:
+        - "*"
+      allowedHeaders:
+        - Content-Type
+        - Authorization
+      allowedMethods:
+        - GET
+        - OPTIONS
+  environment:
+    CONNECTIONS_TABLE: ${self:custom.connectionsTable}
+    MAP_DATA_TABLE: ${self:custom.mapDataTable}
+    WEBSOCKET_ENDPOINT: !Sub "https://${WebsocketsApi}.execute-api.${AWS::Region}.amazonaws.com/${sls:stage}"
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:Query
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+            - dynamodb:DeleteItem
+            - dynamodb:BatchWriteItem
+            - dynamodb:Scan
+          Resource:
+            - !GetAtt WebSocketConnectionsTable.Arn
+            - !Sub "${WebSocketConnectionsTable.Arn}/index/*"
+            - !GetAtt MapDataTable.Arn
+            - !Sub "${MapDataTable.Arn}/index/*"
+        - Effect: Allow
+          Action:
+            - execute-api:ManageConnections
+          Resource:
+            - !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${WebsocketsApi}/*"
+
+custom:
+  connectionsTable: WsConnections-${sls:stage}
+  mapDataTable: MapData-${sls:stage}
+  esbuild:
+    bundle: true
+    minify: false
+    sourcemap: true
+    target: node20
+    define:
+      require.resolve: undefined
+    platform: node
+    concurrency: 10
+
+plugins:
+  - serverless-esbuild
+
+package:
+  individually: true
+
+functions:
+  wsConnect:
+    handler: src/handlers/ws-connect.handler
+    events:
+      - websocket:
+          route: $connect
+  wsDisconnect:
+    handler: src/handlers/ws-disconnect.handler
+    events:
+      - websocket:
+          route: $disconnect
+  wsDefault:
+    handler: src/handlers/ws-default.handler
+    events:
+      - websocket:
+          route: $default
+  syncMapData:
+    handler: src/handlers/ws-sync-map-data.handler
+    events:
+      - websocket:
+          route: syncMapData
+  requestFullSync:
+    handler: src/handlers/ws-request-full-sync.handler
+    events:
+      - websocket:
+          route: requestFullSync
+  listMaps:
+    handler: src/handlers/map-list.handler
+    events:
+      - httpApi:
+          path: /maps
+          method: GET
+
+resources:
+  Resources:
+    WebSocketConnectionsTable:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${self:custom.connectionsTable}
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - AttributeName: connectionId
+            AttributeType: S
+          - AttributeName: mapId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: connectionId
+            KeyType: HASH
+        GlobalSecondaryIndexes:
+          - IndexName: MapIdIndex
+            KeySchema:
+              - AttributeName: mapId
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+        TimeToLiveSpecification:
+          AttributeName: ttl
+          Enabled: true
+        Tags:
+          - Key: Project
+            Value: CommunityProfile
+          - Key: Stage
+            Value: ${sls:stage}
+    MapDataTable:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${self:custom.mapDataTable}
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - AttributeName: mapId
+            AttributeType: S
+          - AttributeName: featureId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: mapId
+            KeyType: HASH
+          - AttributeName: featureId
+            KeyType: RANGE
+        Tags:
+          - Key: Project
+            Value: CommunityProfile
+          - Key: Stage
+            Value: ${sls:stage}
+  Outputs:
+    WebSocketApiUrl:
+      Description: WebSocket API URL
+      Value: !Sub "wss://${WebsocketsApi}.execute-api.${AWS::Region}.amazonaws.com/${sls:stage}"
+    ConnectionsTableName:
+      Description: WebSocket Connections DynamoDB table name
+      Value: ${self:custom.connectionsTable}
+    MapDataTableName:
+      Description: Map Data DynamoDB table name
+      Value: ${self:custom.mapDataTable}

@@ -1,0 +1,12 @@
+{
+  "name": "community-profile-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "serve dist -l 5173 --single",
+    "preview": "serve dist -l 5173 --single"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
