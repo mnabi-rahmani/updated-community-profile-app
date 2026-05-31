@@ -161,7 +161,9 @@ $assetBaseUrl = "https://$AssetBucketName.s3.$Region.amazonaws.com/$AssetPrefix/
 $configPath = Join-Path $TargetDir "src\config.js"
 @"
 window.COMMUNITY_PRIORITIES_CONFIG = {
-  priorityPhotoBaseUrl: "$assetBaseUrl"
+  priorityPhotoBaseUrl: "$assetBaseUrl",
+  authApiBaseUrl: "https://tfqmwiadc8.execute-api.us-east-1.amazonaws.com",
+  allowedAuthModules: ["clusters_map", "all"]
 };
 "@ | ForEach-Object {
     [System.IO.File]::WriteAllText($configPath, $_, [System.Text.UTF8Encoding]::new($false))

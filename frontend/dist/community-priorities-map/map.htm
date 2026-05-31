@@ -8,6 +8,24 @@
   <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
+  <section id="authScreen" class="auth-screen" aria-label="Sign in to Community Priorities">
+    <form id="authForm" class="auth-card">
+      <p class="eyebrow">Community Priorities Map</p>
+      <h1>Sign in</h1>
+      <p class="lead">Use your existing Community Profile App username and password.</p>
+      <div class="auth-field">
+        <label for="authUserId">Username</label>
+        <input id="authUserId" name="userId" type="text" autocomplete="username" required>
+      </div>
+      <div class="auth-field">
+        <label for="authPassword">Password</label>
+        <input id="authPassword" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <p id="authMessage" class="auth-message" role="alert" hidden></p>
+      <button id="authSubmit" class="auth-submit" type="submit">Sign in</button>
+      <p class="auth-help">Authorized users: <strong>super_admin</strong> and <strong>clusters_admin</strong>.</p>
+    </form>
+  </section>
 
   <div id="map" aria-label="Cursor V2 interactive community priorities map"></div>
 
@@ -19,6 +37,10 @@
         Photo-backed community priorities from FGD needs prioritization, overlaid on the Integrated Locations Database with Maps V8 styling. Each numbered marker links to a field photo and community priority note.
       </p>
       <span class="badge" id="priorityBadge">Photo-backed priorities + Integrated Locations Database</span>
+      <div id="authUserPanel" class="auth-user-panel" hidden>
+        <span id="authUserLabel"></span>
+        <button id="authLogout" type="button">Sign out</button>
+      </div>
       <div class="legend">
         <span><i class="dot cluster"></i>Cluster boundary</span>
         <span><i class="dot community"></i>Community boundary</span>
