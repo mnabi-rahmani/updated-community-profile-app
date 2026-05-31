@@ -6,6 +6,7 @@ Param(
     [string]$CacheControl = "public,max-age=31536000,immutable"
 )
 
+$ErrorActionPreference = "Continue"
 $ProtectedBucketName = "community-profile-app-cluster-pics"
 
 if (!(Get-Command aws -ErrorAction SilentlyContinue)) {
@@ -84,7 +85,7 @@ $policy = @{
 } | ConvertTo-Json -Depth 8
 
 $policyPath = Join-Path ([System.IO.Path]::GetTempPath()) "community-priorities-assets-policy-$BucketName.json"
-$policy | Set-Content -Path $policyPath -Encoding UTF8
+[System.IO.File]::WriteAllText($policyPath, $policy, [System.Text.UTF8Encoding]::new($false))
 aws s3api put-bucket-policy --bucket $BucketName --policy "file://$policyPath" | Out-Null
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Could not apply public read policy for '$BucketName/$Prefix'."

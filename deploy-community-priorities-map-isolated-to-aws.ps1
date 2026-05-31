@@ -9,7 +9,7 @@ Param(
     [string]$AssetCacheControl = "public,max-age=31536000,immutable"
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 
 $ProtectedCloudFrontDomain = "d113s7v6pd04w6.cloudfront.net"
 $ProtectedAssetBucketName = "community-profile-app-cluster-pics"
@@ -19,10 +19,18 @@ function Fail($Message) {
     exit 1
 }
 
+function Normalize-AwsArgs($Arguments) {
+    if ($Arguments.Count -eq 1 -and $Arguments[0] -is [array]) {
+        return @($Arguments[0])
+    }
+    return @($Arguments)
+}
+
 function Invoke-AwsJson {
-    $json = & aws @args --output json
+    $awsArgs = Normalize-AwsArgs $args
+    $json = & aws @awsArgs --output json
     if ($LASTEXITCODE -ne 0) {
-        Fail "AWS command failed: aws $($args -join ' ')"
+        Fail "AWS command failed: aws $($awsArgs -join ' ')"
     }
     if ([string]::IsNullOrWhiteSpace($json)) {
         return $null
@@ -31,9 +39,10 @@ function Invoke-AwsJson {
 }
 
 function Invoke-Aws {
-    & aws @args
+    $awsArgs = Normalize-AwsArgs $args
+    & aws @awsArgs
     if ($LASTEXITCODE -ne 0) {
-        Fail "AWS command failed: aws $($args -join ' ')"
+        Fail "AWS command failed: aws $($awsArgs -join ' ')"
     }
 }
 
@@ -72,7 +81,7 @@ function Allow-Public-Read($BucketName, $ResourceArn) {
     } | ConvertTo-Json -Depth 8
 
     $policyPath = Join-Path ([System.IO.Path]::GetTempPath()) "$BucketName-policy.json"
-    $policy | Set-Content -Path $policyPath -Encoding UTF8
+    [System.IO.File]::WriteAllText($policyPath, $policy, [System.Text.UTF8Encoding]::new($false))
     Invoke-Aws @("s3api", "put-bucket-policy", "--bucket", $BucketName, "--policy", "file://$policyPath")
 }
 
@@ -154,7 +163,9 @@ $configPath = Join-Path $TargetDir "src\config.js"
 window.COMMUNITY_PRIORITIES_CONFIG = {
   priorityPhotoBaseUrl: "$assetBaseUrl"
 };
-"@ | Set-Content -Path $configPath -Encoding UTF8
+"@ | ForEach-Object {
+    [System.IO.File]::WriteAllText($configPath, $_, [System.Text.UTF8Encoding]::new($false))
+}
 
 Ensure-Bucket $AppBucketName
 Allow-Public-Read $AppBucketName "arn:aws:s3:::$AppBucketName/*"
@@ -228,7 +239,11 @@ if ($distribution) {
     }
 
     $distributionConfigPath = Join-Path ([System.IO.Path]::GetTempPath()) "community-priorities-cloudfront-config.json"
-    $distributionConfig | ConvertTo-Json -Depth 20 | Set-Content -Path $distributionConfigPath -Encoding UTF8
+    [System.IO.File]::WriteAllText(
+        $distributionConfigPath,
+        ($distributionConfig | ConvertTo-Json -Depth 20),
+        [System.Text.UTF8Encoding]::new($false)
+    )
 
     Write-Host "Creating separate CloudFront distribution..."
     $created = Invoke-AwsJson @("cloudfront", "create-distribution", "--distribution-config", "file://$distributionConfigPath")
