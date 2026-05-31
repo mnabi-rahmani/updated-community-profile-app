@@ -8,7 +8,6 @@ Standalone Leaflet map for Baghlan-e-Jadid and Nawabad community priorities. Thi
 deployed/
 ├── index.html                          # Main map page
 ├── package.json                        # Local dev server (npm run dev)
-├── community-priorities-map/           # Mirror used when syncing into React frontend/public
 └── cursor_v2_map_data/
     ├── photo_backed_priorities.js      # 86 priority points (restore real file from backup)
     ├── layers_bundle.js                # 17 DB layers GeoJSON (restore real file from backup)

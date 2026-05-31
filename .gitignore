@@ -10,3 +10,9 @@ gh-auth-*.txt
 recovered/extracted-all/
 recovered/extracted/
 recovered/extracted-ws-listMaps/
+
+# Local source assets; do not commit to GitHub.
+deployed/Assets Needed/
+
+# Local nested clone; do not add it as a submodule by accident.
+frontend-src-github/

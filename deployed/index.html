@@ -642,12 +642,14 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const PRIORITY_PHOTO_BASE_URL = "https://community-profile-app-cluster-pics.s3.us-east-1.amazonaws.com/cluster-pics/priority-previews/";
+    const USE_LOCAL_PRIORITY_PHOTOS = ["localhost", "127.0.0.1", ""].includes(window.location.hostname);
 
     function resolveAssetUrl(path) {
       if (!path) return "";
       if (/^(https?:|file:|blob:|data:)/i.test(path)) return path;
       const previewMatch = String(path).match(/photo_previews\/([^/?#]+)/i);
       if (previewMatch) {
+        if (USE_LOCAL_PRIORITY_PHOTOS) return encodeURI(path).replace(/#/g, "%23");
         return PRIORITY_PHOTO_BASE_URL + previewMatch[1];
       }
       return encodeURI(path).replace(/#/g, "%23");
@@ -670,7 +672,6 @@
     const STYLES = window.CURSOR_V2_STYLES || {};
     const LAYERS = window.CURSOR_V2_LAYERS || {};
     const MANIFEST = window.CURSOR_V2_LAYER_MANIFEST || [];
-    const EXCLUDED_LAYERS = new Set(["communities", "mantiqas"]);
     const BAGHLAN_CLUSTERS = new Set([
       "Cluster 1", "Cluster 2", "Cluster 3", "Cluster 4", "Cluster 5", "Cluster 6",
       "Cluster 7", "Cluster 8", "Cluster 9", "Cluster 10", "Cluster 11", "Nawabad Cluster"
@@ -761,6 +762,7 @@
 
     const BASE_MAP_LAYERS = Object.fromEntries(BASE_MAP_OPTIONS.map((entry) => [entry.name, entry.layer]));
     const DEFAULT_BASE_MAP = "OpenStreetMap";
+    const DEFAULT_START_CLUSTER = "Cluster 1";
     const streets = BASE_MAP_LAYERS[DEFAULT_BASE_MAP];
     streets.addTo(map);
 
@@ -787,7 +789,7 @@
     let layoutRefreshQueued = false;
 
     const ZOOM_SHOW_PRIORITIES = 12;
-    const ZOOM_SHOW_FACILITIES = 14;
+    const ZOOM_SHOW_FACILITIES = 0;
     const ZOOM_SHOW_COMMUNITY_LABELS = 13;
     const DECLUTTER_GROUP_METERS = 14;
     const DECLUTTER_SPACING_PX = 30;
@@ -1094,12 +1096,13 @@
       const style = styleForLayer(layerId);
       let layer;
       if (style.icon) {
+        const iconSize = style.iconSize || [22, 22];
         layer = L.marker(latlng, {
           icon: L.icon({
             iconUrl: style.icon,
-            iconSize: [22, 22],
-            iconAnchor: [11, 11],
-            popupAnchor: [0, -11],
+            iconSize,
+            iconAnchor: [iconSize[0] / 2, iconSize[1] / 2],
+            popupAnchor: [0, -iconSize[1] / 2],
             className: "facility-marker"
           })
         });
@@ -1313,7 +1316,7 @@
     }
 
     function initDatabaseLayers() {
-      MANIFEST.filter((entry) => !EXCLUDED_LAYERS.has(entry.id)).forEach((entry) => {
+      MANIFEST.forEach((entry) => {
         if (!LAYERS[entry.id]) return;
         const group = L.layerGroup().addTo(map);
         databaseStores.set(entry.id, { entry, group, visibleCount: 0 });
@@ -1693,7 +1696,7 @@
     initPriorityMarkers();
     initDatabaseLayers();
     applyFilters(false);
-    fitToClusterBoundary("Cluster 1", { animate: false });
+    fitToClusterBoundary(DEFAULT_START_CLUSTER, { animate: false });
 
     map.on("baselayerchange", (event) => {
       syncBasemapFilterFromMap(event.layer);
