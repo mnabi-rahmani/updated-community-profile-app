@@ -47,7 +47,7 @@ If you logged in as `cea_admin`, CFM Cases will not appear — use `cfm_admin` o
 
 ## Community Priorities Map (`deployed/`)
 
-This is a **separate static map** (not part of the React app). It was never fully deployed to S3 — only the HTML and field photos were uploaded.
+This is the source for the Community Priorities Map module. The recovered frontend does not include React source (`.tsx`), so the map is packaged into the frontend distribution as a static module.
 
 ```bash
 cd deployed
@@ -56,6 +56,30 @@ npm run dev
 ```
 
 Open http://localhost:5174 — serves `deployed/index.html`.
+
+To package the map into the frontend distribution:
+
+```powershell
+.\sync-community-priorities-map.ps1
+```
+
+The packaged map is available under:
+
+```text
+frontend/dist/community-priorities-map/map.htm
+```
+
+When the frontend dev server is running, open:
+
+```text
+http://localhost:5173/community-priorities-map/map.htm
+```
+
+Photo previews are intentionally excluded from the frontend bundle and must be deployed separately:
+
+```powershell
+.\deploy-community-priorities-map-assets-to-s3.ps1
+```
 
 Expected layout:
 

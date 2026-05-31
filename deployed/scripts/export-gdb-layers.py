@@ -20,12 +20,6 @@ MAPS_V8_WORKING_MAP = "Kunduz & Baghlan Working Files"
 
 
 LAYER_CONFIG = {
-    "Communities": {
-        "id": "communities",
-        "label": "Communities",
-        "group": "Boundaries",
-        "style": {"icon": "cursor_v2_map_data/icons/village.png", "markerFill": "#259070"}
-    },
     "MinorRoads": {
         "id": "minor_roads",
         "label": "Minor roads",
@@ -49,12 +43,6 @@ LAYER_CONFIG = {
         "label": "Cluster boundaries",
         "group": "Boundaries",
         "style": {"strokeColor": "#002673", "strokeWidth": 2, "fillColor": "#e9ffbe", "fillOpacity": 0.2}
-    },
-    "Mantiqas": {
-        "id": "mantiqas",
-        "label": "Mantiqas",
-        "group": "Boundaries",
-        "style": {"strokeColor": "#8e6bb8", "strokeWidth": 1.5, "fillColor": "#8e6bb8", "fillOpacity": 0.08}
     },
     "Mosque": {
         "id": "mosques",

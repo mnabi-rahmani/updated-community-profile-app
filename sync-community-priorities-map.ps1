@@ -1,6 +1,6 @@
 Param(
     [string]$SourceDir = $(Join-Path $PSScriptRoot "deployed"),
-    [string]$TargetDir = $(Join-Path $PSScriptRoot "frontend\public\community-priorities-map")
+    [string]$TargetDir = $(Join-Path $PSScriptRoot "frontend\dist\community-priorities-map")
 )
 
 Write-Host "Source :" $SourceDir
@@ -11,28 +11,50 @@ if (!(Test-Path $SourceDir)) {
     exit 1
 }
 
+$requiredFiles = @(
+    "index.html",
+    "cursor_v2_map_data\photo_backed_priorities.js",
+    "cursor_v2_map_data\layers_bundle.js",
+    "cursor_v2_map_data\photo_index.js"
+)
+
+foreach ($file in $requiredFiles) {
+    $path = Join-Path $SourceDir $file
+    if (!(Test-Path $path)) {
+        Write-Error "Required map runtime file missing: $path"
+        exit 1
+    }
+}
+
+if (Test-Path $TargetDir) {
+    Remove-Item $TargetDir -Recurse -Force
+}
+
 New-Item -ItemType Directory -Force -Path $TargetDir | Out-Null
+New-Item -ItemType Directory -Force -Path (Join-Path $TargetDir "cursor_v2_map_data") | Out-Null
 
-robocopy $SourceDir $TargetDir /E `
-    /XD photo_previews "Photos of Clusters and Sub-villages" node_modules `
-    /XF INTEGRATION_EXPORT.md package.json package-lock.json `
-    /NFL /NDL /NJH /NJS /nc /ns /np
+$sourceIndex = Join-Path $SourceDir "index.html"
+Copy-Item $sourceIndex (Join-Path $TargetDir "index.html") -Force
+# The local frontend dev server uses `serve --single`, which rewrites nested .html files to
+# the React SPA. This .htm alias remains directly accessible while using the same map runtime.
+Copy-Item $sourceIndex (Join-Path $TargetDir "map.htm") -Force
 
-if ($LASTEXITCODE -ge 8) {
-    Write-Error "robocopy failed with exit code $LASTEXITCODE"
-    exit 1
+$sourceDataDir = Join-Path $SourceDir "cursor_v2_map_data"
+$targetDataDir = Join-Path $TargetDir "cursor_v2_map_data"
+
+Copy-Item (Join-Path $sourceDataDir "photo_backed_priorities.js") (Join-Path $targetDataDir "photo_backed_priorities.js") -Force
+Copy-Item (Join-Path $sourceDataDir "layers_bundle.js") (Join-Path $targetDataDir "layers_bundle.js") -Force
+Copy-Item (Join-Path $sourceDataDir "photo_index.js") (Join-Path $targetDataDir "photo_index.js") -Force
+
+$reviewReport = Join-Path $sourceDataDir "photo_backed_priorities_review.json"
+if (Test-Path $reviewReport) {
+    Copy-Item $reviewReport (Join-Path $targetDataDir "photo_backed_priorities_review.json") -Force
 }
 
-$previewTarget = Join-Path $TargetDir "cursor_v2_map_data\photo_previews"
-if (Test-Path $previewTarget) {
-    Remove-Item $previewTarget -Recurse -Force
-    Write-Host "Removed stale photo_previews from target."
+$iconsSource = Join-Path $sourceDataDir "icons"
+if (Test-Path $iconsSource) {
+    Copy-Item $iconsSource (Join-Path $targetDataDir "icons") -Recurse -Force
 }
 
-$photosTarget = Join-Path $TargetDir "Photos of Clusters and Sub-villages"
-if (Test-Path $photosTarget) {
-    Remove-Item $photosTarget -Recurse -Force
-    Write-Host "Removed stale full-res Photos folder from target."
-}
-
-Write-Host "Done. Static map synced without photo assets (photos served from S3)."
+Write-Host "Done. Community priorities map packaged into frontend/dist/community-priorities-map."
+Write-Host "Photo previews were intentionally excluded; deploy them separately with deploy-community-priorities-map-assets-to-s3.ps1."
