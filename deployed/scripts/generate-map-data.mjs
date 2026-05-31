@@ -69,11 +69,11 @@ const themeRules = [
 ];
 
 const themeKeywords = {
-  "Flood / DRR": ["flood", "flooding", "protection wall", "retaining wall", "culvert", "disaster", "vulnerability", "erosion", "canal overflow", "flood way"],
+  "Flood / DRR": ["flood", "flooding", "protection wall", "retaining wall", "disaster", "erosion", "canal overflow", "flood way", "floodway"],
   WASH: ["drinking water", "safe water", "hand pump", "water well", "bore well", "water storage", "water supply", "water network", "chlorination", "hygiene", "latrine", "bathroom"],
   Education: ["school", "classroom", "class room", "education", "madrassa", "cbe", "learning"],
   Irrigation: ["irrigation", "canal", "watergate", "water gate", "check dam"],
-  "Road access": ["road", "bridge", "culvert", "access", "rehabilitation"],
+  "Road access": ["road", "bridge", "culvert", "street", "route", "pathway", "asphalt", "gravel", "muddy", "unpaved", "crossing"],
   Health: ["health", "clinic", "chc", "bhc", "mobile clinic", "mht", "pharmacy"],
   Shelter: ["shelter", "house", "housing", "returnee", "construction"]
 };
@@ -108,6 +108,33 @@ function significantTokens(value) {
   return [...new Set(normalizeForMatch(value).split(" "))]
     .filter((token) => token.length >= 4 && !stopWords.has(token))
     .slice(0, 16);
+}
+
+function containsAnyTerm(normalizedText, terms) {
+  return terms.some((term) => normalizedText.includes(normalizeForMatch(term)));
+}
+
+function requiredAssetTerms(point) {
+  const text = normalizeForMatch([
+    point.title,
+    point.file,
+    ...(point.photos || []).map((photo) => `${photo.title || ""} ${photo.file || ""}`)
+  ].join(" "));
+
+  if (/\bbridge\b/.test(text)) return ["bridge"];
+  if (/\bculvert\b/.test(text)) return ["culvert"];
+  if (/\b(protection|retaining)\s+wall\b/.test(text)) return ["protection wall", "retaining wall", "wall"];
+  if (/\b(water\s+well|dug\s+well|hand\s+pump|bore\s*well|borewell)\b/.test(text)) {
+    return ["water well", "dug well", "hand pump", "bore well", "borewell", "well", "pump"];
+  }
+  if (/\bwater\s+storage\b/.test(text)) return ["water storage", "storage container", "water tank"];
+  if (/\bwater\s+(supply|network|system)\b/.test(text)) return ["water supply", "water network", "water system", "wss"];
+  if (/\bschool|classroom|class\s+room\b/.test(text)) return ["school", "classroom", "class room"];
+  if (/\bclinic|health|pharmacy|chc|bhc\b/.test(text)) return ["clinic", "health", "pharmacy", "chc", "bhc"];
+  if (/\bcanal|irrigation|watergate|water\s+gate\b/.test(text)) return ["canal", "irrigation", "watergate", "water gate"];
+  if (/\broad|street|route\b/.test(text)) return ["road", "street", "route", "asphalt", "gravel", "unpaved", "muddy"];
+  if (/\bflood|floodway|flood\s+way\b/.test(text)) return ["flood", "floodway", "flood way"];
+  return [];
 }
 
 function normalizeCluster(value) {
@@ -304,12 +331,14 @@ async function loadDocumentCorpus() {
 function evaluateSnippet(point, snippet) {
   const normalizedSnippet = normalizeForMatch(snippet);
   const villageBase = normalizeForMatch(point.village).replace(/\bvillage\b/g, "").trim();
+  const villageTokens = new Set(significantTokens(villageBase));
   const themeTerms = themeKeywords[point.theme] || [];
+  const assetTerms = requiredAssetTerms(point);
   const titleTokens = significantTokens([
     point.title,
     point.file,
     ...(point.photos || []).map((photo) => photo.file).join(" ")
-  ].join(" "));
+  ].join(" ")).filter((token) => !villageTokens.has(token));
 
   let score = 0;
   const villageMatch = Boolean(villageBase && villageBase.length >= 5 && normalizedSnippet.includes(villageBase));
@@ -317,21 +346,37 @@ function evaluateSnippet(point, snippet) {
   let themeHits = 0;
   for (const term of themeTerms) {
     if (normalizedSnippet.includes(normalizeForMatch(term))) {
-      score += 3;
+      score += themeHits === 0 ? 8 : 2;
       themeHits += 1;
     }
   }
   let titleHits = 0;
   for (const token of titleTokens) {
     if (normalizedSnippet.includes(token)) {
-      score += 2;
+      score += 3;
       titleHits += 1;
+    }
+  }
+  let assetHits = 0;
+  for (const term of assetTerms) {
+    if (normalizedSnippet.includes(normalizeForMatch(term))) {
+      score += assetHits === 0 ? 8 : 1;
+      assetHits += 1;
     }
   }
   if (/\bpriority\b/i.test(snippet)) score += 2;
   if (/\bchallenge\b/i.test(snippet)) score += 1;
   if (/\b(high|medium)\b/i.test(snippet)) score += 1;
-  return { score, villageMatch, themeHits, titleHits };
+  return { score, villageMatch, themeHits, titleHits, assetHits };
+}
+
+function hasUsableEvidence(point, evaluation) {
+  if (!evaluation) return false;
+  const assetTerms = requiredAssetTerms(point);
+  const hasThemeMatch = point.theme === "Other" ? evaluation.titleHits > 0 : evaluation.themeHits > 0;
+  const hasPhotoContextMatch = evaluation.villageMatch || evaluation.titleHits > 0;
+  const hasRequiredAssetMatch = assetTerms.length === 0 || evaluation.assetHits > 0;
+  return hasThemeMatch && hasPhotoContextMatch && hasRequiredAssetMatch && evaluation.score >= 12;
 }
 
 function findDocumentEvidence(point, corpus) {
@@ -348,14 +393,28 @@ function findDocumentEvidence(point, corpus) {
     }
   }
 
-  return best && best.score >= 4 ? best : null;
+  return hasUsableEvidence(point, best) ? best : null;
 }
 
-function shortenEvidence(snippet) {
+function evidenceAnchorTerms(point) {
+  return [
+    ...requiredAssetTerms(point),
+    ...(themeKeywords[point.theme] || [])
+  ];
+}
+
+function shortenEvidence(snippet, point) {
   const text = compactWhitespace(snippet)
     .replace(/&amp;/g, "&")
     .replace(/\s+Priority interventions\s+/i, " Priority interventions: ");
-  return text.length > 360 ? `${text.slice(0, 357).trim()}...` : text;
+  const anchorTerms = evidenceAnchorTerms(point);
+  const sentences = text
+    .split(/(?<=[.!?])\s+|(?=\b(?:Challenge|Priority|According|What are|Communities|Village|Repair|Construction|Lack of)\b)/)
+    .map(compactWhitespace)
+    .filter((sentence) => sentence.length >= 24);
+  const anchored = sentences.filter((sentence) => containsAnyTerm(normalizeForMatch(sentence), anchorTerms));
+  const candidate = (anchored.length ? anchored.slice(0, 2).join(" ") : text) || text;
+  return candidate.length > 360 ? `${candidate.slice(0, 357).trim()}...` : candidate;
 }
 
 function revisePriorityPoint(point, corpus) {
@@ -366,13 +425,13 @@ function revisePriorityPoint(point, corpus) {
 
   let reviewCategory = "review";
   let reviewReason = "No matching FGD/community priority text was found for this cluster, village, and theme.";
-  let note = `Need more context or information: no matching priority statement was found in the FGD/community-priority documents for this photo/location. Field photo evidence: ${fileList}.`;
-  let source = point.sourceDocument;
+  let note = "Need more context or information.";
+  let source = "";
   let evidenceSnippet = "";
 
   if (evidence) {
     source = evidence.doc.fileName;
-    evidenceSnippet = shortenEvidence(evidence.snippet);
+    evidenceSnippet = shortenEvidence(evidence.snippet, point);
     note = `Document-backed priority need: ${evidenceSnippet} Field photo evidence: ${fileList}.`;
     reviewReason = `Matched ${evidence.doc.fileName} with ${evidence.score} evidence points.`;
     reviewCategory = hasExplicitNeed || (evidence.villageMatch && evidence.themeHits > 0 && evidence.score >= 10)

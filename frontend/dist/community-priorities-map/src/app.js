@@ -873,12 +873,15 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function galleryMetaHtml(point, photo) {
+      const sourceHtml = point.sourceDocument
+        ? `<span><strong>Source:</strong> ${escapeHtml(point.sourceDocument)}</span>`
+        : "";
       return `
         <span><strong>Cluster:</strong> ${escapeHtml(point.cluster)}</span>
         <span><strong>Village:</strong> ${escapeHtml(point.village)}</span>
         <span><strong>Theme:</strong> ${escapeHtml(photo.theme)}</span>
         <span><strong>Priority level:</strong> ${escapeHtml(photo.level)}</span>
-        <span><strong>Source:</strong> ${escapeHtml(point.sourceDocument)}</span>
+        ${sourceHtml}
         <span><strong>GPS:</strong> ${photo.lat.toFixed(8)}, ${photo.lon.toFixed(8)}</span>
         <span><strong>Photo:</strong> ${escapeHtml(photo.file)}</span>
       `;
