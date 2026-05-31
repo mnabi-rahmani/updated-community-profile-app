@@ -191,6 +191,7 @@ if ($distribution) {
         CallerReference = "community-priorities-map-$([DateTimeOffset]::UtcNow.ToUnixTimeSeconds())"
         Comment = $DistributionComment
         Enabled = $true
+        IsIPV6Enabled = $false
         DefaultRootObject = "index.html"
         Origins = @{
             Quantity = 1
@@ -217,10 +218,10 @@ if ($distribution) {
             AllowedMethods = @{
                 Quantity = 2
                 Items = @("GET", "HEAD")
-            }
-            CachedMethods = @{
-                Quantity = 2
-                Items = @("GET", "HEAD")
+                CachedMethods = @{
+                    Quantity = 2
+                    Items = @("GET", "HEAD")
+                }
             }
             ForwardedValues = @{
                 QueryString = $false
