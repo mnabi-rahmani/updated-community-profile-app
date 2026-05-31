@@ -355,6 +355,21 @@
       font-weight: 700;
     }
 
+    .review-chip {
+      display: inline-block;
+      margin-top: 4px;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .review-chip.keep { background: #dcfce7; color: #166534; }
+    .review-chip.review { background: #fef3c7; color: #92400e; }
+    .review-chip.likely_remove { background: #fee2e2; color: #991b1b; }
+
     .photo-lightbox {
       position: fixed;
       inset: 0;
@@ -1342,6 +1357,9 @@
         theme: point.theme,
         level: point.level,
         note: point.note,
+        reviewCategory: point.reviewCategory,
+        reviewLabel: point.reviewLabel,
+        reviewReason: point.reviewReason,
         lat: point.lat,
         lon: point.lon
       }];
@@ -1359,12 +1377,22 @@
         .replace(/"/g, "&quot;");
     }
 
+    function reviewCategoryLabel(category) {
+      if (category === "keep") return "Keep";
+      if (category === "likely_remove") return "Likely to remove";
+      return "Review";
+    }
+
     function galleryMetaHtml(point, photo) {
+      const reviewCategory = photo.reviewCategory || point.reviewCategory || "review";
+      const reviewReason = photo.reviewReason || point.reviewReason || "";
       return `
         <span><strong>Cluster:</strong> ${escapeHtml(point.cluster)}</span>
         <span><strong>Village:</strong> ${escapeHtml(point.village)}</span>
         <span><strong>Theme:</strong> ${escapeHtml(photo.theme)}</span>
         <span><strong>Priority level:</strong> ${escapeHtml(photo.level)}</span>
+        <span><strong>Review status:</strong> ${escapeHtml(reviewCategoryLabel(reviewCategory))}</span>
+        ${reviewReason ? `<span><strong>Review reason:</strong> ${escapeHtml(reviewReason)}</span>` : ""}
         <span><strong>Source:</strong> ${escapeHtml(point.sourceDocument)}</span>
         <span><strong>GPS:</strong> ${photo.lat.toFixed(8)}, ${photo.lon.toFixed(8)}</span>
         <span><strong>Photo:</strong> ${escapeHtml(photo.file)}</span>
@@ -1389,7 +1417,13 @@
       galleryEl.querySelector(".popup-title").textContent = `${displayId}. ${photo.title}`;
       galleryEl.querySelector(".popup-gallery-note").textContent = photo.note || "";
       galleryEl.querySelector(".popup-gallery-meta").innerHTML = galleryMetaHtml(
-        { cluster: galleryEl.dataset.cluster, village: galleryEl.dataset.village, sourceDocument: galleryEl.dataset.sourceDocument },
+        {
+          cluster: galleryEl.dataset.cluster,
+          village: galleryEl.dataset.village,
+          sourceDocument: galleryEl.dataset.sourceDocument,
+          reviewCategory: galleryEl.dataset.reviewCategory,
+          reviewReason: galleryEl.dataset.reviewReason
+        },
         photo
       );
       if (counter) counter.textContent = `${index + 1} / ${photos.length}`;
@@ -1418,6 +1452,8 @@
           data-cluster="${escapeHtml(point.cluster)}"
           data-village="${escapeHtml(point.village)}"
           data-source-document="${escapeHtml(point.sourceDocument)}"
+          data-review-category="${escapeHtml(point.reviewCategory || "review")}"
+          data-review-reason="${escapeHtml(point.reviewReason || "")}"
         >
           <div class="popup-gallery-frame">
             ${multi ? '<button type="button" class="gallery-btn gallery-prev" aria-label="Previous photo">&lsaquo;</button>' : ""}
@@ -1546,6 +1582,7 @@
             <strong>${point.displayId}. ${point.title}</strong>
             <span>${point.cluster} · ${point.village}</span>
             <span>${point.theme} · ${point.level}</span>
+            <span class="review-chip ${escapeHtml(point.reviewCategory || "review")}">${escapeHtml(point.reviewLabel || reviewCategoryLabel(point.reviewCategory))}</span>
             ${point.photoCount > 1 ? `<span class="card-photo-count">${point.photoCount} photos</span>` : ""}
           </span>
         `;

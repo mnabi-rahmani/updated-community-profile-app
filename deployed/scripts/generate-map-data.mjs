@@ -5,12 +5,15 @@ import { fileURLToPath } from "node:url";
 
 import exifr from "exifr";
 import heicConvert from "heic-convert";
+import mammoth from "mammoth";
 import sharp from "sharp";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const deployedDir = path.resolve(scriptDir, "..");
 const assetsDir = path.join(deployedDir, "Assets Needed");
 const sourcePhotoRoot = path.join(assetsDir, "Photos of Clusters and Sub-villages");
+const fgdDocsRoot = path.join(assetsDir, "FGDs, CAP Reports & Compiled Needs Priorities");
+const communityPrioritiesRoot = path.join(assetsDir, "Community priorities");
 const dataDir = path.join(deployedDir, "cursor_v2_map_data");
 const previewDir = path.join(dataDir, "photo_previews");
 
@@ -23,6 +26,9 @@ const explicitNeedPattern =
 
 const neutralAssetPattern =
   /\b(shop|market|mosque|tailor|tailoring|mechanic|workshop|farm|oil pump|telecome|telecom|wifi|bread oven|car wash|start point|end point|starting point|ending point|border with)\b/i;
+
+const existingAssetPattern =
+  /\b(constructed by|shop|market|mosque|tailor|tailoring|mechanic|workshop|farm|oil pump|telecome|telecom|wifi|bread oven|car wash|start point|end point|starting point|ending point|border with)\b/i;
 
 const themeRules = [
   {
@@ -62,12 +68,46 @@ const themeRules = [
   }
 ];
 
+const themeKeywords = {
+  "Flood / DRR": ["flood", "flooding", "protection wall", "retaining wall", "culvert", "disaster", "vulnerability", "erosion", "canal overflow", "flood way"],
+  WASH: ["drinking water", "safe water", "hand pump", "water well", "bore well", "water storage", "water supply", "water network", "chlorination", "hygiene", "latrine", "bathroom"],
+  Education: ["school", "classroom", "class room", "education", "madrassa", "cbe", "learning"],
+  Irrigation: ["irrigation", "canal", "watergate", "water gate", "check dam"],
+  "Road access": ["road", "bridge", "culvert", "access", "rehabilitation"],
+  Health: ["health", "clinic", "chc", "bhc", "mobile clinic", "mht", "pharmacy"],
+  Shelter: ["shelter", "house", "housing", "returnee", "construction"]
+};
+
+const stopWords = new Set([
+  "and", "the", "for", "with", "from", "near", "area", "point", "village", "cluster", "photo",
+  "priority", "evidence", "needed", "required", "constructed", "first", "second", "third"
+]);
+
 function asPosix(relativePath) {
   return relativePath.split(path.sep).join("/");
 }
 
 function titleFromFileName(fileName) {
   return path.basename(fileName, path.extname(fileName)).replace(/[_-]+/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function compactWhitespace(value) {
+  return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function normalizeForMatch(value) {
+  return compactWhitespace(value)
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function significantTokens(value) {
+  return [...new Set(normalizeForMatch(value).split(" "))]
+    .filter((token) => token.length >= 4 && !stopWords.has(token))
+    .slice(0, 16);
 }
 
 function normalizeCluster(value) {
@@ -166,6 +206,17 @@ function sourceDocument(photo) {
   return number ? `Needs Prioritization under FGD - ${photo.cluster}` : "Needs Prioritization under FGD";
 }
 
+function reviewLabel(category) {
+  if (category === "keep") return "Keep";
+  if (category === "likely_remove") return "Likely to remove";
+  return "Review";
+}
+
+function extractClusterFromPath(absolutePath) {
+  const normalized = normalizeCluster(absolutePath);
+  return normalized || null;
+}
+
 async function walkFiles(root) {
   const entries = await fs.readdir(root, { withFileTypes: true });
   const files = [];
@@ -180,6 +231,186 @@ async function walkFiles(root) {
   }
 
   return files;
+}
+
+async function walkDocxFiles(root) {
+  try {
+    const entries = await fs.readdir(root, { withFileTypes: true });
+    const files = [];
+    for (const entry of entries) {
+      const absolutePath = path.join(root, entry.name);
+      if (entry.isDirectory()) {
+        files.push(...await walkDocxFiles(absolutePath));
+      } else if (entry.name.toLowerCase().endsWith(".docx") && !entry.name.startsWith("~$")) {
+        files.push(absolutePath);
+      }
+    }
+    return files;
+  } catch {
+    return [];
+  }
+}
+
+function splitEvidenceSnippets(text) {
+  const paragraphs = text
+    .split(/\n+/)
+    .map(compactWhitespace)
+    .filter((line) => line.length >= 24);
+
+  const snippets = [];
+  for (let index = 0; index < paragraphs.length; index += 1) {
+    snippets.push(paragraphs.slice(index, index + 4).join(" "));
+  }
+  return snippets.filter((snippet) => snippet.length >= 40);
+}
+
+async function loadDocumentCorpus() {
+  const docxFiles = [
+    ...await walkDocxFiles(fgdDocsRoot),
+    ...await walkDocxFiles(communityPrioritiesRoot)
+  ];
+  const corpus = [];
+
+  for (const absolutePath of docxFiles) {
+    try {
+      const result = await mammoth.extractRawText({ path: absolutePath });
+      const text = compactWhitespace(result.value);
+      if (!text) continue;
+      const relativePath = asPosix(path.relative(deployedDir, absolutePath));
+      corpus.push({
+        fileName: path.basename(absolutePath),
+        relativePath,
+        cluster: extractClusterFromPath(relativePath),
+        text,
+        normalizedText: normalizeForMatch(text),
+        snippets: splitEvidenceSnippets(result.value)
+      });
+    } catch (error) {
+      corpus.push({
+        fileName: path.basename(absolutePath),
+        relativePath: asPosix(path.relative(deployedDir, absolutePath)),
+        cluster: extractClusterFromPath(absolutePath),
+        text: "",
+        normalizedText: "",
+        snippets: [],
+        error: error.message
+      });
+    }
+  }
+
+  return corpus;
+}
+
+function evaluateSnippet(point, snippet) {
+  const normalizedSnippet = normalizeForMatch(snippet);
+  const villageBase = normalizeForMatch(point.village).replace(/\bvillage\b/g, "").trim();
+  const themeTerms = themeKeywords[point.theme] || [];
+  const titleTokens = significantTokens([
+    point.title,
+    point.file,
+    ...(point.photos || []).map((photo) => photo.file).join(" ")
+  ].join(" "));
+
+  let score = 0;
+  const villageMatch = Boolean(villageBase && villageBase.length >= 5 && normalizedSnippet.includes(villageBase));
+  if (villageMatch) score += 8;
+  let themeHits = 0;
+  for (const term of themeTerms) {
+    if (normalizedSnippet.includes(normalizeForMatch(term))) {
+      score += 3;
+      themeHits += 1;
+    }
+  }
+  let titleHits = 0;
+  for (const token of titleTokens) {
+    if (normalizedSnippet.includes(token)) {
+      score += 2;
+      titleHits += 1;
+    }
+  }
+  if (/\bpriority\b/i.test(snippet)) score += 2;
+  if (/\bchallenge\b/i.test(snippet)) score += 1;
+  if (/\b(high|medium)\b/i.test(snippet)) score += 1;
+  return { score, villageMatch, themeHits, titleHits };
+}
+
+function findDocumentEvidence(point, corpus) {
+  const clusterDocs = corpus.filter((doc) => doc.cluster === point.cluster || (!doc.cluster && point.cluster === "Nawabad Cluster"));
+  const candidateDocs = clusterDocs.length ? clusterDocs : corpus;
+  let best = null;
+
+  for (const doc of candidateDocs) {
+    for (const snippet of doc.snippets) {
+      const evaluation = evaluateSnippet(point, snippet);
+      if (!best || evaluation.score > best.score) {
+        best = { ...evaluation, doc, snippet };
+      }
+    }
+  }
+
+  return best && best.score >= 4 ? best : null;
+}
+
+function shortenEvidence(snippet) {
+  const text = compactWhitespace(snippet)
+    .replace(/&amp;/g, "&")
+    .replace(/\s+Priority interventions\s+/i, " Priority interventions: ");
+  return text.length > 360 ? `${text.slice(0, 357).trim()}...` : text;
+}
+
+function revisePriorityPoint(point, corpus) {
+  const evidence = findDocumentEvidence(point, corpus);
+  const fileList = (point.photos || []).map((photo) => photo.file).join("; ");
+  const hasExplicitNeed = (point.photos || [point]).some((photo) => explicitNeedPattern.test(photo.file || point.file || ""));
+  const hasExistingAssetSignal = (point.photos || [point]).some((photo) => existingAssetPattern.test(photo.file || point.file || ""));
+
+  let reviewCategory = "review";
+  let reviewReason = "No matching FGD/community priority text was found for this cluster, village, and theme.";
+  let note = `Need more context or information: no matching priority statement was found in the FGD/community-priority documents for this photo/location. Field photo evidence: ${fileList}.`;
+  let source = point.sourceDocument;
+  let evidenceSnippet = "";
+
+  if (evidence) {
+    source = evidence.doc.fileName;
+    evidenceSnippet = shortenEvidence(evidence.snippet);
+    note = `Document-backed priority need: ${evidenceSnippet} Field photo evidence: ${fileList}.`;
+    reviewReason = `Matched ${evidence.doc.fileName} with ${evidence.score} evidence points.`;
+    reviewCategory = hasExplicitNeed || (evidence.villageMatch && evidence.themeHits > 0 && evidence.score >= 10)
+      ? "keep"
+      : "review";
+  }
+
+  if (!evidence && hasExplicitNeed) {
+    reviewCategory = "review";
+    reviewReason = "Filename indicates a need, but no matching FGD/community priority text was found.";
+  } else if (!evidence && hasExistingAssetSignal) {
+    reviewCategory = "likely_remove";
+    reviewReason = "Looks like an existing/neutral asset photo and no matching priority text was found.";
+  }
+
+  if (evidence && hasExistingAssetSignal && !hasExplicitNeed) {
+    reviewCategory = "likely_remove";
+    reviewReason = `${reviewReason} Filename looks like an existing/neutral asset rather than a stated unmet need.`;
+  }
+
+  const revisedPhotos = (point.photos || []).map((photo) => ({
+    ...photo,
+    note,
+    reviewCategory,
+    reviewLabel: reviewLabel(reviewCategory),
+    reviewReason
+  }));
+
+  return {
+    ...point,
+    note,
+    sourceDocument: source,
+    documentEvidence: evidenceSnippet || "Need more context or information.",
+    reviewCategory,
+    reviewLabel: reviewLabel(reviewCategory),
+    reviewReason,
+    photos: revisedPhotos
+  };
 }
 
 async function hashFile(absolutePath) {
@@ -399,9 +630,35 @@ async function writePriorities(priorityPoints) {
   await fs.writeFile(path.join(dataDir, "photo_backed_priorities.js"), content, "utf8");
 }
 
+async function writePriorityReviewReport(priorityPoints) {
+  const report = priorityPoints.map((point) => ({
+    id: point.id,
+    reviewCategory: point.reviewCategory,
+    reviewLabel: point.reviewLabel,
+    reviewReason: point.reviewReason,
+    title: point.title,
+    cluster: point.cluster,
+    village: point.village,
+    theme: point.theme,
+    level: point.level,
+    sourceDocument: point.sourceDocument,
+    documentEvidence: point.documentEvidence,
+    photoCount: point.photoCount,
+    files: (point.photos || []).map((photo) => photo.file),
+    note: point.note
+  }));
+
+  await fs.writeFile(
+    path.join(dataDir, "photo_backed_priorities_review.json"),
+    JSON.stringify(report, null, 2),
+    "utf8"
+  );
+}
+
 async function main() {
   await fs.mkdir(previewDir, { recursive: true });
 
+  const documentCorpus = await loadDocumentCorpus();
   const sourceFiles = await walkFiles(sourcePhotoRoot);
   const photos = [];
   const failures = [];
@@ -470,16 +727,22 @@ async function main() {
     const villageCompare = left.village.localeCompare(right.village);
     if (villageCompare) return villageCompare;
     return left.title.localeCompare(right.title);
-  }).map((point, index) => ({ ...point, id: index + 1 }));
+  }).map((point, index) => revisePriorityPoint({ ...point, id: index + 1 }, documentCorpus));
 
   await writePhotoIndex(photos);
   await writePriorities(priorityPoints);
+  await writePriorityReviewReport(priorityPoints);
 
   const summary = {
     sourceFiles: sourceFiles.length,
+    sourceDocuments: documentCorpus.length,
     geotaggedPhotos: photos.length,
     priorityPhotos: priorityPhotos.length,
     priorityPoints: priorityPoints.length,
+    reviewCategories: priorityPoints.reduce((counts, point) => {
+      counts[point.reviewCategory] = (counts[point.reviewCategory] || 0) + 1;
+      return counts;
+    }, {}),
     generatedPreviews,
     failures: failures.length,
     sampleFailures: failures.slice(0, 10)

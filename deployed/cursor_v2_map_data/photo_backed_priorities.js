@@ -9,8 +9,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV) Field photo evidence: Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC; Around 400M protection wall constructed by MRRD.HEIC.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.1746375,
     "lon": 68.78115417,
     "image": "cursor_v2_map_data/photo_previews/2eaac0a5103f9544.jpg",
@@ -23,9 +23,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV) Field photo evidence: Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC; Around 400M protection wall constructed by MRRD.HEIC.",
         "lat": 36.17464167,
-        "lon": 68.78115833
+        "lon": 68.78115833,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 17 evidence points."
       },
       {
         "title": "Around 400M protection wall constructed by MRRD",
@@ -33,11 +36,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Around 400M protection wall constructed by MRRD.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Around 400M protection wall constructed by MRRD.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV) Field photo evidence: Around 2KM protection wall needed, Dara-e-sof Laqai Ha.HEIC; Around 400M protection wall constructed by MRRD.HEIC.",
         "lat": 36.17463333,
-        "lon": 68.78115
+        "lon": 68.78115,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 17 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 17 evidence points."
   },
   {
     "id": 2,
@@ -47,8 +57,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood Prone area, Dara e sof Laqai ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: Flooding affected all three communities at the same level in 2024 and caused damage of 677 houses. And killed 83 individuals. 2500 livestock like sheep, cow, goat and damage 2000 jerib of agriculture lands. Bala-e- base community of Laqaei ha is the main source of the flooding on mountain hell. Which affects all three communities on the same level. 29: Ar... Field photo evidence: Flood Prone area, Dara e sof Laqai ha.HEIC; Flood Prone area, Dara e sof Laqai ha2.HEIC.",
+    "sourceDocument": "Cluster 01_ PwV FGD_Bigzad.docx",
     "lat": 36.17313334,
     "lon": 68.77404028,
     "image": "cursor_v2_map_data/photo_previews/ae870fef138c5bf9.jpg",
@@ -61,9 +71,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood Prone area, Dara e sof Laqai ha.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood Prone area, Dara e sof Laqai ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Flooding affected all three communities at the same level in 2024 and caused damage of 677 houses. And killed 83 individuals. 2500 livestock like sheep, cow, goat and damage 2000 jerib of agriculture lands. Bala-e- base community of Laqaei ha is the main source of the flooding on mountain hell. Which affects all three communities on the same level. 29: Ar... Field photo evidence: Flood Prone area, Dara e sof Laqai ha.HEIC; Flood Prone area, Dara e sof Laqai ha2.HEIC.",
         "lat": 36.17314167,
-        "lon": 68.77404722
+        "lon": 68.77404722,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 01_ PwV FGD_Bigzad.docx with 16 evidence points."
       },
       {
         "title": "Flood Prone area, Dara e sof Laqai ha2",
@@ -71,11 +84,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood Prone area, Dara e sof Laqai ha2.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood Prone area, Dara e sof Laqai ha2.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Flooding affected all three communities at the same level in 2024 and caused damage of 677 houses. And killed 83 individuals. 2500 livestock like sheep, cow, goat and damage 2000 jerib of agriculture lands. Bala-e- base community of Laqaei ha is the main source of the flooding on mountain hell. Which affects all three communities on the same level. 29: Ar... Field photo evidence: Flood Prone area, Dara e sof Laqai ha.HEIC; Flood Prone area, Dara e sof Laqai ha2.HEIC.",
         "lat": 36.173125,
-        "lon": 68.77403333
+        "lon": 68.77403333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 01_ PwV FGD_Bigzad.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Flooding affected all three communities at the same level in 2024 and caused damage of 677 houses. And killed 83 individuals. 2500 livestock like sheep, cow, goat and damage 2000 jerib of agriculture lands. Bala-e- base community of Laqaei ha is the main source of the flooding on mountain hell. Which affects all three communities on the same level. 29: Ar...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 01_ PwV FGD_Bigzad.docx with 16 evidence points."
   },
   {
     "id": 3,
@@ -85,8 +105,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dara-e Soof, Laqai Haa, Shahrak-e Muhajerin Field photo evidence: irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC.",
+    "sourceDocument": "Cluster#1-Female Needs Prioritization under FGD.docx",
     "lat": 36.17402222,
     "lon": 68.77477222,
     "image": "cursor_v2_map_data/photo_previews/61c16cd6e0b1759c.jpg",
@@ -99,11 +119,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dara-e Soof, Laqai Haa, Shahrak-e Muhajerin Field photo evidence: irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC.",
         "lat": 36.17402222,
-        "lon": 68.77477222
+        "lon": 68.77477222,
+        "reviewCategory": "likely_remove",
+        "reviewLabel": "Likely to remove",
+        "reviewReason": "Matched Cluster#1-Female Needs Prioritization under FGD.docx with 14 evidence points. Filename looks like an existing/neutral asset rather than a stated unmet need."
       }
-    ]
+    ],
+    "documentEvidence": "There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dara-e Soof, Laqai Haa, Shahrak-e Muhajerin",
+    "reviewCategory": "likely_remove",
+    "reviewLabel": "Likely to remove",
+    "reviewReason": "Matched Cluster#1-Female Needs Prioritization under FGD.docx with 14 evidence points. Filename looks like an existing/neutral asset rather than a stated unmet need."
   },
   {
     "id": 4,
@@ -113,8 +140,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "High",
     "markerClass": "road",
-    "note": "Photo-backed need identified from the field photo \"Damage bridge, Laqai Ha.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: According to CAP participants, In Laghaei Ha, several key streets remain unpaved and in poor condition. The 1 km stretch from the main road to Masjid Aslam Khan is muddy and requires leveling, graveling, and asphalt. Additional routes—Laghai Ha to Masjid Arab (1.5 km), Narin Street (700 m), and Mahbas Bridge (400 m), are similarly in need of improvement.... Field photo evidence: Damage bridge, Laqai Ha.jpg.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.168264,
     "lon": 68.76855197,
     "image": "cursor_v2_map_data/photo_previews/34e46c2fe7567e6d.jpg",
@@ -127,11 +154,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damage bridge, Laqai Ha.jpg",
         "theme": "Road access",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damage bridge, Laqai Ha.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: According to CAP participants, In Laghaei Ha, several key streets remain unpaved and in poor condition. The 1 km stretch from the main road to Masjid Aslam Khan is muddy and requires leveling, graveling, and asphalt. Additional routes—Laghai Ha to Masjid Arab (1.5 km), Narin Street (700 m), and Mahbas Bridge (400 m), are similarly in need of improvement.... Field photo evidence: Damage bridge, Laqai Ha.jpg.",
         "lat": 36.168264,
-        "lon": 68.76855197
+        "lon": 68.76855197,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 24 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "According to CAP participants, In Laghaei Ha, several key streets remain unpaved and in poor condition. The 1 km stretch from the main road to Masjid Aslam Khan is muddy and requires leveling, graveling, and asphalt. Additional routes—Laghai Ha to Masjid Arab (1.5 km), Narin Street (700 m), and Mahbas Bridge (400 m), are similarly in need of improvement....",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 24 evidence points."
   },
   {
     "id": 5,
@@ -141,8 +175,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Other",
     "level": "High",
     "markerClass": "other",
-    "note": "Photo-backed need identified from the field photo \"Earthquake Damage wall, Laqai Ha.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV) Field photo evidence: Earthquake Damage wall, Laqai Ha.jpg.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.17106497,
     "lon": 68.76800197,
     "image": "cursor_v2_map_data/photo_previews/f3f815d839902b9d.jpg",
@@ -155,11 +189,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Earthquake Damage wall, Laqai Ha.jpg",
         "theme": "Other",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Earthquake Damage wall, Laqai Ha.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV) Field photo evidence: Earthquake Damage wall, Laqai Ha.jpg.",
         "lat": 36.17106497,
-        "lon": 68.76800197
+        "lon": 68.76800197,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin Returnees & vulnerable host families (730 families) Medium-term interventions (6-18 months to implement): Construction of protection walls (Community Leader); Shelter rehabilitation & flood-resistant upgrades (Female, PwV)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 13 evidence points."
   },
   {
     "id": 6,
@@ -169,8 +210,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Laqai Ha Secondry School.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: All villages (Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin School-age children (3,500) Medium-term interventions (6-18 months to implement): Recruit female teachers; safe learning spaces; expand classrooms (Community Leader, Female, PwV) Field photo evidence: Laqai Ha Secondry School.jpg.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.16963497,
     "lon": 68.77027597,
     "image": "cursor_v2_map_data/photo_previews/3ca6b95f5d98179f.jpg",
@@ -183,11 +224,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Laqai Ha Secondry School.jpg",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Laqai Ha Secondry School.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: All villages (Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin School-age children (3,500) Medium-term interventions (6-18 months to implement): Recruit female teachers; safe learning spaces; expand classrooms (Community Leader, Female, PwV) Field photo evidence: Laqai Ha Secondry School.jpg.",
         "lat": 36.16963497,
-        "lon": 68.77027597
+        "lon": 68.77027597,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "All villages (Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin School-age children (3,500) Medium-term interventions (6-18 months to implement): Recruit female teachers; safe learning spaces; expand classrooms (Community Leader, Female, PwV)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 22 evidence points."
   },
   {
     "id": 7,
@@ -197,8 +245,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Laqai Ha Secondry School 2.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: All villages (Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin School-age children (3,500) Medium-term interventions (6-18 months to implement): Recruit female teachers; safe learning spaces; expand classrooms (Community Leader, Female, PwV) Field photo evidence: Laqai Ha Secondry School 2.jpg.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.17116697,
     "lon": 68.76827797,
     "image": "cursor_v2_map_data/photo_previews/34bae87b9148e8a1.jpg",
@@ -211,11 +259,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Laqai Ha Secondry School 2.jpg",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Laqai Ha Secondry School 2.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: All villages (Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin School-age children (3,500) Medium-term interventions (6-18 months to implement): Recruit female teachers; safe learning spaces; expand classrooms (Community Leader, Female, PwV) Field photo evidence: Laqai Ha Secondry School 2.jpg.",
         "lat": 36.17116697,
-        "lon": 68.76827797
+        "lon": 68.76827797,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "All villages (Dara-e Soof ha, Laqai Haa, Shahrak-e Muhajerin School-age children (3,500) Medium-term interventions (6-18 months to implement): Recruit female teachers; safe learning spaces; expand classrooms (Community Leader, Female, PwV)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 22 evidence points."
   },
   {
     "id": 8,
@@ -225,8 +280,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"Pharmacy, Laqai Ha.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: While a local gynecology practitioner provides basic reproductive health support, complicated cases are referred to Baghlan Jadid Hospital. The community emphasized the urgent need for closer, more accessible maternal health services to ensure safer pregnancies and deliveries. The community faces significant maternal and child health challenges. Even at h... Field photo evidence: Pharmacy, Laqai Ha.jpg.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.172372,
     "lon": 68.766908,
     "image": "cursor_v2_map_data/photo_previews/d9afd9559e9ea1f5.jpg",
@@ -239,11 +294,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Pharmacy, Laqai Ha.jpg",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Pharmacy, Laqai Ha.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: While a local gynecology practitioner provides basic reproductive health support, complicated cases are referred to Baghlan Jadid Hospital. The community emphasized the urgent need for closer, more accessible maternal health services to ensure safer pregnancies and deliveries. The community faces significant maternal and child health challenges. Even at h... Field photo evidence: Pharmacy, Laqai Ha.jpg.",
         "lat": 36.172372,
-        "lon": 68.766908
+        "lon": 68.766908,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 19 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "While a local gynecology practitioner provides basic reproductive health support, complicated cases are referred to Baghlan Jadid Hospital. The community emphasized the urgent need for closer, more accessible maternal health services to ensure safer pregnancies and deliveries. The community faces significant maternal and child health challenges. Even at h...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 19 evidence points."
   },
   {
     "id": 9,
@@ -253,8 +315,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"flood way and protection wall_ Shahrak Muhajirin2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: Vulnerabilities – Disaster Risk Reduction Flooding remains the most severe hazard for returnee communities, with no formal management system in place. During minor floods, residents rely on temporary measures such as sand‑filled cotton bags, while major floods force evacuation. In 2024, floods destroyed 52 houses in Dar‑e‑Sof, 6 in Shahrak Muhajirin, and... Field photo evidence: flood way and protection wall_ Shahrak Muhajirin2.HEIC; Flood way and protection wall_Shahrak Muhajirin.HEIC.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.17781667,
     "lon": 68.77899583,
     "image": "cursor_v2_map_data/photo_previews/1a167669bda03752.jpg",
@@ -267,9 +329,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "flood way and protection wall_ Shahrak Muhajirin2.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"flood way and protection wall_ Shahrak Muhajirin2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Vulnerabilities – Disaster Risk Reduction Flooding remains the most severe hazard for returnee communities, with no formal management system in place. During minor floods, residents rely on temporary measures such as sand‑filled cotton bags, while major floods force evacuation. In 2024, floods destroyed 52 houses in Dar‑e‑Sof, 6 in Shahrak Muhajirin, and... Field photo evidence: flood way and protection wall_ Shahrak Muhajirin2.HEIC; Flood way and protection wall_Shahrak Muhajirin.HEIC.",
         "lat": 36.17782222,
-        "lon": 68.77899167
+        "lon": 68.77899167,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 24 evidence points."
       },
       {
         "title": "Flood way and protection wall Shahrak Muhajirin",
@@ -277,11 +342,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood way and protection wall_Shahrak Muhajirin.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood way and protection wall_Shahrak Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Vulnerabilities – Disaster Risk Reduction Flooding remains the most severe hazard for returnee communities, with no formal management system in place. During minor floods, residents rely on temporary measures such as sand‑filled cotton bags, while major floods force evacuation. In 2024, floods destroyed 52 houses in Dar‑e‑Sof, 6 in Shahrak Muhajirin, and... Field photo evidence: flood way and protection wall_ Shahrak Muhajirin2.HEIC; Flood way and protection wall_Shahrak Muhajirin.HEIC.",
         "lat": 36.17781111,
-        "lon": 68.779
+        "lon": 68.779,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 24 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Vulnerabilities – Disaster Risk Reduction Flooding remains the most severe hazard for returnee communities, with no formal management system in place. During minor floods, residents rely on temporary measures such as sand‑filled cotton bags, while major floods force evacuation. In 2024, floods destroyed 52 houses in Dar‑e‑Sof, 6 in Shahrak Muhajirin, and...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 24 evidence points."
   },
   {
     "id": 10,
@@ -291,8 +363,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Storage, Shahrak Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: Dara Sof: Constructed drainage canals to reduce wastewater and flood damage; repaired and graveled roads. Shahrak Muhajirin: Repaired the primary school and improved drinking water facilities. Volunteer Practices: There is no formal or informal volunteer committee working on a regular basis. However, temporary volunteer groups are formed for specific purp... Field photo evidence: Water Storage, Shahrak Muhajirin.HEIC.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.17925,
     "lon": 68.77803056,
     "image": "cursor_v2_map_data/photo_previews/1885af54545ac300.jpg",
@@ -305,11 +377,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Storage, Shahrak Muhajirin.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Storage, Shahrak Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Dara Sof: Constructed drainage canals to reduce wastewater and flood damage; repaired and graveled roads. Shahrak Muhajirin: Repaired the primary school and improved drinking water facilities. Volunteer Practices: There is no formal or informal volunteer committee working on a regular basis. However, temporary volunteer groups are formed for specific purp... Field photo evidence: Water Storage, Shahrak Muhajirin.HEIC.",
         "lat": 36.17925,
-        "lon": 68.77803056
+        "lon": 68.77803056,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Dara Sof: Constructed drainage canals to reduce wastewater and flood damage; repaired and graveled roads. Shahrak Muhajirin: Repaired the primary school and improved drinking water facilities. Volunteer Practices: There is no formal or informal volunteer committee working on a regular basis. However, temporary volunteer groups are formed for specific purp...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 20 evidence points."
   },
   {
     "id": 11,
@@ -319,8 +398,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Well, Shahrak Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 1",
+    "note": "Document-backed priority need: Dara Sof: Constructed drainage canals to reduce wastewater and flood damage; repaired and graveled roads. Shahrak Muhajirin: Repaired the primary school and improved drinking water facilities. Volunteer Practices: There is no formal or informal volunteer committee working on a regular basis. However, temporary volunteer groups are formed for specific purp... Field photo evidence: Water Well, Shahrak Muhajirin.HEIC.",
+    "sourceDocument": "Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx",
     "lat": 36.17861944,
     "lon": 68.77483333,
     "image": "cursor_v2_map_data/photo_previews/88caf7f228fe361e.jpg",
@@ -333,11 +412,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Well, Shahrak Muhajirin.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Well, Shahrak Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Dara Sof: Constructed drainage canals to reduce wastewater and flood damage; repaired and graveled roads. Shahrak Muhajirin: Repaired the primary school and improved drinking water facilities. Volunteer Practices: There is no formal or informal volunteer committee working on a regular basis. However, temporary volunteer groups are formed for specific purp... Field photo evidence: Water Well, Shahrak Muhajirin.HEIC.",
         "lat": 36.17861944,
-        "lon": 68.77483333
+        "lon": 68.77483333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Dara Sof: Constructed drainage canals to reduce wastewater and flood damage; repaired and graveled roads. Shahrak Muhajirin: Repaired the primary school and improved drinking water facilities. Volunteer Practices: There is no formal or informal volunteer committee working on a regular basis. However, temporary volunteer groups are formed for specific purp...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 1 CAP Report Template - new (3.23.2026)-Bigzad.docx with 22 evidence points."
   },
   {
     "id": 12,
@@ -347,8 +433,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Well, Darwazi Ha Village.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Sayed Dawood Padshah, Sayed Jafar Agha, Mulla Toor, Noor Agha Padshah, Darwazi Ha, villages Lack of Safe Water and Poor Hygiene – reliance on contaminated river water, Field photo evidence: Water Well, Darwazi Ha Village.HEIC.",
+    "sourceDocument": "Cluster#2-Female Needs Prioritization under FGD.docx",
     "lat": 36.19066944,
     "lon": 68.76113889,
     "image": "cursor_v2_map_data/photo_previews/ce96b12c19b97934.jpg",
@@ -361,11 +447,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Well, Darwazi Ha Village.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Well, Darwazi Ha Village.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Sayed Dawood Padshah, Sayed Jafar Agha, Mulla Toor, Noor Agha Padshah, Darwazi Ha, villages Lack of Safe Water and Poor Hygiene – reliance on contaminated river water, Field photo evidence: Water Well, Darwazi Ha Village.HEIC.",
         "lat": 36.19066944,
-        "lon": 68.76113889
+        "lon": 68.76113889,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#2-Female Needs Prioritization under FGD.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Sayed Dawood Padshah, Sayed Jafar Agha, Mulla Toor, Noor Agha Padshah, Darwazi Ha, villages Lack of Safe Water and Poor Hygiene – reliance on contaminated river water,",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#2-Female Needs Prioritization under FGD.docx with 20 evidence points."
   },
   {
     "id": 13,
@@ -375,8 +468,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Culvert, Mulla Toor.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Rehabilitation of damaged houses. Provision of durable roofing materials, doors, and windows for returnees shelter that cannot afford to buy Approx. 12 families in Mulla Toor Field photo evidence: Culvert, Mulla Toor.HEIC.",
+    "sourceDocument": "Cluster 02_Needs Prioritization under FGDs.docx",
     "lat": 36.19021111,
     "lon": 68.77346111,
     "image": "cursor_v2_map_data/photo_previews/d60732bd53c72b70.jpg",
@@ -389,11 +482,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Culvert, Mulla Toor.HEIC",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Culvert, Mulla Toor.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Rehabilitation of damaged houses. Provision of durable roofing materials, doors, and windows for returnees shelter that cannot afford to buy Approx. 12 families in Mulla Toor Field photo evidence: Culvert, Mulla Toor.HEIC.",
         "lat": 36.19021111,
-        "lon": 68.77346111
+        "lon": 68.77346111,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 02_Needs Prioritization under FGDs.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement): Rehabilitation of damaged houses. Provision of durable roofing materials, doors, and windows for returnees shelter that cannot afford to buy Approx. 12 families in Mulla Toor",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 02_Needs Prioritization under FGDs.docx with 16 evidence points."
   },
   {
     "id": 14,
@@ -403,8 +503,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Flood-Affected Area, Mula Toor.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: Further, impacts of climate change on the community include droughts in all five villages, particularly in Mula Toor village, impacting all groups of residents. From the beginning of the summer season until the end of fall, residents face significant water shortages, which affect both agricultural lands and livestock. These prolonged dry periods decrease... Field photo evidence: Flood-Affected Area, Mula Toor.HEIC; Flood-prone Area, Mulla Toor2.HEIC.",
+    "sourceDocument": "Cluster 2-CAP Report Template.docx",
     "lat": 36.18584167,
     "lon": 68.772225,
     "image": "cursor_v2_map_data/photo_previews/a5473cec87aa05e9.jpg",
@@ -417,9 +517,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Affected Area, Mula Toor.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood-Affected Area, Mula Toor.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Further, impacts of climate change on the community include droughts in all five villages, particularly in Mula Toor village, impacting all groups of residents. From the beginning of the summer season until the end of fall, residents face significant water shortages, which affect both agricultural lands and livestock. These prolonged dry periods decrease... Field photo evidence: Flood-Affected Area, Mula Toor.HEIC; Flood-prone Area, Mulla Toor2.HEIC.",
         "lat": 36.18587778,
-        "lon": 68.77221667
+        "lon": 68.77221667,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 20 evidence points."
       },
       {
         "title": "Flood prone Area, Mulla Toor2",
@@ -427,11 +530,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-prone Area, Mulla Toor2.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-prone Area, Mulla Toor2.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Further, impacts of climate change on the community include droughts in all five villages, particularly in Mula Toor village, impacting all groups of residents. From the beginning of the summer season until the end of fall, residents face significant water shortages, which affect both agricultural lands and livestock. These prolonged dry periods decrease... Field photo evidence: Flood-Affected Area, Mula Toor.HEIC; Flood-prone Area, Mulla Toor2.HEIC.",
         "lat": 36.18580556,
-        "lon": 68.77223333
+        "lon": 68.77223333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Further, impacts of climate change on the community include droughts in all five villages, particularly in Mula Toor village, impacting all groups of residents. From the beginning of the summer season until the end of fall, residents face significant water shortages, which affect both agricultural lands and livestock. These prolonged dry periods decrease...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 20 evidence points."
   },
   {
     "id": 15,
@@ -441,8 +551,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-prone Area, Mulla Toor.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dawood Padshah, Jafar Agha, Noor agha Padshah, Darwaziha, Mula Toor Disaster Vulnerability: Flood risks are significant due to water inflow from Nahrin District, leading to overflow of the canals (Ajmir Nahr all five sub-villages mostly Dawood Padshah, Sayed Jaf... Field photo evidence: Flood-prone Area, Mulla Toor.HEIC.",
+    "sourceDocument": "Cluster 02_Needs Prioritization under FGDs.docx",
     "lat": 36.18561944,
     "lon": 68.77210278,
     "image": "cursor_v2_map_data/photo_previews/1b4c6d588a0f6a7a.jpg",
@@ -455,11 +565,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-prone Area, Mulla Toor.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-prone Area, Mulla Toor.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dawood Padshah, Jafar Agha, Noor agha Padshah, Darwaziha, Mula Toor Disaster Vulnerability: Flood risks are significant due to water inflow from Nahrin District, leading to overflow of the canals (Ajmir Nahr all five sub-villages mostly Dawood Padshah, Sayed Jaf... Field photo evidence: Flood-prone Area, Mulla Toor.HEIC.",
         "lat": 36.18561944,
-        "lon": 68.77210278
+        "lon": 68.77210278,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 02_Needs Prioritization under FGDs.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dawood Padshah, Jafar Agha, Noor agha Padshah, Darwaziha, Mula Toor Disaster Vulnerability: Flood risks are significant due to water inflow from Nahrin District, leading to overflow of the canals (Ajmir Nahr all five sub-villages mostly Dawood Padshah, Sayed Jaf...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 02_Needs Prioritization under FGDs.docx with 18 evidence points."
   },
   {
     "id": 16,
@@ -469,8 +586,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Mulla Toor Elementry School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Mulla Toor Elementry School.HEIC.",
+    "sourceDocument": "Cluster 2-CAP Report Template.docx",
     "lat": 36.18722778,
     "lon": 68.76968333,
     "image": "cursor_v2_map_data/photo_previews/1acef0403090c0d5.jpg",
@@ -483,11 +600,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Mulla Toor Elementry School.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Mulla Toor Elementry School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Mulla Toor Elementry School.HEIC.",
         "lat": 36.18722778,
-        "lon": 68.76968333
+        "lon": 68.76968333,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 15 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 15 evidence points."
   },
   {
     "id": 17,
@@ -497,8 +621,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Well, Mulla Toor.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Sayed Dawood Padshah, Sayed Jafar Agha, Mulla Toor, Noor Agha Padshah, Darwazi Ha, villages Lack of Safe Water and Poor Hygiene – reliance on contaminated river water, Field photo evidence: Water Well, Mulla Toor.HEIC.",
+    "sourceDocument": "Cluster#2-Female Needs Prioritization under FGD.docx",
     "lat": 36.18838056,
     "lon": 68.77262222,
     "image": "cursor_v2_map_data/photo_previews/5f268158164089bd.jpg",
@@ -511,11 +635,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Well, Mulla Toor.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Well, Mulla Toor.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Sayed Dawood Padshah, Sayed Jafar Agha, Mulla Toor, Noor Agha Padshah, Darwazi Ha, villages Lack of Safe Water and Poor Hygiene – reliance on contaminated river water, Field photo evidence: Water Well, Mulla Toor.HEIC.",
         "lat": 36.18838056,
-        "lon": 68.77262222
+        "lon": 68.77262222,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#2-Female Needs Prioritization under FGD.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Sayed Dawood Padshah, Sayed Jafar Agha, Mulla Toor, Noor Agha Padshah, Darwazi Ha, villages Lack of Safe Water and Poor Hygiene – reliance on contaminated river water,",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#2-Female Needs Prioritization under FGD.docx with 22 evidence points."
   },
   {
     "id": 18,
@@ -525,8 +656,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Noor Agha_primary school endpoint.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Noor Agha_primary school endpoint.HEIC; Noor Agha_primary school insde2.HEIC; Noor Agha_primary school inside.HEIC; Noor Agha_primary school inside2.HEIC; Noor Agha_primary school tent.HEIC.",
+    "sourceDocument": "Cluster 2-CAP Report Template.docx",
     "lat": 36.18150111,
     "lon": 68.75881111,
     "image": "cursor_v2_map_data/photo_previews/72059afb9c7489da.jpg",
@@ -539,9 +670,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Noor Agha_primary school endpoint.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Noor Agha_primary school endpoint.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Noor Agha_primary school endpoint.HEIC; Noor Agha_primary school insde2.HEIC; Noor Agha_primary school inside.HEIC; Noor Agha_primary school inside2.HEIC; Noor Agha_primary school tent.HEIC.",
         "lat": 36.18148056,
-        "lon": 68.75886667
+        "lon": 68.75886667,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 19 evidence points."
       },
       {
         "title": "Noor Agha primary school insde2",
@@ -549,9 +683,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Noor Agha_primary school insde2.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Noor Agha_primary school insde2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Noor Agha_primary school endpoint.HEIC; Noor Agha_primary school insde2.HEIC; Noor Agha_primary school inside.HEIC; Noor Agha_primary school inside2.HEIC; Noor Agha_primary school tent.HEIC.",
         "lat": 36.18151111,
-        "lon": 68.75879722
+        "lon": 68.75879722,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 19 evidence points."
       },
       {
         "title": "Noor Agha primary school inside",
@@ -559,9 +696,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Noor Agha_primary school inside.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Noor Agha_primary school inside.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Noor Agha_primary school endpoint.HEIC; Noor Agha_primary school insde2.HEIC; Noor Agha_primary school inside.HEIC; Noor Agha_primary school inside2.HEIC; Noor Agha_primary school tent.HEIC.",
         "lat": 36.18150278,
-        "lon": 68.75880556
+        "lon": 68.75880556,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 19 evidence points."
       },
       {
         "title": "Noor Agha primary school inside2",
@@ -569,9 +709,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Noor Agha_primary school inside2.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Noor Agha_primary school inside2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Noor Agha_primary school endpoint.HEIC; Noor Agha_primary school insde2.HEIC; Noor Agha_primary school inside.HEIC; Noor Agha_primary school inside2.HEIC; Noor Agha_primary school tent.HEIC.",
         "lat": 36.18150833,
-        "lon": 68.75879722
+        "lon": 68.75879722,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 19 evidence points."
       },
       {
         "title": "Noor Agha primary school tent",
@@ -579,11 +722,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Noor Agha_primary school tent.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Noor Agha_primary school tent.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book... Field photo evidence: Noor Agha_primary school endpoint.HEIC; Noor Agha_primary school insde2.HEIC; Noor Agha_primary school inside.HEIC; Noor Agha_primary school inside2.HEIC; Noor Agha_primary school tent.HEIC.",
         "lat": 36.18150278,
-        "lon": 68.75878889
+        "lon": 68.75878889,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 19 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge: Education Barriers and Lack of Adequate School Infrastructure Poverty and distance to schools contribute to absenteeism and limit access to education. Peer Padshah Primary School in Dawood Padshah village lacks a proper building, leaving nearly 150 children out of school. Insufficient classrooms and essential facilities (desks, stationery, book...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 19 evidence points."
   },
   {
     "id": 19,
@@ -593,8 +743,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Flood-affected point of Syed Jafar Agha Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dawood Padshah, Jafar Agha, Noor agha Padshah, Darwaziha, Mula Toor Disaster Vulnerability: Flood risks are significant due to water inflow from Nahrin District, leading to overflow of the canals (Ajmir Nahr all five sub-villages mostly Dawood Padshah, Sayed Jaf... Field photo evidence: Flood-affected point of Syed Jafar Agha Village.jpg.",
+    "sourceDocument": "Cluster 02_Needs Prioritization under FGDs.docx",
     "lat": 36.18528897,
     "lon": 68.77194,
     "image": "cursor_v2_map_data/photo_previews/cc6873f7a72a4f71.jpg",
@@ -607,11 +757,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-affected point of Syed Jafar Agha Village.jpg",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood-affected point of Syed Jafar Agha Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dawood Padshah, Jafar Agha, Noor agha Padshah, Darwaziha, Mula Toor Disaster Vulnerability: Flood risks are significant due to water inflow from Nahrin District, leading to overflow of the canals (Ajmir Nahr all five sub-villages mostly Dawood Padshah, Sayed Jaf... Field photo evidence: Flood-affected point of Syed Jafar Agha Village.jpg.",
         "lat": 36.18528897,
-        "lon": 68.77194
+        "lon": 68.77194,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 02_Needs Prioritization under FGDs.docx with 28 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Dawood Padshah, Jafar Agha, Noor agha Padshah, Darwaziha, Mula Toor Disaster Vulnerability: Flood risks are significant due to water inflow from Nahrin District, leading to overflow of the canals (Ajmir Nahr all five sub-villages mostly Dawood Padshah, Sayed Jaf...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 02_Needs Prioritization under FGDs.docx with 28 evidence points."
   },
   {
     "id": 20,
@@ -621,8 +778,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"The bridge that needs repair is in the village of .jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: Overall, water is crucial for both daily household needs and livelihood activities. It is primarily used for drinking, cooking, washing, personal hygiene, crop irrigation, and watering livestock. Returnees reported using river water for all their daily needs, including laundry and hygiene, which is unsafe and has led to kidney problems. Members of the hos... Field photo evidence: The bridge that needs repair is in the village of .jpg.",
+    "sourceDocument": "Cluster 2-CAP Report Template.docx",
     "lat": 36.183866,
     "lon": 68.77013497,
     "image": "cursor_v2_map_data/photo_previews/8180ed7957517b41.jpg",
@@ -635,11 +792,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "The bridge that needs repair is in the village of .jpg",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"The bridge that needs repair is in the village of .jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Overall, water is crucial for both daily household needs and livelihood activities. It is primarily used for drinking, cooking, washing, personal hygiene, crop irrigation, and watering livestock. Returnees reported using river water for all their daily needs, including laundry and hygiene, which is unsafe and has led to kidney problems. Members of the hos... Field photo evidence: The bridge that needs repair is in the village of .jpg.",
         "lat": 36.183866,
-        "lon": 68.77013497
+        "lon": 68.77013497,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Overall, water is crucial for both daily household needs and livelihood activities. It is primarily used for drinking, cooking, washing, personal hygiene, crop irrigation, and watering livestock. Returnees reported using river water for all their daily needs, including laundry and hygiene, which is unsafe and has led to kidney problems. Members of the hos...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 18 evidence points."
   },
   {
     "id": 21,
@@ -649,8 +813,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"The water supply system of the village of Syed Jaf.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 2",
+    "note": "Document-backed priority need: 2- Water Supply System (UNICEF) Hand Pumps (80-100) miters Hand Pumps (80-100) miters The available sanitation facilities in the community include a mix of flushing latrines, vault latrines, and pit latrines. An estimated 70% of households in Dawood Padshah use flushing latrines, while 30% rely on vault latrines. In Noor Agha Padshah, 50% of households us... Field photo evidence: The water supply system of the village of Syed Jaf.jpg.",
+    "sourceDocument": "Cluster 2-CAP Report Template.docx",
     "lat": 36.186233,
     "lon": 68.769372,
     "image": "cursor_v2_map_data/photo_previews/f62add5f6a4d4477.jpg",
@@ -663,11 +827,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "The water supply system of the village of Syed Jaf.jpg",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"The water supply system of the village of Syed Jaf.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: 2- Water Supply System (UNICEF) Hand Pumps (80-100) miters Hand Pumps (80-100) miters The available sanitation facilities in the community include a mix of flushing latrines, vault latrines, and pit latrines. An estimated 70% of households in Dawood Padshah use flushing latrines, while 30% rely on vault latrines. In Noor Agha Padshah, 50% of households us... Field photo evidence: The water supply system of the village of Syed Jaf.jpg.",
         "lat": 36.186233,
-        "lon": 68.769372
+        "lon": 68.769372,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "2- Water Supply System (UNICEF) Hand Pumps (80-100) miters Hand Pumps (80-100) miters The available sanitation facilities in the community include a mix of flushing latrines, vault latrines, and pit latrines. An estimated 70% of households in Dawood Padshah use flushing latrines, while 30% rely on vault latrines. In Noor Agha Padshah, 50% of households us...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 2-CAP Report Template.docx with 23 evidence points."
   },
   {
     "id": 22,
@@ -677,8 +848,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-prone Area, Chah abi ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 3",
+    "note": "Document-backed priority need: All three communities are affected by seasonal floods and prolong droughts. Flooding affected all three communities at the same level in past years and caused damage to houses, livestock and agriculture lands. Since most families rely on rain feed cultivation rather than irrigated cultivation. Therefore, the prolonged droughts in all three communities aff... Field photo evidence: Flood-prone Area, Chah abi ha.HEIC.",
+    "sourceDocument": "Cluster 03_ PwV FGD_Bigzad.docx",
     "lat": 36.19619722,
     "lon": 68.76578611,
     "image": "cursor_v2_map_data/photo_previews/578b0d84d5410617.jpg",
@@ -691,11 +862,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-prone Area, Chah abi ha.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-prone Area, Chah abi ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: All three communities are affected by seasonal floods and prolong droughts. Flooding affected all three communities at the same level in past years and caused damage to houses, livestock and agriculture lands. Since most families rely on rain feed cultivation rather than irrigated cultivation. Therefore, the prolonged droughts in all three communities aff... Field photo evidence: Flood-prone Area, Chah abi ha.HEIC.",
         "lat": 36.19619722,
-        "lon": 68.76578611
+        "lon": 68.76578611,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 03_ PwV FGD_Bigzad.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "All three communities are affected by seasonal floods and prolong droughts. Flooding affected all three communities at the same level in past years and caused damage to houses, livestock and agriculture lands. Since most families rely on rain feed cultivation rather than irrigated cultivation. Therefore, the prolonged droughts in all three communities aff...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 03_ PwV FGD_Bigzad.docx with 14 evidence points."
   },
   {
     "id": 23,
@@ -705,8 +883,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Hafiz Abad Secondry School, Chah Abi ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 3",
+    "note": "Document-backed priority need: What are the challenges for children with disabilities? No school building in the community and children go to Dawlat Zai ha village school located in Baghlan Jadid township with 5-6 KM distance Godan Paein:Access to the school is limited due to poor road conditions and the remote location of the school from village. Additional challenges include lack of... Field photo evidence: Hafiz Abad Secondry School, Chah Abi ha.HEIC.",
+    "sourceDocument": "Cluster 3 - CAP Tool FGD Community Leaders (formatted) - 1st draft.docx",
     "lat": 36.19772222,
     "lon": 68.76438056,
     "image": "cursor_v2_map_data/photo_previews/89d92c11604a000d.jpg",
@@ -719,11 +897,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Hafiz Abad Secondry School, Chah Abi ha.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Hafiz Abad Secondry School, Chah Abi ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the challenges for children with disabilities? No school building in the community and children go to Dawlat Zai ha village school located in Baghlan Jadid township with 5-6 KM distance Godan Paein:Access to the school is limited due to poor road conditions and the remote location of the school from village. Additional challenges include lack of... Field photo evidence: Hafiz Abad Secondry School, Chah Abi ha.HEIC.",
         "lat": 36.19772222,
-        "lon": 68.76438056
+        "lon": 68.76438056,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 3 - CAP Tool FGD Community Leaders (formatted) - 1st draft.docx with 15 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the challenges for children with disabilities? No school building in the community and children go to Dawlat Zai ha village school located in Baghlan Jadid township with 5-6 KM distance Godan Paein:Access to the school is limited due to poor road conditions and the remote location of the school from village. Additional challenges include lack of...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster 3 - CAP Tool FGD Community Leaders (formatted) - 1st draft.docx with 15 evidence points."
   },
   {
     "id": 24,
@@ -733,8 +918,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Shelter",
     "level": "Medium",
     "markerClass": "shelter",
-    "note": "Shelter priority evidence identified from field photo \"Gudan Payen School_without shelter.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 3",
+    "note": "Document-backed priority need: Respondents replied that, there are no community-level borewells, and families rely on private wells at home. Children lack access to clean water on the way to school, especially during the hot summer. Returnees face additional challenges, often needing to request water from neighbors, and sometimes the available water is insufficient for hygiene and othe... Field photo evidence: Gudan Payen School_without shelter.jpg.",
+    "sourceDocument": "Cluster 03_ PwV FGD_Bigzad.docx",
     "lat": 36.208832,
     "lon": 68.759156,
     "image": "cursor_v2_map_data/photo_previews/1193345769e909bf.jpg",
@@ -747,11 +932,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Gudan Payen School_without shelter.jpg",
         "theme": "Shelter",
         "level": "Medium",
-        "note": "Shelter priority evidence identified from field photo \"Gudan Payen School_without shelter.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Respondents replied that, there are no community-level borewells, and families rely on private wells at home. Children lack access to clean water on the way to school, especially during the hot summer. Returnees face additional challenges, often needing to request water from neighbors, and sometimes the available water is insufficient for hygiene and othe... Field photo evidence: Gudan Payen School_without shelter.jpg.",
         "lat": 36.208832,
-        "lon": 68.759156
+        "lon": 68.759156,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 03_ PwV FGD_Bigzad.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Respondents replied that, there are no community-level borewells, and families rely on private wells at home. Children lack access to clean water on the way to school, especially during the hot summer. Returnees face additional challenges, often needing to request water from neighbors, and sometimes the available water is insufficient for hygiene and othe...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 03_ PwV FGD_Bigzad.docx with 20 evidence points."
   },
   {
     "id": 25,
@@ -761,8 +953,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Location requiring construction of a culvert (pipe.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 3",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Gudan Bala, Gudan Payen, Chayabi ha villages. Lack of Access to education: Field photo evidence: Location requiring construction of a culvert (pipe.jpg.",
+    "sourceDocument": "Cluster 03_Needs Prioritization under FGDs_PwV_Bigzad.docx",
     "lat": 36.208123,
     "lon": 68.76747697,
     "image": "cursor_v2_map_data/photo_previews/a5880509cab92e88.jpg",
@@ -775,11 +967,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Location requiring construction of a culvert (pipe.jpg",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Location requiring construction of a culvert (pipe.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Gudan Bala, Gudan Payen, Chayabi ha villages. Lack of Access to education: Field photo evidence: Location requiring construction of a culvert (pipe.jpg.",
         "lat": 36.208123,
-        "lon": 68.76747697
+        "lon": 68.76747697,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 03_Needs Prioritization under FGDs_PwV_Bigzad.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Gudan Bala, Gudan Payen, Chayabi ha villages. Lack of Access to education:",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 03_Needs Prioritization under FGDs_PwV_Bigzad.docx with 13 evidence points."
   },
   {
     "id": 26,
@@ -789,8 +988,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"cluster4_ Gul dariha high school.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 4",
+    "note": "Document-backed priority need: Experienced women to mentor and train others in sewing, tailoring, and handicrafts Families to encourage and allow women and girls to participate in skills training and income‑generation activities Community leaders to advocate for and facilitate women’s access to local work opportunities and markets Challenge (male, Female #5): Access to Education and Sc... Field photo evidence: cluster4_ Gul dariha high school.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 4th.docx",
     "lat": 36.19959167,
     "lon": 68.78881111,
     "image": "cursor_v2_map_data/photo_previews/5675d38030bba889.jpg",
@@ -803,11 +1002,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "cluster4_ Gul dariha high school.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"cluster4_ Gul dariha high school.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Experienced women to mentor and train others in sewing, tailoring, and handicrafts Families to encourage and allow women and girls to participate in skills training and income‑generation activities Community leaders to advocate for and facilitate women’s access to local work opportunities and markets Challenge (male, Female #5): Access to Education and Sc... Field photo evidence: cluster4_ Gul dariha high school.HEIC.",
         "lat": 36.19959167,
-        "lon": 68.78881111
+        "lon": 68.78881111,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Experienced women to mentor and train others in sewing, tailoring, and handicrafts Families to encourage and allow women and girls to participate in skills training and income‑generation activities Community leaders to advocate for and facilitate women’s access to local work opportunities and markets Challenge (male, Female #5): Access to Education and Sc...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 18 evidence points."
   },
   {
     "id": 27,
@@ -817,8 +1023,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Gul dariha_mosque prone to flood.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 4",
+    "note": "Document-backed priority need: Challenge (Male #2 / Female #7): Disaster Vulnerability: The community faces high vulnerability to flooding due to canal overflows from Nahrin District and the absence of protective infrastructure, alongside increasing droughts that reduce agricultural productivity and threaten food security. Limited disaster preparedness, lack of early warning systems, a... Field photo evidence: Gul dariha_mosque prone to flood.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 4th.docx",
     "lat": 36.20260278,
     "lon": 68.78346944,
     "image": "cursor_v2_map_data/photo_previews/545955fdb20d3327.jpg",
@@ -831,11 +1037,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Gul dariha_mosque prone to flood.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Gul dariha_mosque prone to flood.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge (Male #2 / Female #7): Disaster Vulnerability: The community faces high vulnerability to flooding due to canal overflows from Nahrin District and the absence of protective infrastructure, alongside increasing droughts that reduce agricultural productivity and threaten food security. Limited disaster preparedness, lack of early warning systems, a... Field photo evidence: Gul dariha_mosque prone to flood.HEIC.",
         "lat": 36.20260278,
-        "lon": 68.78346944
+        "lon": 68.78346944,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge (Male #2 / Female #7): Disaster Vulnerability: The community faces high vulnerability to flooding due to canal overflows from Nahrin District and the absence of protective infrastructure, alongside increasing droughts that reduce agricultural productivity and threaten food security. Limited disaster preparedness, lack of early warning systems, a...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 21 evidence points."
   },
   {
     "id": 28,
@@ -845,8 +1058,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Gul dariha_need protection wall.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 4",
+    "note": "Document-backed priority need: Organization of community groups to maintain water points and hand pumps Support to hygiene promotion and behavior‑change campaigns Identification of safe and accessible water collection points for women and children Challenge (Male #2 / Female #7): Disaster Vulnerability: The community faces high vulnerability to flooding due to canal overflows from Nahr... Field photo evidence: Gul dariha_need protection wall.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 4th.docx",
     "lat": 36.19803889,
     "lon": 68.78608056,
     "image": "cursor_v2_map_data/photo_previews/974a3959d269acb1.jpg",
@@ -859,11 +1072,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Gul dariha_need protection wall.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Gul dariha_need protection wall.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Organization of community groups to maintain water points and hand pumps Support to hygiene promotion and behavior‑change campaigns Identification of safe and accessible water collection points for women and children Challenge (Male #2 / Female #7): Disaster Vulnerability: The community faces high vulnerability to flooding due to canal overflows from Nahr... Field photo evidence: Gul dariha_need protection wall.HEIC.",
         "lat": 36.19803889,
-        "lon": 68.78608056
+        "lon": 68.78608056,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 17 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Organization of community groups to maintain water points and hand pumps Support to hygiene promotion and behavior‑change campaigns Identification of safe and accessible water collection points for women and children Challenge (Male #2 / Female #7): Disaster Vulnerability: The community faces high vulnerability to flooding due to canal overflows from Nahr...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 17 evidence points."
   },
   {
     "id": 29,
@@ -873,8 +1093,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Bridge, malem Akbar.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 4",
+    "note": "Document-backed priority need: According to Community Leaders, approximately 300 school‑age children across both communities are currently out of school. CAP participants also reported that girls, children from poor families, returnees, and children with disabilities generally have comparatively less access to education due to the combined impact of distance to schools, economic hardsh... Field photo evidence: Bridge, malem Akbar.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 4th.docx",
     "lat": 36.20785833,
     "lon": 68.77978611,
     "image": "cursor_v2_map_data/photo_previews/87b63ba52c03bd52.jpg",
@@ -887,11 +1107,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Bridge, malem Akbar.HEIC",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Bridge, malem Akbar.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: According to Community Leaders, approximately 300 school‑age children across both communities are currently out of school. CAP participants also reported that girls, children from poor families, returnees, and children with disabilities generally have comparatively less access to education due to the combined impact of distance to schools, economic hardsh... Field photo evidence: Bridge, malem Akbar.HEIC.",
         "lat": 36.20785833,
-        "lon": 68.77978611
+        "lon": 68.77978611,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "According to Community Leaders, approximately 300 school‑age children across both communities are currently out of school. CAP participants also reported that girls, children from poor families, returnees, and children with disabilities generally have comparatively less access to education due to the combined impact of distance to schools, economic hardsh...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-CAP Report Cluster 4th.docx with 22 evidence points."
   },
   {
     "id": 30,
@@ -901,8 +1128,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "Photo-backed need identified from the field photo \"Damage Water Well, Malem Akbar.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 4",
+    "note": "Document-backed priority need: Repair of non-functional hand pumps Distribution of water storage containers Water quality testing and chlorination Malem Akbar & Guldarayeeha (both villages) Field photo evidence: Damage Water Well, Malem Akbar.HEIC.",
+    "sourceDocument": "Cluster 04_Needs Prioritization under FGDs.docx",
     "lat": 36.20249444,
     "lon": 68.79058056,
     "image": "cursor_v2_map_data/photo_previews/c7fd550d016c3728.jpg",
@@ -915,11 +1142,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damage Water Well, Malem Akbar.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damage Water Well, Malem Akbar.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Repair of non-functional hand pumps Distribution of water storage containers Water quality testing and chlorination Malem Akbar & Guldarayeeha (both villages) Field photo evidence: Damage Water Well, Malem Akbar.HEIC.",
         "lat": 36.20249444,
-        "lon": 68.79058056
+        "lon": 68.79058056,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 04_Needs Prioritization under FGDs.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Repair of non-functional hand pumps Distribution of water storage containers Water quality testing and chlorination Malem Akbar & Guldarayeeha (both villages)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 04_Needs Prioritization under FGDs.docx with 23 evidence points."
   },
   {
     "id": 31,
@@ -929,8 +1163,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Well, malem Akbar.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 4",
+    "note": "Document-backed priority need: Repair of non-functional hand pumps Distribution of water storage containers Water quality testing and chlorination Malem Akbar & Guldarayeeha (both villages) Field photo evidence: Water Well, malem Akbar.HEIC.",
+    "sourceDocument": "Cluster 04_Needs Prioritization under FGDs.docx",
     "lat": 36.20295278,
     "lon": 68.79189167,
     "image": "cursor_v2_map_data/photo_previews/176a50889709bf14.jpg",
@@ -943,11 +1177,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Well, malem Akbar.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Well, malem Akbar.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Repair of non-functional hand pumps Distribution of water storage containers Water quality testing and chlorination Malem Akbar & Guldarayeeha (both villages) Field photo evidence: Water Well, malem Akbar.HEIC.",
         "lat": 36.20295278,
-        "lon": 68.79189167
+        "lon": 68.79189167,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 04_Needs Prioritization under FGDs.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Repair of non-functional hand pumps Distribution of water storage containers Water quality testing and chlorination Malem Akbar & Guldarayeeha (both villages)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 04_Needs Prioritization under FGDs.docx with 23 evidence points."
   },
   {
     "id": 32,
@@ -957,8 +1198,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Flood way_Arbab Yahya and Bashi Allah dad.heic\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 5",
+    "note": "Document-backed priority need: 1 WSS in Arbab Yahya, Bashi Allah dad, and Haji Fateh What can the community do in support of addressing this challenge? Provide labor. Protect water infrastructure and support monitoring and maintenance of water supply system as community-based water management committees Flood Vulnerability: The area is prone to seasonal flooding mostly coming from Nahr... Field photo evidence: Flood way_Arbab Yahya and Bashi Allah dad.heic.",
+    "sourceDocument": "Cluster 05_Needs Prioritization under FGDs.docx",
     "lat": 36.1820709,
     "lon": 68.7740743,
     "image": "cursor_v2_map_data/photo_previews/b5d9e7f9b591da89.jpg",
@@ -971,11 +1212,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood way_Arbab Yahya and Bashi Allah dad.heic",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood way_Arbab Yahya and Bashi Allah dad.heic\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: 1 WSS in Arbab Yahya, Bashi Allah dad, and Haji Fateh What can the community do in support of addressing this challenge? Provide labor. Protect water infrastructure and support monitoring and maintenance of water supply system as community-based water management committees Flood Vulnerability: The area is prone to seasonal flooding mostly coming from Nahr... Field photo evidence: Flood way_Arbab Yahya and Bashi Allah dad.heic.",
         "lat": 36.1820709,
-        "lon": 68.7740743
+        "lon": 68.7740743,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 05_Needs Prioritization under FGDs.docx with 31 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "1 WSS in Arbab Yahya, Bashi Allah dad, and Haji Fateh What can the community do in support of addressing this challenge? Provide labor. Protect water infrastructure and support monitoring and maintenance of water supply system as community-based water management committees Flood Vulnerability: The area is prone to seasonal flooding mostly coming from Nahr...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 05_Needs Prioritization under FGDs.docx with 31 evidence points."
   },
   {
     "id": 33,
@@ -985,8 +1233,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"Clinic located in Reis Bahram, used by the residen.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 5",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Arbab Yahya, Rais Bahram, Dad Mohammad, Haji Fateh, Bashi Allah dad Limited Access to Safe Drinking Water: The existing water network in Rais Bahram and Dad Mohammad provides poor‑quality water, and the community does not use it for drinking due to its unpleasan... Field photo evidence: Clinic located in Reis Bahram, used by the residen.jpg.",
+    "sourceDocument": "Cluster 05_Needs Prioritization under FGDs.docx",
     "lat": 36.18972997,
     "lon": 68.795282,
     "image": "cursor_v2_map_data/photo_previews/87ca0b0bbcc4632a.jpg",
@@ -999,11 +1247,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Clinic located in Reis Bahram, used by the residen.jpg",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Clinic located in Reis Bahram, used by the residen.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Arbab Yahya, Rais Bahram, Dad Mohammad, Haji Fateh, Bashi Allah dad Limited Access to Safe Drinking Water: The existing water network in Rais Bahram and Dad Mohammad provides poor‑quality water, and the community does not use it for drinking due to its unpleasan... Field photo evidence: Clinic located in Reis Bahram, used by the residen.jpg.",
         "lat": 36.18972997,
-        "lon": 68.795282
+        "lon": 68.795282,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 05_Needs Prioritization under FGDs.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Arbab Yahya, Rais Bahram, Dad Mohammad, Haji Fateh, Bashi Allah dad Limited Access to Safe Drinking Water: The existing water network in Rais Bahram and Dad Mohammad provides poor‑quality water, and the community does not use it for drinking due to its unpleasan...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster 05_Needs Prioritization under FGDs.docx with 14 evidence points."
   },
   {
     "id": 34,
@@ -1013,8 +1268,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water storage facility located in Reis Bahram, use.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 5",
+    "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Arbab Yahya, Rais Bahram, Dad Mohammad, Haji Fateh, Bashi Allah dad Limited Access to Safe Drinking Water: The existing water network in Rais Bahram and Dad Mohammad provides poor‑quality water, and the community does not use it for drinking due to its unpleasan... Field photo evidence: Water storage facility located in Reis Bahram, use.jpg.",
+    "sourceDocument": "Cluster 05_Needs Prioritization under FGDs.docx",
     "lat": 36.19447197,
     "lon": 68.792145,
     "image": "cursor_v2_map_data/photo_previews/e8aba3e8174457ee.jpg",
@@ -1027,11 +1282,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water storage facility located in Reis Bahram, use.jpg",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water storage facility located in Reis Bahram, use.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What are the Priority interventions: to address the key challenges? Communities (sub-villages) Arbab Yahya, Rais Bahram, Dad Mohammad, Haji Fateh, Bashi Allah dad Limited Access to Safe Drinking Water: The existing water network in Rais Bahram and Dad Mohammad provides poor‑quality water, and the community does not use it for drinking due to its unpleasan... Field photo evidence: Water storage facility located in Reis Bahram, use.jpg.",
         "lat": 36.19447197,
-        "lon": 68.792145
+        "lon": 68.792145,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 05_Needs Prioritization under FGDs.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What are the Priority interventions: to address the key challenges? Communities (sub-villages) Arbab Yahya, Rais Bahram, Dad Mohammad, Haji Fateh, Bashi Allah dad Limited Access to Safe Drinking Water: The existing water network in Rais Bahram and Dad Mohammad provides poor‑quality water, and the community does not use it for drinking due to its unpleasan...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 05_Needs Prioritization under FGDs.docx with 20 evidence points."
   },
   {
     "id": 35,
@@ -1041,8 +1303,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"BHC - Raees Bahram.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 5",
+    "note": "Document-backed priority need: Health awareness sessions on pregnancy, childbirth complications, vaccination and hygiene. Referral support and transportation assistance for emergency maternal cases. Medium-term interventions (6-18 months to implement): Reopening or establishing a local clinic with female health staff. Field photo evidence: BHC - Raees Bahram.HEIC.",
+    "sourceDocument": "Cluster#5-Female Needs Prioritization under FGD.docx",
     "lat": 36.19298056,
     "lon": 68.79080278,
     "image": "cursor_v2_map_data/photo_previews/2496327c0d21a5d3.jpg",
@@ -1055,11 +1317,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "BHC - Raees Bahram.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"BHC - Raees Bahram.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Health awareness sessions on pregnancy, childbirth complications, vaccination and hygiene. Referral support and transportation assistance for emergency maternal cases. Medium-term interventions (6-18 months to implement): Reopening or establishing a local clinic with female health staff. Field photo evidence: BHC - Raees Bahram.HEIC.",
         "lat": 36.19298056,
-        "lon": 68.79080278
+        "lon": 68.79080278,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster#5-Female Needs Prioritization under FGD.docx with 7 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Health awareness sessions on pregnancy, childbirth complications, vaccination and hygiene. Referral support and transportation assistance for emergency maternal cases. Medium-term interventions (6-18 months to implement): Reopening or establishing a local clinic with female health staff.",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster#5-Female Needs Prioritization under FGD.docx with 7 evidence points."
   },
   {
     "id": 36,
@@ -1069,8 +1338,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Electrical Water well,  Tajek ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 6",
+    "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Lack of Adequate Access to Safe and Sufficient Drinking Water: The existing UNICEF‑constructed water netwo... Field photo evidence: Electrical Water well,  Tajek ha.HEIC.",
+    "sourceDocument": "Cluster 06_Needs Prioritization under FGDs.docx",
     "lat": 36.19946667,
     "lon": 68.79387778,
     "image": "cursor_v2_map_data/photo_previews/0a614d84c11e2d39.jpg",
@@ -1083,11 +1352,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Electrical Water well,  Tajek ha.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Electrical Water well,  Tajek ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Lack of Adequate Access to Safe and Sufficient Drinking Water: The existing UNICEF‑constructed water netwo... Field photo evidence: Electrical Water well,  Tajek ha.HEIC.",
         "lat": 36.19946667,
-        "lon": 68.79387778
+        "lon": 68.79387778,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 06_Needs Prioritization under FGDs.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Lack of Adequate Access to Safe and Sufficient Drinking Water: The existing UNICEF‑constructed water netwo...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 06_Needs Prioritization under FGDs.docx with 23 evidence points."
   },
   {
     "id": 37,
@@ -1097,8 +1373,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water well, Tajek Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 6",
+    "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Lack of Adequate Access to Safe and Sufficient Drinking Water: The existing UNICEF‑constructed water netwo... Field photo evidence: Water well, Tajek Ha.HEIC.",
+    "sourceDocument": "Cluster 06_Needs Prioritization under FGDs.docx",
     "lat": 36.200175,
     "lon": 68.79426667,
     "image": "cursor_v2_map_data/photo_previews/a548e513a690a680.jpg",
@@ -1111,11 +1387,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well, Tajek Ha.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well, Tajek Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Lack of Adequate Access to Safe and Sufficient Drinking Water: The existing UNICEF‑constructed water netwo... Field photo evidence: Water well, Tajek Ha.HEIC.",
         "lat": 36.200175,
-        "lon": 68.79426667
+        "lon": 68.79426667,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 06_Needs Prioritization under FGDs.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Lack of Adequate Access to Safe and Sufficient Drinking Water: The existing UNICEF‑constructed water netwo...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 06_Needs Prioritization under FGDs.docx with 23 evidence points."
   },
   {
     "id": 38,
@@ -1125,8 +1408,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-prone Area Need to Protection Wall-Yakatoot.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 6",
+    "note": "Document-backed priority need: In parts of the village where the land is flat and exposed to surface water, the risk of flooding is significantly higher, increasing the likelihood of wall collapse and partial or complete destruction of houses. Additionally, some shelters in Tajikha Village are old and severely deteriorated, with structural conditions that no longer provide adequate saf... Field photo evidence: Flood-prone Area Need to Protection Wall-Yakatoot.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 6th.docx",
     "lat": 36.20213333,
     "lon": 68.82245556,
     "image": "cursor_v2_map_data/photo_previews/0afebed659cf53c6.jpg",
@@ -1139,11 +1422,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-prone Area Need to Protection Wall-Yakatoot.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-prone Area Need to Protection Wall-Yakatoot.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: In parts of the village where the land is flat and exposed to surface water, the risk of flooding is significantly higher, increasing the likelihood of wall collapse and partial or complete destruction of houses. Additionally, some shelters in Tajikha Village are old and severely deteriorated, with structural conditions that no longer provide adequate saf... Field photo evidence: Flood-prone Area Need to Protection Wall-Yakatoot.HEIC.",
         "lat": 36.20213333,
-        "lon": 68.82245556
+        "lon": 68.82245556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 24 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "In parts of the village where the land is flat and exposed to surface water, the risk of flooding is significantly higher, increasing the likelihood of wall collapse and partial or complete destruction of houses. Additionally, some shelters in Tajikha Village are old and severely deteriorated, with structural conditions that no longer provide adequate saf...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 24 evidence points."
   },
   {
     "id": 39,
@@ -1153,8 +1443,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Flood Way, Yaka Toot.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 6",
+    "note": "Document-backed priority need: In parts of the village where the land is flat and exposed to surface water, the risk of flooding is significantly higher, increasing the likelihood of wall collapse and partial or complete destruction of houses. Additionally, some shelters in Tajikha Village are old and severely deteriorated, with structural conditions that no longer provide adequate saf... Field photo evidence: Flood Way, Yaka Toot.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 6th.docx",
     "lat": 36.198525,
     "lon": 68.81699444,
     "image": "cursor_v2_map_data/photo_previews/fd6289852b2aef6b.jpg",
@@ -1167,11 +1457,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood Way, Yaka Toot.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood Way, Yaka Toot.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: In parts of the village where the land is flat and exposed to surface water, the risk of flooding is significantly higher, increasing the likelihood of wall collapse and partial or complete destruction of houses. Additionally, some shelters in Tajikha Village are old and severely deteriorated, with structural conditions that no longer provide adequate saf... Field photo evidence: Flood Way, Yaka Toot.HEIC.",
         "lat": 36.198525,
-        "lon": 68.81699444
+        "lon": 68.81699444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 26 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "In parts of the village where the land is flat and exposed to surface water, the risk of flooding is significantly higher, increasing the likelihood of wall collapse and partial or complete destruction of houses. Additionally, some shelters in Tajikha Village are old and severely deteriorated, with structural conditions that no longer provide adequate saf...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 26 evidence points."
   },
   {
     "id": 40,
@@ -1181,8 +1478,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"Pharmacy and OPD Service, Yaka Toot.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 6",
+    "note": "Document-backed priority need: Reliance on untrained traditional practices in critical situations CAP participants and a participating Daya emphasized that training traditional midwives—for example, in blood pressure monitoring and early risk detection—could significantly improve maternal outcomes. Pharmacy and OPD Service, Yaka Toot © IOM 2026 Mental Health and Psychosocial Support Field photo evidence: Pharmacy and OPD Service, Yaka Toot.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 6th.docx",
     "lat": 36.20199167,
     "lon": 68.81873333,
     "image": "cursor_v2_map_data/photo_previews/69cafd35d4dc8a85.jpg",
@@ -1195,11 +1492,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Pharmacy and OPD Service, Yaka Toot.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Pharmacy and OPD Service, Yaka Toot.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Reliance on untrained traditional practices in critical situations CAP participants and a participating Daya emphasized that training traditional midwives—for example, in blood pressure monitoring and early risk detection—could significantly improve maternal outcomes. Pharmacy and OPD Service, Yaka Toot © IOM 2026 Mental Health and Psychosocial Support Field photo evidence: Pharmacy and OPD Service, Yaka Toot.HEIC.",
         "lat": 36.20199167,
-        "lon": 68.81873333
+        "lon": 68.81873333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Reliance on untrained traditional practices in critical situations CAP participants and a participating Daya emphasized that training traditional midwives—for example, in blood pressure monitoring and early risk detection—could significantly improve maternal outcomes. Pharmacy and OPD Service, Yaka Toot © IOM 2026 Mental Health and Psychosocial Support",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 22 evidence points."
   },
   {
     "id": 41,
@@ -1209,8 +1513,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Storage, Yakatoot.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 6",
+    "note": "Document-backed priority need: Access to water in the community is constrained and uneven, with variations between villages and among population groups, particularly affecting returnees, IDPs, and poor households. In Tajikha village, people do not have sufficient access to safe drinking water. Most households rely on wells; however, the water is not always adequate in quantity or safe... Field photo evidence: Water Storage, Yakatoot.HEIC.",
+    "sourceDocument": "first draft-CAP Report Cluster 6th.docx",
     "lat": 36.19693889,
     "lon": 68.82671389,
     "image": "cursor_v2_map_data/photo_previews/1c5587e24c1e2001.jpg",
@@ -1223,11 +1527,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Storage, Yakatoot.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Storage, Yakatoot.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Access to water in the community is constrained and uneven, with variations between villages and among population groups, particularly affecting returnees, IDPs, and poor households. In Tajikha village, people do not have sufficient access to safe drinking water. Most households rely on wells; however, the water is not always adequate in quantity or safe... Field photo evidence: Water Storage, Yakatoot.HEIC.",
         "lat": 36.19693889,
-        "lon": 68.82671389
+        "lon": 68.82671389,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 28 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Access to water in the community is constrained and uneven, with variations between villages and among population groups, particularly affecting returnees, IDPs, and poor households. In Tajikha village, people do not have sufficient access to safe drinking water. Most households rely on wells; however, the water is not always adequate in quantity or safe...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-CAP Report Cluster 6th.docx with 28 evidence points."
   },
   {
     "id": 42,
@@ -1237,8 +1548,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Destroyed Water well Gujar Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Destroyed Water well Gujar Ha.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.34014444,
     "lon": 68.85289722,
     "image": "cursor_v2_map_data/photo_previews/eecccbcbdf9cee4d.jpg",
@@ -1251,11 +1562,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Destroyed Water well Gujar Ha.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Destroyed Water well Gujar Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Destroyed Water well Gujar Ha.HEIC.",
         "lat": 36.34014444,
-        "lon": 68.85289722
+        "lon": 68.85289722,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 20 evidence points."
   },
   {
     "id": 43,
@@ -1265,8 +1583,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Gujar ha Secondry School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Gujar ha Secondry School.HEIC; Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.33741806,
     "lon": 68.85691528,
     "image": "cursor_v2_map_data/photo_previews/0f0582d20b96ad1a.jpg",
@@ -1279,9 +1597,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Gujar ha Secondry School.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Gujar ha Secondry School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Gujar ha Secondry School.HEIC; Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC.",
         "lat": 36.33739444,
-        "lon": 68.85691944
+        "lon": 68.85691944,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
       },
       {
         "title": "Mawalavi Abdul Manan Elementry School Gujar Ha",
@@ -1289,11 +1610,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Gujar ha Secondry School.HEIC; Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC.",
         "lat": 36.33744167,
-        "lon": 68.85691111
+        "lon": 68.85691111,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
   },
   {
     "id": 44,
@@ -1303,8 +1631,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"flood way of Gujar Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: flood way of Gujar Ha.HEIC.",
+    "sourceDocument": "CL#07-Female FGD Report.docx",
     "lat": 36.34113611,
     "lon": 68.85419444,
     "image": "cursor_v2_map_data/photo_previews/1647e064cd0baa73.jpg",
@@ -1317,11 +1645,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "flood way of Gujar Ha.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"flood way of Gujar Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: flood way of Gujar Ha.HEIC.",
         "lat": 36.34113611,
-        "lon": 68.85419444
+        "lon": 68.85419444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CL#07-Female FGD Report.docx with 19 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CL#07-Female FGD Report.docx with 19 evidence points."
   },
   {
     "id": 45,
@@ -1331,8 +1666,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Main road-needs atleast graveling.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Main road-needs atleast graveling.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.34428056,
     "lon": 68.84820556,
     "image": "cursor_v2_map_data/photo_previews/82a6854ee8d176e4.jpg",
@@ -1345,11 +1680,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Main road-needs atleast graveling.HEIC",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Main road-needs atleast graveling.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Main road-needs atleast graveling.HEIC.",
         "lat": 36.34428056,
-        "lon": 68.84820556
+        "lon": 68.84820556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
   },
   {
     "id": 46,
@@ -1359,8 +1701,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Main road-needs atleast graveling2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Main road-needs atleast graveling2.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.34164167,
     "lon": 68.8508,
     "image": "cursor_v2_map_data/photo_previews/583b4e552af40e49.jpg",
@@ -1373,11 +1715,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Main road-needs atleast graveling2.HEIC",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Main road-needs atleast graveling2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Main road-needs atleast graveling2.HEIC.",
         "lat": 36.34164167,
-        "lon": 68.8508
+        "lon": 68.8508,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 26 evidence points."
   },
   {
     "id": 47,
@@ -1387,8 +1736,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Other",
     "level": "High",
     "markerClass": "other",
-    "note": "Photo-backed need identified from the field photo \"Damaged well in Mughlo Village.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Targeted cash assistance for vulnerable returnee and female‑headed households to meet basic needs and stabilize livelihoods in the short term. (Temoryan Bala, Temoryan Payeen, Taheri Haa, Mughul Qishlaq, and Gujur Haa) Around 155 youth in all five sub-villages Medium-term interventions (6-18 months to implement) Field photo evidence: Damaged well in Mughlo Village.jpg.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.33614397,
     "lon": 68.83486497,
     "image": "cursor_v2_map_data/photo_previews/d3f3a843ae0e6850.jpg",
@@ -1401,11 +1750,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damaged well in Mughlo Village.jpg",
         "theme": "Other",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damaged well in Mughlo Village.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Targeted cash assistance for vulnerable returnee and female‑headed households to meet basic needs and stabilize livelihoods in the short term. (Temoryan Bala, Temoryan Payeen, Taheri Haa, Mughul Qishlaq, and Gujur Haa) Around 155 youth in all five sub-villages Medium-term interventions (6-18 months to implement) Field photo evidence: Damaged well in Mughlo Village.jpg.",
         "lat": 36.33614397,
-        "lon": 68.83486497
+        "lon": 68.83486497,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 9 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Targeted cash assistance for vulnerable returnee and female‑headed households to meet basic needs and stabilize livelihoods in the short term. (Temoryan Bala, Temoryan Payeen, Taheri Haa, Mughul Qishlaq, and Gujur Haa) Around 155 youth in all five sub-villages Medium-term interventions (6-18 months to implement)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 9 evidence points."
   },
   {
     "id": 48,
@@ -1415,8 +1771,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Irrigation Canale under Plan, Mughulan Gerdab1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo... Field photo evidence: Irrigation Canale under Plan, Mughulan Gerdab1.HEIC; Irrigation Canale under Plan, Mughulan Gerdab2.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.33872777,
     "lon": 68.83927916,
     "image": "cursor_v2_map_data/photo_previews/8adbc685eb55b288.jpg",
@@ -1429,9 +1785,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation Canale under Plan, Mughulan Gerdab1.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation Canale under Plan, Mughulan Gerdab1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo... Field photo evidence: Irrigation Canale under Plan, Mughulan Gerdab1.HEIC; Irrigation Canale under Plan, Mughulan Gerdab2.HEIC.",
         "lat": 36.33871944,
-        "lon": 68.83927222
+        "lon": 68.83927222,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 12 evidence points."
       },
       {
         "title": "Irrigation Canale under Plan, Mughulan Gerdab2",
@@ -1439,11 +1798,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation Canale under Plan, Mughulan Gerdab2.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation Canale under Plan, Mughulan Gerdab2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo... Field photo evidence: Irrigation Canale under Plan, Mughulan Gerdab1.HEIC; Irrigation Canale under Plan, Mughulan Gerdab2.HEIC.",
         "lat": 36.33873611,
-        "lon": 68.83928611
+        "lon": 68.83928611,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 12 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 12 evidence points."
   },
   {
     "id": 49,
@@ -1453,8 +1819,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Jamaluddin Khan Secondry School,_Moghul Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Development of complete school infrastructure with adequate classrooms, learning spaces, and basic facilities to support sustained enrollment and quality education Jamaluddin Khan Secondary School (Moghul Ha Village – currently tent-based Approx.650 male and female students What can the community do in support of addressing this challenge? Field photo evidence: Jamaluddin Khan Secondry School,_Moghul Ha.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.33955278,
     "lon": 68.83972222,
     "image": "cursor_v2_map_data/photo_previews/8c5dd4e7c49f2f26.jpg",
@@ -1467,11 +1833,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Jamaluddin Khan Secondry School,_Moghul Ha.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Jamaluddin Khan Secondry School,_Moghul Ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Development of complete school infrastructure with adequate classrooms, learning spaces, and basic facilities to support sustained enrollment and quality education Jamaluddin Khan Secondary School (Moghul Ha Village – currently tent-based Approx.650 male and female students What can the community do in support of addressing this challenge? Field photo evidence: Jamaluddin Khan Secondry School,_Moghul Ha.HEIC.",
         "lat": 36.33955278,
-        "lon": 68.83972222
+        "lon": 68.83972222,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Development of complete school infrastructure with adequate classrooms, learning spaces, and basic facilities to support sustained enrollment and quality education Jamaluddin Khan Secondary School (Moghul Ha Village – currently tent-based Approx.650 male and female students What can the community do in support of addressing this challenge?",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 21 evidence points."
   },
   {
     "id": 50,
@@ -1481,8 +1854,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Public bridge of Mughlo Village (requires construc.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Public bridge of Mughlo Village (requires construc.jpg.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.33866497,
     "lon": 68.83928297,
     "image": "cursor_v2_map_data/photo_previews/8f7f9d72339eb81b.jpg",
@@ -1495,11 +1868,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Public bridge of Mughlo Village (requires construc.jpg",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Public bridge of Mughlo Village (requires construc.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Public bridge of Mughlo Village (requires construc.jpg.",
         "lat": 36.33866497,
-        "lon": 68.83928297
+        "lon": 68.83928297,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 18 evidence points."
   },
   {
     "id": 51,
@@ -1509,8 +1889,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"School in Mughlo Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: School in Mughlo Village.jpg.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.33906797,
     "lon": 68.83904697,
     "image": "cursor_v2_map_data/photo_previews/3c7bc879af6f4cff.jpg",
@@ -1523,11 +1903,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "School in Mughlo Village.jpg",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"School in Mughlo Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: School in Mughlo Village.jpg.",
         "lat": 36.33906797,
-        "lon": 68.83904697
+        "lon": 68.83904697,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 16 evidence points."
   },
   {
     "id": 52,
@@ -1537,8 +1924,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Other",
     "level": "High",
     "markerClass": "other",
-    "note": "Photo-backed need identified from the field photo \"Damage canale, Taheryan.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo... Field photo evidence: Damage canale, Taheryan.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31497222,
     "lon": 68.83324444,
     "image": "cursor_v2_map_data/photo_previews/7f08ec43161e3ffd.jpg",
@@ -1551,11 +1938,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damage canale, Taheryan.HEIC",
         "theme": "Other",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damage canale, Taheryan.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo... Field photo evidence: Damage canale, Taheryan.HEIC.",
         "lat": 36.31497222,
-        "lon": 68.83324444
+        "lon": 68.83324444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 4 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge (Male #2,8) Irrigation, Environment, and Climate Resilience:The community faces increasing climate‑related risks where seasonal floods damage homes, public assets, and agricultural fields, while drought and variable rainfall reduce irrigation reliability and water efficiency. Poorly maintained and unlined canals worsen flood impacts and water lo...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 4 evidence points."
   },
   {
     "id": 53,
@@ -1565,8 +1959,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "Photo-backed need identified from the field photo \"Damage Water Storage, Taheryan.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Damage Water Storage, Taheryan.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.30908333,
     "lon": 68.83453333,
     "image": "cursor_v2_map_data/photo_previews/1e993697c5dc9a6a.jpg",
@@ -1579,11 +1973,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damage Water Storage, Taheryan.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damage Water Storage, Taheryan.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Damage Water Storage, Taheryan.HEIC.",
         "lat": 36.30908333,
-        "lon": 68.83453333
+        "lon": 68.83453333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 18 evidence points."
   },
   {
     "id": 54,
@@ -1593,8 +1994,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Taheryan1.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood-Prone Area, Taheryan1.HEIC; Flood-Prone Area, Taheryan2.HEIC.",
+    "sourceDocument": "CL#07-Female FGD Report.docx",
     "lat": 36.29609583,
     "lon": 68.82854861,
     "image": "cursor_v2_map_data/photo_previews/cafd5d8c3b215a90.jpg",
@@ -1607,9 +2008,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Prone Area, Taheryan1.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Taheryan1.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood-Prone Area, Taheryan1.HEIC; Flood-Prone Area, Taheryan2.HEIC.",
         "lat": 36.29617222,
-        "lon": 68.82855278
+        "lon": 68.82855278,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
       },
       {
         "title": "Flood Prone Area, Taheryan2",
@@ -1617,11 +2021,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Prone Area, Taheryan2.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Taheryan2.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood-Prone Area, Taheryan1.HEIC; Flood-Prone Area, Taheryan2.HEIC.",
         "lat": 36.29601944,
-        "lon": 68.82854444
+        "lon": 68.82854444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
   },
   {
     "id": 55,
@@ -1631,8 +2042,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Well, Taheryan.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Water Well, Taheryan.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31301389,
     "lon": 68.831375,
     "image": "cursor_v2_map_data/photo_previews/fe7b0867eb431786.jpg",
@@ -1645,11 +2056,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Well, Taheryan.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Well, Taheryan.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Water Well, Taheryan.HEIC.",
         "lat": 36.31301389,
-        "lon": 68.831375
+        "lon": 68.831375,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 20 evidence points."
   },
   {
     "id": 56,
@@ -1659,8 +2077,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Temoryan Bala.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Communities (sub-villages) Temoryan Bala, Temoryan Payeen, Mughul Qeshlaq, Taheri Ha, and Gujur Ha Unsafe and Inadequate Shelter Conditions Many families are living in unsafe mud houses that are vulnerable to rain, flooding, and collapse. Returnee families are living in overcrowded shelters, tents, or temporary spaces made from plastic sheets with very li... Field photo evidence: Flood-Prone Area, Temoryan Bala.HEIC.",
+    "sourceDocument": "Cluster#7-Female Needs Prioritization under FGD.docx",
     "lat": 36.30676944,
     "lon": 68.87105556,
     "image": "cursor_v2_map_data/photo_previews/1c25309af2ca9fce.jpg",
@@ -1673,11 +2091,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Prone Area, Temoryan Bala.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Temoryan Bala.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Communities (sub-villages) Temoryan Bala, Temoryan Payeen, Mughul Qeshlaq, Taheri Ha, and Gujur Ha Unsafe and Inadequate Shelter Conditions Many families are living in unsafe mud houses that are vulnerable to rain, flooding, and collapse. Returnee families are living in overcrowded shelters, tents, or temporary spaces made from plastic sheets with very li... Field photo evidence: Flood-Prone Area, Temoryan Bala.HEIC.",
         "lat": 36.30676944,
-        "lon": 68.87105556
+        "lon": 68.87105556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#7-Female Needs Prioritization under FGD.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Communities (sub-villages) Temoryan Bala, Temoryan Payeen, Mughul Qeshlaq, Taheri Ha, and Gujur Ha Unsafe and Inadequate Shelter Conditions Many families are living in unsafe mud houses that are vulnerable to rain, flooding, and collapse. Returnee families are living in overcrowded shelters, tents, or temporary spaces made from plastic sheets with very li...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#7-Female Needs Prioritization under FGD.docx with 22 evidence points."
   },
   {
     "id": 57,
@@ -1687,8 +2112,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Shared Road, Temoryan bala & Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: The main road in Temoryan and Tahiri Ha connects Baghlan to Kunduz Road, up to the first culvert leading to Choraq and Wardakha. (approx. 1 KM) Temoryan Bala & Payen, Tahiri ha and cluster 9 (Choraq and Wardak Ha) Long-term interventions (18-24 months or more to implement) What can the community do in support of addressing this challenge? Field photo evidence: Shared Road, Temoryan bala & Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31385556,
     "lon": 68.85899444,
     "image": "cursor_v2_map_data/photo_previews/5e5fde970a778421.jpg",
@@ -1701,11 +2126,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Shared Road, Temoryan bala & Paeen.HEIC",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Shared Road, Temoryan bala & Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: The main road in Temoryan and Tahiri Ha connects Baghlan to Kunduz Road, up to the first culvert leading to Choraq and Wardakha. (approx. 1 KM) Temoryan Bala & Payen, Tahiri ha and cluster 9 (Choraq and Wardak Ha) Long-term interventions (18-24 months or more to implement) What can the community do in support of addressing this challenge? Field photo evidence: Shared Road, Temoryan bala & Paeen.HEIC.",
         "lat": 36.31385556,
-        "lon": 68.85899444
+        "lon": 68.85899444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "The main road in Temoryan and Tahiri Ha connects Baghlan to Kunduz Road, up to the first culvert leading to Choraq and Wardakha. (approx. 1 KM) Temoryan Bala & Payen, Tahiri ha and cluster 9 (Choraq and Wardak Ha) Long-term interventions (18-24 months or more to implement) What can the community do in support of addressing this challenge?",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 21 evidence points."
   },
   {
     "id": 58,
@@ -1715,8 +2147,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood Prone area, Temoryan Paeen.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood Prone area, Temoryan Paeen.HEIC.",
+    "sourceDocument": "CL#07-Female FGD Report.docx",
     "lat": 36.32724722,
     "lon": 68.8546,
     "image": "cursor_v2_map_data/photo_previews/6c2335d4d7feedc4.jpg",
@@ -1729,11 +2161,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood Prone area, Temoryan Paeen.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood Prone area, Temoryan Paeen.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood Prone area, Temoryan Paeen.HEIC.",
         "lat": 36.32724722,
-        "lon": 68.8546
+        "lon": 68.8546,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
   },
   {
     "id": 59,
@@ -1743,8 +2182,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood Prone area, Temoryan Paeen1.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood Prone area, Temoryan Paeen1.HEIC.",
+    "sourceDocument": "CL#07-Female FGD Report.docx",
     "lat": 36.32399722,
     "lon": 68.85719167,
     "image": "cursor_v2_map_data/photo_previews/5952ea62b44500d7.jpg",
@@ -1757,11 +2196,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood Prone area, Temoryan Paeen1.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood Prone area, Temoryan Paeen1.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa... Field photo evidence: Flood Prone area, Temoryan Paeen1.HEIC.",
         "lat": 36.32399722,
-        "lon": 68.85719167
+        "lon": 68.85719167,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Participants identified several key shelter-related challenges. many families live in mud houses that are not structurally sound, causing fear and insecurity, especially during heavy rains and flooding. returnees often face overcrowded living conditions, staying in shared shelters with little privacy. Some have resorted to creating temporary tent-like spa...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CL#07-Female FGD Report.docx with 13 evidence points."
   },
   {
     "id": 60,
@@ -1771,8 +2217,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"Health Center made by War Child Canada, Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Challenge (male #6, Female #4): Limited Access to Health Services and Maternal Care: Access to basic health services remains inadequate due to the limited capacity of the only clinic in Temoryan Payen, which lacks sufficient facilities, staff, medicines, and does not provide night or emergency services. The clinic has only one doctor and is too far for ma... Field photo evidence: Health Center made by War Child Canada, Temoryan Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.318475,
     "lon": 68.83898056,
     "image": "cursor_v2_map_data/photo_previews/11c944107a3de1be.jpg",
@@ -1785,11 +2231,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Health Center made by War Child Canada, Temoryan Paeen.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Health Center made by War Child Canada, Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge (male #6, Female #4): Limited Access to Health Services and Maternal Care: Access to basic health services remains inadequate due to the limited capacity of the only clinic in Temoryan Payen, which lacks sufficient facilities, staff, medicines, and does not provide night or emergency services. The clinic has only one doctor and is too far for ma... Field photo evidence: Health Center made by War Child Canada, Temoryan Paeen.HEIC.",
         "lat": 36.318475,
-        "lon": 68.83898056
+        "lon": 68.83898056,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge (male #6, Female #4): Limited Access to Health Services and Maternal Care: Access to basic health services remains inadequate due to the limited capacity of the only clinic in Temoryan Payen, which lacks sufficient facilities, staff, medicines, and does not provide night or emergency services. The clinic has only one doctor and is too far for ma...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 14 evidence points."
   },
   {
     "id": 61,
@@ -1799,8 +2252,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Irrigation Canale under Plan, Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation Canale under Plan, Temoryan Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.32069722,
     "lon": 68.84761111,
     "image": "cursor_v2_map_data/photo_previews/ecf95a1d45c6153d.jpg",
@@ -1813,11 +2266,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation Canale under Plan, Temoryan Paeen.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation Canale under Plan, Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation Canale under Plan, Temoryan Paeen.HEIC.",
         "lat": 36.32069722,
-        "lon": 68.84761111
+        "lon": 68.84761111,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
   },
   {
     "id": 62,
@@ -1827,8 +2287,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC; Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31923611,
     "lon": 68.84771667,
     "image": "cursor_v2_map_data/photo_previews/4f397291d2a315bd.jpg",
@@ -1841,9 +2301,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC; Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC.",
         "lat": 36.31923611,
-        "lon": 68.84783056
+        "lon": 68.84783056,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
       },
       {
         "title": "Irrigation structure, Made by UNDP, Temoryan Paeen3",
@@ -1851,11 +2314,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC; Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC.",
         "lat": 36.31923611,
-        "lon": 68.84760278
+        "lon": 68.84760278,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
   },
   {
     "id": 63,
@@ -1865,8 +2335,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Irrigation structure, Made by UNDP, Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation structure, Made by UNDP, Temoryan Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31901111,
     "lon": 68.848075,
     "image": "cursor_v2_map_data/photo_previews/4d0750c9c5cba0ce.jpg",
@@ -1879,11 +2349,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation structure, Made by UNDP, Temoryan Paeen.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation structure, Made by UNDP, Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,... Field photo evidence: Irrigation structure, Made by UNDP, Temoryan Paeen.HEIC.",
         "lat": 36.31901111,
-        "lon": 68.848075
+        "lon": 68.848075,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement) Rehabilitation and lining of irrigation canals and watershed infrastructure to improve irrigation efficiency, reduce water losses, and mitigate flood impacts Environmental protection measures, including community‑based tree planting, to restore greenery, improve the local micro‑climate, reduce erosion,...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 13 evidence points."
   },
   {
     "id": 64,
@@ -1893,8 +2370,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Protection wall needed for the cannal, Temoryan Paeen.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Support humanitarian partners in validating and updating vulnerability lists Provide skilled and unskilled local labor for construction of drainage channels, protection walls, and shelter improvement works Assist families with temporary accommodation or shared shelter during floods or while houses are under repair Challenge (Male #4, female #7): Field photo evidence: Protection wall needed for the cannal, Temoryan Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31386667,
     "lon": 68.85887778,
     "image": "cursor_v2_map_data/photo_previews/21744f63ecf32ee9.jpg",
@@ -1907,11 +2384,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Protection wall needed for the cannal, Temoryan Paeen.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Protection wall needed for the cannal, Temoryan Paeen.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Support humanitarian partners in validating and updating vulnerability lists Provide skilled and unskilled local labor for construction of drainage channels, protection walls, and shelter improvement works Assist families with temporary accommodation or shared shelter during floods or while houses are under repair Challenge (Male #4, female #7): Field photo evidence: Protection wall needed for the cannal, Temoryan Paeen.HEIC.",
         "lat": 36.31386667,
-        "lon": 68.85887778
+        "lon": 68.85887778,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Support humanitarian partners in validating and updating vulnerability lists Provide skilled and unskilled local labor for construction of drainage channels, protection walls, and shelter improvement works Assist families with temporary accommodation or shared shelter during floods or while houses are under repair Challenge (Male #4, female #7):",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 14 evidence points."
   },
   {
     "id": 65,
@@ -1921,8 +2405,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Secondry School,  Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Secondry School,  Temoryan Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.32016111,
     "lon": 68.85381389,
     "image": "cursor_v2_map_data/photo_previews/4a74c3ba0a50c09f.jpg",
@@ -1935,11 +2419,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Secondry School,  Temoryan Paeen.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Secondry School,  Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained... Field photo evidence: Secondry School,  Temoryan Paeen.HEIC.",
         "lat": 36.32016111,
-        "lon": 68.85381389
+        "lon": 68.85381389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Contribute skilled and unskilled local labor for construction, upgrading, and rehabilitation of health facilities Participate in community monitoring, oversight, and basic maintenance of health centers to support sustainability. Challenge (Female #3, male #6): Limited Access to Safe and Inclusive Education:Access to education remains severely constrained...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 16 evidence points."
   },
   {
     "id": 66,
@@ -1949,8 +2440,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water well,  Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 7",
+    "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Water well,  Temoryan Paeen.HEIC.",
+    "sourceDocument": "first draft-Community Priorities_Cluster07.docx",
     "lat": 36.31974167,
     "lon": 68.84110278,
     "image": "cursor_v2_map_data/photo_previews/41463eb55310b4ab.jpg",
@@ -1963,11 +2454,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well,  Temoryan Paeen.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well,  Temoryan Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr... Field photo evidence: Water well,  Temoryan Paeen.HEIC.",
         "lat": 36.31974167,
-        "lon": 68.84110278
+        "lon": 68.84110278,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community priorities were identified through focus group discussions. The process included LIC members, and additional community participants were also consulted to enhance inclusivity and capture a wider range of perspectives. Participants represented host communities, returnees, internally displaced people, people with disabilities, and different age gr...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched first draft-Community Priorities_Cluster07.docx with 20 evidence points."
   },
   {
     "id": 67,
@@ -1977,8 +2475,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"School of Anarkhel Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: What can the community do in support of addressing this challenge? Community can introduce returnees IDPS women and youth with have skills to service providers and humanitarian actors. Lack of education materials Schools in the three communities (Sardar khil, Anar Khil and Mata khil) face serious learning disruptions due to the lack of essential education... Field photo evidence: School of Anarkhel Village.jpg.",
+    "sourceDocument": "Cluster 08_Needs Prioritization under FGDs_PwV_Bigzad.docx",
     "lat": 36.348599,
     "lon": 68.81896297,
     "image": "cursor_v2_map_data/photo_previews/04385c7d76d256fe.jpg",
@@ -1991,11 +2489,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "School of Anarkhel Village.jpg",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"School of Anarkhel Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What can the community do in support of addressing this challenge? Community can introduce returnees IDPS women and youth with have skills to service providers and humanitarian actors. Lack of education materials Schools in the three communities (Sardar khil, Anar Khil and Mata khil) face serious learning disruptions due to the lack of essential education... Field photo evidence: School of Anarkhel Village.jpg.",
         "lat": 36.348599,
-        "lon": 68.81896297
+        "lon": 68.81896297,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08_Needs Prioritization under FGDs_PwV_Bigzad.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What can the community do in support of addressing this challenge? Community can introduce returnees IDPS women and youth with have skills to service providers and humanitarian actors. Lack of education materials Schools in the three communities (Sardar khil, Anar Khil and Mata khil) face serious learning disruptions due to the lack of essential education...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08_Needs Prioritization under FGDs_PwV_Bigzad.docx with 20 evidence points."
   },
   {
     "id": 68,
@@ -2005,8 +2510,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "Photo-backed need identified from the field photo \"Damaged water well of Anarkhel Village.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Provision of water purification items (containers and tablets) Water trucking during periods of shortage Awareness sessions on hygiene, safe water use, and menstrual health (female FGD) Anar Khil: 19 damaged water wells to be repaired Field photo evidence: Damaged water well of Anarkhel Village.jpg; Water well,  Anar khil.jpg.",
+    "sourceDocument": "Combined Community Priorities_Cluster8.docx",
     "lat": 36.345815,
     "lon": 68.81136997,
     "image": "cursor_v2_map_data/photo_previews/e26a423976ee7392.jpg",
@@ -2019,9 +2524,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damaged water well of Anarkhel Village.jpg",
         "theme": "WASH",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damaged water well of Anarkhel Village.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Provision of water purification items (containers and tablets) Water trucking during periods of shortage Awareness sessions on hygiene, safe water use, and menstrual health (female FGD) Anar Khil: 19 damaged water wells to be repaired Field photo evidence: Damaged water well of Anarkhel Village.jpg; Water well,  Anar khil.jpg.",
         "lat": 36.345815,
-        "lon": 68.81136997
+        "lon": 68.81136997,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 23 evidence points."
       },
       {
         "title": "Water well, Anar khil",
@@ -2029,11 +2537,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well,  Anar khil.jpg",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well,  Anar khil.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Provision of water purification items (containers and tablets) Water trucking during periods of shortage Awareness sessions on hygiene, safe water use, and menstrual health (female FGD) Anar Khil: 19 damaged water wells to be repaired Field photo evidence: Damaged water well of Anarkhel Village.jpg; Water well,  Anar khil.jpg.",
         "lat": 36.345815,
-        "lon": 68.81136997
+        "lon": 68.81136997,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Provision of water purification items (containers and tablets) Water trucking during periods of shortage Awareness sessions on hygiene, safe water use, and menstrual health (female FGD) Anar Khil: 19 damaged water wells to be repaired",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 23 evidence points."
   },
   {
     "id": 69,
@@ -2043,8 +2558,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: What can the community do in support of addressing this challenge? Community can introduce returnees IDPS women and youth with have skills to service providers and humanitarian actors. Lack of education materials Schools in the three communities (Sardar khil, Anar Khil and Mata khil) face serious learning disruptions due to the lack of essential education... Field photo evidence: Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC.",
+    "sourceDocument": "Cluster 08_Needs Prioritization under FGDs_PwV_Bigzad.docx",
     "lat": 36.35016944,
     "lon": 68.83464722,
     "image": "cursor_v2_map_data/photo_previews/72c03e0636895243.jpg",
@@ -2057,11 +2572,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: What can the community do in support of addressing this challenge? Community can introduce returnees IDPS women and youth with have skills to service providers and humanitarian actors. Lack of education materials Schools in the three communities (Sardar khil, Anar Khil and Mata khil) face serious learning disruptions due to the lack of essential education... Field photo evidence: Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC.",
         "lat": 36.35016944,
-        "lon": 68.83464722
+        "lon": 68.83464722,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08_Needs Prioritization under FGDs_PwV_Bigzad.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "What can the community do in support of addressing this challenge? Community can introduce returnees IDPS women and youth with have skills to service providers and humanitarian actors. Lack of education materials Schools in the three communities (Sardar khil, Anar Khil and Mata khil) face serious learning disruptions due to the lack of essential education...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08_Needs Prioritization under FGDs_PwV_Bigzad.docx with 20 evidence points."
   },
   {
     "id": 70,
@@ -2071,8 +2593,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Road access",
     "level": "Medium",
     "markerClass": "road",
-    "note": "Road access priority evidence identified from field photo \"Culvert Need to repair,Matakhil Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Rehabilitation of damaged roads and critical access routes through Cash-for-Work projects, including graveling of 13 km of roads within communities including graveling of 13 km of roads within communities Mata Khil (main road at the center of the community) (male) Medium-term interventions (6-18 months to implement) Construction of 15 culverts along the r... Field photo evidence: Culvert Need to repair,Matakhil Cluster 8.HEIC.",
+    "sourceDocument": "Combined Community Priorities_Cluster8.docx",
     "lat": 36.35025,
     "lon": 68.82192222,
     "image": "cursor_v2_map_data/photo_previews/7af49f89baa91d44.jpg",
@@ -2085,11 +2607,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Culvert Need to repair,Matakhil Cluster 8.HEIC",
         "theme": "Road access",
         "level": "Medium",
-        "note": "Road access priority evidence identified from field photo \"Culvert Need to repair,Matakhil Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Rehabilitation of damaged roads and critical access routes through Cash-for-Work projects, including graveling of 13 km of roads within communities including graveling of 13 km of roads within communities Mata Khil (main road at the center of the community) (male) Medium-term interventions (6-18 months to implement) Construction of 15 culverts along the r... Field photo evidence: Culvert Need to repair,Matakhil Cluster 8.HEIC.",
         "lat": 36.35025,
-        "lon": 68.82192222
+        "lon": 68.82192222,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Rehabilitation of damaged roads and critical access routes through Cash-for-Work projects, including graveling of 13 km of roads within communities including graveling of 13 km of roads within communities Mata Khil (main road at the center of the community) (male) Medium-term interventions (6-18 months to implement) Construction of 15 culverts along the r...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 23 evidence points."
   },
   {
     "id": 71,
@@ -2099,8 +2628,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC; irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC.",
+    "sourceDocument": "Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx",
     "lat": 36.35258889,
     "lon": 68.83255833,
     "image": "cursor_v2_map_data/photo_previews/80ed99d15c876173.jpg",
@@ -2113,9 +2642,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC; irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC.",
         "lat": 36.35256944,
-        "lon": 68.83255833
+        "lon": 68.83255833,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
       },
       {
         "title": "irrigation Canal need to Repair2, Matakhil, Cluster 8",
@@ -2123,11 +2655,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC; irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC.",
         "lat": 36.35260833,
-        "lon": 68.83255833
+        "lon": 68.83255833,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
   },
   {
     "id": 72,
@@ -2137,8 +2676,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Water Canal  Need to construct, Matakhil Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Anarkhil: 20 water dividers SardarKhil: 50 water dividers Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Field photo evidence: Water Canal  Need to construct, Matakhil Cluster 8.HEIC.",
+    "sourceDocument": "Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx",
     "lat": 36.35174167,
     "lon": 68.82871111,
     "image": "cursor_v2_map_data/photo_previews/564a30c6362f03fa.jpg",
@@ -2151,11 +2690,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Canal  Need to construct, Matakhil Cluster 8.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Water Canal  Need to construct, Matakhil Cluster 8.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Anarkhil: 20 water dividers SardarKhil: 50 water dividers Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Field photo evidence: Water Canal  Need to construct, Matakhil Cluster 8.HEIC.",
         "lat": 36.35174167,
-        "lon": 68.82871111
+        "lon": 68.82871111,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Anarkhil: 20 water dividers SardarKhil: 50 water dividers Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 21 evidence points."
   },
   {
     "id": 73,
@@ -2165,8 +2711,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Other",
     "level": "High",
     "markerClass": "other",
-    "note": "Photo-backed need identified from the field photo \"Damaged well in Sardar Khail Village.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Anar Khil: 19 damaged water well to be repaired Sardar Khil: 13 Damaged water wells to be repaired Mata Khil: 13 damaged water wells to be repaired Medium-term interventions (6-18 months to implement): Field photo evidence: Damaged well in Sardar Khail Village.jpg.",
+    "sourceDocument": "Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx",
     "lat": 36.321845,
     "lon": 68.81358697,
     "image": "cursor_v2_map_data/photo_previews/3cca9d62416b25f5.jpg",
@@ -2179,11 +2725,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Damaged well in Sardar Khail Village.jpg",
         "theme": "Other",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Damaged well in Sardar Khail Village.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Anar Khil: 19 damaged water well to be repaired Sardar Khil: 13 Damaged water wells to be repaired Mata Khil: 13 damaged water wells to be repaired Medium-term interventions (6-18 months to implement): Field photo evidence: Damaged well in Sardar Khail Village.jpg.",
         "lat": 36.321845,
-        "lon": 68.81358697
+        "lon": 68.81358697,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 15 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Anar Khil: 19 damaged water well to be repaired Sardar Khil: 13 Damaged water wells to be repaired Mata Khil: 13 damaged water wells to be repaired Medium-term interventions (6-18 months to implement):",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 15 evidence points."
   },
   {
     "id": 74,
@@ -2193,8 +2746,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Flood-affected point of Sardar Khail Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male) Community-based disaster preparedness training (PWV)” Long-term interventions (18-24 months or more to implement) Construction of resilient housing, flood defenses, and protection walls (PWV) Field photo evidence: Flood-affected point of Sardar Khail Village.jpg.",
+    "sourceDocument": "Combined Community Priorities_Cluster8.docx",
     "lat": 36.34423697,
     "lon": 68.808874,
     "image": "cursor_v2_map_data/photo_previews/4f10060bd2c19c46.jpg",
@@ -2207,11 +2760,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-affected point of Sardar Khail Village.jpg",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood-affected point of Sardar Khail Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male) Community-based disaster preparedness training (PWV)” Long-term interventions (18-24 months or more to implement) Construction of resilient housing, flood defenses, and protection walls (PWV) Field photo evidence: Flood-affected point of Sardar Khail Village.jpg.",
         "lat": 36.34423697,
-        "lon": 68.808874
+        "lon": 68.808874,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male) Community-based disaster preparedness training (PWV)” Long-term interventions (18-24 months or more to implement) Construction of resilient housing, flood defenses, and protection walls (PWV)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 21 evidence points."
   },
   {
     "id": 75,
@@ -2221,8 +2781,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Flood source of Sardar Khail Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male) Community-based disaster preparedness training (PWV)” Long-term interventions (18-24 months or more to implement) Construction of resilient housing, flood defenses, and protection walls (PWV) Field photo evidence: Flood source of Sardar Khail Village.jpg.",
+    "sourceDocument": "Combined Community Priorities_Cluster8.docx",
     "lat": 36.31471297,
     "lon": 68.819676,
     "image": "cursor_v2_map_data/photo_previews/01e9ae87876e3b22.jpg",
@@ -2235,11 +2795,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood source of Sardar Khail Village.jpg",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Flood source of Sardar Khail Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male) Community-based disaster preparedness training (PWV)” Long-term interventions (18-24 months or more to implement) Construction of resilient housing, flood defenses, and protection walls (PWV) Field photo evidence: Flood source of Sardar Khail Village.jpg.",
         "lat": 36.31471297,
-        "lon": 68.819676
+        "lon": 68.819676,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male) Community-based disaster preparedness training (PWV)” Long-term interventions (18-24 months or more to implement) Construction of resilient housing, flood defenses, and protection walls (PWV)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Combined Community Priorities_Cluster8.docx with 21 evidence points."
   },
   {
     "id": 76,
@@ -2249,8 +2816,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Gate constructed for the irrigation canal by the N.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: Gate constructed for the irrigation canal by the N.jpg.",
+    "sourceDocument": "Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx",
     "lat": 36.31166497,
     "lon": 68.82818,
     "image": "cursor_v2_map_data/photo_previews/0b60533c5d80757e.jpg",
@@ -2263,11 +2830,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Gate constructed for the irrigation canal by the N.jpg",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Gate constructed for the irrigation canal by the N.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: Gate constructed for the irrigation canal by the N.jpg.",
         "lat": 36.31166497,
-        "lon": 68.82818
+        "lon": 68.82818,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
   },
   {
     "id": 77,
@@ -2277,8 +2851,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Second gate constructed for the irrigation canal b.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 8",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: Second gate constructed for the irrigation canal b.jpg.",
+    "sourceDocument": "Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx",
     "lat": 36.312038,
     "lon": 68.824706,
     "image": "cursor_v2_map_data/photo_previews/97b5460aef45a28c.jpg",
@@ -2291,11 +2865,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Second gate constructed for the irrigation canal b.jpg",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Second gate constructed for the irrigation canal b.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad... Field photo evidence: Second gate constructed for the irrigation canal b.jpg.",
         "lat": 36.312038,
-        "lon": 68.824706
+        "lon": 68.824706,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement): Construction of Irrigation canals: 1. Mata Khil, Near Ahmad Khan house, 400 m length, 2. Mata Khil, Near to Mula Shir Mohammad area, 800 m length, 3. Sardar Khil, main irrigation canal, 1000 m length Long-term interventions (18-24 months or more to implement): What can the community do in support of ad...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 08 - Needs Prioritization under FGDs - 1st draft.docx with 20 evidence points."
   },
   {
     "id": 78,
@@ -2305,8 +2886,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"CL9 Choraq Village flood prone Area.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: Overall, returnees are disproportionately affected because they rely on existing shelters that are often inadequate, while also trying to rebuild or secure their own homes over time. 7: Which locations/sub-communities have the most shelter problems? Please explain your answer specifying the location and types of issues. Probes: Example: Damaged houses or... Field photo evidence: CL9 Choraq Village flood prone Area.HEIC.",
+    "sourceDocument": "Cluster 09_Leader FGD.docx",
     "lat": 36.28922222,
     "lon": 68.85725278,
     "image": "cursor_v2_map_data/photo_previews/83ec745639a7fcd4.jpg",
@@ -2319,11 +2900,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "CL9 Choraq Village flood prone Area.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"CL9 Choraq Village flood prone Area.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Overall, returnees are disproportionately affected because they rely on existing shelters that are often inadequate, while also trying to rebuild or secure their own homes over time. 7: Which locations/sub-communities have the most shelter problems? Please explain your answer specifying the location and types of issues. Probes: Example: Damaged houses or... Field photo evidence: CL9 Choraq Village flood prone Area.HEIC.",
         "lat": 36.28922222,
-        "lon": 68.85725278
+        "lon": 68.85725278,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 09_Leader FGD.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Overall, returnees are disproportionately affected because they rely on existing shelters that are often inadequate, while also trying to rebuild or secure their own homes over time. 7: Which locations/sub-communities have the most shelter problems? Please explain your answer specifying the location and types of issues. Probes: Example: Damaged houses or...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 09_Leader FGD.docx with 21 evidence points."
   },
   {
     "id": 79,
@@ -2333,8 +2921,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Primary school, choraq.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: There is no classroom in the school yard, students are sitting under the shadow’s awnings on the floor. All students from Wardakha village, as well as secondary and high school students from Choraq village, attend Chaharshanbay Tepa High School, which is located approximately 4 km away from both villages. Additionally, there is a girls’ school in Qomandan... Field photo evidence: Primary school, choraq.HEIC.",
+    "sourceDocument": "Cluster 09_Leader FGD.docx",
     "lat": 36.28884444,
     "lon": 68.85519444,
     "image": "cursor_v2_map_data/photo_previews/dd36748835a827c4.jpg",
@@ -2347,11 +2935,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Primary school, choraq.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Primary school, choraq.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: There is no classroom in the school yard, students are sitting under the shadow’s awnings on the floor. All students from Wardakha village, as well as secondary and high school students from Choraq village, attend Chaharshanbay Tepa High School, which is located approximately 4 km away from both villages. Additionally, there is a girls’ school in Qomandan... Field photo evidence: Primary school, choraq.HEIC.",
         "lat": 36.28884444,
-        "lon": 68.85519444
+        "lon": 68.85519444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 09_Leader FGD.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "There is no classroom in the school yard, students are sitting under the shadow’s awnings on the floor. All students from Wardakha village, as well as secondary and high school students from Choraq village, attend Chaharshanbay Tepa High School, which is located approximately 4 km away from both villages. Additionally, there is a girls’ school in Qomandan...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 09_Leader FGD.docx with 22 evidence points."
   },
   {
     "id": 80,
@@ -2361,8 +2956,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood prone area, wardak ha3.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge? Field photo evidence: Flood prone area, wardak ha3.HEIC.",
+    "sourceDocument": "Cluster#9-Female Needs Prioritization under FGD.docx",
     "lat": 36.28128333,
     "lon": 68.83744167,
     "image": "cursor_v2_map_data/photo_previews/31f3e2e256806212.jpg",
@@ -2375,11 +2970,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood prone area, wardak ha3.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood prone area, wardak ha3.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge? Field photo evidence: Flood prone area, wardak ha3.HEIC.",
         "lat": 36.28128333,
-        "lon": 68.83744167
+        "lon": 68.83744167,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge?",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 16 evidence points."
   },
   {
     "id": 81,
@@ -2389,8 +2991,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Irrigation Structure, Wardak ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Improve or expand irrigation canals to support agriculture Construct or rehabilitate community water points and hand pumps High In Choraq and Medium in Wardak Ha Field photo evidence: Irrigation Structure, Wardak ha.HEIC.",
+    "sourceDocument": "Cluster#9-Female Needs Prioritization under FGD.docx",
     "lat": 36.29451111,
     "lon": 68.83378611,
     "image": "cursor_v2_map_data/photo_previews/3c12137a5d63219e.jpg",
@@ -2403,11 +3005,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation Structure, Wardak ha.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation Structure, Wardak ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Improve or expand irrigation canals to support agriculture Construct or rehabilitate community water points and hand pumps High In Choraq and Medium in Wardak Ha Field photo evidence: Irrigation Structure, Wardak ha.HEIC.",
         "lat": 36.29451111,
-        "lon": 68.83378611
+        "lon": 68.83378611,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 19 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement): Improve or expand irrigation canals to support agriculture Construct or rehabilitate community water points and hand pumps High In Choraq and Medium in Wardak Ha",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 19 evidence points."
   },
   {
     "id": 82,
@@ -2417,8 +3026,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Protection wall made by UN agency, wardak ha3.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge? Field photo evidence: Protection wall made by UN agency, wardak ha3.HEIC.",
+    "sourceDocument": "Cluster#9-Female Needs Prioritization under FGD.docx",
     "lat": 36.28093333,
     "lon": 68.83705278,
     "image": "cursor_v2_map_data/photo_previews/d4d44438e51220ee.jpg",
@@ -2431,11 +3040,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Protection wall made by UN agency, wardak ha3.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Protection wall made by UN agency, wardak ha3.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge? Field photo evidence: Protection wall made by UN agency, wardak ha3.HEIC.",
         "lat": 36.28093333,
-        "lon": 68.83705278
+        "lon": 68.83705278,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge?",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 14 evidence points."
   },
   {
     "id": 83,
@@ -2445,8 +3061,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"the protection wall is needed,  wardak ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge? Field photo evidence: the protection wall is needed,  wardak ha.HEIC.",
+    "sourceDocument": "Cluster#9-Female Needs Prioritization under FGD.docx",
     "lat": 36.28189722,
     "lon": 68.84042222,
     "image": "cursor_v2_map_data/photo_previews/9078f68b86001ae5.jpg",
@@ -2459,11 +3075,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "the protection wall is needed,  wardak ha.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"the protection wall is needed,  wardak ha.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge? Field photo evidence: the protection wall is needed,  wardak ha.HEIC.",
         "lat": 36.28189722,
-        "lon": 68.84042222
+        "lon": 68.84042222,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Community-level flood mitigation infrastructure (drainage, barriers) Wardak ha and Choraq Communities returnees and overcrowded families. What can the community do in support of addressing this challenge?",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 14 evidence points."
   },
   {
     "id": 84,
@@ -2473,8 +3096,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Storage, made by UNICEF wardak ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Improve or expand irrigation canals to support agriculture Construct or rehabilitate community water points and hand pumps High In Choraq and Medium in Wardak Ha Field photo evidence: Water Storage, made by UNICEF wardak ha.HEIC.",
+    "sourceDocument": "Cluster#9-Female Needs Prioritization under FGD.docx",
     "lat": 36.28474167,
     "lon": 68.83974444,
     "image": "cursor_v2_map_data/photo_previews/0f33136db6716ef9.jpg",
@@ -2487,11 +3110,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Storage, made by UNICEF wardak ha.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Storage, made by UNICEF wardak ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Medium-term interventions (6-18 months to implement): Improve or expand irrigation canals to support agriculture Construct or rehabilitate community water points and hand pumps High In Choraq and Medium in Wardak Ha Field photo evidence: Water Storage, made by UNICEF wardak ha.HEIC.",
         "lat": 36.28474167,
-        "lon": 68.83974444
+        "lon": 68.83974444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Medium-term interventions (6-18 months to implement): Improve or expand irrigation canals to support agriculture Construct or rehabilitate community water points and hand pumps High In Choraq and Medium in Wardak Ha",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 16 evidence points."
   },
   {
     "id": 85,
@@ -2501,8 +3131,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Well, Wardak ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 9",
+    "note": "Document-backed priority need: High In Choraq and Medium in Wardak Ha Both community population Long-term interventions (18-24 months or more to implement): To develop sustainable water systems (solar‑powered water supply, deep wells) Field photo evidence: Water Well, Wardak ha.HEIC.",
+    "sourceDocument": "Cluster#9-Female Needs Prioritization under FGD.docx",
     "lat": 36.294625,
     "lon": 68.83415278,
     "image": "cursor_v2_map_data/photo_previews/f5a667427482364a.jpg",
@@ -2515,11 +3145,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Well, Wardak ha.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Well, Wardak ha.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: High In Choraq and Medium in Wardak Ha Both community population Long-term interventions (18-24 months or more to implement): To develop sustainable water systems (solar‑powered water supply, deep wells) Field photo evidence: Water Well, Wardak ha.HEIC.",
         "lat": 36.294625,
-        "lon": 68.83415278
+        "lon": 68.83415278,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "High In Choraq and Medium in Wardak Ha Both community population Long-term interventions (18-24 months or more to implement): To develop sustainable water systems (solar‑powered water supply, deep wells)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster#9-Female Needs Prioritization under FGD.docx with 18 evidence points."
   },
   {
     "id": 86,
@@ -2529,8 +3166,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"BHC - Shaikh Jalal 2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 10",
+    "note": "Document-backed priority need: Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially... Field photo evidence: BHC - Shaikh Jalal 2.HEIC.",
+    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
     "lat": 36.10163889,
     "lon": 68.85995556,
     "image": "cursor_v2_map_data/photo_previews/65e1f0030eeb4d60.jpg",
@@ -2543,11 +3180,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "BHC - Shaikh Jalal 2.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"BHC - Shaikh Jalal 2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially... Field photo evidence: BHC - Shaikh Jalal 2.HEIC.",
         "lat": 36.10163889,
-        "lon": 68.85995556
+        "lon": 68.85995556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 21 evidence points."
   },
   {
     "id": 87,
@@ -2557,8 +3201,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Check Dam, Shaikh Jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 10",
+    "note": "Document-backed priority need: Specific location in the community Medium-term interventions (6-18 months to implement) Construction of check dams along upstream flood pathways to reduce runoff velocity and mitigate flood risks Shaikh Jalal (upstream areas) Field photo evidence: Check Dam, Shaikh Jalal.HEIC.",
+    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
     "lat": 36.10163889,
     "lon": 68.85995556,
     "image": "cursor_v2_map_data/photo_previews/65e1f0030eeb4d60.jpg",
@@ -2571,11 +3215,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Check Dam, Shaikh Jalal.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Check Dam, Shaikh Jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Specific location in the community Medium-term interventions (6-18 months to implement) Construction of check dams along upstream flood pathways to reduce runoff velocity and mitigate flood risks Shaikh Jalal (upstream areas) Field photo evidence: Check Dam, Shaikh Jalal.HEIC.",
         "lat": 36.10163889,
-        "lon": 68.85995556
+        "lon": 68.85995556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Specific location in the community Medium-term interventions (6-18 months to implement) Construction of check dams along upstream flood pathways to reduce runoff velocity and mitigate flood risks Shaikh Jalal (upstream areas)",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 18 evidence points."
   },
   {
     "id": 88,
@@ -2585,8 +3236,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Shaikh Jalal Baba High School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 10",
+    "note": "Document-backed priority need: General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard. Challenges that constra... Field photo evidence: Shaikh Jalal Baba High School.HEIC; Shaikh Jalal Baba High School.HEIC.",
+    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
     "lat": 36.10200833,
     "lon": 68.85952778,
     "image": "cursor_v2_map_data/photo_previews/c3e7851425e6c27e.jpg",
@@ -2599,9 +3250,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Shaikh Jalal Baba High School.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Shaikh Jalal Baba High School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard. Challenges that constra... Field photo evidence: Shaikh Jalal Baba High School.HEIC; Shaikh Jalal Baba High School.HEIC.",
         "lat": 36.10200833,
-        "lon": 68.85952778
+        "lon": 68.85952778,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 30 evidence points."
       },
       {
         "title": "Shaikh Jalal Baba High School",
@@ -2609,11 +3263,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Shaikh Jalal Baba High School.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Shaikh Jalal Baba High School.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard. Challenges that constra... Field photo evidence: Shaikh Jalal Baba High School.HEIC; Shaikh Jalal Baba High School.HEIC.",
         "lat": 36.10200833,
-        "lon": 68.85952778
+        "lon": 68.85952778,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 30 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard. Challenges that constra...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 30 evidence points."
   },
   {
     "id": 89,
@@ -2623,8 +3284,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-Prone Aea, Sahikh jalal.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 10",
+    "note": "Document-backed priority need: Basic Health Center (BHC) Shaikh Jalal community _Baghlan-e-Jadid_Afghanistatn © IOM 2026 Mental Health and Psychosocial Support According to CAP participants, the most urgent psychosocial issues in the community include stress linked to poverty and unemployment, depression and hopelessness among returnees due to unstable housing, youth unemployment causi... Field photo evidence: Flood-Prone Aea, Sahikh jalal.HEIC; Flood-Prone Area, Sahikh jalal.HEIC.",
+    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
     "lat": 36.09206111,
     "lon": 68.86829444,
     "image": "cursor_v2_map_data/photo_previews/bad538d811232241.jpg",
@@ -2637,9 +3298,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Prone Aea, Sahikh jalal.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-Prone Aea, Sahikh jalal.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Basic Health Center (BHC) Shaikh Jalal community _Baghlan-e-Jadid_Afghanistatn © IOM 2026 Mental Health and Psychosocial Support According to CAP participants, the most urgent psychosocial issues in the community include stress linked to poverty and unemployment, depression and hopelessness among returnees due to unstable housing, youth unemployment causi... Field photo evidence: Flood-Prone Aea, Sahikh jalal.HEIC; Flood-Prone Area, Sahikh jalal.HEIC.",
         "lat": 36.09206111,
-        "lon": 68.86829444
+        "lon": 68.86829444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 21 evidence points."
       },
       {
         "title": "Flood Prone Area, Sahikh jalal",
@@ -2647,11 +3311,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Prone Area, Sahikh jalal.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Sahikh jalal.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Basic Health Center (BHC) Shaikh Jalal community _Baghlan-e-Jadid_Afghanistatn © IOM 2026 Mental Health and Psychosocial Support According to CAP participants, the most urgent psychosocial issues in the community include stress linked to poverty and unemployment, depression and hopelessness among returnees due to unstable housing, youth unemployment causi... Field photo evidence: Flood-Prone Aea, Sahikh jalal.HEIC; Flood-Prone Area, Sahikh jalal.HEIC.",
         "lat": 36.09206111,
-        "lon": 68.86829444
+        "lon": 68.86829444,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 21 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Basic Health Center (BHC) Shaikh Jalal community _Baghlan-e-Jadid_Afghanistatn © IOM 2026 Mental Health and Psychosocial Support According to CAP participants, the most urgent psychosocial issues in the community include stress linked to poverty and unemployment, depression and hopelessness among returnees due to unstable housing, youth unemployment causi...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 21 evidence points."
   },
   {
     "id": 90,
@@ -2661,8 +3332,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"BHC - Shaikh Jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 10",
+    "note": "Document-backed priority need: Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially... Field photo evidence: BHC - Shaikh Jalal.HEIC; BHC - Shaikh Jalal.HEIC.",
+    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
     "lat": 36.1012,
     "lon": 68.86004722,
     "image": "cursor_v2_map_data/photo_previews/a17b2f9604c89070.jpg",
@@ -2675,9 +3346,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "BHC - Shaikh Jalal.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"BHC - Shaikh Jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially... Field photo evidence: BHC - Shaikh Jalal.HEIC; BHC - Shaikh Jalal.HEIC.",
         "lat": 36.1012,
-        "lon": 68.86004722
+        "lon": 68.86004722,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 23 evidence points."
       },
       {
         "title": "BHC Shaikh Jalal",
@@ -2685,11 +3359,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "BHC - Shaikh Jalal.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"BHC - Shaikh Jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially... Field photo evidence: BHC - Shaikh Jalal.HEIC; BHC - Shaikh Jalal.HEIC.",
         "lat": 36.1012,
-        "lon": 68.86004722
+        "lon": 68.86004722,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 23 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenges related to pregnancy and childbirth include limited access to services at night, long distances to district hospitals, and lack of transportation, which make emergency referrals difficult. The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 23 evidence points."
   },
   {
     "id": 91,
@@ -2699,8 +3380,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water Storage, Shaikh jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 10",
+    "note": "Document-backed priority need: 16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Water is pumped from the main storage to each tank using a solar-powered pump. Only one deep well, constructed in 2024 by UNICEF inside Sh... Field photo evidence: Water Storage, Shaikh jalal.HEIC; Water Storage, Shaikh jalal.HEIC.",
+    "sourceDocument": "Cluster 10_ Leaders FGD.docx",
     "lat": 36.09581111,
     "lon": 68.86607222,
     "image": "cursor_v2_map_data/photo_previews/c9823b4e49f0c355.jpg",
@@ -2713,9 +3394,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Storage, Shaikh jalal.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Storage, Shaikh jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: 16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Water is pumped from the main storage to each tank using a solar-powered pump. Only one deep well, constructed in 2024 by UNICEF inside Sh... Field photo evidence: Water Storage, Shaikh jalal.HEIC; Water Storage, Shaikh jalal.HEIC.",
         "lat": 36.09581111,
-        "lon": 68.86607222
+        "lon": 68.86607222,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 10_ Leaders FGD.docx with 24 evidence points."
       },
       {
         "title": "Water Storage, Shaikh jalal",
@@ -2723,11 +3407,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water Storage, Shaikh jalal.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water Storage, Shaikh jalal.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: 16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Water is pumped from the main storage to each tank using a solar-powered pump. Only one deep well, constructed in 2024 by UNICEF inside Sh... Field photo evidence: Water Storage, Shaikh jalal.HEIC; Water Storage, Shaikh jalal.HEIC.",
         "lat": 36.09581111,
-        "lon": 68.86607222
+        "lon": 68.86607222,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 10_ Leaders FGD.docx with 24 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Water is pumped from the main storage to each tank using a solar-powered pump. Only one deep well, constructed in 2024 by UNICEF inside Sh...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster 10_ Leaders FGD.docx with 24 evidence points."
   },
   {
     "id": 92,
@@ -2737,8 +3428,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Oshtor Ghal_school madrasa.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 11",
+    "note": "Document-backed priority need: Primary school of Oshtor Ghalt 1. No dedicated school building; students study in social center rooms. 2. No desks or chairs. 3. Learning materials supported by UNICEF, but shortages remain. 4. No safe drinking water and No latrine. 37: What are some challenges and issues in this community that constrain access to education? What are the main causes for c... Field photo evidence: Oshtor Ghal_school madrasa.HEIC; School of Shatarghal Village.jpg.",
+    "sourceDocument": "Cluster 11_ Leaders FGD.docx",
     "lat": 36.15844493,
     "lon": 68.83536684,
     "image": "cursor_v2_map_data/photo_previews/2c530d742e3febb5.jpg",
@@ -2751,9 +3442,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Oshtor Ghal_school madrasa.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Oshtor Ghal_school madrasa.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Primary school of Oshtor Ghalt 1. No dedicated school building; students study in social center rooms. 2. No desks or chairs. 3. Learning materials supported by UNICEF, but shortages remain. 4. No safe drinking water and No latrine. 37: What are some challenges and issues in this community that constrain access to education? What are the main causes for c... Field photo evidence: Oshtor Ghal_school madrasa.HEIC; School of Shatarghal Village.jpg.",
         "lat": 36.15846389,
-        "lon": 68.83536667
+        "lon": 68.83536667,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 17 evidence points."
       },
       {
         "title": "School of Shatarghal Village",
@@ -2761,11 +3455,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "School of Shatarghal Village.jpg",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"School of Shatarghal Village.jpg\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Primary school of Oshtor Ghalt 1. No dedicated school building; students study in social center rooms. 2. No desks or chairs. 3. Learning materials supported by UNICEF, but shortages remain. 4. No safe drinking water and No latrine. 37: What are some challenges and issues in this community that constrain access to education? What are the main causes for c... Field photo evidence: Oshtor Ghal_school madrasa.HEIC; School of Shatarghal Village.jpg.",
         "lat": 36.15842597,
-        "lon": 68.835367
+        "lon": 68.835367,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 17 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Primary school of Oshtor Ghalt 1. No dedicated school building; students study in social center rooms. 2. No desks or chairs. 3. Learning materials supported by UNICEF, but shortages remain. 4. No safe drinking water and No latrine. 37: What are some challenges and issues in this community that constrain access to education? What are the main causes for c...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 17 evidence points."
   },
   {
     "id": 93,
@@ -2775,8 +3476,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood prone area_Oshtor Ghalt.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 11",
+    "note": "Document-backed priority need: Dirt roads near rivers and valleys are prone to flooding. Recommendation: Repairing the two bridges. 40: In what ways is the community affected by natural hazards and how does the community prepare and respond to natural hazards affecting this community? Probe: Do people in this community receive alerts (information) on natural disasters? If yes, how? Field photo evidence: Flood prone area_Oshtor Ghalt.jpg.",
+    "sourceDocument": "Cluster 11_ Leaders FGD.docx",
     "lat": 36.15804297,
     "lon": 68.84583397,
     "image": "cursor_v2_map_data/photo_previews/0121dcab3e48ad12.jpg",
@@ -2789,11 +3490,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood prone area_Oshtor Ghalt.jpg",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood prone area_Oshtor Ghalt.jpg\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Dirt roads near rivers and valleys are prone to flooding. Recommendation: Repairing the two bridges. 40: In what ways is the community affected by natural hazards and how does the community prepare and respond to natural hazards affecting this community? Probe: Do people in this community receive alerts (information) on natural disasters? If yes, how? Field photo evidence: Flood prone area_Oshtor Ghalt.jpg.",
         "lat": 36.15804297,
-        "lon": 68.84583397
+        "lon": 68.84583397,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Dirt roads near rivers and valleys are prone to flooding. Recommendation: Repairing the two bridges. 40: In what ways is the community affected by natural hazards and how does the community prepare and respond to natural hazards affecting this community? Probe: Do people in this community receive alerts (information) on natural disasters? If yes, how?",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 13 evidence points."
   },
   {
     "id": 94,
@@ -2803,8 +3511,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"Health Post_Oshtor Ghalt.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Needs Prioritization under FGD - Cluster 11",
+    "note": "Document-backed priority need: cases of diarrhea and vomiting were more this year. 17: Are maternal health services (antenatal, delivery, postnatal) available and accessible in your area? Probe: Where do women in this community commonly give birth? What medical support do they receive? There is no permanent clinic in the community, but a mobile maternal health clinic used to provide se... Field photo evidence: Health Post_Oshtor Ghalt.HEIC.",
+    "sourceDocument": "CL#11- Female FGD Report.docx",
     "lat": 36.15751667,
     "lon": 68.83513611,
     "image": "cursor_v2_map_data/photo_previews/0a0ecd59d054ab28.jpg",
@@ -2817,11 +3525,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Health Post_Oshtor Ghalt.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Health Post_Oshtor Ghalt.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: cases of diarrhea and vomiting were more this year. 17: Are maternal health services (antenatal, delivery, postnatal) available and accessible in your area? Probe: Where do women in this community commonly give birth? What medical support do they receive? There is no permanent clinic in the community, but a mobile maternal health clinic used to provide se... Field photo evidence: Health Post_Oshtor Ghalt.HEIC.",
         "lat": 36.15751667,
-        "lon": 68.83513611
+        "lon": 68.83513611,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CL#11- Female FGD Report.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "cases of diarrhea and vomiting were more this year. 17: Are maternal health services (antenatal, delivery, postnatal) available and accessible in your area? Probe: Where do women in this community commonly give birth? What medical support do they receive? There is no permanent clinic in the community, but a mobile maternal health clinic used to provide se...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CL#11- Female FGD Report.docx with 13 evidence points."
   },
   {
     "id": 95,
@@ -2831,8 +3546,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti... Field photo evidence: Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.68677778,
     "lon": 68.72737778,
     "image": "cursor_v2_map_data/photo_previews/558dc6e6fe73c63f.jpg",
@@ -2845,9 +3560,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti... Field photo evidence: Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
         "lat": 36.68677778,
-        "lon": 68.72737778
+        "lon": 68.72737778,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points."
       },
       {
         "title": "Ahmad Shah Shaheed Elementry School, Nawabad Bala",
@@ -2855,11 +3573,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti... Field photo evidence: Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
         "lat": 36.68677778,
-        "lon": 68.72737778
+        "lon": 68.72737778,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points."
   },
   {
     "id": 96,
@@ -2869,8 +3594,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti... Field photo evidence: Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.68659722,
     "lon": 68.7277,
     "image": "cursor_v2_map_data/photo_previews/aca284edf6f19f93.jpg",
@@ -2883,9 +3608,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti... Field photo evidence: Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
         "lat": 36.68659722,
-        "lon": 68.7277
+        "lon": 68.7277,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points."
       },
       {
         "title": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
@@ -2893,11 +3621,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti... Field photo evidence: Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
         "lat": 36.68659722,
-        "lon": 68.7277
+        "lon": 68.7277,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Children with disabilities: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabiliti...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points."
   },
   {
     "id": 97,
@@ -2907,8 +3642,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala Field photo evidence: Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.686875,
     "lon": 68.72724167,
     "image": "cursor_v2_map_data/photo_previews/7159b66cb94e3c36.jpg",
@@ -2921,9 +3656,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala Field photo evidence: Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
         "lat": 36.686875,
-        "lon": 68.72724167
+        "lon": 68.72724167,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 24 evidence points."
       },
       {
         "title": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
@@ -2931,11 +3669,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala Field photo evidence: Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC.",
         "lat": 36.686875,
-        "lon": 68.72724167
+        "lon": 68.72724167,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 24 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 24 evidence points."
   },
   {
     "id": 98,
@@ -2945,8 +3690,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water well - Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Menstrual Health Management Menstrual and hygiene is managed by women and girls in the community through reused cloths due to limited access to sanitary materials. These are often not properly washed or dried due to lack of privacy, increasing the risk of infections. Menstruation significantly affects girls’ education and participation. Many girls stop at... Field photo evidence: Water well - Nawabad Bala.HEIC; Water well - Nawabad Bala.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.69653611,
     "lon": 68.73395556,
     "image": "cursor_v2_map_data/photo_previews/d5434c4d81f7086e.jpg",
@@ -2959,9 +3704,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well - Nawabad Bala.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well - Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Menstrual Health Management Menstrual and hygiene is managed by women and girls in the community through reused cloths due to limited access to sanitary materials. These are often not properly washed or dried due to lack of privacy, increasing the risk of infections. Menstruation significantly affects girls’ education and participation. Many girls stop at... Field photo evidence: Water well - Nawabad Bala.HEIC; Water well - Nawabad Bala.HEIC.",
         "lat": 36.69653611,
-        "lon": 68.73395556
+        "lon": 68.73395556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
       },
       {
         "title": "Water well Nawabad Bala",
@@ -2969,11 +3717,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well - Nawabad Bala.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well - Nawabad Bala.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Menstrual Health Management Menstrual and hygiene is managed by women and girls in the community through reused cloths due to limited access to sanitary materials. These are often not properly washed or dried due to lack of privacy, increasing the risk of infections. Menstruation significantly affects girls’ education and participation. Many girls stop at... Field photo evidence: Water well - Nawabad Bala.HEIC; Water well - Nawabad Bala.HEIC.",
         "lat": 36.69653611,
-        "lon": 68.73395556
+        "lon": 68.73395556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Menstrual Health Management Menstrual and hygiene is managed by women and girls in the community through reused cloths due to limited access to sanitary materials. These are often not properly washed or dried due to lack of privacy, increasing the risk of infections. Menstruation significantly affects girls’ education and participation. Many girls stop at...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
   },
   {
     "id": 99,
@@ -2983,8 +3738,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"Nawabad High School, Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower access to education due to financial barriers, mobility issues, learning disruption, and lack of inclusive facilities and support services. Ahmad Shah Shaheed Primary School, Nawabad Bala, Nawabad Cluster, Chahardara district, Kunduz Province © IOM... Field photo evidence: Nawabad High School, Nawabad Kunjak.HEIC; Nawabad High School, Nawabad Kunjak.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.70188611,
     "lon": 68.72951389,
     "image": "cursor_v2_map_data/photo_previews/9ce692b40c6cf067.jpg",
@@ -2997,9 +3752,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Nawabad High School, Nawabad Kunjak.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Nawabad High School, Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower access to education due to financial barriers, mobility issues, learning disruption, and lack of inclusive facilities and support services. Ahmad Shah Shaheed Primary School, Nawabad Bala, Nawabad Cluster, Chahardara district, Kunduz Province © IOM... Field photo evidence: Nawabad High School, Nawabad Kunjak.HEIC; Nawabad High School, Nawabad Kunjak.HEIC.",
         "lat": 36.70188611,
-        "lon": 68.72951389
+        "lon": 68.72951389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 17 evidence points."
       },
       {
         "title": "Nawabad High School, Nawabad Kunjak",
@@ -3007,11 +3765,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Nawabad High School, Nawabad Kunjak.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"Nawabad High School, Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower access to education due to financial barriers, mobility issues, learning disruption, and lack of inclusive facilities and support services. Ahmad Shah Shaheed Primary School, Nawabad Bala, Nawabad Cluster, Chahardara district, Kunduz Province © IOM... Field photo evidence: Nawabad High School, Nawabad Kunjak.HEIC; Nawabad High School, Nawabad Kunjak.HEIC.",
         "lat": 36.70188611,
-        "lon": 68.72951389
+        "lon": 68.72951389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 17 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower access to education due to financial barriers, mobility issues, learning disruption, and lack of inclusive facilities and support services. Ahmad Shah Shaheed Primary School, Nawabad Bala, Nawabad Cluster, Chahardara district, Kunduz Province © IOM...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 17 evidence points."
   },
   {
     "id": 100,
@@ -3021,8 +3786,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Nawabad Kunjak.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Field photo evidence: Flood-Prone Area, Nawabad Kunjak.HEIC.",
+    "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "lat": 36.67101944,
     "lon": 68.70730556,
     "image": "cursor_v2_map_data/photo_previews/37560255c517e2a1.jpg",
@@ -3035,11 +3800,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Flood-Prone Area, Nawabad Kunjak.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Photo-backed need identified from the field photo \"Flood-Prone Area, Nawabad Kunjak.HEIC\". Validate final wording against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Field photo evidence: Flood-Prone Area, Nawabad Kunjak.HEIC.",
         "lat": 36.67101944,
-        "lon": 68.70730556
+        "lon": 68.70730556,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 14 evidence points."
   },
   {
     "id": 101,
@@ -3049,8 +3821,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.70319445,
     "lon": 68.73007223,
     "image": "cursor_v2_map_data/photo_previews/b0d1dafc906e12de.jpg",
@@ -3063,9 +3835,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC.",
         "lat": 36.70318889,
-        "lon": 68.73008056
+        "lon": 68.73008056,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
       },
       {
         "title": "Red Crescent Mobile Clinic, Nawabad Kunjak1",
@@ -3073,9 +3848,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC.",
         "lat": 36.70318889,
-        "lon": 68.73008056
+        "lon": 68.73008056,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
       },
       {
         "title": "Red Crescent Mobile Clinic, Nawabad Kunjak2",
@@ -3083,9 +3861,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC.",
         "lat": 36.7032,
-        "lon": 68.73006389
+        "lon": 68.73006389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
       },
       {
         "title": "Red Crescent Mobile Clinic, Nawabad Kunjak2",
@@ -3093,11 +3874,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC.",
         "lat": 36.7032,
-        "lon": 68.73006389
+        "lon": 68.73006389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 22 evidence points."
   },
   {
     "id": 102,
@@ -3107,8 +3895,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Irrigation",
     "level": "Medium",
     "markerClass": "irrigation",
-    "note": "Irrigation priority evidence identified from field photo \"Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Field photo evidence: Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC.",
+    "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "lat": 36.69314444,
     "lon": 68.76470833,
     "image": "cursor_v2_map_data/photo_previews/531dae5cc11f067a.jpg",
@@ -3121,11 +3909,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC",
         "theme": "Irrigation",
         "level": "Medium",
-        "note": "Irrigation priority evidence identified from field photo \"Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Field photo evidence: Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC.",
         "lat": 36.69314444,
-        "lon": 68.76470833
+        "lon": 68.76470833,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 14 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "There is no limit to how many challenges and sectors the groups discuss, but they should not be prompted to discuss challenges under each and every sector. What are the Priority interventions: to address the key challenges? Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 14 evidence points."
   },
   {
     "id": 103,
@@ -3135,8 +3930,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Shelter",
     "level": "Medium",
     "markerClass": "shelter",
-    "note": "Shelter priority evidence identified from field photo \"under construction house of  returnee, Nawabad Kunjak 2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo... Field photo evidence: under construction house of  returnee, Nawabad Kunjak 2.HEIC; under construction house of  returnee, Nawabad Kunjak 2.HEIC.",
+    "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "lat": 36.67765,
     "lon": 68.71738333,
     "image": "cursor_v2_map_data/photo_previews/1a6e77846eb7195c.jpg",
@@ -3149,9 +3944,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "under construction house of  returnee, Nawabad Kunjak 2.HEIC",
         "theme": "Shelter",
         "level": "Medium",
-        "note": "Shelter priority evidence identified from field photo \"under construction house of  returnee, Nawabad Kunjak 2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo... Field photo evidence: under construction house of  returnee, Nawabad Kunjak 2.HEIC; under construction house of  returnee, Nawabad Kunjak 2.HEIC.",
         "lat": 36.67765,
-        "lon": 68.71738333
+        "lon": 68.71738333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 27 evidence points."
       },
       {
         "title": "under construction house of returnee, Nawabad Kunjak 2",
@@ -3159,11 +3957,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "under construction house of  returnee, Nawabad Kunjak 2.HEIC",
         "theme": "Shelter",
         "level": "Medium",
-        "note": "Shelter priority evidence identified from field photo \"under construction house of  returnee, Nawabad Kunjak 2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo... Field photo evidence: under construction house of  returnee, Nawabad Kunjak 2.HEIC; under construction house of  returnee, Nawabad Kunjak 2.HEIC.",
         "lat": 36.67765,
-        "lon": 68.71738333
+        "lon": 68.71738333,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 27 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 27 evidence points."
   },
   {
     "id": 104,
@@ -3173,8 +3978,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Shelter",
     "level": "Medium",
     "markerClass": "shelter",
-    "note": "Shelter priority evidence identified from field photo \"under construction house of  returnee, Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo... Field photo evidence: under construction house of  returnee, Nawabad Kunjak.HEIC; under construction house of  returnee, Nawabad Kunjak.HEIC.",
+    "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "lat": 36.67649722,
     "lon": 68.71399722,
     "image": "cursor_v2_map_data/photo_previews/7ec93db81b9066da.jpg",
@@ -3187,9 +3992,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "under construction house of  returnee, Nawabad Kunjak.HEIC",
         "theme": "Shelter",
         "level": "Medium",
-        "note": "Shelter priority evidence identified from field photo \"under construction house of  returnee, Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo... Field photo evidence: under construction house of  returnee, Nawabad Kunjak.HEIC; under construction house of  returnee, Nawabad Kunjak.HEIC.",
         "lat": 36.67649722,
-        "lon": 68.71399722
+        "lon": 68.71399722,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 27 evidence points."
       },
       {
         "title": "under construction house of returnee, Nawabad Kunjak",
@@ -3197,11 +4005,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "under construction house of  returnee, Nawabad Kunjak.HEIC",
         "theme": "Shelter",
         "level": "Medium",
-        "note": "Shelter priority evidence identified from field photo \"under construction house of  returnee, Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo... Field photo evidence: under construction house of  returnee, Nawabad Kunjak.HEIC; under construction house of  returnee, Nawabad Kunjak.HEIC.",
         "lat": 36.67649722,
-        "lon": 68.71399722
+        "lon": 68.71399722,
+        "reviewCategory": "keep",
+        "reviewLabel": "Keep",
+        "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 27 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Up to 30 people may share one room during winter. Shared toilets, bathroo...",
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 27 evidence points."
   },
   {
     "id": 105,
@@ -3211,8 +4026,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Kunjak.HEIC; water Storage- Nawabad Kunjak.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.70323611,
     "lon": 68.73006389,
     "image": "cursor_v2_map_data/photo_previews/3e8b93a374b8bc21.jpg",
@@ -3225,9 +4040,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "water Storage- Nawabad Kunjak.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Kunjak.HEIC; water Storage- Nawabad Kunjak.HEIC.",
         "lat": 36.70323611,
-        "lon": 68.73006389
+        "lon": 68.73006389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       },
       {
         "title": "water Storage Nawabad Kunjak",
@@ -3235,11 +4053,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "water Storage- Nawabad Kunjak.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Kunjak.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Kunjak.HEIC; water Storage- Nawabad Kunjak.HEIC.",
         "lat": 36.70323611,
-        "lon": 68.73006389
+        "lon": 68.73006389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
   },
   {
     "id": 106,
@@ -3249,8 +4074,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Kunjak2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Kunjak2.HEIC; water Storage- Nawabad Kunjak2.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.68973611,
     "lon": 68.75546944,
     "image": "cursor_v2_map_data/photo_previews/f3dbbf4e3f7ac24f.jpg",
@@ -3263,9 +4088,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "water Storage- Nawabad Kunjak2.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Kunjak2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Kunjak2.HEIC; water Storage- Nawabad Kunjak2.HEIC.",
         "lat": 36.68973611,
-        "lon": 68.75546944
+        "lon": 68.75546944,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       },
       {
         "title": "water Storage Nawabad Kunjak2",
@@ -3273,11 +4101,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "water Storage- Nawabad Kunjak2.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Kunjak2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Kunjak2.HEIC; water Storage- Nawabad Kunjak2.HEIC.",
         "lat": 36.68973611,
-        "lon": 68.75546944
+        "lon": 68.75546944,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
   },
   {
     "id": 107,
@@ -3287,8 +4122,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Flood / DRR",
     "level": "High",
     "markerClass": "flood",
-    "note": "Flood / DRR priority evidence identified from field photo \"Watergate Pul Panja, Nawabad Markazi1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Poorly constructed mud and clay houses are highly vulnerable, leaving some families in damaged homes or temporary shelters. Flooding destroys crops and livestock, while drought and reduced rainfall lower agricultural production, deplete water sources, and increase economic pressure. These conditions lead to food insecurity, stress, temporary migration, an... Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.70554583,
     "lon": 68.74500278,
     "image": "cursor_v2_map_data/photo_previews/ec15b233aa171df4.jpg",
@@ -3301,9 +4136,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Watergate Pul Panja, Nawabad Markazi1.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Watergate Pul Panja, Nawabad Markazi1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Poorly constructed mud and clay houses are highly vulnerable, leaving some families in damaged homes or temporary shelters. Flooding destroys crops and livestock, while drought and reduced rainfall lower agricultural production, deplete water sources, and increase economic pressure. These conditions lead to food insecurity, stress, temporary migration, an... Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC.",
         "lat": 36.70557778,
-        "lon": 68.74494167
+        "lon": 68.74494167,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 13 evidence points."
       },
       {
         "title": "Watergate Pul Panja, Nawabad Markazi1",
@@ -3311,9 +4149,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Watergate Pul Panja, Nawabad Markazi1.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Watergate Pul Panja, Nawabad Markazi1.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Poorly constructed mud and clay houses are highly vulnerable, leaving some families in damaged homes or temporary shelters. Flooding destroys crops and livestock, while drought and reduced rainfall lower agricultural production, deplete water sources, and increase economic pressure. These conditions lead to food insecurity, stress, temporary migration, an... Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC.",
         "lat": 36.70557778,
-        "lon": 68.74494167
+        "lon": 68.74494167,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 13 evidence points."
       },
       {
         "title": "Watergate Pul Panja, Nawabad Markazi2",
@@ -3321,9 +4162,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Watergate Pul Panja, Nawabad Markazi2.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Watergate Pul Panja, Nawabad Markazi2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Poorly constructed mud and clay houses are highly vulnerable, leaving some families in damaged homes or temporary shelters. Flooding destroys crops and livestock, while drought and reduced rainfall lower agricultural production, deplete water sources, and increase economic pressure. These conditions lead to food insecurity, stress, temporary migration, an... Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC.",
         "lat": 36.70551389,
-        "lon": 68.74506389
+        "lon": 68.74506389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 13 evidence points."
       },
       {
         "title": "Watergate Pul Panja, Nawabad Markazi2",
@@ -3331,11 +4175,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Watergate Pul Panja, Nawabad Markazi2.HEIC",
         "theme": "Flood / DRR",
         "level": "High",
-        "note": "Flood / DRR priority evidence identified from field photo \"Watergate Pul Panja, Nawabad Markazi2.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Poorly constructed mud and clay houses are highly vulnerable, leaving some families in damaged homes or temporary shelters. Flooding destroys crops and livestock, while drought and reduced rainfall lower agricultural production, deplete water sources, and increase economic pressure. These conditions lead to food insecurity, stress, temporary migration, an... Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC.",
         "lat": 36.70551389,
-        "lon": 68.74506389
+        "lon": 68.74506389,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 13 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Poorly constructed mud and clay houses are highly vulnerable, leaving some families in damaged homes or temporary shelters. Flooding destroys crops and livestock, while drought and reduced rainfall lower agricultural production, deplete water sources, and increase economic pressure. These conditions lead to food insecurity, stress, temporary migration, an...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 13 evidence points."
   },
   {
     "id": 108,
@@ -3345,8 +4196,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Health",
     "level": "High",
     "markerClass": "health",
-    "note": "Health priority evidence identified from field photo \"CHC - Nawabad Markazi.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: CHC - Nawabad Markazi.HEIC; CHC - Nawabad Markazi.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.70258333,
     "lon": 68.73657222,
     "image": "cursor_v2_map_data/photo_previews/a01d8584b9a8e091.jpg",
@@ -3359,9 +4210,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "CHC - Nawabad Markazi.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"CHC - Nawabad Markazi.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: CHC - Nawabad Markazi.HEIC; CHC - Nawabad Markazi.HEIC.",
         "lat": 36.70258333,
-        "lon": 68.73657222
+        "lon": 68.73657222,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 18 evidence points."
       },
       {
         "title": "CHC Nawabad Markazi",
@@ -3369,11 +4223,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "CHC - Nawabad Markazi.HEIC",
         "theme": "Health",
         "level": "High",
-        "note": "Health priority evidence identified from field photo \"CHC - Nawabad Markazi.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu... Field photo evidence: CHC - Nawabad Markazi.HEIC; CHC - Nawabad Markazi.HEIC.",
         "lat": 36.70258333,
-        "lon": 68.73657222
+        "lon": 68.73657222,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 18 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Serious cases are referred to Kunduz city hospital, bu...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 18 evidence points."
   },
   {
     "id": 109,
@@ -3383,8 +4244,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "Education",
     "level": "High",
     "markerClass": "education",
-    "note": "Education priority evidence identified from field photo \"CBE class_ Nawabad Payen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Challenge (Female #6): Limited Access to Education for Girls and Boys Due to Overcrowding, Early Marriage, and Insufficient School Capacity Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ educat... Field photo evidence: CBE class_ Nawabad Payen.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.69548333,
     "lon": 68.71448611,
     "image": "cursor_v2_map_data/photo_previews/0cddf59bcd421042.jpg",
@@ -3397,11 +4258,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "CBE class_ Nawabad Payen.HEIC",
         "theme": "Education",
         "level": "High",
-        "note": "Education priority evidence identified from field photo \"CBE class_ Nawabad Payen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Challenge (Female #6): Limited Access to Education for Girls and Boys Due to Overcrowding, Early Marriage, and Insufficient School Capacity Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ educat... Field photo evidence: CBE class_ Nawabad Payen.HEIC.",
         "lat": 36.69548333,
-        "lon": 68.71448611
+        "lon": 68.71448611,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 12 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Challenge (Female #6): Limited Access to Education for Girls and Boys Due to Overcrowding, Early Marriage, and Insufficient School Capacity Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ educat...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 12 evidence points."
   },
   {
     "id": 110,
@@ -3411,8 +4279,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Paeen.HEIC; water Storage- Nawabad Paeen.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.69825833,
     "lon": 68.72432778,
     "image": "cursor_v2_map_data/photo_previews/021fb6099f6bc050.jpg",
@@ -3425,9 +4293,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "water Storage- Nawabad Paeen.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Paeen.HEIC; water Storage- Nawabad Paeen.HEIC.",
         "lat": 36.69825833,
-        "lon": 68.72432778
+        "lon": 68.72432778,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       },
       {
         "title": "water Storage Nawabad Paeen",
@@ -3435,11 +4306,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "water Storage- Nawabad Paeen.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"water Storage- Nawabad Paeen.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: water Storage- Nawabad Paeen.HEIC; water Storage- Nawabad Paeen.HEIC.",
         "lat": 36.69825833,
-        "lon": 68.72432778
+        "lon": 68.72432778,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
   },
   {
     "id": 111,
@@ -3449,8 +4327,8 @@ window.PHOTO_BACKED_PRIORITIES = [
     "theme": "WASH",
     "level": "High",
     "markerClass": "wash",
-    "note": "WASH priority evidence identified from field photo \"Water well - Nawabad Paeen Near to Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
-    "sourceDocument": "Community Priorities_Nawabad Cluster.docx",
+    "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: Water well - Nawabad Paeen Near to Muhajirin.HEIC; Water well - Nawabad Paeen Near to Muhajirin.HEIC.",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "lat": 36.70156944,
     "lon": 68.72525833,
     "image": "cursor_v2_map_data/photo_previews/17f9895693c04aab.jpg",
@@ -3463,9 +4341,12 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well - Nawabad Paeen Near to Muhajirin.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well - Nawabad Paeen Near to Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: Water well - Nawabad Paeen Near to Muhajirin.HEIC; Water well - Nawabad Paeen Near to Muhajirin.HEIC.",
         "lat": 36.70156944,
-        "lon": 68.72525833
+        "lon": 68.72525833,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       },
       {
         "title": "Water well Nawabad Paeen Near to Muhajirin",
@@ -3473,11 +4354,18 @@ window.PHOTO_BACKED_PRIORITIES = [
         "file": "Water well - Nawabad Paeen Near to Muhajirin.HEIC",
         "theme": "WASH",
         "level": "High",
-        "note": "WASH priority evidence identified from field photo \"Water well - Nawabad Paeen Near to Muhajirin.HEIC\". Validate final priority text against the cluster FGD needs prioritization report.",
+        "note": "Document-backed priority need: Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl... Field photo evidence: Water well - Nawabad Paeen Near to Muhajirin.HEIC; Water well - Nawabad Paeen Near to Muhajirin.HEIC.",
         "lat": 36.70156944,
-        "lon": 68.72525833
+        "lon": 68.72525833,
+        "reviewCategory": "review",
+        "reviewLabel": "Review",
+        "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
       }
-    ]
+    ],
+    "documentEvidence": "Functional (October–May only) Despite the presence of these systems, water supply remains insufficient. Many hand pumps are not fully functional, and surface water is only available seasonally. Population growth and the return of displaced families have further increased pressure on available water sources. Water is used for drinking, cooking, washing, cl...",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points."
   }
 ];
 
