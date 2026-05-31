@@ -1,18 +1,20 @@
-# Community Priorities Map (deployed bundle)
+# Community Priorities Map Data and Legacy Bundle
 
-Standalone Leaflet map for Baghlan-e-Jadid and Nawabad community priorities. This folder is the **source of truth** for the static map — photos are **not** bundled here for production; they are served from S3.
+Standalone Leaflet map data for Baghlan-e-Jadid and Nawabad community priorities. The maintainable Community Priorities app source now lives in `frontend/community-priorities-src/`; this folder keeps the generated GIS/photo data and the legacy monolithic map used to seed that source.
+
+Photo previews are **not** bundled with the frontend application for production; they are deployed separately to S3.
 
 ## Layout
 
 ```
 deployed/
-├── index.html                          # Main map page
+├── index.html                          # Legacy monolithic map page
 ├── package.json                        # Local dev server (npm run dev)
 └── cursor_v2_map_data/
-    ├── photo_backed_priorities.js      # 86 priority points (restore real file from backup)
-    ├── layers_bundle.js                # 17 DB layers GeoJSON (restore real file from backup)
-    ├── photo_index.js                  # 347 field photos index + helpers
-    ├── icons/                          # 16 PNG facility markers (restore from backup)
+    ├── photo_backed_priorities.js      # 111 photo-backed priority points
+    ├── layers_bundle.js                # 26 Integrated Locations Database layers
+    ├── photo_index.js                  # field photos index + helpers
+    ├── icons/                          # facility marker icons
     └── photo_previews/                 # Local source for S3 upload only — NOT deployed with frontend
 ```
 
@@ -24,37 +26,46 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5174 — map loads HTML/JS locally; **photo previews load from S3** via `PRIORITY_PHOTO_BASE_URL` in `index.html`.
+Open http://localhost:5174 — map loads HTML/JS locally. For the packaged frontend source, use `frontend/community-priorities-src/` and `sync-community-priorities-map.ps1`.
 
-## Photo deployment (S3)
+## Photo Deployment (Separate S3)
 
 Photos stay in `cursor_v2_map_data/photo_previews/` on disk. Upload separately:
 
 ```powershell
-.\deploy-priority-previews-to-s3.ps1
+.\deploy-community-priorities-map-assets-to-s3.ps1
 ```
 
-- **Bucket:** `community-profile-app-cluster-pics`
-- **Prefix:** `cluster-pics/priority-previews/`
-- **Public URL:** `https://community-profile-app-cluster-pics.s3.us-east-1.amazonaws.com/cluster-pics/priority-previews/{filename}.jpg`
+- **Default bucket:** `community-priorities-map-assets-<aws-account-id>-<region>`
+- **Default prefix:** `community-priorities/priority-previews/`
+- **Protected bucket:** `community-profile-app-cluster-pics` is explicitly blocked by the script.
 
-The map resolves paths like `cursor_v2_map_data/photo_previews/abc123.jpg` to that S3 base URL automatically.
+The isolated app deployment writes `frontend/dist/community-priorities-map/src/config.js` with the separate asset base URL.
 
-## Sync into React frontend (no photos)
+## Sync Into Frontend Dist (No Photos)
 
-When integrating with the Community Profile App:
+When packaging the Community Priorities source into the recovered frontend:
 
 ```powershell
 .\sync-community-priorities-map.ps1
 ```
 
-Copies `deployed/` → `frontend/public/community-priorities-map/` excluding:
-- `photo_previews/`
-- `Photos of Clusters and Sub-villages/`
-- `node_modules/`
+Copies `frontend/community-priorities-src/` plus generated data from `deployed/cursor_v2_map_data/` into `frontend/dist/community-priorities-map/`, excluding `photo_previews/`.
 
 Then deploy the frontend separately.
 
-## Recovery note
+## Isolated AWS Deployment
 
-The three large data bundles (`photo_backed_priorities.js`, `layers_bundle.js`, full `photo_index.js`) were local build artifacts not found on S3. Placeholder stubs are in place — replace them with the real exports from the North East Mapping project backup to restore all 86 priority markers and 17 database layers.
+To deploy Community Priorities without touching the existing Community Profile CloudFront app:
+
+```powershell
+.\deploy-community-priorities-map-isolated-to-aws.ps1
+```
+
+This creates/uses separate resources:
+
+- `community-priorities-map-app-<aws-account-id>-<region>` S3 app bucket
+- `community-priorities-map-assets-<aws-account-id>-<region>` S3 image bucket
+- a CloudFront distribution whose comment starts with `community-priorities-map-isolated-`
+
+The script refuses to use the existing `d113s7v6pd04w6.cloudfront.net` distribution or the `community-profile-app-cluster-pics` bucket.

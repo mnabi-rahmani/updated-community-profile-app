@@ -7,7 +7,8 @@ Recovered from AWS deployment artifacts (March 2026). The frontend is the **prod
 - `backend/` — Serverless API (`community-profile-api`)
 - `backend-ws/` — WebSocket service (`community-profile-ws`)
 - `frontend/dist/` — Production React SPA (profiles, CFM cases, clusters mapping)
-- `deployed/` — Standalone **Community Priorities Map** (Leaflet HTML app, separate from the React SPA)
+- `frontend/community-priorities-src/` — maintainable **Community Priorities Map** source
+- `deployed/` — Community Priorities generated map data and legacy Leaflet HTML app
 - `recovered/` — Raw AWS deployment downloads (reference)
 
 ## Deployed endpoints (online)
@@ -45,9 +46,9 @@ The React app shows different sections based on your login **module**:
 
 If you logged in as `cea_admin`, CFM Cases will not appear — use `cfm_admin` or `super_admin` instead. CFM routes exist at `/cfm-cases` and `/cfm-dashboard` and the live API has case data.
 
-## Community Priorities Map (`deployed/`)
+## Community Priorities Map
 
-This is the source for the Community Priorities Map module. The recovered frontend does not include React source (`.tsx`), so the map is packaged into the frontend distribution as a static module.
+The Community Priorities Map source lives in `frontend/community-priorities-src/`. The recovered frontend does not include React source (`.tsx`) for the rest of the application, so CFM Cases and Community Profile are left as recovered `dist` code for now.
 
 ```bash
 cd deployed
@@ -81,6 +82,14 @@ Photo previews are intentionally excluded from the frontend bundle and must be d
 .\deploy-community-priorities-map-assets-to-s3.ps1
 ```
 
+For an isolated AWS deployment that does **not** touch the existing CloudFront app at `https://d113s7v6pd04w6.cloudfront.net/clusters-mapping`, use:
+
+```powershell
+.\deploy-community-priorities-map-isolated-to-aws.ps1
+```
+
+That script creates/uses separate `community-priorities-map-*` S3 buckets and a separate CloudFront distribution. It refuses to deploy to the existing `community-profile-app-cluster-pics` bucket or the `d113s7v6pd04w6.cloudfront.net` distribution.
+
 Expected layout:
 
 ```
@@ -92,7 +101,7 @@ deployed/
     photo_index.js               # photo path index
 ```
 
-**Recovery status:** The three `cursor_v2_map_data/*.js` files were **local build artifacts** and were not found on S3, OneDrive, or elsewhere on this machine. Placeholder stubs are in place so the page loads without 404s, but the map will show no priority markers until the real JS files are restored from a backup. Field photos remain online at `s3://community-profile-app-974389254535/community-priorities-map/Photos of Clusters and Sub-villages/` (108 preview JPEGs also exist in `community-profile-app-cluster-pics` under `cluster-pics/priority-previews/`).
+**Recovery status:** The Community Priorities data bundles have been regenerated from the local source assets under `deployed/Assets Needed/`. Preview JPEGs are treated as separate deployable assets and are not bundled into the frontend app.
 
 ## Backend development
 
