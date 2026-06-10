@@ -8,6 +8,12 @@ import heicConvert from "heic-convert";
 import sharp from "sharp";
 import XLSX from "xlsx";
 
+import {
+  collectPreviewHashesFromRecords,
+  deduplicateRecordsByHash,
+  removeOrphanPreviewFiles
+} from "./photo-asset-utils.mjs";
+
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const deployedDir = path.resolve(scriptDir, "..");
 const allAssetsRoot = path.join(deployedDir, "Assets Needed");
@@ -109,7 +115,7 @@ async function ensurePreview(absolutePath, hash) {
       });
     }
 
-    await sharp(source, { limitInputPixels: false })
+    await sharp(source, { limitInputPixels: false, failOn: "none" })
       .rotate()
       .resize({
         width: maxPreviewWidth,
@@ -312,7 +318,19 @@ async function main() {
   console.log(`Generating previews for ${gpsPhotos.length} GPS-tagged photos...`);
   await attachPhotoPreviews(gpsPhotos);
 
-  const areaPhotos = buildAreaPhotoRecords(gpsPhotos);
+  const { deduped: uniqueGpsPhotos, removed: duplicateCount } = deduplicateRecordsByHash(gpsPhotos, {
+    preferredPathMarker: "Infrastructure list for priority mapping"
+  });
+  if (duplicateCount) {
+    console.log(`Removed ${duplicateCount} duplicate photos (${uniqueGpsPhotos.length} unique by content hash).`);
+  }
+
+  const areaPhotos = buildAreaPhotoRecords(uniqueGpsPhotos);
+  const referencedHashes = collectPreviewHashesFromRecords(areaPhotos);
+  const removedOrphans = await removeOrphanPreviewFiles(previewDir, referencedHashes);
+  if (removedOrphans) {
+    console.log(`Removed ${removedOrphans} unreferenced infrastructure preview file(s).`);
+  }
   const priorityPoints = buildPriorityPoints(rows);
   const filters = buildFilters(priorityPoints);
 

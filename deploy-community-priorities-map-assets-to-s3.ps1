@@ -3,7 +3,8 @@ Param(
     [string]$Region = "us-east-1",
     [string]$SourceDir = $(Join-Path $PSScriptRoot "deployed\cursor_v2_map_data\photo_previews"),
     [string]$Prefix = "community-priorities/priority-previews",
-    [string]$CacheControl = "public,max-age=31536000,immutable"
+    [string]$CacheControl = "public,max-age=31536000,immutable",
+    [switch]$DeleteExtraneous
 )
 
 $ErrorActionPreference = "Continue"
@@ -95,13 +96,18 @@ if ($LASTEXITCODE -ne 0) {
 $destination = "s3://$BucketName/$Prefix"
 Write-Host "Syncing map image assets to $destination ..."
 
-aws s3 sync $SourceDir $destination `
-    --region $Region `
-    --exclude "*" `
-    --include "*.jpg" `
-    --content-type "image/jpeg" `
-    --cache-control $CacheControl `
-    --delete
+$syncArgs = @(
+    "s3", "sync", $SourceDir, $destination,
+    "--region", $Region,
+    "--exclude", "*",
+    "--include", "*.jpg",
+    "--content-type", "image/jpeg",
+    "--cache-control", $CacheControl
+)
+if ($DeleteExtraneous) {
+    $syncArgs += "--delete"
+}
+aws @syncArgs
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "aws s3 sync failed. Check AWS credentials, bucket policy, and network access."

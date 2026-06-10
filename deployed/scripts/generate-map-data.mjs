@@ -8,6 +8,12 @@ import heicConvert from "heic-convert";
 import mammoth from "mammoth";
 import sharp from "sharp";
 
+import {
+  collectPreviewHashesFromRecords,
+  deduplicateRecordsByHash,
+  removeOrphanPreviewFiles
+} from "./photo-asset-utils.mjs";
+
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const deployedDir = path.resolve(scriptDir, "..");
 const assetsDir = path.join(deployedDir, "Assets Needed");
@@ -502,7 +508,7 @@ async function ensurePreview(absolutePath, hash) {
       });
     }
 
-    await sharp(source, { limitInputPixels: false })
+    await sharp(source, { limitInputPixels: false, failOn: "none" })
       .rotate()
       .resize({
         width: maxPreviewWidth,
@@ -763,11 +769,17 @@ async function main() {
       theme,
       markerClass,
       lat: Number(gps.latitude.toFixed(8)),
-      lon: Number(gps.longitude.toFixed(8))
+      lon: Number(gps.longitude.toFixed(8)),
+      hash
     });
   }
 
-  photos.sort((left, right) => {
+  const { deduped: uniquePhotos, removed: duplicateCount } = deduplicateRecordsByHash(photos);
+  if (duplicateCount) {
+    console.log(`Removed ${duplicateCount} duplicate photos (${uniquePhotos.length} unique by content hash).`);
+  }
+
+  uniquePhotos.sort((left, right) => {
     const clusterCompare = left.cluster.localeCompare(right.cluster, undefined, { numeric: true });
     if (clusterCompare) return clusterCompare;
     const villageCompare = left.village.localeCompare(right.village);
@@ -775,11 +787,11 @@ async function main() {
     return left.fileName.localeCompare(right.fileName);
   });
 
-  photos.forEach((photo, index) => {
+  uniquePhotos.forEach((photo, index) => {
     photo.id = index + 1;
   });
 
-  const priorityPhotos = photos.filter(isPriorityCandidate);
+  const priorityPhotos = uniquePhotos.filter(isPriorityCandidate);
   const priorityPoints = groupPriorityPhotos(priorityPhotos).sort((left, right) => {
     const clusterCompare = left.cluster.localeCompare(right.cluster, undefined, { numeric: true });
     if (clusterCompare) return clusterCompare;
@@ -788,14 +800,22 @@ async function main() {
     return left.title.localeCompare(right.title);
   }).map((point, index) => revisePriorityPoint({ ...point, id: index + 1 }, documentCorpus));
 
-  await writePhotoIndex(photos);
+  await writePhotoIndex(uniquePhotos);
   await writePriorities(priorityPoints);
   await writePriorityReviewReport(priorityPoints);
+
+  const referencedHashes = collectPreviewHashesFromRecords([...uniquePhotos, ...priorityPoints]);
+  const removedOrphans = await removeOrphanPreviewFiles(previewDir, referencedHashes);
+  if (removedOrphans) {
+    console.log(`Removed ${removedOrphans} unreferenced community preview file(s).`);
+  }
 
   const summary = {
     sourceFiles: sourceFiles.length,
     sourceDocuments: documentCorpus.length,
-    geotaggedPhotos: photos.length,
+    geotaggedPhotos: uniquePhotos.length,
+    duplicatePhotosRemoved: duplicateCount,
+    orphanPreviewFilesRemoved: removedOrphans,
     priorityPhotos: priorityPhotos.length,
     priorityPoints: priorityPoints.length,
     reviewCategories: priorityPoints.reduce((counts, point) => {

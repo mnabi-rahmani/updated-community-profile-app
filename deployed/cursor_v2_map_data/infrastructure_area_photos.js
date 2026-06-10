@@ -589,12 +589,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.77307222
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/61c16cd6e0b1759c.jpg",
-    "file": "irrigation structure constructed by ACTED, Dara e sof Laqai ha.HEIC",
-    "lat": 36.17402222,
-    "lon": 68.77477222
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/357e530dd7f29ba0.jpg",
     "file": "Bread Oven, Laqai Ha.jpg",
     "lat": 36.17247297,
@@ -722,7 +716,7 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/65e1f0030eeb4d60.jpg",
-    "file": "BHC - Shaikh Jalal 2.HEIC",
+    "file": "Check Dam, Shaikh Jalal.HEIC",
     "lat": 36.10163889,
     "lon": 68.85995556
   },
@@ -781,7 +775,7 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.86607222
   },
   {
-    "image": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 11/Oshtur Ghal Village/Central Mosque_Oshtor Ghalt.jpg",
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/18790fe1f00da64f.jpg",
     "file": "Central Mosque_Oshtor Ghalt.jpg",
     "lat": 36.158396,
     "lon": 68.835379
@@ -865,19 +859,13 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.83368056
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d6f8850d9e8982dc.jpg",
-    "file": "Oshtor Ghal_shop1.HEIC",
-    "lat": 36.15821111,
-    "lon": 68.83374722
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/e7194826285a648d.jpg",
     "file": "Oshtor Ghal_start point.HEIC",
     "lat": 36.15753056,
     "lon": 68.80654167
   },
   {
-    "image": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 11/Oshtur Ghal Village/School of Shatarghal Village.jpg",
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/e489da4b6bc380cc.jpg",
     "file": "School of Shatarghal Village.jpg",
     "lat": 36.15842597,
     "lon": 68.835367
@@ -1507,18 +1495,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.79080278
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/37f4fe852528898f.jpg",
-    "file": "Cemetery, Shared Raees Bahram & Dad Mohammad.HEIC",
-    "lat": 36.18974722,
-    "lon": 68.79528056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/fc6821121bb68c4e.jpg",
-    "file": "End Point of Raees Bahram.HEIC",
-    "lat": 36.19583611,
-    "lon": 68.79590556
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/6e129048854bc0d7.jpg",
     "file": "Start  Point of Raees Bahram.HEIC",
     "lat": 36.19167222,
@@ -1615,12 +1591,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.81895556
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/1c5587e24c1e2001.jpg",
-    "file": "Water Storage, Yakatoot.HEIC",
-    "lat": 36.19693889,
-    "lon": 68.82671389
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/915e85934cd920ac.jpg",
     "file": "Water Tank made by USAID,  and end point of Yaka Toot.HEIC",
     "lat": 36.19696111,
@@ -1631,12 +1601,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "file": "Brakes factory is being built, Gujar ha.HEIC",
     "lat": 36.34548611,
     "lon": 68.84548056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/cf9768b6a8b11c98.jpg",
-    "file": "Brick Klin_Gujar Ha.HEIC",
-    "lat": 36.34536111,
-    "lon": 68.84603889
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/eecccbcbdf9cee4d.jpg",
@@ -1681,28 +1645,10 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.8508
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/e4bf1e58e8aa23e1.jpg",
-    "file": "Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC",
-    "lat": 36.33744167,
-    "lon": 68.85691111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/b74196098d5dae41.jpg",
-    "file": "Mawalavi Abdul Manan Elementry School_Gujar Ha.HEIC",
-    "lat": 36.33705833,
-    "lon": 68.85707222
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/4f094c094678499f.jpg",
     "file": "Start point of Gujar ha.HEIC",
     "lat": 36.34618056,
     "lon": 68.84454444
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/e3b3f9e69c9f8ca6.jpg",
-    "file": "Water Storage_Gujar Ha.HEIC",
-    "lat": 36.34046944,
-    "lon": 68.85421111
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/e65210f0fd1dcabb.jpg",
@@ -1753,18 +1699,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.83928611
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/8c5dd4e7c49f2f26.jpg",
-    "file": "Jamaluddin Khan Secondry School,_Moghul Ha.HEIC",
-    "lat": 36.33955278,
-    "lon": 68.83972222
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d92a06b3c3f5b6b4.jpg",
-    "file": "Jamaluddin Khan Secondry School1_Moghul Ha.HEIC",
-    "lat": 36.339,
-    "lon": 68.83895833
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/b9a1338c28f5a559.jpg",
     "file": "Main (Jami) Mosque of Mughlo Village.jpg",
     "lat": 36.32685697,
@@ -1781,12 +1715,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "file": "Motorcycle repair shop of Cluster 7 & 8.jpg",
     "lat": 36.31112097,
     "lon": 68.826684
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/0210ab6aba4ba5f0.jpg",
-    "file": "Not Functional Borewell- Moghul Ha Cluster 7.HEIC",
-    "lat": 36.33617778,
-    "lon": 68.8349
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/8f7f9d72339eb81b.jpg",
@@ -2149,124 +2077,16 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.81136997
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/72c03e0636895243.jpg",
-    "file": "Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC",
-    "lat": 36.35016944,
-    "lon": 68.83464722
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/6c592fe1bc312114.jpg",
-    "file": "Alama Iqbal Elemntry School2, Matakhil Cluster 8.HEIC",
-    "lat": 36.35023056,
-    "lon": 68.83461667
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/2fa7215032d8ba3c.jpg",
-    "file": "Borewell Made by MRRD,  Matakhil Cluster 8.HEIC",
-    "lat": 36.34901389,
-    "lon": 68.83088056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/6247e08e21b98002.jpg",
-    "file": "Brick Klin Cluster 8.HEIC",
-    "lat": 36.33050278,
-    "lon": 68.83551667
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/7f64cc433ca1513d.jpg",
-    "file": "Cemetery, Matakhil Cluster 8.HEIC",
-    "lat": 36.35014444,
-    "lon": 68.83440278
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/7af49f89baa91d44.jpg",
-    "file": "Culvert Need to repair,Matakhil Cluster 8.HEIC",
-    "lat": 36.35025,
-    "lon": 68.82192222
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/de0fa8596e4be0ca.jpg",
     "file": "End point of Matakhil Cluster 8.HEIC",
     "lat": 36.34944167,
     "lon": 68.81879444
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/967e665b7ad9fec3.jpg",
-    "file": "Flour Mail, Matakhil, Cluster 8.HEIC",
-    "lat": 36.34935833,
-    "lon": 68.83206111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/2b94f8833006f084.jpg",
-    "file": "Flour Mail2, Matakhil, Cluster 8.HEIC",
-    "lat": 36.34934167,
-    "lon": 68.83206111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/76606e1b1300eba2.jpg",
-    "file": "Greenhouse, Matakhil Cluster 8.HEIC",
-    "lat": 36.35270278,
-    "lon": 68.83123889
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/80ed99d15c876173.jpg",
-    "file": "irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC",
-    "lat": 36.35256944,
-    "lon": 68.83255833
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/fc9aff0e2c8d7005.jpg",
     "file": "irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC",
     "lat": 36.35260833,
     "lon": 68.83255833
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/f0aa9140ff3e7c68.jpg",
-    "file": "Jami Mosque, Matakhil, Cluster 8.HEIC",
-    "lat": 36.35065556,
-    "lon": 68.83123056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/ab2d91a599e8ddf2.jpg",
-    "file": "Jami Mosque2, Matakhil, Cluster 8.HEIC",
-    "lat": 36.35065556,
-    "lon": 68.8313
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/ad7957b23e07f099.jpg",
-    "file": "Not Functional Borwell, Matakhil Cluster 8.HEIC",
-    "lat": 36.34871667,
-    "lon": 68.82960556
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d0a287454a6a518d.jpg",
-    "file": "Play Ground, Matakhil Cluster 8.HEIC",
-    "lat": 36.35129444,
-    "lon": 68.82885
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/1aa086e2da981a13.jpg",
-    "file": "Play Ground,1 Matakhil Cluster 8.HEIC",
-    "lat": 36.35130556,
-    "lon": 68.82885833
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d04c9a670893fdd0.jpg",
-    "file": "Shop, Matakhil Cluster 8.HEIC",
-    "lat": 36.35133333,
-    "lon": 68.82890278
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/85e7160acd04ac71.jpg",
-    "file": "Start point of Matakhil Cluster 8.HEIC",
-    "lat": 36.34566944,
-    "lon": 68.83549444
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/564a30c6362f03fa.jpg",
-    "file": "Water Canal  Need to construct, Matakhil Cluster 8.HEIC",
-    "lat": 36.35174167,
-    "lon": 68.82871111
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/3cca9d62416b25f5.jpg",
@@ -2485,12 +2305,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.72533333
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/a88a0f83ec23b37f.jpg",
-    "file": "Eld Gah Grand Mosque, Nawabad paeen.HEIC",
-    "lat": 36.69789167,
-    "lon": 68.717575
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/28450b552b6ec5db.jpg",
     "file": "Fish Farm_ Nawabad Konjak.HEIC",
     "lat": 36.6889,
@@ -2525,12 +2339,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "file": "Motorcycle Mechanic, Nawabad Paeen.HEIC",
     "lat": 36.70358611,
     "lon": 68.72611111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/9ce692b40c6cf067.jpg",
-    "file": "Nawabad High School, Nawabad Kunjak.HEIC",
-    "lat": 36.70188611,
-    "lon": 68.72951389
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/8cc279e9f0f91018.jpg",
@@ -2641,261 +2449,9 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "lon": 68.74494167
   },
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/af1358c97b1a9717.jpg",
-    "file": "Watergate Pul Panja, Nawabad Markazi2.HEIC",
-    "lat": 36.70551389,
-    "lon": 68.74506389
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/a17b2f9604c89070.jpg",
-    "file": "BHC - Shaikh Jalal.HEIC",
-    "lat": 36.1012,
-    "lon": 68.86004722
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/65e1f0030eeb4d60.jpg",
-    "file": "Check Dam, Shaikh Jalal.HEIC",
-    "lat": 36.10163889,
-    "lon": 68.85995556
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/bf926beccdfab656.jpg",
-    "file": "Community Market, Shaikh Jalal.HEIC",
-    "lat": 36.10243611,
-    "lon": 68.85957222
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/5285b831476a6f3a.jpg",
-    "file": "End Point of Shaikh Jalal Border with Nahrin District.HEIC",
-    "lat": 36.085625,
-    "lon": 68.90873056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/bad538d811232241.jpg",
-    "file": "Flood-Prone Aea, Sahikh jalal.HEIC",
-    "lat": 36.09206111,
-    "lon": 68.86829444
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/c3e7851425e6c27e.jpg",
-    "file": "Shaikh Jalal Baba High School.HEIC",
-    "lat": 36.10200833,
-    "lon": 68.85952778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/11379ba676d932ad.jpg",
-    "file": "Shaikh Jalal, Central Mosque.HEIC",
-    "lat": 36.09919444,
-    "lon": 68.86044444
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/e2993087767b0a3e.jpg",
-    "file": "Shop, Shaikh Jalal.HEIC",
-    "lat": 36.102525,
-    "lon": 68.85962778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/b404016af45042eb.jpg",
-    "file": "Start Point of Shaikh Jalal Border with Baghlan-e-Jadid.HEIC",
-    "lat": 36.13986111,
-    "lon": 68.81797778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/c9823b4e49f0c355.jpg",
-    "file": "Water Storage, Shaikh jalal.HEIC",
-    "lat": 36.09581111,
-    "lon": 68.86607222
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/558dc6e6fe73c63f.jpg",
-    "file": "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "lat": 36.68677778,
-    "lon": 68.72737778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/7159b66cb94e3c36.jpg",
-    "file": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "lat": 36.686875,
-    "lon": 68.72724167
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/aca284edf6f19f93.jpg",
-    "file": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "lat": 36.68659722,
-    "lon": 68.7277
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/5e570007c0da3cc5.jpg",
-    "file": "Community Market-Nawabad Bala.HEIC",
-    "lat": 36.70286667,
-    "lon": 68.7304
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d5434c4d81f7086e.jpg",
-    "file": "Water well - Nawabad Bala.HEIC",
-    "lat": 36.69653611,
-    "lon": 68.73395556
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/531dae5cc11f067a.jpg",
-    "file": "Check Dam_ Nawabad Kojank & Palaw Kamar villages.HEIC",
-    "lat": 36.69314444,
-    "lon": 68.76470833
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/37560255c517e2a1.jpg",
     "file": "Flood-Prone Area, Nawabad Kunjak.HEIC",
     "lat": 36.67101944,
     "lon": 68.70730556
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d1449f11eeea6b55.jpg",
-    "file": "Haji Gul Ahmad Grand Mosque, Nawabad Kunjak.HEIC",
-    "lat": 36.70279444,
-    "lon": 68.730325
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/6db4539feac00622.jpg",
-    "file": "Metalworking shop, Nawabad Kunjak.HEIC",
-    "lat": 36.70301944,
-    "lon": 68.73020278
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/9ce692b40c6cf067.jpg",
-    "file": "Nawabad High School, Nawabad Kunjak.HEIC",
-    "lat": 36.70188611,
-    "lon": 68.72951389
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/b0d1dafc906e12de.jpg",
-    "file": "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
-    "lat": 36.70318889,
-    "lon": 68.73008056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/9d70c84d80606b02.jpg",
-    "file": "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
-    "lat": 36.7032,
-    "lon": 68.73006389
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/e82d8740f29ddf7f.jpg",
-    "file": "Star Telecome Wifi base - Nawabad Kunjak.HEIC",
-    "lat": 36.703125,
-    "lon": 68.72900278
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/1a6e77846eb7195c.jpg",
-    "file": "under construction house of  returnee, Nawabad Kunjak 2.HEIC",
-    "lat": 36.67765,
-    "lon": 68.71738333
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/7ec93db81b9066da.jpg",
-    "file": "under construction house of  returnee, Nawabad Kunjak.HEIC",
-    "lat": 36.67649722,
-    "lon": 68.71399722
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/3e8b93a374b8bc21.jpg",
-    "file": "water Storage- Nawabad Kunjak.HEIC",
-    "lat": 36.70323611,
-    "lon": 68.73006389
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/f3dbbf4e3f7ac24f.jpg",
-    "file": "water Storage- Nawabad Kunjak2.HEIC",
-    "lat": 36.68973611,
-    "lon": 68.75546944
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/036ac0d4c4c56ec5.jpg",
-    "file": "Car Wash, Nawabad Markazi.HEIC",
-    "lat": 36.69766667,
-    "lon": 68.74162222
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/a01d8584b9a8e091.jpg",
-    "file": "CHC - Nawabad Markazi.HEIC",
-    "lat": 36.70258333,
-    "lon": 68.73657222
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/d438225339d222be.jpg",
-    "file": "Metal workshop, Nawabad Markazi.HEIC",
-    "lat": 36.69637778,
-    "lon": 68.74364444
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/8cc279e9f0f91018.jpg",
-    "file": "Oil Pump_ Nawabad Markazi.heic",
-    "lat": 36.7003348,
-    "lon": 68.7374542
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/6471b5b9e59e4775.jpg",
-    "file": "OIl pump_Nawabad Markazi.heic",
-    "lat": 36.6986128,
-    "lon": 68.7402638
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/ec15b233aa171df4.jpg",
-    "file": "Watergate Pul Panja, Nawabad Markazi1.HEIC",
-    "lat": 36.70557778,
-    "lon": 68.74494167
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/af1358c97b1a9717.jpg",
-    "file": "Watergate Pul Panja, Nawabad Markazi2.HEIC",
-    "lat": 36.70551389,
-    "lon": 68.74506389
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/65166d3248732cd5.jpg",
-    "file": "Community Market-Nawabad Paeen.HEIC",
-    "lat": 36.70380833,
-    "lon": 68.72533333
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/a88a0f83ec23b37f.jpg",
-    "file": "Eld Gah Grand Mosque, Nawabad paeen.HEIC",
-    "lat": 36.69789167,
-    "lon": 68.717575
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/409c2c2efc57fb66.jpg",
-    "file": "Motorcycle Mechanic, Nawabad Paeen.HEIC",
-    "lat": 36.70358611,
-    "lon": 68.72611111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/471cd987f68a17f1.jpg",
-    "file": "Shanba Bazar, Nawabad paeen.HEIC",
-    "lat": 36.69591111,
-    "lon": 68.72322778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/1ec7e400c6a6472a.jpg",
-    "file": "Shop, Nawabad Paeen.HEIC",
-    "lat": 36.70405833,
-    "lon": 68.72431111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/757332227503c409.jpg",
-    "file": "Wakil Hasti Khan Grand Mosque, Nawabad Paeen.HEIC",
-    "lat": 36.70365278,
-    "lon": 68.7268
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/021fb6099f6bc050.jpg",
-    "file": "water Storage- Nawabad Paeen.HEIC",
-    "lat": 36.69825833,
-    "lon": 68.72432778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/17f9895693c04aab.jpg",
-    "file": "Water well - Nawabad Paeen Near to Muhajirin.HEIC",
-    "lat": 36.70156944,
-    "lon": 68.72525833
   }
 ];

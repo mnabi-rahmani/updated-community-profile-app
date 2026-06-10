@@ -176,6 +176,10 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     const FILTERS_GLOBAL = COMMUNITY_PRIORITIES_CONFIG.filtersGlobal || "PHOTO_BACKED_FILTERS";
     const IS_INFRASTRUCTURE_DISPLAY = COMMUNITY_PRIORITIES_CONFIG.displayMode === "infrastructure";
     const ALL_PRIORITY_POINTS = window[PRIORITIES_GLOBAL] || window.PHOTO_BACKED_PRIORITIES || [];
+    const AREA_PHOTOS_GLOBAL = COMMUNITY_PRIORITIES_CONFIG.areaPhotosGlobal || "";
+    const AREA_PHOTO_RADIUS_METERS = Number(COMMUNITY_PRIORITIES_CONFIG.areaPhotoRadiusMeters) || 100;
+    const ALL_AREA_PHOTOS = AREA_PHOTOS_GLOBAL ? (window[AREA_PHOTOS_GLOBAL] || []) : [];
+    const priorityPointById = new Map(ALL_PRIORITY_POINTS.map((point) => [point.id, point]));
     const FILTER_META = window[FILTERS_GLOBAL] || window.PHOTO_BACKED_FILTERS || { clusters: [], villagesByCluster: {} };
     const STYLES = window.CURSOR_V2_STYLES || {};
     const LAYERS = window.CURSOR_V2_LAYERS || {};
@@ -358,6 +362,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     const priorityGalleryStore = new Map();
     let lightboxPhotos = null;
     let lightboxIndex = 0;
+    let lightboxCaption = "";
     let layoutRefreshQueued = false;
 
     const ZOOM_SHOW_PRIORITIES = 12;
@@ -435,6 +440,73 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       const a = Math.sin(dPhi / 2) ** 2
         + Math.cos(phi1) * Math.cos(phi2) * Math.sin(dLambda / 2) ** 2;
       return 2 * radius * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    function areaPhotosNear(lat, lon, radiusMeters = AREA_PHOTO_RADIUS_METERS) {
+      if (!ALL_AREA_PHOTOS.length || lat == null || lon == null) return [];
+      const nearbyPhotos = ALL_AREA_PHOTOS
+        .map((photo) => ({
+          ...photo,
+          distanceMeters: haversineMeters(lat, lon, photo.lat, photo.lon)
+        }))
+        .filter((photo) => photo.distanceMeters <= radiusMeters)
+        .sort((left, right) => left.distanceMeters - right.distanceMeters);
+
+      if (!IS_INFRASTRUCTURE_DISPLAY) return nearbyPhotos;
+
+      const seenImages = new Set();
+      return nearbyPhotos.filter((photo) => {
+        const imageKey = photo.image || "";
+        if (seenImages.has(imageKey)) return false;
+        seenImages.add(imageKey);
+        return true;
+      });
+    }
+
+    function infrastructureMetaHtml(point) {
+      return `
+        <span><strong>Priority intervention:</strong> ${escapeHtml(point.intervention || point.title)}</span>
+        <span><strong>Location:</strong> ${escapeHtml(point.location || point.village)}</span>
+        <span><strong>Priority level:</strong> ${escapeHtml(point.level)}</span>
+        <span><strong>Latitude:</strong> ${Number(point.lat).toFixed(8)}</span>
+        <span><strong>Longitude:</strong> ${Number(point.lon).toFixed(8)}</span>
+      `;
+    }
+
+    function infrastructurePopupHtml(point) {
+      const nearbyPhotos = areaPhotosNear(point.lat, point.lon);
+      const areaLinkHtml = nearbyPhotos.length
+        ? `<button type="button" class="popup-area-photos-link" data-point-id="${point.id}">View photos in the area (${nearbyPhotos.length})</button>`
+        : `<p class="popup-area-photos-empty">No GPS-tagged photos within ${AREA_PHOTO_RADIUS_METERS} m of this priority.</p>`;
+
+      return `
+        <div class="popup-infrastructure" data-point-id="${point.id}">
+          <h3 class="popup-title">${point.displayId}. ${escapeHtml(point.intervention || point.title)}</h3>
+          <div class="popup-meta popup-gallery-meta">${infrastructureMetaHtml(point)}</div>
+          <p class="popup-area-photos-note">
+            Nearby photos are <strong>not verified</strong> as related to this priority. They were taken within
+            ${AREA_PHOTO_RADIUS_METERS} m of the priority GPS point.
+          </p>
+          ${areaLinkHtml}
+        </div>
+      `;
+    }
+
+    function openAreaPhotosForPoint(point) {
+      const nearbyPhotos = areaPhotosNear(point.lat, point.lon);
+      if (!nearbyPhotos.length) return;
+      lightboxCaption = `Photos near priority ${point.displayId}. These images may not relate to this priority; they were taken within ${AREA_PHOTO_RADIUS_METERS} m of the GPS point.`;
+      openPhotoLightbox(
+        nearbyPhotos.map((photo) => ({
+          image: photo.image,
+          title: photo.file,
+          file: photo.file,
+          lat: photo.lat,
+          lon: photo.lon,
+          distanceMeters: photo.distanceMeters
+        })),
+        0
+      );
     }
 
     function anchorLatLng(lat, lon) {
@@ -940,15 +1012,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
 
     function galleryMetaHtml(point, photo) {
       if (IS_INFRASTRUCTURE_DISPLAY) {
-        const photoFile = photo?.file ? `<span><strong>Photo:</strong> ${escapeHtml(photo.file)}</span>` : "";
-        return `
-          <span><strong>Priority intervention:</strong> ${escapeHtml(point.intervention || point.title)}</span>
-          <span><strong>Location:</strong> ${escapeHtml(point.location || point.village)}</span>
-          <span><strong>Priority level:</strong> ${escapeHtml(point.level)}</span>
-          <span><strong>Latitude:</strong> ${Number(point.lat).toFixed(8)}</span>
-          <span><strong>Longitude:</strong> ${Number(point.lon).toFixed(8)}</span>
-          ${photoFile}
-        `;
+        return infrastructureMetaHtml(point);
       }
 
       const sourceHtml = point.sourceDocument
@@ -1018,6 +1082,10 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function popupHtml(point) {
+      if (IS_INFRASTRUCTURE_DISPLAY) {
+        return infrastructurePopupHtml(point);
+      }
+
       const photos = pointPhotos(point);
       priorityGalleryStore.set(point.id, photos);
       const first = photos[0];
@@ -1063,7 +1131,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function markerIcon(point) {
-      const countBadge = point.photoCount > 1
+      const countBadge = !IS_INFRASTRUCTURE_DISPLAY && point.photoCount > 1
         ? `<span class="priority-marker-count">${point.photoCount}</span>`
         : "";
       return L.divIcon({
@@ -1178,13 +1246,13 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
         card.className = "card";
         card.dataset.id = String(point.id);
         card.innerHTML = `
-          ${point.image ? `<img src="${imageSrc(point.image)}" alt="">` : `<span class="card-photo-placeholder" aria-hidden="true"></span>`}
+          ${!IS_INFRASTRUCTURE_DISPLAY && point.image ? `<img src="${imageSrc(point.image)}" alt="">` : `<span class="card-photo-placeholder" aria-hidden="true"></span>`}
           <span>
             <strong>${point.displayId}. ${IS_INFRASTRUCTURE_DISPLAY ? escapeHtml(point.intervention || point.title) : point.title}</strong>
             <span>${point.cluster}${IS_INFRASTRUCTURE_DISPLAY ? "" : ` · ${point.village}`}</span>
             <span>${IS_INFRASTRUCTURE_DISPLAY ? escapeHtml(point.location || point.village) : `${point.theme} · ${point.level}`}</span>
             ${IS_INFRASTRUCTURE_DISPLAY ? `<span>${escapeHtml(point.level)}</span>` : ""}
-            ${point.photoCount > 1 ? `<span class="card-photo-count">${point.photoCount} photos</span>` : ""}
+            ${!IS_INFRASTRUCTURE_DISPLAY && point.photoCount > 1 ? `<span class="card-photo-count">${point.photoCount} photos</span>` : ""}
           </span>
         `;
         card.addEventListener("click", () => selectPoint(point));
@@ -1314,7 +1382,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       renderPriorityCards(points);
       updateStoryText();
       filterSummary.textContent = IS_INFRASTRUCTURE_DISPLAY
-        ? `Showing ${points.length} infrastructure priorities (${countPriorityPhotos(points)} matched photos).`
+        ? `Showing ${points.length} infrastructure priorities. Use each popup to browse nearby photos within ${AREA_PHOTO_RADIUS_METERS} m.`
         : `Showing ${points.length} priority locations (${countPriorityPhotos(points)} of ${ALL_PRIORITY_POINTS.reduce((total, point) => total + (point.photoCount || pointPhotos(point).length || 1), 0)} photos) and ${countVisibleFacilities()} Integrated Locations Database features`;
       if (shouldFitBounds) fitToSelection(points);
       scheduleMapLayoutRefresh();
@@ -1367,6 +1435,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     const photoLightboxPrev = photoLightbox.querySelector(".photo-lightbox-prev");
     const photoLightboxNext = photoLightbox.querySelector(".photo-lightbox-next");
     const photoLightboxCounter = photoLightbox.querySelector(".photo-lightbox-counter");
+    const photoLightboxCaption = photoLightbox.querySelector(".photo-lightbox-caption");
 
     function renderLightboxSlide() {
       if (!lightboxPhotos?.length) return;
@@ -1386,13 +1455,23 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
           : "Unable to load this photo preview.";
       };
       photoLightboxImage.src = src;
-      photoLightboxImage.alt = photo.title || "Expanded field photo";
+      photoLightboxImage.alt = photo.title || photo.file || "Expanded field photo";
       const multi = lightboxPhotos.length > 1;
       photoLightboxPrev.hidden = !multi;
       photoLightboxNext.hidden = !multi;
       photoLightboxCounter.hidden = !multi;
       if (multi) {
         photoLightboxCounter.textContent = `${lightboxIndex + 1} / ${lightboxPhotos.length}`;
+      }
+      if (photoLightboxCaption) {
+        const fileLabel = photo.file || photo.title || "";
+        const distanceLabel = Number.isFinite(photo.distanceMeters)
+          ? ` · ${Math.round(photo.distanceMeters)} m from priority`
+          : "";
+        const captionParts = [lightboxCaption, fileLabel ? `${fileLabel}${distanceLabel}` : ""]
+          .filter(Boolean);
+        photoLightboxCaption.textContent = captionParts.join(" ");
+        photoLightboxCaption.hidden = !captionParts.length;
       }
     }
 
@@ -1412,8 +1491,13 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       photoLightboxImage.onload = null;
       photoLightboxImage.onerror = null;
       photoLightboxMessage.hidden = true;
+      if (photoLightboxCaption) {
+        photoLightboxCaption.textContent = "";
+        photoLightboxCaption.hidden = true;
+      }
       lightboxPhotos = null;
       lightboxIndex = 0;
+      lightboxCaption = "";
       document.body.style.overflow = "";
     }
 
@@ -1424,6 +1508,15 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     document.addEventListener("click", (event) => {
+      const areaPhotosLink = event.target.closest(".popup-area-photos-link");
+      if (areaPhotosLink) {
+        event.preventDefault();
+        event.stopPropagation();
+        const point = priorityPointById.get(Number(areaPhotosLink.dataset.pointId));
+        if (point) openAreaPhotosForPoint(point);
+        return;
+      }
+
       const prevBtn = event.target.closest(".gallery-prev");
       const nextBtn = event.target.closest(".gallery-next");
       if (prevBtn || nextBtn) {

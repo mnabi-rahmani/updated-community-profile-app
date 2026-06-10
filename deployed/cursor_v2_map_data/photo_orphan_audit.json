@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-06-10T09:19:24.127Z",
+  "community": {
+    "name": "Assets and Community Priorities Old",
+    "records": {
+      "areaPhotos": 0,
+      "priorities": 110,
+      "photoIndex": 348
+    },
+    "previews": {
+      "onDisk": 348,
+      "referenced": 348,
+      "orphanFiles": 0,
+      "missingFiles": 0,
+      "orphanSample": [],
+      "missingSample": []
+    },
+    "duplicates": {
+      "areaPhotoImagePaths": 0,
+      "photoIndexImagePaths": 0
+    },
+    "brokenReferences": {
+      "areaNonPreviewMissingSource": 0,
+      "photoIndexMissingSource": 0,
+      "prioritiesMissingSource": 0,
+      "nonPreviewRefs": 0,
+      "samples": {
+        "area": [],
+        "photoIndex": [],
+        "priorities": [],
+        "nonPreview": []
+      }
+    }
+  },
+  "cluster": {
+    "name": "Cluster Priorities Only",
+    "records": {
+      "areaPhotos": 409,
+      "priorities": 85,
+      "photoIndex": 0
+    },
+    "previews": {
+      "onDisk": 409,
+      "referenced": 409,
+      "orphanFiles": 0,
+      "missingFiles": 0,
+      "orphanSample": [],
+      "missingSample": []
+    },
+    "duplicates": {
+      "areaPhotoImagePaths": 0,
+      "photoIndexImagePaths": 0
+    },
+    "brokenReferences": {
+      "areaNonPreviewMissingSource": 0,
+      "photoIndexMissingSource": 0,
+      "prioritiesMissingSource": 0,
+      "nonPreviewRefs": 0,
+      "samples": {
+        "area": [],
+        "photoIndex": [],
+        "priorities": [],
+        "nonPreview": []
+      }
+    }
+  },
+  "crossMap": {
+    "sharedPreviewHashes": 348
+  },
+  "assets": {
+    "totalAssetImages": 510,
+    "unindexedAssetImages": 85,
+    "unindexedByFolder": {
+      "Assets Needed/FGDs, CAP Reports & Compiled Needs Priorities": 24,
+      "Assets Needed/Photos of Clusters and Sub-villages": 61
+    },
+    "missingIndexedSourceFiles": 0,
+    "missingIndexedSourceSample": []
+  }
+}

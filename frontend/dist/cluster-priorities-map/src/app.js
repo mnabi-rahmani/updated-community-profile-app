@@ -444,13 +444,23 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
 
     function areaPhotosNear(lat, lon, radiusMeters = AREA_PHOTO_RADIUS_METERS) {
       if (!ALL_AREA_PHOTOS.length || lat == null || lon == null) return [];
-      return ALL_AREA_PHOTOS
+      const nearbyPhotos = ALL_AREA_PHOTOS
         .map((photo) => ({
           ...photo,
           distanceMeters: haversineMeters(lat, lon, photo.lat, photo.lon)
         }))
         .filter((photo) => photo.distanceMeters <= radiusMeters)
         .sort((left, right) => left.distanceMeters - right.distanceMeters);
+
+      if (!IS_INFRASTRUCTURE_DISPLAY) return nearbyPhotos;
+
+      const seenImages = new Set();
+      return nearbyPhotos.filter((photo) => {
+        const imageKey = photo.image || "";
+        if (seenImages.has(imageKey)) return false;
+        seenImages.add(imageKey);
+        return true;
+      });
     }
 
     function infrastructureMetaHtml(point) {

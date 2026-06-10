@@ -1548,7 +1548,7 @@
     "reviewCategory": "keep",
     "reviewLabel": "Keep",
     "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 30 evidence points.",
-    "title": "BHC Shaikh Jalal 2",
+    "title": "BHC Shaikh Jalal",
     "cluster": "Cluster 10",
     "village": "Shaikh Jalal Village",
     "theme": "Health",
@@ -1557,9 +1557,9 @@
     "documentEvidence": "The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially during emergencies. According to CAP participants, community participation in supporting local health services is limited and mostly informal, mainly through cooperation with the Basic Health Clinic...",
     "photoCount": 1,
     "files": [
-      "BHC - Shaikh Jalal 2.HEIC"
+      "BHC - Shaikh Jalal.HEIC"
     ],
-    "note": "Document-backed priority need: The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially during emergencies. According to CAP participants, community participation in supporting local health services is limited and mostly informal, mainly through cooperation with the Basic Health Clinic... Field photo evidence: BHC - Shaikh Jalal 2.HEIC."
+    "note": "Document-backed priority need: The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially during emergencies. According to CAP participants, community participation in supporting local health services is limited and mostly informal, mainly through cooperation with the Basic Health Clinic... Field photo evidence: BHC - Shaikh Jalal.HEIC."
   },
   {
     "id": 87,
@@ -1583,80 +1583,58 @@
     "id": 88,
     "reviewCategory": "keep",
     "reviewLabel": "Keep",
-    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 42 evidence points.",
-    "title": "Education priority evidence (2 photos)",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Education",
-    "level": "High",
-    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
-    "documentEvidence": "General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard.",
-    "photoCount": 2,
-    "files": [
-      "Shaikh Jalal Baba High School.HEIC",
-      "Shaikh Jalal Baba High School.HEIC"
-    ],
-    "note": "Document-backed priority need: General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard. Field photo evidence: Shaikh Jalal Baba High School.HEIC; Shaikh Jalal Baba High School.HEIC."
-  },
-  {
-    "id": 89,
-    "reviewCategory": "keep",
-    "reviewLabel": "Keep",
     "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 32 evidence points.",
-    "title": "Flood / DRR priority evidence (2 photos)",
+    "title": "Flood Prone Area, Sahikh jalal",
     "cluster": "Cluster 10",
     "village": "Shaikh Jalal Village",
     "theme": "Flood / DRR",
     "level": "High",
     "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
     "documentEvidence": "Access to Aid for Women and Girls Women and girls in the community access aid and other support systems during or after a disaster mainly through male family members and community distribution points. Female-headed households cope during and after disasters with limited support from male relatives or neighbors during the immediate response, but they often...",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "Flood-Prone Aea, Sahikh jalal.HEIC",
       "Flood-Prone Area, Sahikh jalal.HEIC"
     ],
-    "note": "Document-backed priority need: Access to Aid for Women and Girls Women and girls in the community access aid and other support systems during or after a disaster mainly through male family members and community distribution points. Female-headed households cope during and after disasters with limited support from male relatives or neighbors during the immediate response, but they often... Field photo evidence: Flood-Prone Aea, Sahikh jalal.HEIC; Flood-Prone Area, Sahikh jalal.HEIC."
+    "note": "Document-backed priority need: Access to Aid for Women and Girls Women and girls in the community access aid and other support systems during or after a disaster mainly through male family members and community distribution points. Female-headed households cope during and after disasters with limited support from male relatives or neighbors during the immediate response, but they often... Field photo evidence: Flood-Prone Area, Sahikh jalal.HEIC."
+  },
+  {
+    "id": 89,
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 39 evidence points.",
+    "title": "Shaikh Jalal Baba High School",
+    "cluster": "Cluster 10",
+    "village": "Shaikh Jalal Village",
+    "theme": "Education",
+    "level": "High",
+    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
+    "documentEvidence": "General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard.",
+    "photoCount": 1,
+    "files": [
+      "Shaikh Jalal Baba High School.HEIC"
+    ],
+    "note": "Document-backed priority need: General condition of facility and challenges Shaikh Jalal Baba High School The school was destroyed by a flood and rebuilt by UNICEF in 2024 with improved facilities including classrooms, latrines, and a borewell. However, there is still a need for an additional classroom for laboratory use and a separate room for the school guard. Field photo evidence: Shaikh Jalal Baba High School.HEIC."
   },
   {
     "id": 90,
-    "reviewCategory": "keep",
-    "reviewLabel": "Keep",
-    "reviewReason": "Matched CAP Report_Cluster 10_first draft.docx with 33 evidence points.",
-    "title": "Health priority evidence (2 photos)",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Health",
-    "level": "High",
-    "sourceDocument": "CAP Report_Cluster 10_first draft.docx",
-    "documentEvidence": "The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially during emergencies. According to CAP participants, community participation in supporting local health services is limited and mostly informal, mainly through cooperation with the Basic Health Clinic...",
-    "photoCount": 2,
-    "files": [
-      "BHC - Shaikh Jalal.HEIC",
-      "BHC - Shaikh Jalal.HEIC"
-    ],
-    "note": "Document-backed priority need: The community also emphasized the need for a bridge connecting the two parts of the valley to improve safe and timely access to the health center, especially during emergencies. According to CAP participants, community participation in supporting local health services is limited and mostly informal, mainly through cooperation with the Basic Health Clinic... Field photo evidence: BHC - Shaikh Jalal.HEIC; BHC - Shaikh Jalal.HEIC."
-  },
-  {
-    "id": 91,
     "reviewCategory": "review",
     "reviewLabel": "Review",
-    "reviewReason": "Matched Cluster 10_ Leaders FGD.docx with 34 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "reviewReason": "Matched Cluster 10_ Leaders FGD.docx with 31 evidence points.",
+    "title": "Water Storage, Shaikh jalal",
     "cluster": "Cluster 10",
     "village": "Shaikh Jalal Village",
     "theme": "WASH",
     "level": "High",
     "sourceDocument": "Cluster 10_ Leaders FGD.docx",
     "documentEvidence": "16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Sanitation: The community relies on poorly constructed vault latrines, increasing the risk of disease.",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "Water Storage, Shaikh jalal.HEIC",
       "Water Storage, Shaikh jalal.HEIC"
     ],
-    "note": "Document-backed priority need: 16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Sanitation: The community relies on poorly constructed vault latrines, increasing the risk of disease. Field photo evidence: Water Storage, Shaikh jalal.HEIC; Water Storage, Shaikh jalal.HEIC."
+    "note": "Document-backed priority need: 16: What challenges does the community have with access to: Water: The main source of safe drinking water is a protected spring, distributed through water-network system by CCNPP/MRRD to 9 concrete water storage tanks. Sanitation: The community relies on poorly constructed vault latrines, increasing the risk of disease. Field photo evidence: Water Storage, Shaikh jalal.HEIC."
   },
   {
-    "id": 92,
+    "id": 91,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 30 evidence points.",
@@ -1675,7 +1653,7 @@
     "note": "Document-backed priority need: The community has only one primary school, covering grades 1–6. Children cannot continue to secondary or high school within the village. Field photo evidence: Oshtor Ghal_school madrasa.HEIC; School of Shatarghal Village.jpg."
   },
   {
-    "id": 93,
+    "id": 92,
     "reviewCategory": "keep",
     "reviewLabel": "Keep",
     "reviewReason": "Matched Cluster 11_ Leaders FGD.docx with 26 evidence points.",
@@ -1693,7 +1671,7 @@
     "note": "Document-backed priority need: Dirt roads near rivers and valleys are prone to flooding. Probe: Do people in this community receive alerts (information) on natural disasters? Field photo evidence: Flood prone area_Oshtor Ghalt.jpg."
   },
   {
-    "id": 94,
+    "id": 93,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched CL#11- Female FGD Report.docx with 27 evidence points.",
@@ -1711,102 +1689,79 @@
     "note": "Document-backed priority need: 17: Are maternal health services (antenatal, delivery, postnatal) available and accessible in your area? There is no permanent clinic in the community, but a mobile maternal health clinic used to provide services from one of the community houses. Field photo evidence: Health Post_Oshtor Ghalt.HEIC."
   },
   {
+    "id": 94,
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 40 evidence points.",
+    "title": "Ahmad Shah Shaheed Elementry School, Nawabad Bala",
+    "cluster": "Nawabad Cluster",
+    "village": "Nawabad Bala",
+    "theme": "Education",
+    "level": "High",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
+    "documentEvidence": "Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower...",
+    "photoCount": 1,
+    "files": [
+      "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC"
+    ],
+    "note": "Document-backed priority need: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower... Field photo evidence: Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC."
+  },
+  {
     "id": 95,
     "reviewCategory": "keep",
     "reviewLabel": "Keep",
-    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 43 evidence points.",
-    "title": "Education priority evidence (2 photos)",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "Education",
-    "level": "High",
-    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
-    "documentEvidence": "Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower...",
-    "photoCount": 2,
-    "files": [
-      "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-      "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC"
-    ],
-    "note": "Document-backed priority need: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower... Field photo evidence: Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC."
-  },
-  {
-    "id": 96,
-    "reviewCategory": "keep",
-    "reviewLabel": "Keep",
-    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 43 evidence points.",
-    "title": "Education priority evidence (2 photos)",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "Education",
-    "level": "High",
-    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
-    "documentEvidence": "Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower...",
-    "photoCount": 2,
-    "files": [
-      "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-      "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC"
-    ],
-    "note": "Document-backed priority need: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower... Field photo evidence: Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC."
-  },
-  {
-    "id": 97,
-    "reviewCategory": "keep",
-    "reviewLabel": "Keep",
     "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 37 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "title": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Bala",
     "theme": "WASH",
     "level": "High",
     "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "documentEvidence": "Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
       "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC"
     ],
-    "note": "Document-backed priority need: Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala Field photo evidence: Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC; Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC."
+    "note": "Document-backed priority need: Nawabad High School – Nawabad Konjak (two shifts: boys morning, girls afternoon) Shortage of teaching materials, lack of safe drinking water, no recreational facilities, and absence of a laboratory Ahmad Shah Shaheed Primary School – Nawabad Bala Field photo evidence: Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC."
   },
   {
-    "id": 98,
+    "id": 96,
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 40 evidence points.",
+    "title": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
+    "cluster": "Nawabad Cluster",
+    "village": "Nawabad Bala",
+    "theme": "Education",
+    "level": "High",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
+    "documentEvidence": "Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower...",
+    "photoCount": 1,
+    "files": [
+      "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC"
+    ],
+    "note": "Document-backed priority need: Lack of inclusive infrastructure and learning support Community members estimated that approximately 500 school-age children are currently out of school in the Nawabad cluster, including boys, girls, returnees, IDPs, and children with disabilities. CAP participants noted that girls, returnees, IDPs, and children with disabilities have comparatively lower... Field photo evidence: Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC."
+  },
+  {
+    "id": 97,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 30 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "title": "Water well Nawabad Bala",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Bala",
     "theme": "WASH",
     "level": "High",
     "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "documentEvidence": "Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women.",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "Water well - Nawabad Bala.HEIC",
       "Water well - Nawabad Bala.HEIC"
     ],
-    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: Water well - Nawabad Bala.HEIC; Water well - Nawabad Bala.HEIC."
+    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: Water well - Nawabad Bala.HEIC."
   },
   {
-    "id": 99,
-    "reviewCategory": "review",
-    "reviewLabel": "Review",
-    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 31 evidence points.",
-    "title": "Education priority evidence (2 photos)",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Education",
-    "level": "High",
-    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
-    "documentEvidence": "Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ education, and temporary classroom space utilization (e.g., double shifts where feasible). High School and Primary School",
-    "photoCount": 2,
-    "files": [
-      "Nawabad High School, Nawabad Kunjak.HEIC",
-      "Nawabad High School, Nawabad Kunjak.HEIC"
-    ],
-    "note": "Document-backed priority need: Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ education, and temporary classroom space utilization (e.g., double shifts where feasible). High School and Primary School Field photo evidence: Nawabad High School, Nawabad Kunjak.HEIC; Nawabad High School, Nawabad Kunjak.HEIC."
-  },
-  {
-    "id": 100,
+    "id": 98,
     "reviewCategory": "keep",
     "reviewLabel": "Keep",
     "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 24 evidence points.",
@@ -1824,28 +1779,26 @@
     "note": "Document-backed priority need: Access to Aid for Women and Girls Women and girls have limited direct access to aid and mainly rely on male family members, neighbors, and community support during disasters. Flood-prone area in Nawabad Konjak, Nawabad Cluster, Chahardara District, Kunduz Province © IOM 2026 Field photo evidence: Flood-Prone Area, Nawabad Kunjak.HEIC."
   },
   {
-    "id": 101,
+    "id": 99,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 35 evidence points.",
-    "title": "Health priority evidence (4 photos)",
+    "title": "Health priority evidence (2 photos)",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Kunjak",
     "theme": "Health",
     "level": "High",
     "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
     "documentEvidence": "People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality.",
-    "photoCount": 4,
+    "photoCount": 2,
     "files": [
       "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
-      "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
-      "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
       "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC"
     ],
-    "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC."
+    "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Field photo evidence: Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC; Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC."
   },
   {
-    "id": 102,
+    "id": 100,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Nawabad_Needs Prioritization under FGDs.docx with 29 evidence points.",
@@ -1863,123 +1816,134 @@
     "note": "Document-backed priority need: Irrigation reliability: Seasonal floods damage homes, public assets, and fields; need to both slow floods and improve irrigation efficiency (canal lining) to protect livelihoods and conserve water. Field photo evidence: Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC."
   },
   {
+    "id": 101,
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 28 evidence points.",
+    "title": "Nawabad High School, Nawabad Kunjak",
+    "cluster": "Nawabad Cluster",
+    "village": "Nawabad Kunjak",
+    "theme": "Education",
+    "level": "High",
+    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
+    "documentEvidence": "Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ education, and temporary classroom space utilization (e.g., double shifts where feasible). High School and Primary School",
+    "photoCount": 1,
+    "files": [
+      "Nawabad High School, Nawabad Kunjak.HEIC"
+    ],
+    "note": "Document-backed priority need: Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ education, and temporary classroom space utilization (e.g., double shifts where feasible). High School and Primary School Field photo evidence: Nawabad High School, Nawabad Kunjak.HEIC."
+  },
+  {
+    "id": 102,
+    "reviewCategory": "keep",
+    "reviewLabel": "Keep",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 26 evidence points.",
+    "title": "under construction house of returnee, Nawabad Kunjak",
+    "cluster": "Nawabad Cluster",
+    "village": "Nawabad Kunjak",
+    "theme": "Shelter",
+    "level": "Medium",
+    "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
+    "documentEvidence": "Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground.",
+    "photoCount": 1,
+    "files": [
+      "under construction house of  returnee, Nawabad Kunjak.HEIC"
+    ],
+    "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Field photo evidence: under construction house of  returnee, Nawabad Kunjak.HEIC."
+  },
+  {
     "id": 103,
     "reviewCategory": "keep",
     "reviewLabel": "Keep",
-    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 29 evidence points.",
-    "title": "Shelter priority evidence (2 photos)",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 26 evidence points.",
+    "title": "under construction house of returnee, Nawabad Kunjak 2",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Kunjak",
     "theme": "Shelter",
     "level": "Medium",
     "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "documentEvidence": "Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground.",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "under construction house of  returnee, Nawabad Kunjak 2.HEIC",
       "under construction house of  returnee, Nawabad Kunjak 2.HEIC"
     ],
-    "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Field photo evidence: under construction house of  returnee, Nawabad Kunjak 2.HEIC; under construction house of  returnee, Nawabad Kunjak 2.HEIC."
+    "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Field photo evidence: under construction house of  returnee, Nawabad Kunjak 2.HEIC."
   },
   {
     "id": 104,
-    "reviewCategory": "keep",
-    "reviewLabel": "Keep",
-    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 29 evidence points.",
-    "title": "Shelter priority evidence (2 photos)",
+    "reviewCategory": "review",
+    "reviewLabel": "Review",
+    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 28 evidence points.",
+    "title": "water Storage Nawabad Kunjak",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Kunjak",
-    "theme": "Shelter",
-    "level": "Medium",
+    "theme": "WASH",
+    "level": "High",
     "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
-    "documentEvidence": "Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground.",
-    "photoCount": 2,
+    "documentEvidence": "Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women.",
+    "photoCount": 1,
     "files": [
-      "under construction house of  returnee, Nawabad Kunjak.HEIC",
-      "under construction house of  returnee, Nawabad Kunjak.HEIC"
+      "water Storage- Nawabad Kunjak.HEIC"
     ],
-    "note": "Document-backed priority need: Communities (sub-villages) Nawabad Markaz, Nawabad Kunjak, Nawabad Payeen, Nawabad Bala Inadequate Shelter, Overcrowding, and Lack of Privacy Returnees families live in poor-quality mud houses, tents, damaged shelters, overcrowded rooms, and even plastic-covered holes in the ground. Field photo evidence: under construction house of  returnee, Nawabad Kunjak.HEIC; under construction house of  returnee, Nawabad Kunjak.HEIC."
+    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: water Storage- Nawabad Kunjak.HEIC."
   },
   {
     "id": 105,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 28 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "title": "water Storage Nawabad Kunjak2",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Kunjak",
     "theme": "WASH",
     "level": "High",
     "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "documentEvidence": "Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women.",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "water Storage- Nawabad Kunjak.HEIC",
-      "water Storage- Nawabad Kunjak.HEIC"
+      "water Storage- Nawabad Kunjak2.HEIC"
     ],
-    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: water Storage- Nawabad Kunjak.HEIC; water Storage- Nawabad Kunjak.HEIC."
+    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: water Storage- Nawabad Kunjak2.HEIC."
   },
   {
     "id": 106,
     "reviewCategory": "review",
     "reviewLabel": "Review",
-    "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 28 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "reviewReason": "No matching FGD/community priority text was found for this cluster, village, and theme.",
+    "title": "CHC Nawabad Markazi",
     "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "WASH",
+    "village": "Nawabad Markazi",
+    "theme": "Health",
     "level": "High",
-    "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
-    "documentEvidence": "Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women.",
-    "photoCount": 2,
+    "sourceDocument": "",
+    "documentEvidence": "Need more context or information.",
+    "photoCount": 1,
     "files": [
-      "water Storage- Nawabad Kunjak2.HEIC",
-      "water Storage- Nawabad Kunjak2.HEIC"
+      "CHC - Nawabad Markazi.HEIC"
     ],
-    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: water Storage- Nawabad Kunjak2.HEIC; water Storage- Nawabad Kunjak2.HEIC."
+    "note": "Need more context or information."
   },
   {
     "id": 107,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Nawabad_Needs Prioritization under FGDs.docx with 21 evidence points.",
-    "title": "Flood / DRR priority evidence (4 photos)",
+    "title": "Flood / DRR priority evidence (2 photos)",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Markazi",
     "theme": "Flood / DRR",
     "level": "High",
     "sourceDocument": "Nawabad_Needs Prioritization under FGDs.docx",
     "documentEvidence": "Irrigation reliability: Seasonal floods damage homes, public assets, and fields; need to both slow floods and improve irrigation efficiency (canal lining) to protect livelihoods and conserve water.",
-    "photoCount": 4,
+    "photoCount": 2,
     "files": [
       "Watergate Pul Panja, Nawabad Markazi1.HEIC",
-      "Watergate Pul Panja, Nawabad Markazi1.HEIC",
-      "Watergate Pul Panja, Nawabad Markazi2.HEIC",
       "Watergate Pul Panja, Nawabad Markazi2.HEIC"
     ],
-    "note": "Document-backed priority need: Irrigation reliability: Seasonal floods damage homes, public assets, and fields; need to both slow floods and improve irrigation efficiency (canal lining) to protect livelihoods and conserve water. Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC."
+    "note": "Document-backed priority need: Irrigation reliability: Seasonal floods damage homes, public assets, and fields; need to both slow floods and improve irrigation efficiency (canal lining) to protect livelihoods and conserve water. Field photo evidence: Watergate Pul Panja, Nawabad Markazi1.HEIC; Watergate Pul Panja, Nawabad Markazi2.HEIC."
   },
   {
     "id": 108,
-    "reviewCategory": "review",
-    "reviewLabel": "Review",
-    "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 29 evidence points.",
-    "title": "Health priority evidence (2 photos)",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Health",
-    "level": "High",
-    "sourceDocument": "CAP Report_Nawabad Cluster_first draft.docx",
-    "documentEvidence": "People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality.",
-    "photoCount": 2,
-    "files": [
-      "CHC - Nawabad Markazi.HEIC",
-      "CHC - Nawabad Markazi.HEIC"
-    ],
-    "note": "Document-backed priority need: People mainly receive health information through the mobile clinic, pharmacies, and community networks, but awareness on disease prevention remains limited. Health services are basic and provided mainly by the mobile clinic, with low capacity and no specialized care, resulting in poor service quality. Field photo evidence: CHC - Nawabad Markazi.HEIC; CHC - Nawabad Markazi.HEIC."
-  },
-  {
-    "id": 109,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched CAP Report_Nawabad Cluster_first draft.docx with 16 evidence points.",
@@ -1997,41 +1961,39 @@
     "note": "Document-backed priority need: Challenge (Female #6): Limited Access to Education for Girls and Boys Due to Overcrowding, Early Marriage, and Insufficient School Capacity Specific location in the community Short-term interventions (minimum that is required/low cost/quick to implement) Distribution of school kits, uniforms, menstrual hygiene supplies, awareness sessions on girls’ educat... Field photo evidence: CBE class_ Nawabad Payen.HEIC."
   },
   {
-    "id": 110,
+    "id": 109,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 28 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "title": "water Storage Nawabad Paeen",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Paeen",
     "theme": "WASH",
     "level": "High",
     "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "documentEvidence": "Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women.",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "water Storage- Nawabad Paeen.HEIC",
       "water Storage- Nawabad Paeen.HEIC"
     ],
-    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: water Storage- Nawabad Paeen.HEIC; water Storage- Nawabad Paeen.HEIC."
+    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: water Storage- Nawabad Paeen.HEIC."
   },
   {
-    "id": 111,
+    "id": 110,
     "reviewCategory": "review",
     "reviewLabel": "Review",
     "reviewReason": "Matched Nawabad Kunduz-Female Needs Prioritization under FGD.docx with 30 evidence points.",
-    "title": "WASH priority evidence (2 photos)",
+    "title": "Water well Nawabad Paeen Near to Muhajirin",
     "cluster": "Nawabad Cluster",
     "village": "Nawabad Paeen",
     "theme": "WASH",
     "level": "High",
     "sourceDocument": "Nawabad Kunduz-Female Needs Prioritization under FGD.docx",
     "documentEvidence": "Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women.",
-    "photoCount": 2,
+    "photoCount": 1,
     "files": [
-      "Water well - Nawabad Paeen Near to Muhajirin.HEIC",
       "Water well - Nawabad Paeen Near to Muhajirin.HEIC"
     ],
-    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: Water well - Nawabad Paeen Near to Muhajirin.HEIC; Water well - Nawabad Paeen Near to Muhajirin.HEIC."
+    "note": "Document-backed priority need: Installation of additional hand pumps, solar-powered water systems, water storage tanks, and separate sanitation facilities for women and girls. Hygiene awareness sessions for women. Field photo evidence: Water well - Nawabad Paeen Near to Muhajirin.HEIC."
   }
 ]

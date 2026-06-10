@@ -9,6 +9,10 @@
     "sync:cluster-priorities": "powershell -NoProfile -ExecutionPolicy Bypass -File ../sync-cluster-priorities-map.ps1",
     "generate:cluster-priorities": "npm --prefix ../deployed run generate:infrastructure",
     "sync:all-priorities": "npm run sync:priorities && npm run sync:cluster-priorities",
+    "sync:images": "powershell -NoProfile -ExecutionPolicy Bypass -File ../sync-priority-map-images-to-s3.ps1",
+    "deploy:frontend": "powershell -NoProfile -ExecutionPolicy Bypass -File ../deploy-frontend-to-aws.ps1 -ExcludeBundledInfrastructurePreviews",
+    "deploy:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ../deploy-all-to-aws.ps1 -SkipGenerate -ExcludeBundledInfrastructurePreviews",
+    "test:online": "powershell -NoProfile -ExecutionPolicy Bypass -File ../test-deployment-online.ps1",
     "deploy:priorities:isolated": "powershell -NoProfile -ExecutionPolicy Bypass -File ../deploy-community-priorities-map-isolated-to-aws.ps1",
     "regenerate:priorities-source": "node ../scripts/extract-community-priorities-source.mjs"
   },

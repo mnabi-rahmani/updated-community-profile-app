@@ -12,7 +12,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.17464167,
-    "lon": 68.78115833
+    "lon": 68.78115833,
+    "hash": "2eaac0a5103f9544"
   },
   {
     "id": 2,
@@ -26,7 +27,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.17463333,
-    "lon": 68.78115
+    "lon": 68.78115,
+    "hash": "56afb9611ce73696"
   },
   {
     "id": 3,
@@ -40,7 +42,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15857778,
-    "lon": 68.79779167
+    "lon": 68.79779167,
+    "hash": "74f347a90311432f"
   },
   {
     "id": 4,
@@ -54,7 +57,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.17314167,
-    "lon": 68.77404722
+    "lon": 68.77404722,
+    "hash": "ae870fef138c5bf9"
   },
   {
     "id": 5,
@@ -68,7 +72,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.173125,
-    "lon": 68.77403333
+    "lon": 68.77403333,
+    "hash": "3cecb9ddd9aca17c"
   },
   {
     "id": 6,
@@ -82,7 +87,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17480556,
-    "lon": 68.77307222
+    "lon": 68.77307222,
+    "hash": "5a897e5783645753"
   },
   {
     "id": 7,
@@ -96,7 +102,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.17402222,
-    "lon": 68.77477222
+    "lon": 68.77477222,
+    "hash": "61c16cd6e0b1759c"
   },
   {
     "id": 8,
@@ -110,7 +117,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17247297,
-    "lon": 68.766772
+    "lon": 68.766772,
+    "hash": "357e530dd7f29ba0"
   },
   {
     "id": 9,
@@ -124,7 +132,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.168264,
-    "lon": 68.76855197
+    "lon": 68.76855197,
+    "hash": "34e46c2fe7567e6d"
   },
   {
     "id": 10,
@@ -138,7 +147,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17106497,
-    "lon": 68.76800197
+    "lon": 68.76800197,
+    "hash": "f3f815d839902b9d"
   },
   {
     "id": 11,
@@ -152,7 +162,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.16963497,
-    "lon": 68.77027597
+    "lon": 68.77027597,
+    "hash": "2b17c91a5c787d95"
   },
   {
     "id": 12,
@@ -166,7 +177,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.17116697,
-    "lon": 68.76827797
+    "lon": 68.76827797,
+    "hash": "34bae87b9148e8a1"
   },
   {
     "id": 13,
@@ -180,7 +192,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.16963497,
-    "lon": 68.77027597
+    "lon": 68.77027597,
+    "hash": "3ca6b95f5d98179f"
   },
   {
     "id": 14,
@@ -194,7 +207,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.172372,
-    "lon": 68.766908
+    "lon": 68.766908,
+    "hash": "e95f257e255458b5"
   },
   {
     "id": 15,
@@ -208,7 +222,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.171863,
-    "lon": 68.765557
+    "lon": 68.765557,
+    "hash": "251f623842600f73"
   },
   {
     "id": 16,
@@ -222,7 +237,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.172372,
-    "lon": 68.766908
+    "lon": 68.766908,
+    "hash": "d9afd9559e9ea1f5"
   },
   {
     "id": 17,
@@ -236,7 +252,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17300097,
-    "lon": 68.76487697
+    "lon": 68.76487697,
+    "hash": "302bf45903634564"
   },
   {
     "id": 18,
@@ -250,7 +267,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17309697,
-    "lon": 68.765168
+    "lon": 68.765168,
+    "hash": "01cf771e523ccbc3"
   },
   {
     "id": 19,
@@ -264,7 +282,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.17782222,
-    "lon": 68.77899167
+    "lon": 68.77899167,
+    "hash": "1a167669bda03752"
   },
   {
     "id": 20,
@@ -278,7 +297,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.17781111,
-    "lon": 68.779
+    "lon": 68.779,
+    "hash": "6549635882e3f6a6"
   },
   {
     "id": 21,
@@ -292,7 +312,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17785556,
-    "lon": 68.77894722
+    "lon": 68.77894722,
+    "hash": "485c22351b00913b"
   },
   {
     "id": 22,
@@ -306,7 +327,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17753889,
-    "lon": 68.77856389
+    "lon": 68.77856389,
+    "hash": "445ce509a1c9c623"
   },
   {
     "id": 23,
@@ -320,7 +342,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17761944,
-    "lon": 68.77853333
+    "lon": 68.77853333,
+    "hash": "b4a5ab70bdeb9224"
   },
   {
     "id": 24,
@@ -334,7 +357,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17530556,
-    "lon": 68.77796944
+    "lon": 68.77796944,
+    "hash": "22506fb4d3ace9e6"
   },
   {
     "id": 25,
@@ -348,7 +372,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17864722,
-    "lon": 68.77617778
+    "lon": 68.77617778,
+    "hash": "d212370323b074ee"
   },
   {
     "id": 26,
@@ -362,7 +387,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17605278,
-    "lon": 68.77275833
+    "lon": 68.77275833,
+    "hash": "ca4a5c082457cf73"
   },
   {
     "id": 27,
@@ -376,7 +402,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.17925,
-    "lon": 68.77803056
+    "lon": 68.77803056,
+    "hash": "1885af54545ac300"
   },
   {
     "id": 28,
@@ -390,7 +417,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.17861944,
-    "lon": 68.77483333
+    "lon": 68.77483333,
+    "hash": "88caf7f228fe361e"
   },
   {
     "id": 29,
@@ -404,7 +432,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19165833,
-    "lon": 68.75576111
+    "lon": 68.75576111,
+    "hash": "d7cab9fa2b0adeaf"
   },
   {
     "id": 30,
@@ -418,7 +447,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19324444,
-    "lon": 68.75654722
+    "lon": 68.75654722,
+    "hash": "1779d1e3447bd77b"
   },
   {
     "id": 31,
@@ -432,7 +462,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19005556,
-    "lon": 68.75503611
+    "lon": 68.75503611,
+    "hash": "58dbf94848430bc6"
   },
   {
     "id": 32,
@@ -446,7 +477,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19234722,
-    "lon": 68.75627222
+    "lon": 68.75627222,
+    "hash": "375d965edf6e5de4"
   },
   {
     "id": 33,
@@ -460,7 +492,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19176111,
-    "lon": 68.76241389
+    "lon": 68.76241389,
+    "hash": "b9a1a05cc269480f"
   },
   {
     "id": 34,
@@ -474,7 +507,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.19066944,
-    "lon": 68.76113889
+    "lon": 68.76113889,
+    "hash": "ce96b12c19b97934"
   },
   {
     "id": 35,
@@ -488,7 +522,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18321667,
-    "lon": 68.75138889
+    "lon": 68.75138889,
+    "hash": "e0297c5e2937cb11"
   },
   {
     "id": 36,
@@ -502,7 +537,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18671667,
-    "lon": 68.75936944
+    "lon": 68.75936944,
+    "hash": "84aa4884368d7f31"
   },
   {
     "id": 37,
@@ -516,7 +552,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18816389,
-    "lon": 68.76033056
+    "lon": 68.76033056,
+    "hash": "ddd61cf98d04778b"
   },
   {
     "id": 38,
@@ -530,7 +567,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18525,
-    "lon": 68.759925
+    "lon": 68.759925,
+    "hash": "0da995610f8b91b7"
   },
   {
     "id": 39,
@@ -544,7 +582,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18535556,
-    "lon": 68.76004167
+    "lon": 68.76004167,
+    "hash": "45b893efc6f5ec04"
   },
   {
     "id": 40,
@@ -558,7 +597,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.19021111,
-    "lon": 68.77346111
+    "lon": 68.77346111,
+    "hash": "d60732bd53c72b70"
   },
   {
     "id": 41,
@@ -572,7 +612,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19133056,
-    "lon": 68.773475
+    "lon": 68.773475,
+    "hash": "3d54f6e182d41935"
   },
   {
     "id": 42,
@@ -586,7 +627,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.18587778,
-    "lon": 68.77221667
+    "lon": 68.77221667,
+    "hash": "a5473cec87aa05e9"
   },
   {
     "id": 43,
@@ -600,7 +642,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.18561944,
-    "lon": 68.77210278
+    "lon": 68.77210278,
+    "hash": "1b4c6d588a0f6a7a"
   },
   {
     "id": 44,
@@ -614,7 +657,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.18580556,
-    "lon": 68.77223333
+    "lon": 68.77223333,
+    "hash": "41daaa87614181c1"
   },
   {
     "id": 45,
@@ -628,7 +672,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.18722778,
-    "lon": 68.76968333
+    "lon": 68.76968333,
+    "hash": "1acef0403090c0d5"
   },
   {
     "id": 46,
@@ -642,7 +687,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18803889,
-    "lon": 68.77205
+    "lon": 68.77205,
+    "hash": "72a2f99644781ae4"
   },
   {
     "id": 47,
@@ -656,7 +702,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18610833,
-    "lon": 68.76919444
+    "lon": 68.76919444,
+    "hash": "3527a0135dd98b7d"
   },
   {
     "id": 48,
@@ -670,7 +717,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.18838056,
-    "lon": 68.77262222
+    "lon": 68.77262222,
+    "hash": "5f268158164089bd"
   },
   {
     "id": 49,
@@ -684,7 +732,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18325,
-    "lon": 68.75581389
+    "lon": 68.75581389,
+    "hash": "cb94bdb986eb12ab"
   },
   {
     "id": 50,
@@ -698,7 +747,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.18148056,
-    "lon": 68.75886667
+    "lon": 68.75886667,
+    "hash": "72059afb9c7489da"
   },
   {
     "id": 51,
@@ -712,7 +762,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.18151111,
-    "lon": 68.75879722
+    "lon": 68.75879722,
+    "hash": "9ef0fbc45bba9554"
   },
   {
     "id": 52,
@@ -726,7 +777,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.18150278,
-    "lon": 68.75880556
+    "lon": 68.75880556,
+    "hash": "6e525d84034cabf7"
   },
   {
     "id": 53,
@@ -740,7 +792,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.18150833,
-    "lon": 68.75879722
+    "lon": 68.75879722,
+    "hash": "ca5212fbf4ef5cd1"
   },
   {
     "id": 54,
@@ -754,7 +807,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.18150278,
-    "lon": 68.75878889
+    "lon": 68.75878889,
+    "hash": "831051060876dbba"
   },
   {
     "id": 55,
@@ -768,7 +822,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18155556,
-    "lon": 68.75898056
+    "lon": 68.75898056,
+    "hash": "d2c412a61615e56c"
   },
   {
     "id": 56,
@@ -782,7 +837,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18389444,
-    "lon": 68.7548
+    "lon": 68.7548,
+    "hash": "795517880d9d44e1"
   },
   {
     "id": 57,
@@ -796,7 +852,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18263889,
-    "lon": 68.75399722
+    "lon": 68.75399722,
+    "hash": "01139bafc619d740"
   },
   {
     "id": 58,
@@ -810,7 +867,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.186233,
-    "lon": 68.769372
+    "lon": 68.769372,
+    "hash": "8c02be9ba59099ae"
   },
   {
     "id": 59,
@@ -824,7 +882,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18528897,
-    "lon": 68.77194
+    "lon": 68.77194,
+    "hash": "c6d45cac9810a2c3"
   },
   {
     "id": 60,
@@ -838,7 +897,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.18528897,
-    "lon": 68.77194
+    "lon": 68.77194,
+    "hash": "cc6873f7a72a4f71"
   },
   {
     "id": 61,
@@ -852,7 +912,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.183866,
-    "lon": 68.77013497
+    "lon": 68.77013497,
+    "hash": "8180ed7957517b41"
   },
   {
     "id": 62,
@@ -866,7 +927,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18075997,
-    "lon": 68.763732
+    "lon": 68.763732,
+    "hash": "6d6ea3f1208b3f31"
   },
   {
     "id": 63,
@@ -880,7 +942,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18145897,
-    "lon": 68.759972
+    "lon": 68.759972,
+    "hash": "95b3d3e8c6ad5c01"
   },
   {
     "id": 64,
@@ -894,7 +957,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.186233,
-    "lon": 68.769372
+    "lon": 68.769372,
+    "hash": "f62add5f6a4d4477"
   },
   {
     "id": 65,
@@ -908,7 +972,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18478,
-    "lon": 68.76892897
+    "lon": 68.76892897,
+    "hash": "0f7928fa66fa447c"
   },
   {
     "id": 66,
@@ -922,7 +987,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19376667,
-    "lon": 68.77265278
+    "lon": 68.77265278,
+    "hash": "112abc10720605e2"
   },
   {
     "id": 67,
@@ -936,7 +1002,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19389444,
-    "lon": 68.77242222
+    "lon": 68.77242222,
+    "hash": "59405cf456d704bc"
   },
   {
     "id": 68,
@@ -950,7 +1017,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.19619722,
-    "lon": 68.76578611
+    "lon": 68.76578611,
+    "hash": "578b0d84d5410617"
   },
   {
     "id": 69,
@@ -964,7 +1032,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.19772222,
-    "lon": 68.76438056
+    "lon": 68.76438056,
+    "hash": "89d92c11604a000d"
   },
   {
     "id": 70,
@@ -978,7 +1047,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19746389,
-    "lon": 68.76380833
+    "lon": 68.76380833,
+    "hash": "f36731a42a318950"
   },
   {
     "id": 71,
@@ -992,7 +1062,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19681667,
-    "lon": 68.76370278
+    "lon": 68.76370278,
+    "hash": "358ba7d120bc413e"
   },
   {
     "id": 72,
@@ -1006,7 +1077,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19693889,
-    "lon": 68.76361944
+    "lon": 68.76361944,
+    "hash": "0e7e43798a1229d8"
   },
   {
     "id": 73,
@@ -1020,7 +1092,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.198475,
-    "lon": 68.76018611
+    "lon": 68.76018611,
+    "hash": "4bac41ea6d03c8f8"
   },
   {
     "id": 74,
@@ -1034,7 +1107,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19555,
-    "lon": 68.75595
+    "lon": 68.75595,
+    "hash": "522ec3411a4bbcb7"
   },
   {
     "id": 75,
@@ -1048,7 +1122,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19551389,
-    "lon": 68.75590556
+    "lon": 68.75590556,
+    "hash": "695be0473187d994"
   },
   {
     "id": 76,
@@ -1062,7 +1137,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19259167,
-    "lon": 68.75618056
+    "lon": 68.75618056,
+    "hash": "f51138988709d66f"
   },
   {
     "id": 77,
@@ -1076,7 +1152,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19343056,
-    "lon": 68.75645556
+    "lon": 68.75645556,
+    "hash": "3f6b7b64d1151bd1"
   },
   {
     "id": 78,
@@ -1090,7 +1167,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19245278,
-    "lon": 68.75618056
+    "lon": 68.75618056,
+    "hash": "af543d07ebe097ff"
   },
   {
     "id": 79,
@@ -1104,7 +1182,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18845833,
-    "lon": 68.75356389
+    "lon": 68.75356389,
+    "hash": "949429df3e79ebc2"
   },
   {
     "id": 80,
@@ -1118,7 +1197,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.21100897,
-    "lon": 68.75691997
+    "lon": 68.75691997,
+    "hash": "7857563d041f0428"
   },
   {
     "id": 81,
@@ -1132,7 +1212,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.211308,
-    "lon": 68.76527197
+    "lon": 68.76527197,
+    "hash": "cdabc8d97813d31c"
   },
   {
     "id": 82,
@@ -1146,7 +1227,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20940833,
-    "lon": 68.76860833
+    "lon": 68.76860833,
+    "hash": "ac64078cda9b9f3f"
   },
   {
     "id": 83,
@@ -1160,7 +1242,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Shelter",
     "markerClass": "shelter",
     "lat": 36.208832,
-    "lon": 68.759156
+    "lon": 68.759156,
+    "hash": "1193345769e909bf"
   },
   {
     "id": 84,
@@ -1174,7 +1257,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.211308,
-    "lon": 68.76527197
+    "lon": 68.76527197,
+    "hash": "b659bf0ece86c881"
   },
   {
     "id": 85,
@@ -1188,7 +1272,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.208123,
-    "lon": 68.76747697
+    "lon": 68.76747697,
+    "hash": "a5880509cab92e88"
   },
   {
     "id": 86,
@@ -1202,7 +1287,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.208123,
-    "lon": 68.76747697
+    "lon": 68.76747697,
+    "hash": "bbaee61098fb522b"
   },
   {
     "id": 87,
@@ -1216,7 +1302,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.219993,
-    "lon": 68.76859397
+    "lon": 68.76859397,
+    "hash": "d060f0330ed94325"
   },
   {
     "id": 88,
@@ -1230,7 +1317,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20273611,
-    "lon": 68.76328333
+    "lon": 68.76328333,
+    "hash": "9bc2cece67caf1b3"
   },
   {
     "id": 89,
@@ -1244,7 +1332,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.19959167,
-    "lon": 68.78881111
+    "lon": 68.78881111,
+    "hash": "5675d38030bba889"
   },
   {
     "id": 90,
@@ -1258,7 +1347,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19979444,
-    "lon": 68.78861944
+    "lon": 68.78861944,
+    "hash": "00854787cc87840c"
   },
   {
     "id": 91,
@@ -1272,7 +1362,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19972222,
-    "lon": 68.78875
+    "lon": 68.78875,
+    "hash": "ce8ce8bfa23a4903"
   },
   {
     "id": 92,
@@ -1286,7 +1377,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19970278,
-    "lon": 68.78878889
+    "lon": 68.78878889,
+    "hash": "dd660a6fdc5740a1"
   },
   {
     "id": 93,
@@ -1300,7 +1392,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19524444,
-    "lon": 68.78089167
+    "lon": 68.78089167,
+    "hash": "7cd2c77b721039a5"
   },
   {
     "id": 94,
@@ -1314,7 +1407,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19658333,
-    "lon": 68.78263056
+    "lon": 68.78263056,
+    "hash": "b67c190a299719db"
   },
   {
     "id": 95,
@@ -1328,7 +1422,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20031111,
-    "lon": 68.78608056
+    "lon": 68.78608056,
+    "hash": "82ba06d01769fde8"
   },
   {
     "id": 96,
@@ -1342,7 +1437,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.20260278,
-    "lon": 68.78346944
+    "lon": 68.78346944,
+    "hash": "545955fdb20d3327"
   },
   {
     "id": 97,
@@ -1356,7 +1452,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.19803889,
-    "lon": 68.78608056
+    "lon": 68.78608056,
+    "hash": "974a3959d269acb1"
   },
   {
     "id": 98,
@@ -1370,7 +1467,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19966111,
-    "lon": 68.78883333
+    "lon": 68.78883333,
+    "hash": "09aeb7950f5a2f96"
   },
   {
     "id": 99,
@@ -1384,7 +1482,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20353611,
-    "lon": 68.78272222
+    "lon": 68.78272222,
+    "hash": "fffb076bff1d54d3"
   },
   {
     "id": 100,
@@ -1398,7 +1497,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20310278,
-    "lon": 68.78305833
+    "lon": 68.78305833,
+    "hash": "3ea76e8a2013b4b1"
   },
   {
     "id": 101,
@@ -1412,7 +1512,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.20785833,
-    "lon": 68.77978611
+    "lon": 68.77978611,
+    "hash": "87b63ba52c03bd52"
   },
   {
     "id": 102,
@@ -1426,7 +1527,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20826667,
-    "lon": 68.778625
+    "lon": 68.778625,
+    "hash": "7157b0f853ec4e51"
   },
   {
     "id": 103,
@@ -1440,7 +1542,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.20249444,
-    "lon": 68.79058056
+    "lon": 68.79058056,
+    "hash": "c7fd550d016c3728"
   },
   {
     "id": 104,
@@ -1454,7 +1557,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20164167,
-    "lon": 68.79205278
+    "lon": 68.79205278,
+    "hash": "dd8acb1799ae9600"
   },
   {
     "id": 105,
@@ -1468,7 +1572,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20171111,
-    "lon": 68.79208333
+    "lon": 68.79208333,
+    "hash": "524e4c4e3ba34e2b"
   },
   {
     "id": 106,
@@ -1482,7 +1587,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20677222,
-    "lon": 68.78146389
+    "lon": 68.78146389,
+    "hash": "b0ff75f276912149"
   },
   {
     "id": 107,
@@ -1496,7 +1602,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20681389,
-    "lon": 68.78134167
+    "lon": 68.78134167,
+    "hash": "7266d6e036a511a5"
   },
   {
     "id": 108,
@@ -1510,7 +1617,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.2091,
-    "lon": 68.778625
+    "lon": 68.778625,
+    "hash": "2f537705201e8201"
   },
   {
     "id": 109,
@@ -1524,7 +1632,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20925556,
-    "lon": 68.778625
+    "lon": 68.778625,
+    "hash": "03c67b392be28414"
   },
   {
     "id": 110,
@@ -1538,7 +1647,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.21216667,
-    "lon": 68.77661111
+    "lon": 68.77661111,
+    "hash": "e85cd8cfbb3543ff"
   },
   {
     "id": 111,
@@ -1552,7 +1662,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.21534722,
-    "lon": 68.77062222
+    "lon": 68.77062222,
+    "hash": "5f8d9dd777cedd08"
   },
   {
     "id": 112,
@@ -1566,7 +1677,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.20295278,
-    "lon": 68.79189167
+    "lon": 68.79189167,
+    "hash": "176a50889709bf14"
   },
   {
     "id": 113,
@@ -1580,7 +1692,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18195278,
-    "lon": 68.77375833
+    "lon": 68.77375833,
+    "hash": "859df6e640eeaded"
   },
   {
     "id": 114,
@@ -1594,7 +1707,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.1820709,
-    "lon": 68.7740743
+    "lon": 68.7740743,
+    "hash": "b5d9e7f9b591da89"
   },
   {
     "id": 115,
@@ -1608,7 +1722,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18821667,
-    "lon": 68.77436111
+    "lon": 68.77436111,
+    "hash": "49248ae447fcd707"
   },
   {
     "id": 116,
@@ -1622,7 +1737,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18206389,
-    "lon": 68.77400833
+    "lon": 68.77400833,
+    "hash": "195506bab7b92b9e"
   },
   {
     "id": 117,
@@ -1636,7 +1752,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.1734,
-    "lon": 68.77373611
+    "lon": 68.77373611,
+    "hash": "74b3e4dbe199f3a5"
   },
   {
     "id": 118,
@@ -1650,7 +1767,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18528611,
-    "lon": 68.77603889
+    "lon": 68.77603889,
+    "hash": "c9a36309fb2ebdd0"
   },
   {
     "id": 119,
@@ -1664,7 +1782,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18834722,
-    "lon": 68.77483333
+    "lon": 68.77483333,
+    "hash": "6a599bef69135ff5"
   },
   {
     "id": 120,
@@ -1678,7 +1797,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.17323056,
-    "lon": 68.77372778
+    "lon": 68.77372778,
+    "hash": "b8f825dfcf725fde"
   },
   {
     "id": 121,
@@ -1692,7 +1812,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18798333,
-    "lon": 68.77443611
+    "lon": 68.77443611,
+    "hash": "2d58465ad7ea93cd"
   },
   {
     "id": 122,
@@ -1706,7 +1827,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18358333,
-    "lon": 68.77495556
+    "lon": 68.77495556,
+    "hash": "cdc2df4b834a1e61"
   },
   {
     "id": 123,
@@ -1720,7 +1842,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18974722,
-    "lon": 68.79528056
+    "lon": 68.79528056,
+    "hash": "37f4fe852528898f"
   },
   {
     "id": 124,
@@ -1734,7 +1857,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19583611,
-    "lon": 68.79590556
+    "lon": 68.79590556,
+    "hash": "fc6821121bb68c4e"
   },
   {
     "id": 125,
@@ -1748,7 +1872,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19431667,
-    "lon": 68.79216111
+    "lon": 68.79216111,
+    "hash": "9c85493da55a5734"
   },
   {
     "id": 126,
@@ -1762,7 +1887,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19464444,
-    "lon": 68.792725
+    "lon": 68.792725,
+    "hash": "c59c4610f62f0f68"
   },
   {
     "id": 127,
@@ -1776,7 +1902,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19447197,
-    "lon": 68.792145
+    "lon": 68.792145,
+    "hash": "a57a8fdfaff6d999"
   },
   {
     "id": 128,
@@ -1790,7 +1917,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.18972997,
-    "lon": 68.795282
+    "lon": 68.795282,
+    "hash": "87ca0b0bbcc4632a"
   },
   {
     "id": 129,
@@ -1804,7 +1932,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.192979,
-    "lon": 68.79071297
+    "lon": 68.79071297,
+    "hash": "d1f28cf742a927d3"
   },
   {
     "id": 130,
@@ -1818,7 +1947,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19131097,
-    "lon": 68.780259
+    "lon": 68.780259,
+    "hash": "6fc7cc6f536e8bdd"
   },
   {
     "id": 131,
@@ -1832,7 +1962,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.19447197,
-    "lon": 68.792145
+    "lon": 68.792145,
+    "hash": "e8aba3e8174457ee"
   },
   {
     "id": 132,
@@ -1846,38 +1977,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.19298056,
-    "lon": 68.79080278
+    "lon": 68.79080278,
+    "hash": "2496327c0d21a5d3"
   },
   {
     "id": 133,
-    "fileName": "Cemetery, Shared Raees Bahram & Dad Mohammad.HEIC",
-    "title": "Cemetery, Shared Raees Bahram & Dad Mohammad",
-    "image": "cursor_v2_map_data/photo_previews/37f4fe852528898f.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 5/Raees Bahram Village/Cemetery, Shared Raees Bahram & Dad Mohammad.HEIC",
-    "province": "Baghlan-e-Jadid, Baghlan Province",
-    "cluster": "Cluster 5",
-    "village": "Raees Bahram Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.18974722,
-    "lon": 68.79528056
-  },
-  {
-    "id": 134,
-    "fileName": "End Point of Raees Bahram.HEIC",
-    "title": "End Point of Raees Bahram",
-    "image": "cursor_v2_map_data/photo_previews/fc6821121bb68c4e.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 5/Raees Bahram Village/End Point of Raees Bahram.HEIC",
-    "province": "Baghlan-e-Jadid, Baghlan Province",
-    "cluster": "Cluster 5",
-    "village": "Raees Bahram Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.19583611,
-    "lon": 68.79590556
-  },
-  {
-    "id": 135,
     "fileName": "Start  Point of Raees Bahram.HEIC",
     "title": "Start Point of Raees Bahram",
     "image": "cursor_v2_map_data/photo_previews/6e129048854bc0d7.jpg",
@@ -1888,10 +1992,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19167222,
-    "lon": 68.78546944
+    "lon": 68.78546944,
+    "hash": "6e129048854bc0d7"
   },
   {
-    "id": 136,
+    "id": 134,
     "fileName": "wasteWater Storage, Raees Bahram.HEIC",
     "title": "wasteWater Storage, Raees Bahram",
     "image": "cursor_v2_map_data/photo_previews/8911d0c8320dfe7a.jpg",
@@ -1902,10 +2007,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19445833,
-    "lon": 68.79222778
+    "lon": 68.79222778,
+    "hash": "8911d0c8320dfe7a"
   },
   {
-    "id": 137,
+    "id": 135,
     "fileName": "Electrical Water well,  Tajek ha.HEIC",
     "title": "Electrical Water well, Tajek ha",
     "image": "cursor_v2_map_data/photo_previews/0a614d84c11e2d39.jpg",
@@ -1916,10 +2022,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.19946667,
-    "lon": 68.79387778
+    "lon": 68.79387778,
+    "hash": "0a614d84c11e2d39"
   },
   {
-    "id": 138,
+    "id": 136,
     "fileName": "End point of Tajik ha and start point of Yaka Toot.HEIC",
     "title": "End point of Tajik ha and start point of Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/dd52794ed06c69e0.jpg",
@@ -1930,10 +2037,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19791111,
-    "lon": 68.81027222
+    "lon": 68.81027222,
+    "hash": "dd52794ed06c69e0"
   },
   {
-    "id": 139,
+    "id": 137,
     "fileName": "Shop, Tajek Ha.HEIC",
     "title": "Shop, Tajek Ha",
     "image": "cursor_v2_map_data/photo_previews/856946e733a9d2de.jpg",
@@ -1944,10 +2052,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19661667,
-    "lon": 68.79714167
+    "lon": 68.79714167,
+    "hash": "856946e733a9d2de"
   },
   {
-    "id": 140,
+    "id": 138,
     "fileName": "Start point of tajek ha.HEIC",
     "title": "Start point of tajek ha",
     "image": "cursor_v2_map_data/photo_previews/0745de4dddf4dfad.jpg",
@@ -1958,10 +2067,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19891667,
-    "lon": 68.79609722
+    "lon": 68.79609722,
+    "hash": "0745de4dddf4dfad"
   },
   {
-    "id": 141,
+    "id": 139,
     "fileName": "Water Tank made by Government, Tajek ha.HEIC",
     "title": "Water Tank made by Government, Tajek ha",
     "image": "cursor_v2_map_data/photo_previews/5e8286ebd1420095.jpg",
@@ -1972,10 +2082,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19664444,
-    "lon": 68.796975
+    "lon": 68.796975,
+    "hash": "5e8286ebd1420095"
   },
   {
-    "id": 142,
+    "id": 140,
     "fileName": "Water well, Tajek Ha.HEIC",
     "title": "Water well, Tajek Ha",
     "image": "cursor_v2_map_data/photo_previews/a548e513a690a680.jpg",
@@ -1986,10 +2097,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.200175,
-    "lon": 68.79426667
+    "lon": 68.79426667,
+    "hash": "a548e513a690a680"
   },
   {
-    "id": 143,
+    "id": 141,
     "fileName": "Flood Way, Yaka Toot.HEIC",
     "title": "Flood Way, Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/fd6289852b2aef6b.jpg",
@@ -2000,10 +2112,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.198525,
-    "lon": 68.81699444
+    "lon": 68.81699444,
+    "hash": "fd6289852b2aef6b"
   },
   {
-    "id": 144,
+    "id": 142,
     "fileName": "Flood-prone Area Need to Protection Wall-Yakatoot.HEIC",
     "title": "Flood prone Area Need to Protection Wall Yakatoot",
     "image": "cursor_v2_map_data/photo_previews/0afebed659cf53c6.jpg",
@@ -2014,10 +2127,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.20213333,
-    "lon": 68.82245556
+    "lon": 68.82245556,
+    "hash": "0afebed659cf53c6"
   },
   {
-    "id": 145,
+    "id": 143,
     "fileName": "Flour mill, Yaka Toot.HEIC",
     "title": "Flour mill, Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/2a488bfba82718aa.jpg",
@@ -2028,10 +2142,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20140556,
-    "lon": 68.81732222
+    "lon": 68.81732222,
+    "hash": "2a488bfba82718aa"
   },
   {
-    "id": 146,
+    "id": 144,
     "fileName": "Jami Mosque,  Yaka Toot.HEIC",
     "title": "Jami Mosque, Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/f20488752c2f7787.jpg",
@@ -2042,10 +2157,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19966389,
-    "lon": 68.81921389
+    "lon": 68.81921389,
+    "hash": "f20488752c2f7787"
   },
   {
-    "id": 147,
+    "id": 145,
     "fileName": "Pharmacy and OPD Service, Yaka Toot.HEIC",
     "title": "Pharmacy and OPD Service, Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/69cafd35d4dc8a85.jpg",
@@ -2056,10 +2172,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.20199167,
-    "lon": 68.81873333
+    "lon": 68.81873333,
+    "hash": "69cafd35d4dc8a85"
   },
   {
-    "id": 148,
+    "id": 146,
     "fileName": "Salty water Tank used for Agriculture lands, Yaka Toot.HEIC",
     "title": "Salty water Tank used for Agriculture lands, Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/c61da83ce8c6db1f.jpg",
@@ -2070,10 +2187,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.20198889,
-    "lon": 68.818725
+    "lon": 68.818725,
+    "hash": "c61da83ce8c6db1f"
   },
   {
-    "id": 149,
+    "id": 147,
     "fileName": "Shop,  Yaka Toot 2.HEIC",
     "title": "Shop, Yaka Toot 2",
     "image": "cursor_v2_map_data/photo_previews/02aa8d930b3f3f18.jpg",
@@ -2084,10 +2202,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19964167,
-    "lon": 68.81919167
+    "lon": 68.81919167,
+    "hash": "02aa8d930b3f3f18"
   },
   {
-    "id": 150,
+    "id": 148,
     "fileName": "Shop,  Yaka Toot.HEIC",
     "title": "Shop, Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/5b9339bd1df67dbe.jpg",
@@ -2098,10 +2217,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19945278,
-    "lon": 68.81895556
+    "lon": 68.81895556,
+    "hash": "5b9339bd1df67dbe"
   },
   {
-    "id": 151,
+    "id": 149,
     "fileName": "Water Storage, Yakatoot.HEIC",
     "title": "Water Storage, Yakatoot",
     "image": "cursor_v2_map_data/photo_previews/1c5587e24c1e2001.jpg",
@@ -2112,10 +2232,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.19693889,
-    "lon": 68.82671389
+    "lon": 68.82671389,
+    "hash": "1c5587e24c1e2001"
   },
   {
-    "id": 152,
+    "id": 150,
     "fileName": "Water Tank made by USAID,  and end point of Yaka Toot.HEIC",
     "title": "Water Tank made by USAID, and end point of Yaka Toot",
     "image": "cursor_v2_map_data/photo_previews/915e85934cd920ac.jpg",
@@ -2126,10 +2247,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.19696111,
-    "lon": 68.82669167
+    "lon": 68.82669167,
+    "hash": "915e85934cd920ac"
   },
   {
-    "id": 153,
+    "id": 151,
     "fileName": "Brakes factory is being built, Gujar ha.HEIC",
     "title": "Brakes factory is being built, Gujar ha",
     "image": "cursor_v2_map_data/photo_previews/b76dfae74adc05b7.jpg",
@@ -2140,10 +2262,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34548611,
-    "lon": 68.84548056
+    "lon": 68.84548056,
+    "hash": "b76dfae74adc05b7"
   },
   {
-    "id": 154,
+    "id": 152,
     "fileName": "Brick Klin_Gujar Ha.HEIC",
     "title": "Brick Klin Gujar Ha",
     "image": "cursor_v2_map_data/photo_previews/cf9768b6a8b11c98.jpg",
@@ -2154,10 +2277,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34536111,
-    "lon": 68.84603889
+    "lon": 68.84603889,
+    "hash": "cf9768b6a8b11c98"
   },
   {
-    "id": 155,
+    "id": 153,
     "fileName": "Destroyed Water well Gujar Ha.HEIC",
     "title": "Destroyed Water well Gujar Ha",
     "image": "cursor_v2_map_data/photo_previews/eecccbcbdf9cee4d.jpg",
@@ -2168,10 +2292,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.34014444,
-    "lon": 68.85289722
+    "lon": 68.85289722,
+    "hash": "eecccbcbdf9cee4d"
   },
   {
-    "id": 156,
+    "id": 154,
     "fileName": "end point of Gujar ha village.HEIC",
     "title": "end point of Gujar ha village",
     "image": "cursor_v2_map_data/photo_previews/d3bd447eea1f1f36.jpg",
@@ -2182,10 +2307,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32636667,
-    "lon": 68.85303611
+    "lon": 68.85303611,
+    "hash": "d3bd447eea1f1f36"
   },
   {
-    "id": 157,
+    "id": 155,
     "fileName": "flood way of Gujar Ha.HEIC",
     "title": "flood way of Gujar Ha",
     "image": "cursor_v2_map_data/photo_previews/1647e064cd0baa73.jpg",
@@ -2196,10 +2322,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.34113611,
-    "lon": 68.85419444
+    "lon": 68.85419444,
+    "hash": "1647e064cd0baa73"
   },
   {
-    "id": 158,
+    "id": 156,
     "fileName": "Gujar ha Secondry School.HEIC",
     "title": "Gujar ha Secondry School",
     "image": "cursor_v2_map_data/photo_previews/0f0582d20b96ad1a.jpg",
@@ -2210,10 +2337,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.33739444,
-    "lon": 68.85691944
+    "lon": 68.85691944,
+    "hash": "0f0582d20b96ad1a"
   },
   {
-    "id": 159,
+    "id": 157,
     "fileName": "Jami Mosque, Gujur ha.HEIC",
     "title": "Jami Mosque, Gujur ha",
     "image": "cursor_v2_map_data/photo_previews/f9f132b3afd702a6.jpg",
@@ -2224,10 +2352,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34114444,
-    "lon": 68.85418611
+    "lon": 68.85418611,
+    "hash": "f9f132b3afd702a6"
   },
   {
-    "id": 160,
+    "id": 158,
     "fileName": "Main road-needs atleast graveling.HEIC",
     "title": "Main road needs atleast graveling",
     "image": "cursor_v2_map_data/photo_previews/82a6854ee8d176e4.jpg",
@@ -2238,10 +2367,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.34428056,
-    "lon": 68.84820556
+    "lon": 68.84820556,
+    "hash": "82a6854ee8d176e4"
   },
   {
-    "id": 161,
+    "id": 159,
     "fileName": "Main road-needs atleast graveling2.HEIC",
     "title": "Main road needs atleast graveling2",
     "image": "cursor_v2_map_data/photo_previews/583b4e552af40e49.jpg",
@@ -2252,10 +2382,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.34164167,
-    "lon": 68.8508
+    "lon": 68.8508,
+    "hash": "583b4e552af40e49"
   },
   {
-    "id": 162,
+    "id": 160,
     "fileName": "Mawalavi Abdul Manan Elementry School_Gujar Ha.HEIC",
     "title": "Mawalavi Abdul Manan Elementry School Gujar Ha",
     "image": "cursor_v2_map_data/photo_previews/b74196098d5dae41.jpg",
@@ -2266,10 +2397,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.33705833,
-    "lon": 68.85707222
+    "lon": 68.85707222,
+    "hash": "b74196098d5dae41"
   },
   {
-    "id": 163,
+    "id": 161,
     "fileName": "Mawalavi Abdul Manan Elementry School- Gujar Ha.HEIC",
     "title": "Mawalavi Abdul Manan Elementry School Gujar Ha",
     "image": "cursor_v2_map_data/photo_previews/e4bf1e58e8aa23e1.jpg",
@@ -2280,10 +2412,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.33744167,
-    "lon": 68.85691111
+    "lon": 68.85691111,
+    "hash": "e4bf1e58e8aa23e1"
   },
   {
-    "id": 164,
+    "id": 162,
     "fileName": "Start point of Gujar ha.HEIC",
     "title": "Start point of Gujar ha",
     "image": "cursor_v2_map_data/photo_previews/4f094c094678499f.jpg",
@@ -2294,10 +2427,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34618056,
-    "lon": 68.84454444
+    "lon": 68.84454444,
+    "hash": "4f094c094678499f"
   },
   {
-    "id": 165,
+    "id": 163,
     "fileName": "Water Storage_Gujar Ha.HEIC",
     "title": "Water Storage Gujar Ha",
     "image": "cursor_v2_map_data/photo_previews/e3b3f9e69c9f8ca6.jpg",
@@ -2308,10 +2442,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34046944,
-    "lon": 68.85421111
+    "lon": 68.85421111,
+    "hash": "e3b3f9e69c9f8ca6"
   },
   {
-    "id": 166,
+    "id": 164,
     "fileName": "Water tank, Gujar ha.HEIC",
     "title": "Water tank, Gujar ha",
     "image": "cursor_v2_map_data/photo_previews/e65210f0fd1dcabb.jpg",
@@ -2322,10 +2457,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34047222,
-    "lon": 68.85418056
+    "lon": 68.85418056,
+    "hash": "e65210f0fd1dcabb"
   },
   {
-    "id": 167,
+    "id": 165,
     "fileName": "Damaged well in Mughlo Village.jpg",
     "title": "Damaged well in Mughlo Village",
     "image": "cursor_v2_map_data/photo_previews/d3f3a843ae0e6850.jpg",
@@ -2336,10 +2472,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.33614397,
-    "lon": 68.83486497
+    "lon": 68.83486497,
+    "hash": "d3f3a843ae0e6850"
   },
   {
-    "id": 168,
+    "id": 166,
     "fileName": "End point of Mughlo Village.jpg",
     "title": "End point of Mughlo Village",
     "image": "cursor_v2_map_data/photo_previews/b1d03bfeb60f421a.jpg",
@@ -2350,10 +2487,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.348581,
-    "lon": 68.83386197
+    "lon": 68.83386197,
+    "hash": "b1d03bfeb60f421a"
   },
   {
-    "id": 169,
+    "id": 167,
     "fileName": "End point of the general market of Cluster 7 & 8.jpg",
     "title": "End point of the general market of Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/5d9c5b1d22bba0d2.jpg",
@@ -2364,10 +2502,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30985197,
-    "lon": 68.82635197
+    "lon": 68.82635197,
+    "hash": "5d9c5b1d22bba0d2"
   },
   {
-    "id": 170,
+    "id": 168,
     "fileName": "Flour mill shop related to Cluster 7 & 8.jpg",
     "title": "Flour mill shop related to Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/5912ccfd06b4bedf.jpg",
@@ -2378,10 +2517,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.311826,
-    "lon": 68.82697697
+    "lon": 68.82697697,
+    "hash": "5912ccfd06b4bedf"
   },
   {
-    "id": 171,
+    "id": 169,
     "fileName": "General market of Cluster 7 & 8.jpg",
     "title": "General market of Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/a7cdbc26481d6bac.jpg",
@@ -2392,10 +2532,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.335402,
-    "lon": 68.836087
+    "lon": 68.836087,
+    "hash": "a7cdbc26481d6bac"
   },
   {
-    "id": 172,
+    "id": 170,
     "fileName": "Irrigation Canale under Plan, Mughulan Gerdab1.HEIC",
     "title": "Irrigation Canale under Plan, Mughulan Gerdab1",
     "image": "cursor_v2_map_data/photo_previews/8adbc685eb55b288.jpg",
@@ -2406,10 +2547,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.33871944,
-    "lon": 68.83927222
+    "lon": 68.83927222,
+    "hash": "8adbc685eb55b288"
   },
   {
-    "id": 173,
+    "id": 171,
     "fileName": "Irrigation Canale under Plan, Mughulan Gerdab2.HEIC",
     "title": "Irrigation Canale under Plan, Mughulan Gerdab2",
     "image": "cursor_v2_map_data/photo_previews/4e10f7ca828da570.jpg",
@@ -2420,10 +2562,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.33873611,
-    "lon": 68.83928611
+    "lon": 68.83928611,
+    "hash": "4e10f7ca828da570"
   },
   {
-    "id": 174,
+    "id": 172,
     "fileName": "Jamaluddin Khan Secondry School,_Moghul Ha.HEIC",
     "title": "Jamaluddin Khan Secondry School, Moghul Ha",
     "image": "cursor_v2_map_data/photo_previews/8c5dd4e7c49f2f26.jpg",
@@ -2434,10 +2577,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.33955278,
-    "lon": 68.83972222
+    "lon": 68.83972222,
+    "hash": "8c5dd4e7c49f2f26"
   },
   {
-    "id": 175,
+    "id": 173,
     "fileName": "Jamaluddin Khan Secondry School1_Moghul Ha.HEIC",
     "title": "Jamaluddin Khan Secondry School1 Moghul Ha",
     "image": "cursor_v2_map_data/photo_previews/d92a06b3c3f5b6b4.jpg",
@@ -2448,10 +2592,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.339,
-    "lon": 68.83895833
+    "lon": 68.83895833,
+    "hash": "d92a06b3c3f5b6b4"
   },
   {
-    "id": 176,
+    "id": 174,
     "fileName": "Main (Jami) Mosque of Mughlo Village.jpg",
     "title": "Main (Jami) Mosque of Mughlo Village",
     "image": "cursor_v2_map_data/photo_previews/b9a1338c28f5a559.jpg",
@@ -2462,10 +2607,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32685697,
-    "lon": 68.83407097
+    "lon": 68.83407097,
+    "hash": "b9a1338c28f5a559"
   },
   {
-    "id": 177,
+    "id": 175,
     "fileName": "Metalworking shop related to Cluster 7 & 8.jpg",
     "title": "Metalworking shop related to Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/e34ee577023dc035.jpg",
@@ -2476,10 +2622,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.309863,
-    "lon": 68.826329
+    "lon": 68.826329,
+    "hash": "e34ee577023dc035"
   },
   {
-    "id": 178,
+    "id": 176,
     "fileName": "Motorcycle repair shop of Cluster 7 & 8.jpg",
     "title": "Motorcycle repair shop of Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/355a6ff6cafa0ea4.jpg",
@@ -2490,10 +2637,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31112097,
-    "lon": 68.826684
+    "lon": 68.826684,
+    "hash": "355a6ff6cafa0ea4"
   },
   {
-    "id": 179,
+    "id": 177,
     "fileName": "Not Functional Borewell- Moghul Ha Cluster 7.HEIC",
     "title": "Not Functional Borewell Moghul Ha Cluster 7",
     "image": "cursor_v2_map_data/photo_previews/0210ab6aba4ba5f0.jpg",
@@ -2504,10 +2652,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.33617778,
-    "lon": 68.8349
+    "lon": 68.8349,
+    "hash": "0210ab6aba4ba5f0"
   },
   {
-    "id": 180,
+    "id": 178,
     "fileName": "Public bridge of Mughlo Village (requires construc.jpg",
     "title": "Public bridge of Mughlo Village (requires construc",
     "image": "cursor_v2_map_data/photo_previews/8f7f9d72339eb81b.jpg",
@@ -2518,10 +2667,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.33866497,
-    "lon": 68.83928297
+    "lon": 68.83928297,
+    "hash": "8f7f9d72339eb81b"
   },
   {
-    "id": 181,
+    "id": 179,
     "fileName": "School in Mughlo Village.jpg",
     "title": "School in Mughlo Village",
     "image": "cursor_v2_map_data/photo_previews/3c7bc879af6f4cff.jpg",
@@ -2532,10 +2682,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.33906797,
-    "lon": 68.83904697
+    "lon": 68.83904697,
+    "hash": "3c7bc879af6f4cff"
   },
   {
-    "id": 182,
+    "id": 180,
     "fileName": "Shop in Mughlo Village.jpg",
     "title": "Shop in Mughlo Village",
     "image": "cursor_v2_map_data/photo_previews/07494808e16b5e5f.jpg",
@@ -2546,10 +2697,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.335402,
-    "lon": 68.836087
+    "lon": 68.836087,
+    "hash": "07494808e16b5e5f"
   },
   {
-    "id": 183,
+    "id": 181,
     "fileName": "Shop, Mughul Qishlaq.jpg",
     "title": "Shop, Mughul Qishlaq",
     "image": "cursor_v2_map_data/photo_previews/2fe18a238c1c6e22.jpg",
@@ -2560,10 +2712,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.33866497,
-    "lon": 68.83928297
+    "lon": 68.83928297,
+    "hash": "2fe18a238c1c6e22"
   },
   {
-    "id": 184,
+    "id": 182,
     "fileName": "Starting point of Mughlo Village.jpg",
     "title": "Starting point of Mughlo Village",
     "image": "cursor_v2_map_data/photo_previews/3b9c6a4f7d29def0.jpg",
@@ -2574,10 +2727,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32685697,
-    "lon": 68.83407097
+    "lon": 68.83407097,
+    "hash": "3b9c6a4f7d29def0"
   },
   {
-    "id": 185,
+    "id": 183,
     "fileName": "Tailoring shop of Cluster 7 & 8.jpg",
     "title": "Tailoring shop of Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/5763e667776919f8.jpg",
@@ -2588,10 +2742,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.310307,
-    "lon": 68.82654897
+    "lon": 68.82654897,
+    "hash": "5763e667776919f8"
   },
   {
-    "id": 186,
+    "id": 184,
     "fileName": "Technical workshop of Cluster 7 & 8.jpg",
     "title": "Technical workshop of Cluster 7 & 8",
     "image": "cursor_v2_map_data/photo_previews/d3a13052ac8d0a46.jpg",
@@ -2602,10 +2757,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.335402,
-    "lon": 68.836087
+    "lon": 68.836087,
+    "hash": "d3a13052ac8d0a46"
   },
   {
-    "id": 187,
+    "id": 185,
     "fileName": "Abu Bakr Sediq Grand Mosque, Taheryan.HEIC",
     "title": "Abu Bakr Sediq Grand Mosque, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/85cdee26c1fa3d43.jpg",
@@ -2616,10 +2772,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30907778,
-    "lon": 68.83465556
+    "lon": 68.83465556,
+    "hash": "85cdee26c1fa3d43"
   },
   {
-    "id": 188,
+    "id": 186,
     "fileName": "Cemetery, Taheryan.HEIC",
     "title": "Cemetery, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/c018ec1a46f1f210.jpg",
@@ -2630,10 +2787,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31274167,
-    "lon": 68.83521944
+    "lon": 68.83521944,
+    "hash": "c018ec1a46f1f210"
   },
   {
-    "id": 189,
+    "id": 187,
     "fileName": "Community Center, Taheryan.HEIC",
     "title": "Community Center, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/e33b12af311c60e1.jpg",
@@ -2644,10 +2802,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30936944,
-    "lon": 68.83376389
+    "lon": 68.83376389,
+    "hash": "e33b12af311c60e1"
   },
   {
-    "id": 190,
+    "id": 188,
     "fileName": "Damage canale, Taheryan.HEIC",
     "title": "Damage canale, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/7f08ec43161e3ffd.jpg",
@@ -2658,10 +2817,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31497222,
-    "lon": 68.83324444
+    "lon": 68.83324444,
+    "hash": "7f08ec43161e3ffd"
   },
   {
-    "id": 191,
+    "id": 189,
     "fileName": "Damage Water Storage, Taheryan.HEIC",
     "title": "Damage Water Storage, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/1e993697c5dc9a6a.jpg",
@@ -2672,10 +2832,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.30908333,
-    "lon": 68.83453333
+    "lon": 68.83453333,
+    "hash": "1e993697c5dc9a6a"
   },
   {
-    "id": 192,
+    "id": 190,
     "fileName": "End Point of Taheryan Village.HEIC",
     "title": "End Point of Taheryan Village",
     "image": "cursor_v2_map_data/photo_previews/45f89c600342f9a9.jpg",
@@ -2686,10 +2847,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.308125,
-    "lon": 68.84028611
+    "lon": 68.84028611,
+    "hash": "45f89c600342f9a9"
   },
   {
-    "id": 193,
+    "id": 191,
     "fileName": "Flood-Prone Area, Taheryan1.HEIC",
     "title": "Flood Prone Area, Taheryan1",
     "image": "cursor_v2_map_data/photo_previews/cafd5d8c3b215a90.jpg",
@@ -2700,10 +2862,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.29617222,
-    "lon": 68.82855278
+    "lon": 68.82855278,
+    "hash": "cafd5d8c3b215a90"
   },
   {
-    "id": 194,
+    "id": 192,
     "fileName": "Flood-Prone Area, Taheryan2.HEIC",
     "title": "Flood Prone Area, Taheryan2",
     "image": "cursor_v2_map_data/photo_previews/aac6db189010966e.jpg",
@@ -2714,10 +2877,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.29601944,
-    "lon": 68.82854444
+    "lon": 68.82854444,
+    "hash": "aac6db189010966e"
   },
   {
-    "id": 195,
+    "id": 193,
     "fileName": "Grapes Cold Storage made by NHLP, Taheryan.HEIC",
     "title": "Grapes Cold Storage made by NHLP, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/0bfd581702055c29.jpg",
@@ -2728,10 +2892,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31434167,
-    "lon": 68.83228333
+    "lon": 68.83228333,
+    "hash": "0bfd581702055c29"
   },
   {
-    "id": 196,
+    "id": 194,
     "fileName": "Middle point of Taheryan.HEIC",
     "title": "Middle point of Taheryan",
     "image": "cursor_v2_map_data/photo_previews/b9c540d1fc948ed4.jpg",
@@ -2742,10 +2907,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31058889,
-    "lon": 68.83161111
+    "lon": 68.83161111,
+    "hash": "b9c540d1fc948ed4"
   },
   {
-    "id": 197,
+    "id": 195,
     "fileName": "Shop, Taheryan.HEIC",
     "title": "Shop, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/7910493785ae9982.jpg",
@@ -2756,10 +2922,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30963056,
-    "lon": 68.83354167
+    "lon": 68.83354167,
+    "hash": "7910493785ae9982"
   },
   {
-    "id": 198,
+    "id": 196,
     "fileName": "Start point of Taheryan Border with Main street.HEIC",
     "title": "Start point of Taheryan Border with Main street",
     "image": "cursor_v2_map_data/photo_previews/a75e13d8557bb9b8.jpg",
@@ -2770,10 +2937,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31012778,
-    "lon": 68.82679722
+    "lon": 68.82679722,
+    "hash": "a75e13d8557bb9b8"
   },
   {
-    "id": 199,
+    "id": 197,
     "fileName": "Taheryan border with Temoryan Paeen.HEIC",
     "title": "Taheryan border with Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/fb7cbe1bf93c658a.jpg",
@@ -2784,10 +2952,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31606389,
-    "lon": 68.83505278
+    "lon": 68.83505278,
+    "hash": "fb7cbe1bf93c658a"
   },
   {
-    "id": 200,
+    "id": 198,
     "fileName": "Taheryan border with Wardak ha.HEIC",
     "title": "Taheryan border with Wardak ha",
     "image": "cursor_v2_map_data/photo_previews/084c90a7dccdcddb.jpg",
@@ -2798,10 +2967,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.29933056,
-    "lon": 68.83045833
+    "lon": 68.83045833,
+    "hash": "084c90a7dccdcddb"
   },
   {
-    "id": 201,
+    "id": 199,
     "fileName": "Water Well, Taheryan.HEIC",
     "title": "Water Well, Taheryan",
     "image": "cursor_v2_map_data/photo_previews/fe7b0867eb431786.jpg",
@@ -2812,10 +2982,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.31301389,
-    "lon": 68.831375
+    "lon": 68.831375,
+    "hash": "fe7b0867eb431786"
   },
   {
-    "id": 202,
+    "id": 200,
     "fileName": "Cemetery, Temoryan Bala.HEIC",
     "title": "Cemetery, Temoryan Bala",
     "image": "cursor_v2_map_data/photo_previews/ce4c335d7ab440ec.jpg",
@@ -2826,10 +2997,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32386667,
-    "lon": 68.85716111
+    "lon": 68.85716111,
+    "hash": "ce4c335d7ab440ec"
   },
   {
-    "id": 203,
+    "id": 201,
     "fileName": "End Point of Temoryan Bala.HEIC",
     "title": "End Point of Temoryan Bala",
     "image": "cursor_v2_map_data/photo_previews/495b471f31e1ac89.jpg",
@@ -2840,10 +3012,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30668333,
-    "lon": 68.87109444
+    "lon": 68.87109444,
+    "hash": "495b471f31e1ac89"
   },
   {
-    "id": 204,
+    "id": 202,
     "fileName": "Flood-Prone Area, Temoryan Bala.HEIC",
     "title": "Flood Prone Area, Temoryan Bala",
     "image": "cursor_v2_map_data/photo_previews/1c25309af2ca9fce.jpg",
@@ -2854,10 +3027,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.30676944,
-    "lon": 68.87105556
+    "lon": 68.87105556,
+    "hash": "1c25309af2ca9fce"
   },
   {
-    "id": 205,
+    "id": 203,
     "fileName": "Flour Mill, Temoryan Bala1.HEIC",
     "title": "Flour Mill, Temoryan Bala1",
     "image": "cursor_v2_map_data/photo_previews/7401fbc2f8442e9b.jpg",
@@ -2868,10 +3042,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30490833,
-    "lon": 68.8629
+    "lon": 68.8629,
+    "hash": "7401fbc2f8442e9b"
   },
   {
-    "id": 206,
+    "id": 204,
     "fileName": "Flour Mill, Temoryan Bala2.HEIC",
     "title": "Flour Mill, Temoryan Bala2",
     "image": "cursor_v2_map_data/photo_previews/45a4968f97fd88d0.jpg",
@@ -2882,10 +3057,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30490556,
-    "lon": 68.86289167
+    "lon": 68.86289167,
+    "hash": "45a4968f97fd88d0"
   },
   {
-    "id": 207,
+    "id": 205,
     "fileName": "Shared Road, Temoryan bala & Paeen.HEIC",
     "title": "Shared Road, Temoryan bala & Paeen",
     "image": "cursor_v2_map_data/photo_previews/5e5fde970a778421.jpg",
@@ -2896,10 +3072,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.31385556,
-    "lon": 68.85899444
+    "lon": 68.85899444,
+    "hash": "5e5fde970a778421"
   },
   {
-    "id": 208,
+    "id": 206,
     "fileName": "Shop, Temoryan bala.HEIC",
     "title": "Shop, Temoryan bala",
     "image": "cursor_v2_map_data/photo_previews/3f875ff2d076db12.jpg",
@@ -2910,10 +3087,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30858333,
-    "lon": 68.86290833
+    "lon": 68.86290833,
+    "hash": "3f875ff2d076db12"
   },
   {
-    "id": 209,
+    "id": 207,
     "fileName": "Start Point of Temoryan Bala.HEIC",
     "title": "Start Point of Temoryan Bala",
     "image": "cursor_v2_map_data/photo_previews/cb58674495ac128e.jpg",
@@ -2924,10 +3102,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30260556,
-    "lon": 68.85845278
+    "lon": 68.85845278,
+    "hash": "cb58674495ac128e"
   },
   {
-    "id": 210,
+    "id": 208,
     "fileName": "a Functional water source made by ACTED.HEIC",
     "title": "a Functional water source made by ACTED",
     "image": "cursor_v2_map_data/photo_previews/acabb81e8cf9519a.jpg",
@@ -2938,10 +3117,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31955,
-    "lon": 68.84488611
+    "lon": 68.84488611,
+    "hash": "acabb81e8cf9519a"
   },
   {
-    "id": 211,
+    "id": 209,
     "fileName": "a water tank made by ACTED, Temoryan Paeen.HEIC",
     "title": "a water tank made by ACTED, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/1182faf20cf8f64d.jpg",
@@ -2952,10 +3132,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31929722,
-    "lon": 68.84765
+    "lon": 68.84765,
+    "hash": "1182faf20cf8f64d"
   },
   {
-    "id": 212,
+    "id": 210,
     "fileName": "destroyed and formar houses of Returnees, Temoryan Paeen.HEIC",
     "title": "destroyed and formar houses of Returnees, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/1e4836f462f04f62.jpg",
@@ -2966,10 +3147,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32029722,
-    "lon": 68.8574
+    "lon": 68.8574,
+    "hash": "1e4836f462f04f62"
   },
   {
-    "id": 213,
+    "id": 211,
     "fileName": "destroyed and formar houses of Returnees, Temoryan Paeen2.HEIC",
     "title": "destroyed and formar houses of Returnees, Temoryan Paeen2",
     "image": "cursor_v2_map_data/photo_previews/a7ce8aaabb0d6a4e.jpg",
@@ -2980,10 +3162,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32029722,
-    "lon": 68.85740556
+    "lon": 68.85740556,
+    "hash": "a7ce8aaabb0d6a4e"
   },
   {
-    "id": 214,
+    "id": 212,
     "fileName": "Destroyed water source, Temoryan Payeen.HEIC",
     "title": "Destroyed water source, Temoryan Payeen",
     "image": "cursor_v2_map_data/photo_previews/e3ff36c0c577f0c5.jpg",
@@ -2994,10 +3177,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32085,
-    "lon": 68.84313889
+    "lon": 68.84313889,
+    "hash": "e3ff36c0c577f0c5"
   },
   {
-    "id": 215,
+    "id": 213,
     "fileName": "end point of Temoryan Paeen.HEIC",
     "title": "end point of Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/75bacba56e59069a.jpg",
@@ -3008,10 +3192,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31214167,
-    "lon": 68.86243333
+    "lon": 68.86243333,
+    "hash": "75bacba56e59069a"
   },
   {
-    "id": 216,
+    "id": 214,
     "fileName": "Flood Prone area, Temoryan Paeen.HEIC",
     "title": "Flood Prone area, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/6c2335d4d7feedc4.jpg",
@@ -3022,10 +3207,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.32724722,
-    "lon": 68.8546
+    "lon": 68.8546,
+    "hash": "6c2335d4d7feedc4"
   },
   {
-    "id": 217,
+    "id": 215,
     "fileName": "Flood Prone area, Temoryan Paeen1.HEIC",
     "title": "Flood Prone area, Temoryan Paeen1",
     "image": "cursor_v2_map_data/photo_previews/5952ea62b44500d7.jpg",
@@ -3036,10 +3222,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.32399722,
-    "lon": 68.85719167
+    "lon": 68.85719167,
+    "hash": "5952ea62b44500d7"
   },
   {
-    "id": 218,
+    "id": 216,
     "fileName": "Health Center made by War Child Canada, Temoryan Paeen.HEIC",
     "title": "Health Center made by War Child Canada, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/11c944107a3de1be.jpg",
@@ -3050,10 +3237,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.318475,
-    "lon": 68.83898056
+    "lon": 68.83898056,
+    "hash": "11c944107a3de1be"
   },
   {
-    "id": 219,
+    "id": 217,
     "fileName": "Irrigation Canale under Plan, Temoryan Paeen.HEIC",
     "title": "Irrigation Canale under Plan, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/ecf95a1d45c6153d.jpg",
@@ -3064,10 +3252,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.32069722,
-    "lon": 68.84761111
+    "lon": 68.84761111,
+    "hash": "ecf95a1d45c6153d"
   },
   {
-    "id": 220,
+    "id": 218,
     "fileName": "Irrigation structure, Made by UNDP, Temoryan Paeen.HEIC",
     "title": "Irrigation structure, Made by UNDP, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/4d0750c9c5cba0ce.jpg",
@@ -3078,10 +3267,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.31901111,
-    "lon": 68.848075
+    "lon": 68.848075,
+    "hash": "4d0750c9c5cba0ce"
   },
   {
-    "id": 221,
+    "id": 219,
     "fileName": "Irrigation structure, Made by UNDP, Temoryan Paeen2.HEIC",
     "title": "Irrigation structure, Made by UNDP, Temoryan Paeen2",
     "image": "cursor_v2_map_data/photo_previews/4f397291d2a315bd.jpg",
@@ -3092,10 +3282,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.31923611,
-    "lon": 68.84783056
+    "lon": 68.84783056,
+    "hash": "4f397291d2a315bd"
   },
   {
-    "id": 222,
+    "id": 220,
     "fileName": "Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC",
     "title": "Irrigation structure, Made by UNDP, Temoryan Paeen3",
     "image": "cursor_v2_map_data/photo_previews/3e2e97dabb134b8e.jpg",
@@ -3106,10 +3297,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.31923611,
-    "lon": 68.84760278
+    "lon": 68.84760278,
+    "hash": "3e2e97dabb134b8e"
   },
   {
-    "id": 223,
+    "id": 221,
     "fileName": "Jami Mosque,  Temoryan Paeen.HEIC",
     "title": "Jami Mosque, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/95b6d14e8d93119c.jpg",
@@ -3120,10 +3312,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31931944,
-    "lon": 68.85754444
+    "lon": 68.85754444,
+    "hash": "95b6d14e8d93119c"
   },
   {
-    "id": 224,
+    "id": 222,
     "fileName": "Jami Mosque, Temoryan Paeen.HEIC",
     "title": "Jami Mosque, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/ae119430dde3a9e7.jpg",
@@ -3134,10 +3327,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32094444,
-    "lon": 68.84158333
+    "lon": 68.84158333,
+    "hash": "ae119430dde3a9e7"
   },
   {
-    "id": 225,
+    "id": 223,
     "fileName": "point where UNDP will apply a project, temoryan paeen.HEIC",
     "title": "point where UNDP will apply a project, temoryan paeen",
     "image": "cursor_v2_map_data/photo_previews/aa6c2aa17d18cec6.jpg",
@@ -3148,10 +3342,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.3208,
-    "lon": 68.84761111
+    "lon": 68.84761111,
+    "hash": "aa6c2aa17d18cec6"
   },
   {
-    "id": 226,
+    "id": 224,
     "fileName": "Point Where UNDP will Apply project.HEIC",
     "title": "Point Where UNDP will Apply project",
     "image": "cursor_v2_map_data/photo_previews/08e2208ddbb4108f.jpg",
@@ -3162,10 +3357,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.18189167,
-    "lon": 68.77408611
+    "lon": 68.77408611,
+    "hash": "08e2208ddbb4108f"
   },
   {
-    "id": 227,
+    "id": 225,
     "fileName": "Protection wall needed for the cannal, Temoryan Paeen.HEIC",
     "title": "Protection wall needed for the cannal, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/21744f63ecf32ee9.jpg",
@@ -3176,10 +3372,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.31386667,
-    "lon": 68.85887778
+    "lon": 68.85887778,
+    "hash": "21744f63ecf32ee9"
   },
   {
-    "id": 228,
+    "id": 226,
     "fileName": "Secondry School,  Temoryan Paeen.HEIC",
     "title": "Secondry School, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/4a74c3ba0a50c09f.jpg",
@@ -3190,10 +3387,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.32016111,
-    "lon": 68.85381389
+    "lon": 68.85381389,
+    "hash": "4a74c3ba0a50c09f"
   },
   {
-    "id": 229,
+    "id": 227,
     "fileName": "Shop, Temoryan Paeen.HEIC",
     "title": "Shop, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/dab31f486a1c74e1.jpg",
@@ -3204,10 +3402,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32013611,
-    "lon": 68.84178056
+    "lon": 68.84178056,
+    "hash": "dab31f486a1c74e1"
   },
   {
-    "id": 230,
+    "id": 228,
     "fileName": "start point of temoryan paeen.HEIC",
     "title": "start point of temoryan paeen",
     "image": "cursor_v2_map_data/photo_previews/379689878ce51a76.jpg",
@@ -3218,10 +3417,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31369444,
-    "lon": 68.83117778
+    "lon": 68.83117778,
+    "hash": "379689878ce51a76"
   },
   {
-    "id": 231,
+    "id": 229,
     "fileName": "Water Tank, Temoryan Paeen.HEIC",
     "title": "Water Tank, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/0b7c01f7046b8be8.jpg",
@@ -3232,10 +3432,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31938056,
-    "lon": 68.85749167
+    "lon": 68.85749167,
+    "hash": "0b7c01f7046b8be8"
   },
   {
-    "id": 232,
+    "id": 230,
     "fileName": "Water well,  Temoryan Paeen.HEIC",
     "title": "Water well, Temoryan Paeen",
     "image": "cursor_v2_map_data/photo_previews/41463eb55310b4ab.jpg",
@@ -3246,10 +3447,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.31974167,
-    "lon": 68.84110278
+    "lon": 68.84110278,
+    "hash": "41463eb55310b4ab"
   },
   {
-    "id": 233,
+    "id": 231,
     "fileName": "Central (Jami) Mosque of Anarkhel Village.jpg",
     "title": "Central (Jami) Mosque of Anarkhel Village",
     "image": "cursor_v2_map_data/photo_previews/192f55d96cdf34c9.jpg",
@@ -3260,10 +3462,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.348599,
-    "lon": 68.81896297
+    "lon": 68.81896297,
+    "hash": "192f55d96cdf34c9"
   },
   {
-    "id": 234,
+    "id": 232,
     "fileName": "Damaged water well of Anarkhel Village.jpg",
     "title": "Damaged water well of Anarkhel Village",
     "image": "cursor_v2_map_data/photo_previews/e26a423976ee7392.jpg",
@@ -3274,10 +3477,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.345815,
-    "lon": 68.81136997
+    "lon": 68.81136997,
+    "hash": "e26a423976ee7392"
   },
   {
-    "id": 235,
+    "id": 233,
     "fileName": "Ending point of Anarkhel Village.jpg",
     "title": "Ending point of Anarkhel Village",
     "image": "cursor_v2_map_data/photo_previews/6849a512d736baa8.jpg",
@@ -3288,10 +3492,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.344081,
-    "lon": 68.810619
+    "lon": 68.810619,
+    "hash": "6849a512d736baa8"
   },
   {
-    "id": 236,
+    "id": 234,
     "fileName": "FHH_Anarkhel Village constructed by Aga Khan.jpg",
     "title": "FHH Anarkhel Village constructed by Aga Khan",
     "image": "cursor_v2_map_data/photo_previews/7d3fc9b85358d1e8.jpg",
@@ -3302,10 +3507,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.345851,
-    "lon": 68.81138097
+    "lon": 68.81138097,
+    "hash": "7d3fc9b85358d1e8"
   },
   {
-    "id": 237,
+    "id": 235,
     "fileName": "School of Anarkhel Village.jpg",
     "title": "School of Anarkhel Village",
     "image": "cursor_v2_map_data/photo_previews/04385c7d76d256fe.jpg",
@@ -3316,10 +3522,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.348599,
-    "lon": 68.81896297
+    "lon": 68.81896297,
+    "hash": "04385c7d76d256fe"
   },
   {
-    "id": 238,
+    "id": 236,
     "fileName": "Telecommunication Tower, Anar Khil.HEIC",
     "title": "Telecommunication Tower, Anar Khil",
     "image": "cursor_v2_map_data/photo_previews/006937987a544b66.jpg",
@@ -3330,10 +3537,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.31308333,
-    "lon": 68.82743056
+    "lon": 68.82743056,
+    "hash": "006937987a544b66"
   },
   {
-    "id": 239,
+    "id": 237,
     "fileName": "Water well,  Anar khil.jpg",
     "title": "Water well, Anar khil",
     "image": "cursor_v2_map_data/photo_previews/d186362213c2ef86.jpg",
@@ -3344,10 +3552,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.345815,
-    "lon": 68.81136997
+    "lon": 68.81136997,
+    "hash": "d186362213c2ef86"
   },
   {
-    "id": 240,
+    "id": 238,
     "fileName": "Alama Iqbal Elemntry School, Matakhil Cluster 8.HEIC",
     "title": "Alama Iqbal Elemntry School, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/72c03e0636895243.jpg",
@@ -3358,10 +3567,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.35016944,
-    "lon": 68.83464722
+    "lon": 68.83464722,
+    "hash": "72c03e0636895243"
   },
   {
-    "id": 241,
+    "id": 239,
     "fileName": "Alama Iqbal Elemntry School2, Matakhil Cluster 8.HEIC",
     "title": "Alama Iqbal Elemntry School2, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/6c592fe1bc312114.jpg",
@@ -3372,10 +3582,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35023056,
-    "lon": 68.83461667
+    "lon": 68.83461667,
+    "hash": "6c592fe1bc312114"
   },
   {
-    "id": 242,
+    "id": 240,
     "fileName": "Borewell Made by MRRD,  Matakhil Cluster 8.HEIC",
     "title": "Borewell Made by MRRD, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/2fa7215032d8ba3c.jpg",
@@ -3386,10 +3597,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34901389,
-    "lon": 68.83088056
+    "lon": 68.83088056,
+    "hash": "2fa7215032d8ba3c"
   },
   {
-    "id": 243,
+    "id": 241,
     "fileName": "Brick Klin Cluster 8.HEIC",
     "title": "Brick Klin Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/6247e08e21b98002.jpg",
@@ -3400,10 +3612,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.33050278,
-    "lon": 68.83551667
+    "lon": 68.83551667,
+    "hash": "6247e08e21b98002"
   },
   {
-    "id": 244,
+    "id": 242,
     "fileName": "Cemetery, Matakhil Cluster 8.HEIC",
     "title": "Cemetery, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/7f64cc433ca1513d.jpg",
@@ -3414,10 +3627,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35014444,
-    "lon": 68.83440278
+    "lon": 68.83440278,
+    "hash": "7f64cc433ca1513d"
   },
   {
-    "id": 245,
+    "id": 243,
     "fileName": "Culvert Need to repair,Matakhil Cluster 8.HEIC",
     "title": "Culvert Need to repair,Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/7af49f89baa91d44.jpg",
@@ -3428,10 +3642,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Road access",
     "markerClass": "road",
     "lat": 36.35025,
-    "lon": 68.82192222
+    "lon": 68.82192222,
+    "hash": "7af49f89baa91d44"
   },
   {
-    "id": 246,
+    "id": 244,
     "fileName": "End point of Matakhil Cluster 8.HEIC",
     "title": "End point of Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/de0fa8596e4be0ca.jpg",
@@ -3442,10 +3657,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34944167,
-    "lon": 68.81879444
+    "lon": 68.81879444,
+    "hash": "de0fa8596e4be0ca"
   },
   {
-    "id": 247,
+    "id": 245,
     "fileName": "Flour Mail, Matakhil, Cluster 8.HEIC",
     "title": "Flour Mail, Matakhil, Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/967e665b7ad9fec3.jpg",
@@ -3456,10 +3672,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34935833,
-    "lon": 68.83206111
+    "lon": 68.83206111,
+    "hash": "967e665b7ad9fec3"
   },
   {
-    "id": 248,
+    "id": 246,
     "fileName": "Flour Mail2, Matakhil, Cluster 8.HEIC",
     "title": "Flour Mail2, Matakhil, Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/2b94f8833006f084.jpg",
@@ -3470,10 +3687,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34934167,
-    "lon": 68.83206111
+    "lon": 68.83206111,
+    "hash": "2b94f8833006f084"
   },
   {
-    "id": 249,
+    "id": 247,
     "fileName": "Greenhouse, Matakhil Cluster 8.HEIC",
     "title": "Greenhouse, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/76606e1b1300eba2.jpg",
@@ -3484,10 +3702,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35270278,
-    "lon": 68.83123889
+    "lon": 68.83123889,
+    "hash": "76606e1b1300eba2"
   },
   {
-    "id": 250,
+    "id": 248,
     "fileName": "irrigation Canal need to Repair, Matakhil, Cluster 8.HEIC",
     "title": "irrigation Canal need to Repair, Matakhil, Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/80ed99d15c876173.jpg",
@@ -3498,10 +3717,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.35256944,
-    "lon": 68.83255833
+    "lon": 68.83255833,
+    "hash": "80ed99d15c876173"
   },
   {
-    "id": 251,
+    "id": 249,
     "fileName": "irrigation Canal need to Repair2, Matakhil, Cluster 8.HEIC",
     "title": "irrigation Canal need to Repair2, Matakhil, Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/fc9aff0e2c8d7005.jpg",
@@ -3512,10 +3732,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.35260833,
-    "lon": 68.83255833
+    "lon": 68.83255833,
+    "hash": "fc9aff0e2c8d7005"
   },
   {
-    "id": 252,
+    "id": 250,
     "fileName": "Jami Mosque, Matakhil, Cluster 8.HEIC",
     "title": "Jami Mosque, Matakhil, Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/f0aa9140ff3e7c68.jpg",
@@ -3526,10 +3747,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35065556,
-    "lon": 68.83123056
+    "lon": 68.83123056,
+    "hash": "f0aa9140ff3e7c68"
   },
   {
-    "id": 253,
+    "id": 251,
     "fileName": "Jami Mosque2, Matakhil, Cluster 8.HEIC",
     "title": "Jami Mosque2, Matakhil, Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/ab2d91a599e8ddf2.jpg",
@@ -3540,10 +3762,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35065556,
-    "lon": 68.8313
+    "lon": 68.8313,
+    "hash": "ab2d91a599e8ddf2"
   },
   {
-    "id": 254,
+    "id": 252,
     "fileName": "Not Functional Borwell, Matakhil Cluster 8.HEIC",
     "title": "Not Functional Borwell, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/ad7957b23e07f099.jpg",
@@ -3554,10 +3777,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34871667,
-    "lon": 68.82960556
+    "lon": 68.82960556,
+    "hash": "ad7957b23e07f099"
   },
   {
-    "id": 255,
+    "id": 253,
     "fileName": "Play Ground, Matakhil Cluster 8.HEIC",
     "title": "Play Ground, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/d0a287454a6a518d.jpg",
@@ -3568,10 +3792,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35129444,
-    "lon": 68.82885
+    "lon": 68.82885,
+    "hash": "d0a287454a6a518d"
   },
   {
-    "id": 256,
+    "id": 254,
     "fileName": "Play Ground,1 Matakhil Cluster 8.HEIC",
     "title": "Play Ground,1 Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/1aa086e2da981a13.jpg",
@@ -3582,10 +3807,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35130556,
-    "lon": 68.82885833
+    "lon": 68.82885833,
+    "hash": "1aa086e2da981a13"
   },
   {
-    "id": 257,
+    "id": 255,
     "fileName": "Shop, Matakhil Cluster 8.HEIC",
     "title": "Shop, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/d04c9a670893fdd0.jpg",
@@ -3596,10 +3822,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.35133333,
-    "lon": 68.82890278
+    "lon": 68.82890278,
+    "hash": "d04c9a670893fdd0"
   },
   {
-    "id": 258,
+    "id": 256,
     "fileName": "Start point of Matakhil Cluster 8.HEIC",
     "title": "Start point of Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/85e7160acd04ac71.jpg",
@@ -3610,10 +3837,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34566944,
-    "lon": 68.83549444
+    "lon": 68.83549444,
+    "hash": "85e7160acd04ac71"
   },
   {
-    "id": 259,
+    "id": 257,
     "fileName": "Water Canal  Need to construct, Matakhil Cluster 8.HEIC",
     "title": "Water Canal Need to construct, Matakhil Cluster 8",
     "image": "cursor_v2_map_data/photo_previews/564a30c6362f03fa.jpg",
@@ -3624,10 +3852,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.35174167,
-    "lon": 68.82871111
+    "lon": 68.82871111,
+    "hash": "564a30c6362f03fa"
   },
   {
-    "id": 260,
+    "id": 258,
     "fileName": "Damaged well in Sardar Khail Village.jpg",
     "title": "Damaged well in Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/3cca9d62416b25f5.jpg",
@@ -3638,10 +3867,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.321845,
-    "lon": 68.81358697
+    "lon": 68.81358697,
+    "hash": "3cca9d62416b25f5"
   },
   {
-    "id": 261,
+    "id": 259,
     "fileName": "End point of Sardar Khail Village.jpg",
     "title": "End point of Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/3df2d7cf6fbe74fa.jpg",
@@ -3652,10 +3882,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.349536,
-    "lon": 68.80172897
+    "lon": 68.80172897,
+    "hash": "3df2d7cf6fbe74fa"
   },
   {
-    "id": 262,
+    "id": 260,
     "fileName": "Flood source of Sardar Khail Village.jpg",
     "title": "Flood source of Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/01e9ae87876e3b22.jpg",
@@ -3666,10 +3897,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.31471297,
-    "lon": 68.819676
+    "lon": 68.819676,
+    "hash": "01e9ae87876e3b22"
   },
   {
-    "id": 263,
+    "id": 261,
     "fileName": "Flood-affected point of Sardar Khail Village.jpg",
     "title": "Flood affected point of Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/4f10060bd2c19c46.jpg",
@@ -3680,10 +3912,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.34423697,
-    "lon": 68.808874
+    "lon": 68.808874,
+    "hash": "4f10060bd2c19c46"
   },
   {
-    "id": 264,
+    "id": 262,
     "fileName": "Gate constructed for the irrigation canal by the N.jpg",
     "title": "Gate constructed for the irrigation canal by the N",
     "image": "cursor_v2_map_data/photo_previews/0b60533c5d80757e.jpg",
@@ -3694,10 +3927,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.31166497,
-    "lon": 68.82818
+    "lon": 68.82818,
+    "hash": "0b60533c5d80757e"
   },
   {
-    "id": 265,
+    "id": 263,
     "fileName": "Main (Jami) Mosque of Sardar Khail Village.jpg",
     "title": "Main (Jami) Mosque of Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/158fab3d22bf37cc.jpg",
@@ -3708,10 +3942,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.34906397,
-    "lon": 68.802599
+    "lon": 68.802599,
+    "hash": "158fab3d22bf37cc"
   },
   {
-    "id": 266,
+    "id": 264,
     "fileName": "Mosque built by a foreign organization in Sardar K.jpg",
     "title": "Mosque built by a foreign organization in Sardar K",
     "image": "cursor_v2_map_data/photo_previews/c1ed1bf09529d9bc.jpg",
@@ -3722,10 +3957,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32186097,
-    "lon": 68.813569
+    "lon": 68.813569,
+    "hash": "c1ed1bf09529d9bc"
   },
   {
-    "id": 267,
+    "id": 265,
     "fileName": "Second gate constructed for the irrigation canal b.jpg",
     "title": "Second gate constructed for the irrigation canal b",
     "image": "cursor_v2_map_data/photo_previews/97b5460aef45a28c.jpg",
@@ -3736,10 +3972,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.312038,
-    "lon": 68.824706
+    "lon": 68.824706,
+    "hash": "97b5460aef45a28c"
   },
   {
-    "id": 268,
+    "id": 266,
     "fileName": "Second shop in Sardar Khail Village.jpg",
     "title": "Second shop in Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/4a6f117810ca9325.jpg",
@@ -3750,10 +3987,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.343885,
-    "lon": 68.803514
+    "lon": 68.803514,
+    "hash": "4a6f117810ca9325"
   },
   {
-    "id": 269,
+    "id": 267,
     "fileName": "Shop in Sardar Khail Village.jpg",
     "title": "Shop in Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/b18629a333c67c96.jpg",
@@ -3764,10 +4002,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.32493097,
-    "lon": 68.80970397
+    "lon": 68.80970397,
+    "hash": "b18629a333c67c96"
   },
   {
-    "id": 270,
+    "id": 268,
     "fileName": "Starting point of Sardar Khail Village.jpg",
     "title": "Starting point of Sardar Khail Village",
     "image": "cursor_v2_map_data/photo_previews/0cc9ba1181b42175.jpg",
@@ -3778,10 +4017,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.343983,
-    "lon": 68.80992997
+    "lon": 68.80992997,
+    "hash": "0cc9ba1181b42175"
   },
   {
-    "id": 271,
+    "id": 269,
     "fileName": "CL9 Choraq Village flood prone Area.HEIC",
     "title": "CL9 Choraq Village flood prone Area",
     "image": "cursor_v2_map_data/photo_previews/83ec745639a7fcd4.jpg",
@@ -3792,10 +4032,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.28922222,
-    "lon": 68.85725278
+    "lon": 68.85725278,
+    "hash": "83ec745639a7fcd4"
   },
   {
-    "id": 272,
+    "id": 270,
     "fileName": "End point of CL9 and Choraq village.HEIC",
     "title": "End point of CL9 and Choraq village",
     "image": "cursor_v2_map_data/photo_previews/b9aff1b076fe244c.jpg",
@@ -3806,10 +4047,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.29298056,
-    "lon": 68.86386111
+    "lon": 68.86386111,
+    "hash": "b9aff1b076fe244c"
   },
   {
-    "id": 273,
+    "id": 271,
     "fileName": "Jami Mosque, choraq.HEIC",
     "title": "Jami Mosque, choraq",
     "image": "cursor_v2_map_data/photo_previews/396d30b3de61946b.jpg",
@@ -3820,10 +4062,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.2882,
-    "lon": 68.84763333
+    "lon": 68.84763333,
+    "hash": "396d30b3de61946b"
   },
   {
-    "id": 274,
+    "id": 272,
     "fileName": "Primary school, choraq.HEIC",
     "title": "Primary school, choraq",
     "image": "cursor_v2_map_data/photo_previews/dd36748835a827c4.jpg",
@@ -3834,10 +4077,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.28884444,
-    "lon": 68.85519444
+    "lon": 68.85519444,
+    "hash": "dd36748835a827c4"
   },
   {
-    "id": 275,
+    "id": 273,
     "fileName": "Tailoring service choraq 2.HEIC",
     "title": "Tailoring service choraq 2",
     "image": "cursor_v2_map_data/photo_previews/86341e972f5dd102.jpg",
@@ -3848,10 +4092,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.28813056,
-    "lon": 68.84794722
+    "lon": 68.84794722,
+    "hash": "86341e972f5dd102"
   },
   {
-    "id": 276,
+    "id": 274,
     "fileName": "Tailoring service choraq.HEIC",
     "title": "Tailoring service choraq",
     "image": "cursor_v2_map_data/photo_previews/6ee0de67922323cb.jpg",
@@ -3862,10 +4107,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.28810833,
-    "lon": 68.84792222
+    "lon": 68.84792222,
+    "hash": "6ee0de67922323cb"
   },
   {
-    "id": 277,
+    "id": 275,
     "fileName": "Water Tanks made by the community people, Choraq village.HEIC",
     "title": "Water Tanks made by the community people, Choraq village",
     "image": "cursor_v2_map_data/photo_previews/03d82aae5dded708.jpg",
@@ -3876,10 +4122,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.29520833,
-    "lon": 68.86429722
+    "lon": 68.86429722,
+    "hash": "03d82aae5dded708"
   },
   {
-    "id": 278,
+    "id": 276,
     "fileName": "Flood prone area, wardak ha3.HEIC",
     "title": "Flood prone area, wardak ha3",
     "image": "cursor_v2_map_data/photo_previews/31f3e2e256806212.jpg",
@@ -3890,10 +4137,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.28128333,
-    "lon": 68.83744167
+    "lon": 68.83744167,
+    "hash": "31f3e2e256806212"
   },
   {
-    "id": 279,
+    "id": 277,
     "fileName": "Irrigation Structure, Wardak ha.HEIC",
     "title": "Irrigation Structure, Wardak ha",
     "image": "cursor_v2_map_data/photo_previews/3c12137a5d63219e.jpg",
@@ -3904,10 +4152,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.29451111,
-    "lon": 68.83378611
+    "lon": 68.83378611,
+    "hash": "3c12137a5d63219e"
   },
   {
-    "id": 280,
+    "id": 278,
     "fileName": "Jami Mosque, Wardak ha.HEIC",
     "title": "Jami Mosque, Wardak ha",
     "image": "cursor_v2_map_data/photo_previews/2535fd8a2768e089.jpg",
@@ -3918,10 +4167,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.29468611,
-    "lon": 68.83439722
+    "lon": 68.83439722,
+    "hash": "2535fd8a2768e089"
   },
   {
-    "id": 281,
+    "id": 279,
     "fileName": "Protection wall made by UN agency, wardak ha3.HEIC",
     "title": "Protection wall made by UN agency, wardak ha3",
     "image": "cursor_v2_map_data/photo_previews/d4d44438e51220ee.jpg",
@@ -3932,10 +4182,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.28093333,
-    "lon": 68.83705278
+    "lon": 68.83705278,
+    "hash": "d4d44438e51220ee"
   },
   {
-    "id": 282,
+    "id": 280,
     "fileName": "Start of the Cannal in CL 9.HEIC",
     "title": "Start of the Cannal in CL 9",
     "image": "cursor_v2_map_data/photo_previews/6fb6cff7576f46dc.jpg",
@@ -3946,10 +4197,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.27925556,
-    "lon": 68.83895833
+    "lon": 68.83895833,
+    "hash": "6fb6cff7576f46dc"
   },
   {
-    "id": 283,
+    "id": 281,
     "fileName": "Start point of Chorq and end point of wardak ha.HEIC",
     "title": "Start point of Chorq and end point of wardak ha",
     "image": "cursor_v2_map_data/photo_previews/efba27ce8e14642a.jpg",
@@ -3960,10 +4212,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.28464167,
-    "lon": 68.84335278
+    "lon": 68.84335278,
+    "hash": "efba27ce8e14642a"
   },
   {
-    "id": 284,
+    "id": 282,
     "fileName": "Start point of wardak ha.HEIC",
     "title": "Start point of wardak ha",
     "image": "cursor_v2_map_data/photo_previews/ffc39518c057fbd3.jpg",
@@ -3974,10 +4227,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.30357778,
-    "lon": 68.8293
+    "lon": 68.8293,
+    "hash": "ffc39518c057fbd3"
   },
   {
-    "id": 285,
+    "id": 283,
     "fileName": "the protection wall is needed,  wardak ha.HEIC",
     "title": "the protection wall is needed, wardak ha",
     "image": "cursor_v2_map_data/photo_previews/9078f68b86001ae5.jpg",
@@ -3988,10 +4242,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.28189722,
-    "lon": 68.84042222
+    "lon": 68.84042222,
+    "hash": "9078f68b86001ae5"
   },
   {
-    "id": 286,
+    "id": 284,
     "fileName": "Water Storage, made by UNICEF wardak ha.HEIC",
     "title": "Water Storage, made by UNICEF wardak ha",
     "image": "cursor_v2_map_data/photo_previews/0f33136db6716ef9.jpg",
@@ -4002,10 +4257,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.28474167,
-    "lon": 68.83974444
+    "lon": 68.83974444,
+    "hash": "0f33136db6716ef9"
   },
   {
-    "id": 287,
+    "id": 285,
     "fileName": "Water Well, Wardak ha.HEIC",
     "title": "Water Well, Wardak ha",
     "image": "cursor_v2_map_data/photo_previews/f5a667427482364a.jpg",
@@ -4016,24 +4272,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.294625,
-    "lon": 68.83415278
+    "lon": 68.83415278,
+    "hash": "f5a667427482364a"
   },
   {
-    "id": 288,
-    "fileName": "BHC - Shaikh Jalal 2.HEIC",
-    "title": "BHC Shaikh Jalal 2",
-    "image": "cursor_v2_map_data/photo_previews/65e1f0030eeb4d60.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 10/Shaikh Jalal Village/BHC - Shaikh Jalal 2.HEIC",
-    "province": "Baghlan-e-Jadid, Baghlan Province",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Health",
-    "markerClass": "health",
-    "lat": 36.10163889,
-    "lon": 68.85995556
-  },
-  {
-    "id": 289,
+    "id": 286,
     "fileName": "BHC - Shaikh Jalal.HEIC",
     "title": "BHC Shaikh Jalal",
     "image": "cursor_v2_map_data/photo_previews/a17b2f9604c89070.jpg",
@@ -4044,24 +4287,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.1012,
-    "lon": 68.86004722
+    "lon": 68.86004722,
+    "hash": "a17b2f9604c89070"
   },
   {
-    "id": 290,
-    "fileName": "BHC - Shaikh Jalal.HEIC",
-    "title": "BHC Shaikh Jalal",
-    "image": "cursor_v2_map_data/photo_previews/a17b2f9604c89070.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/BHC - Shaikh Jalal.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Health",
-    "markerClass": "health",
-    "lat": 36.1012,
-    "lon": 68.86004722
-  },
-  {
-    "id": 291,
+    "id": 287,
     "fileName": "Check Dam, Shaikh Jalal.HEIC",
     "title": "Check Dam, Shaikh Jalal",
     "image": "cursor_v2_map_data/photo_previews/65e1f0030eeb4d60.jpg",
@@ -4072,10 +4302,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.10163889,
-    "lon": 68.85995556
+    "lon": 68.85995556,
+    "hash": "65e1f0030eeb4d60"
   },
   {
-    "id": 292,
+    "id": 288,
     "fileName": "Community Market, Shaikh Jalal.HEIC",
     "title": "Community Market, Shaikh Jalal",
     "image": "cursor_v2_map_data/photo_previews/bf926beccdfab656.jpg",
@@ -4086,24 +4317,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.10243611,
-    "lon": 68.85957222
+    "lon": 68.85957222,
+    "hash": "bf926beccdfab656"
   },
   {
-    "id": 293,
-    "fileName": "Community Market, Shaikh Jalal.HEIC",
-    "title": "Community Market, Shaikh Jalal",
-    "image": "cursor_v2_map_data/photo_previews/bf926beccdfab656.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Community Market, Shaikh Jalal.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.10243611,
-    "lon": 68.85957222
-  },
-  {
-    "id": 294,
+    "id": 289,
     "fileName": "End Point of Shaikh Jalal Border with Nahrin District.HEIC",
     "title": "End Point of Shaikh Jalal Border with Nahrin District",
     "image": "cursor_v2_map_data/photo_previews/5285b831476a6f3a.jpg",
@@ -4114,38 +4332,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.085625,
-    "lon": 68.90873056
+    "lon": 68.90873056,
+    "hash": "5285b831476a6f3a"
   },
   {
-    "id": 295,
-    "fileName": "End Point of Shaikh Jalal Border with Nahrin District.HEIC",
-    "title": "End Point of Shaikh Jalal Border with Nahrin District",
-    "image": "cursor_v2_map_data/photo_previews/5285b831476a6f3a.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/End Point of Shaikh Jalal Border with Nahrin District.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.085625,
-    "lon": 68.90873056
-  },
-  {
-    "id": 296,
-    "fileName": "Flood-Prone Aea, Sahikh jalal.HEIC",
-    "title": "Flood Prone Aea, Sahikh jalal",
-    "image": "cursor_v2_map_data/photo_previews/bad538d811232241.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Flood-Prone Aea, Sahikh jalal.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Flood / DRR",
-    "markerClass": "flood",
-    "lat": 36.09206111,
-    "lon": 68.86829444
-  },
-  {
-    "id": 297,
+    "id": 290,
     "fileName": "Flood-Prone Area, Sahikh jalal.HEIC",
     "title": "Flood Prone Area, Sahikh jalal",
     "image": "cursor_v2_map_data/photo_previews/bad538d811232241.jpg",
@@ -4156,10 +4347,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.09206111,
-    "lon": 68.86829444
+    "lon": 68.86829444,
+    "hash": "bad538d811232241"
   },
   {
-    "id": 298,
+    "id": 291,
     "fileName": "Shaikh Jalal Baba High School.HEIC",
     "title": "Shaikh Jalal Baba High School",
     "image": "cursor_v2_map_data/photo_previews/c3e7851425e6c27e.jpg",
@@ -4170,24 +4362,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.10200833,
-    "lon": 68.85952778
+    "lon": 68.85952778,
+    "hash": "c3e7851425e6c27e"
   },
   {
-    "id": 299,
-    "fileName": "Shaikh Jalal Baba High School.HEIC",
-    "title": "Shaikh Jalal Baba High School",
-    "image": "cursor_v2_map_data/photo_previews/c3e7851425e6c27e.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Shaikh Jalal Baba High School.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Education",
-    "markerClass": "education",
-    "lat": 36.10200833,
-    "lon": 68.85952778
-  },
-  {
-    "id": 300,
+    "id": 292,
     "fileName": "Shaikh Jalal, Central Mosque.HEIC",
     "title": "Shaikh Jalal, Central Mosque",
     "image": "cursor_v2_map_data/photo_previews/11379ba676d932ad.jpg",
@@ -4198,24 +4377,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.09919444,
-    "lon": 68.86044444
+    "lon": 68.86044444,
+    "hash": "11379ba676d932ad"
   },
   {
-    "id": 301,
-    "fileName": "Shaikh Jalal, Central Mosque.HEIC",
-    "title": "Shaikh Jalal, Central Mosque",
-    "image": "cursor_v2_map_data/photo_previews/11379ba676d932ad.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Shaikh Jalal, Central Mosque.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.09919444,
-    "lon": 68.86044444
-  },
-  {
-    "id": 302,
+    "id": 293,
     "fileName": "Shop, Shaikh Jalal.HEIC",
     "title": "Shop, Shaikh Jalal",
     "image": "cursor_v2_map_data/photo_previews/e2993087767b0a3e.jpg",
@@ -4226,24 +4392,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.102525,
-    "lon": 68.85962778
+    "lon": 68.85962778,
+    "hash": "e2993087767b0a3e"
   },
   {
-    "id": 303,
-    "fileName": "Shop, Shaikh Jalal.HEIC",
-    "title": "Shop, Shaikh Jalal",
-    "image": "cursor_v2_map_data/photo_previews/e2993087767b0a3e.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Shop, Shaikh Jalal.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.102525,
-    "lon": 68.85962778
-  },
-  {
-    "id": 304,
+    "id": 294,
     "fileName": "Start Point of Shaikh Jalal Border with Baghlan-e-Jadid.HEIC",
     "title": "Start Point of Shaikh Jalal Border with Baghlan e Jadid",
     "image": "cursor_v2_map_data/photo_previews/b404016af45042eb.jpg",
@@ -4254,24 +4407,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.13986111,
-    "lon": 68.81797778
+    "lon": 68.81797778,
+    "hash": "b404016af45042eb"
   },
   {
-    "id": 305,
-    "fileName": "Start Point of Shaikh Jalal Border with Baghlan-e-Jadid.HEIC",
-    "title": "Start Point of Shaikh Jalal Border with Baghlan e Jadid",
-    "image": "cursor_v2_map_data/photo_previews/b404016af45042eb.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Start Point of Shaikh Jalal Border with Baghlan-e-Jadid.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.13986111,
-    "lon": 68.81797778
-  },
-  {
-    "id": 306,
+    "id": 295,
     "fileName": "Water Storage, Shaikh jalal.HEIC",
     "title": "Water Storage, Shaikh jalal",
     "image": "cursor_v2_map_data/photo_previews/c9823b4e49f0c355.jpg",
@@ -4282,27 +4422,14 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.09581111,
-    "lon": 68.86607222
+    "lon": 68.86607222,
+    "hash": "c9823b4e49f0c355"
   },
   {
-    "id": 307,
-    "fileName": "Water Storage, Shaikh jalal.HEIC",
-    "title": "Water Storage, Shaikh jalal",
-    "image": "cursor_v2_map_data/photo_previews/c9823b4e49f0c355.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Baghlan-e-Jadid_Baghlan/Cluster 10/Shaikh Jalal Village/Water Storage, Shaikh jalal.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Cluster 10",
-    "village": "Shaikh Jalal Village",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.09581111,
-    "lon": 68.86607222
-  },
-  {
-    "id": 308,
+    "id": 296,
     "fileName": "Central Mosque_Oshtor Ghalt.jpg",
     "title": "Central Mosque Oshtor Ghalt",
-    "image": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 11/Oshtur Ghal Village/Central Mosque_Oshtor Ghalt.jpg",
+    "image": "cursor_v2_map_data/photo_previews/18790fe1f00da64f.jpg",
     "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 11/Oshtur Ghal Village/Central Mosque_Oshtor Ghalt.jpg",
     "province": "Baghlan-e-Jadid, Baghlan Province",
     "cluster": "Cluster 11",
@@ -4310,10 +4437,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.158396,
-    "lon": 68.835379
+    "lon": 68.835379,
+    "hash": "18790fe1f00da64f"
   },
   {
-    "id": 309,
+    "id": 297,
     "fileName": "Ending point of Shatarghal Village.jpg",
     "title": "Ending point of Shatarghal Village",
     "image": "cursor_v2_map_data/photo_previews/d559e9037ddac71c.jpg",
@@ -4324,10 +4452,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15542397,
-    "lon": 68.86532597
+    "lon": 68.86532597,
+    "hash": "d559e9037ddac71c"
   },
   {
-    "id": 310,
+    "id": 298,
     "fileName": "Flood prone area_Oshtor Ghalt.jpg",
     "title": "Flood prone area Oshtor Ghalt",
     "image": "cursor_v2_map_data/photo_previews/0121dcab3e48ad12.jpg",
@@ -4338,10 +4467,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.15804297,
-    "lon": 68.84583397
+    "lon": 68.84583397,
+    "hash": "0121dcab3e48ad12"
   },
   {
-    "id": 311,
+    "id": 299,
     "fileName": "Health Post_Oshtor Ghalt.HEIC",
     "title": "Health Post Oshtor Ghalt",
     "image": "cursor_v2_map_data/photo_previews/0a0ecd59d054ab28.jpg",
@@ -4352,10 +4482,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.15751667,
-    "lon": 68.83513611
+    "lon": 68.83513611,
+    "hash": "0a0ecd59d054ab28"
   },
   {
-    "id": 312,
+    "id": 300,
     "fileName": "Oshtor Ghal_flood area end point.HEIC",
     "title": "Oshtor Ghal flood area end point",
     "image": "cursor_v2_map_data/photo_previews/d7561a5474f9145c.jpg",
@@ -4366,10 +4497,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15545,
-    "lon": 68.86544722
+    "lon": 68.86544722,
+    "hash": "d7561a5474f9145c"
   },
   {
-    "id": 313,
+    "id": 301,
     "fileName": "Oshtor Ghal_flood area1..HEIC",
     "title": "Oshtor Ghal flood area1.",
     "image": "cursor_v2_map_data/photo_previews/a724c9e2bcbb165f.jpg",
@@ -4380,10 +4512,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15930833,
-    "lon": 68.84186667
+    "lon": 68.84186667,
+    "hash": "a724c9e2bcbb165f"
   },
   {
-    "id": 314,
+    "id": 302,
     "fileName": "Oshtor Ghal_flood area1.HEIC",
     "title": "Oshtor Ghal flood area1",
     "image": "cursor_v2_map_data/photo_previews/bf362ce2de43fbf4.jpg",
@@ -4394,10 +4527,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15928611,
-    "lon": 68.84189722
+    "lon": 68.84189722,
+    "hash": "bf362ce2de43fbf4"
   },
   {
-    "id": 315,
+    "id": 303,
     "fileName": "Oshtor Ghal_flood area2..HEIC",
     "title": "Oshtor Ghal flood area2.",
     "image": "cursor_v2_map_data/photo_previews/aaba57b92eb9e237.jpg",
@@ -4408,10 +4542,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15803611,
-    "lon": 68.84583333
+    "lon": 68.84583333,
+    "hash": "aaba57b92eb9e237"
   },
   {
-    "id": 316,
+    "id": 304,
     "fileName": "Oshtor Ghal_flood area2.HEIC",
     "title": "Oshtor Ghal flood area2",
     "image": "cursor_v2_map_data/photo_previews/af2402ccafb0f41e.jpg",
@@ -4422,10 +4557,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15799722,
-    "lon": 68.84591667
+    "lon": 68.84591667,
+    "hash": "af2402ccafb0f41e"
   },
   {
-    "id": 317,
+    "id": 305,
     "fileName": "Oshtor Ghal_flood area3.HEIC",
     "title": "Oshtor Ghal flood area3",
     "image": "cursor_v2_map_data/photo_previews/08014ec1e4744bba.jpg",
@@ -4436,10 +4572,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15803611,
-    "lon": 68.84584167
+    "lon": 68.84584167,
+    "hash": "08014ec1e4744bba"
   },
   {
-    "id": 318,
+    "id": 306,
     "fileName": "Oshtor Ghal_Mosque.HEIC",
     "title": "Oshtor Ghal Mosque",
     "image": "cursor_v2_map_data/photo_previews/a7dbe838d379c90d.jpg",
@@ -4450,10 +4587,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15825278,
-    "lon": 68.83506667
+    "lon": 68.83506667,
+    "hash": "a7dbe838d379c90d"
   },
   {
-    "id": 319,
+    "id": 307,
     "fileName": "Oshtor Ghal_mosque2.HEIC",
     "title": "Oshtor Ghal mosque2",
     "image": "cursor_v2_map_data/photo_previews/f7860eab75fc511a.jpg",
@@ -4464,10 +4602,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15821944,
-    "lon": 68.83544167
+    "lon": 68.83544167,
+    "hash": "f7860eab75fc511a"
   },
   {
-    "id": 320,
+    "id": 308,
     "fileName": "Oshtor Ghal_school madrasa.HEIC",
     "title": "Oshtor Ghal school madrasa",
     "image": "cursor_v2_map_data/photo_previews/2c530d742e3febb5.jpg",
@@ -4478,10 +4617,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.15846389,
-    "lon": 68.83536667
+    "lon": 68.83536667,
+    "hash": "2c530d742e3febb5"
   },
   {
-    "id": 321,
+    "id": 309,
     "fileName": "Oshtor Ghal_shop1,.HEIC",
     "title": "Oshtor Ghal shop1,",
     "image": "cursor_v2_map_data/photo_previews/153b497567e2b13b.jpg",
@@ -4492,10 +4632,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15826389,
-    "lon": 68.83368056
+    "lon": 68.83368056,
+    "hash": "153b497567e2b13b"
   },
   {
-    "id": 322,
+    "id": 310,
     "fileName": "Oshtor Ghal_shop1.HEIC",
     "title": "Oshtor Ghal shop1",
     "image": "cursor_v2_map_data/photo_previews/d6f8850d9e8982dc.jpg",
@@ -4506,10 +4647,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15821111,
-    "lon": 68.83374722
+    "lon": 68.83374722,
+    "hash": "d6f8850d9e8982dc"
   },
   {
-    "id": 323,
+    "id": 311,
     "fileName": "Oshtor Ghal_start point.HEIC",
     "title": "Oshtor Ghal start point",
     "image": "cursor_v2_map_data/photo_previews/e7194826285a648d.jpg",
@@ -4520,13 +4662,14 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.15753056,
-    "lon": 68.80654167
+    "lon": 68.80654167,
+    "hash": "e7194826285a648d"
   },
   {
-    "id": 324,
+    "id": 312,
     "fileName": "School of Shatarghal Village.jpg",
     "title": "School of Shatarghal Village",
-    "image": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 11/Oshtur Ghal Village/School of Shatarghal Village.jpg",
+    "image": "cursor_v2_map_data/photo_previews/e489da4b6bc380cc.jpg",
     "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/Baghlan-e-Jadid, Baghlan Province/Cluster 11/Oshtur Ghal Village/School of Shatarghal Village.jpg",
     "province": "Baghlan-e-Jadid, Baghlan Province",
     "cluster": "Cluster 11",
@@ -4534,10 +4677,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.15842597,
-    "lon": 68.835367
+    "lon": 68.835367,
+    "hash": "e489da4b6bc380cc"
   },
   {
-    "id": 325,
+    "id": 313,
     "fileName": "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
     "title": "Ahmad Shah Shaheed Elementry School, Nawabad Bala",
     "image": "cursor_v2_map_data/photo_previews/558dc6e6fe73c63f.jpg",
@@ -4548,24 +4692,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.68677778,
-    "lon": 68.72737778
+    "lon": 68.72737778,
+    "hash": "558dc6e6fe73c63f"
   },
   {
-    "id": 326,
-    "fileName": "Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "title": "Ahmad Shah Shaheed Elementry School, Nawabad Bala",
-    "image": "cursor_v2_map_data/photo_previews/558dc6e6fe73c63f.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Bala/Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "Education",
-    "markerClass": "education",
-    "lat": 36.68677778,
-    "lon": 68.72737778
-  },
-  {
-    "id": 327,
+    "id": 314,
     "fileName": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
     "title": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
     "image": "cursor_v2_map_data/photo_previews/7159b66cb94e3c36.jpg",
@@ -4576,24 +4707,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.686875,
-    "lon": 68.72724167
+    "lon": 68.72724167,
+    "hash": "7159b66cb94e3c36"
   },
   {
-    "id": 328,
-    "fileName": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "title": "Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
-    "image": "cursor_v2_map_data/photo_previews/7159b66cb94e3c36.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Bala/Bathroom, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.686875,
-    "lon": 68.72724167
-  },
-  {
-    "id": 329,
+    "id": 315,
     "fileName": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
     "title": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
     "image": "cursor_v2_map_data/photo_previews/aca284edf6f19f93.jpg",
@@ -4604,24 +4722,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.68659722,
-    "lon": 68.7277
+    "lon": 68.7277,
+    "hash": "aca284edf6f19f93"
   },
   {
-    "id": 330,
-    "fileName": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "title": "Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala",
-    "image": "cursor_v2_map_data/photo_previews/aca284edf6f19f93.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Bala/Class Room, Ahmad Shah Shaheed Elementry School, Nawabad Bala.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "Education",
-    "markerClass": "education",
-    "lat": 36.68659722,
-    "lon": 68.7277
-  },
-  {
-    "id": 331,
+    "id": 316,
     "fileName": "Community Market-Nawabad Bala.HEIC",
     "title": "Community Market Nawabad Bala",
     "image": "cursor_v2_map_data/photo_previews/5e570007c0da3cc5.jpg",
@@ -4632,24 +4737,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70286667,
-    "lon": 68.7304
+    "lon": 68.7304,
+    "hash": "5e570007c0da3cc5"
   },
   {
-    "id": 332,
-    "fileName": "Community Market-Nawabad Bala.HEIC",
-    "title": "Community Market Nawabad Bala",
-    "image": "cursor_v2_map_data/photo_previews/5e570007c0da3cc5.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Bala/Community Market-Nawabad Bala.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70286667,
-    "lon": 68.7304
-  },
-  {
-    "id": 333,
+    "id": 317,
     "fileName": "Tailoring Shop_Nawabad Bala.HEIC",
     "title": "Tailoring Shop Nawabad Bala",
     "image": "cursor_v2_map_data/photo_previews/94b3087cde2983d4.jpg",
@@ -4660,10 +4752,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.69589167,
-    "lon": 68.72308333
+    "lon": 68.72308333,
+    "hash": "94b3087cde2983d4"
   },
   {
-    "id": 334,
+    "id": 318,
     "fileName": "Water well - Nawabad Bala.HEIC",
     "title": "Water well Nawabad Bala",
     "image": "cursor_v2_map_data/photo_previews/d5434c4d81f7086e.jpg",
@@ -4674,38 +4767,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.69653611,
-    "lon": 68.73395556
+    "lon": 68.73395556,
+    "hash": "d5434c4d81f7086e"
   },
   {
-    "id": 335,
-    "fileName": "Water well - Nawabad Bala.HEIC",
-    "title": "Water well Nawabad Bala",
-    "image": "cursor_v2_map_data/photo_previews/d5434c4d81f7086e.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Bala/Water well - Nawabad Bala.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Bala",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.69653611,
-    "lon": 68.73395556
-  },
-  {
-    "id": 336,
-    "fileName": "Check Dam_ Nawabad Kojank & Palaw Kamar villages.HEIC",
-    "title": "Check Dam Nawabad Kojank & Palaw Kamar villages",
-    "image": "cursor_v2_map_data/photo_previews/531dae5cc11f067a.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Check Dam_ Nawabad Kojank & Palaw Kamar villages.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.69314444,
-    "lon": 68.76470833
-  },
-  {
-    "id": 337,
+    "id": 319,
     "fileName": "Fish Farm_ Nawabad Konjak.HEIC",
     "title": "Fish Farm Nawabad Konjak",
     "image": "cursor_v2_map_data/photo_previews/28450b552b6ec5db.jpg",
@@ -4716,10 +4782,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.6889,
-    "lon": 68.73642778
+    "lon": 68.73642778,
+    "hash": "28450b552b6ec5db"
   },
   {
-    "id": 338,
+    "id": 320,
     "fileName": "Flood-Prone Area, Nawabad Kunjak.HEIC",
     "title": "Flood Prone Area, Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/37560255c517e2a1.jpg",
@@ -4730,10 +4797,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.67101944,
-    "lon": 68.70730556
+    "lon": 68.70730556,
+    "hash": "37560255c517e2a1"
   },
   {
-    "id": 339,
+    "id": 321,
     "fileName": "Haji Gul Ahmad Grand Mosque, Nawabad Kunjak.HEIC",
     "title": "Haji Gul Ahmad Grand Mosque, Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/d1449f11eeea6b55.jpg",
@@ -4744,24 +4812,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70279444,
-    "lon": 68.730325
+    "lon": 68.730325,
+    "hash": "d1449f11eeea6b55"
   },
   {
-    "id": 340,
-    "fileName": "Haji Gul Ahmad Grand Mosque, Nawabad Kunjak.HEIC",
-    "title": "Haji Gul Ahmad Grand Mosque, Nawabad Kunjak",
-    "image": "cursor_v2_map_data/photo_previews/d1449f11eeea6b55.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Haji Gul Ahmad Grand Mosque, Nawabad Kunjak.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70279444,
-    "lon": 68.730325
-  },
-  {
-    "id": 341,
+    "id": 322,
     "fileName": "Irrigation Canal_ Nawabad Kojank & Palaw Kamar villages.HEIC",
     "title": "Irrigation Canal Nawabad Kojank & Palaw Kamar villages",
     "image": "cursor_v2_map_data/photo_previews/531dae5cc11f067a.jpg",
@@ -4772,10 +4827,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Irrigation",
     "markerClass": "irrigation",
     "lat": 36.69314444,
-    "lon": 68.76470833
+    "lon": 68.76470833,
+    "hash": "531dae5cc11f067a"
   },
   {
-    "id": 342,
+    "id": 323,
     "fileName": "Metalworking shop, Nawabad Kunjak.HEIC",
     "title": "Metalworking shop, Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/6db4539feac00622.jpg",
@@ -4786,24 +4842,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70301944,
-    "lon": 68.73020278
+    "lon": 68.73020278,
+    "hash": "6db4539feac00622"
   },
   {
-    "id": 343,
-    "fileName": "Metalworking shop, Nawabad Kunjak.HEIC",
-    "title": "Metalworking shop, Nawabad Kunjak",
-    "image": "cursor_v2_map_data/photo_previews/6db4539feac00622.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Metalworking shop, Nawabad Kunjak.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70301944,
-    "lon": 68.73020278
-  },
-  {
-    "id": 344,
+    "id": 324,
     "fileName": "Nawabad High School, Nawabad Kunjak.HEIC",
     "title": "Nawabad High School, Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/9ce692b40c6cf067.jpg",
@@ -4814,24 +4857,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.70188611,
-    "lon": 68.72951389
+    "lon": 68.72951389,
+    "hash": "9ce692b40c6cf067"
   },
   {
-    "id": 345,
-    "fileName": "Nawabad High School, Nawabad Kunjak.HEIC",
-    "title": "Nawabad High School, Nawabad Kunjak",
-    "image": "cursor_v2_map_data/photo_previews/9ce692b40c6cf067.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Nawabad High School, Nawabad Kunjak.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Education",
-    "markerClass": "education",
-    "lat": 36.70188611,
-    "lon": 68.72951389
-  },
-  {
-    "id": 346,
+    "id": 325,
     "fileName": "Poultry Farm_ Nawabad Konjak.HEIC",
     "title": "Poultry Farm Nawabad Konjak",
     "image": "cursor_v2_map_data/photo_previews/56715cfaeecaeac9.jpg",
@@ -4842,10 +4872,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.68895278,
-    "lon": 68.73644167
+    "lon": 68.73644167,
+    "hash": "56715cfaeecaeac9"
   },
   {
-    "id": 347,
+    "id": 326,
     "fileName": "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
     "title": "Red Crescent Mobile Clinic, Nawabad Kunjak1",
     "image": "cursor_v2_map_data/photo_previews/b0d1dafc906e12de.jpg",
@@ -4856,24 +4887,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.70318889,
-    "lon": 68.73008056
+    "lon": 68.73008056,
+    "hash": "b0d1dafc906e12de"
   },
   {
-    "id": 348,
-    "fileName": "Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
-    "title": "Red Crescent Mobile Clinic, Nawabad Kunjak1",
-    "image": "cursor_v2_map_data/photo_previews/b0d1dafc906e12de.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Red Crescent Mobile Clinic, Nawabad Kunjak1.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Health",
-    "markerClass": "health",
-    "lat": 36.70318889,
-    "lon": 68.73008056
-  },
-  {
-    "id": 349,
+    "id": 327,
     "fileName": "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
     "title": "Red Crescent Mobile Clinic, Nawabad Kunjak2",
     "image": "cursor_v2_map_data/photo_previews/9d70c84d80606b02.jpg",
@@ -4884,24 +4902,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.7032,
-    "lon": 68.73006389
+    "lon": 68.73006389,
+    "hash": "9d70c84d80606b02"
   },
   {
-    "id": 350,
-    "fileName": "Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
-    "title": "Red Crescent Mobile Clinic, Nawabad Kunjak2",
-    "image": "cursor_v2_map_data/photo_previews/9d70c84d80606b02.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Red Crescent Mobile Clinic, Nawabad Kunjak2.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Health",
-    "markerClass": "health",
-    "lat": 36.7032,
-    "lon": 68.73006389
-  },
-  {
-    "id": 351,
+    "id": 328,
     "fileName": "Star Telecome Wifi base - Nawabad Kunjak.HEIC",
     "title": "Star Telecome Wifi base Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/e82d8740f29ddf7f.jpg",
@@ -4912,24 +4917,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.703125,
-    "lon": 68.72900278
+    "lon": 68.72900278,
+    "hash": "e82d8740f29ddf7f"
   },
   {
-    "id": 352,
-    "fileName": "Star Telecome Wifi base - Nawabad Kunjak.HEIC",
-    "title": "Star Telecome Wifi base Nawabad Kunjak",
-    "image": "cursor_v2_map_data/photo_previews/e82d8740f29ddf7f.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/Star Telecome Wifi base - Nawabad Kunjak.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.703125,
-    "lon": 68.72900278
-  },
-  {
-    "id": 353,
+    "id": 329,
     "fileName": "under construction house of  returnee, Nawabad Kunjak 2.HEIC",
     "title": "under construction house of returnee, Nawabad Kunjak 2",
     "image": "cursor_v2_map_data/photo_previews/1a6e77846eb7195c.jpg",
@@ -4940,24 +4932,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Shelter",
     "markerClass": "shelter",
     "lat": 36.67765,
-    "lon": 68.71738333
+    "lon": 68.71738333,
+    "hash": "1a6e77846eb7195c"
   },
   {
-    "id": 354,
-    "fileName": "under construction house of  returnee, Nawabad Kunjak 2.HEIC",
-    "title": "under construction house of returnee, Nawabad Kunjak 2",
-    "image": "cursor_v2_map_data/photo_previews/1a6e77846eb7195c.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/under construction house of  returnee, Nawabad Kunjak 2.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Shelter",
-    "markerClass": "shelter",
-    "lat": 36.67765,
-    "lon": 68.71738333
-  },
-  {
-    "id": 355,
+    "id": 330,
     "fileName": "under construction house of  returnee, Nawabad Kunjak.HEIC",
     "title": "under construction house of returnee, Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/7ec93db81b9066da.jpg",
@@ -4968,24 +4947,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Shelter",
     "markerClass": "shelter",
     "lat": 36.67649722,
-    "lon": 68.71399722
+    "lon": 68.71399722,
+    "hash": "7ec93db81b9066da"
   },
   {
-    "id": 356,
-    "fileName": "under construction house of  returnee, Nawabad Kunjak.HEIC",
-    "title": "under construction house of returnee, Nawabad Kunjak",
-    "image": "cursor_v2_map_data/photo_previews/7ec93db81b9066da.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/under construction house of  returnee, Nawabad Kunjak.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "Shelter",
-    "markerClass": "shelter",
-    "lat": 36.67649722,
-    "lon": 68.71399722
-  },
-  {
-    "id": 357,
+    "id": 331,
     "fileName": "water Storage- Nawabad Kunjak.HEIC",
     "title": "water Storage Nawabad Kunjak",
     "image": "cursor_v2_map_data/photo_previews/3e8b93a374b8bc21.jpg",
@@ -4996,24 +4962,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.70323611,
-    "lon": 68.73006389
+    "lon": 68.73006389,
+    "hash": "3e8b93a374b8bc21"
   },
   {
-    "id": 358,
-    "fileName": "water Storage- Nawabad Kunjak.HEIC",
-    "title": "water Storage Nawabad Kunjak",
-    "image": "cursor_v2_map_data/photo_previews/3e8b93a374b8bc21.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/water Storage- Nawabad Kunjak.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.70323611,
-    "lon": 68.73006389
-  },
-  {
-    "id": 359,
+    "id": 332,
     "fileName": "water Storage- Nawabad Kunjak2.HEIC",
     "title": "water Storage Nawabad Kunjak2",
     "image": "cursor_v2_map_data/photo_previews/f3dbbf4e3f7ac24f.jpg",
@@ -5024,24 +4977,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.68973611,
-    "lon": 68.75546944
+    "lon": 68.75546944,
+    "hash": "f3dbbf4e3f7ac24f"
   },
   {
-    "id": 360,
-    "fileName": "water Storage- Nawabad Kunjak2.HEIC",
-    "title": "water Storage Nawabad Kunjak2",
-    "image": "cursor_v2_map_data/photo_previews/f3dbbf4e3f7ac24f.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Kunjak/water Storage- Nawabad Kunjak2.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Kunjak",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.68973611,
-    "lon": 68.75546944
-  },
-  {
-    "id": 361,
+    "id": 333,
     "fileName": "Car Wash, Nawabad Markazi.HEIC",
     "title": "Car Wash, Nawabad Markazi",
     "image": "cursor_v2_map_data/photo_previews/036ac0d4c4c56ec5.jpg",
@@ -5052,24 +4992,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.69766667,
-    "lon": 68.74162222
+    "lon": 68.74162222,
+    "hash": "036ac0d4c4c56ec5"
   },
   {
-    "id": 362,
-    "fileName": "Car Wash, Nawabad Markazi.HEIC",
-    "title": "Car Wash, Nawabad Markazi",
-    "image": "cursor_v2_map_data/photo_previews/036ac0d4c4c56ec5.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/Car Wash, Nawabad Markazi.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.69766667,
-    "lon": 68.74162222
-  },
-  {
-    "id": 363,
+    "id": 334,
     "fileName": "CHC - Nawabad Markazi.HEIC",
     "title": "CHC Nawabad Markazi",
     "image": "cursor_v2_map_data/photo_previews/a01d8584b9a8e091.jpg",
@@ -5080,24 +5007,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Health",
     "markerClass": "health",
     "lat": 36.70258333,
-    "lon": 68.73657222
+    "lon": 68.73657222,
+    "hash": "a01d8584b9a8e091"
   },
   {
-    "id": 364,
-    "fileName": "CHC - Nawabad Markazi.HEIC",
-    "title": "CHC Nawabad Markazi",
-    "image": "cursor_v2_map_data/photo_previews/a01d8584b9a8e091.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/CHC - Nawabad Markazi.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Health",
-    "markerClass": "health",
-    "lat": 36.70258333,
-    "lon": 68.73657222
-  },
-  {
-    "id": 365,
+    "id": 335,
     "fileName": "Metal workshop, Nawabad Markazi.HEIC",
     "title": "Metal workshop, Nawabad Markazi",
     "image": "cursor_v2_map_data/photo_previews/d438225339d222be.jpg",
@@ -5108,24 +5022,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.69637778,
-    "lon": 68.74364444
+    "lon": 68.74364444,
+    "hash": "d438225339d222be"
   },
   {
-    "id": 366,
-    "fileName": "Metal workshop, Nawabad Markazi.HEIC",
-    "title": "Metal workshop, Nawabad Markazi",
-    "image": "cursor_v2_map_data/photo_previews/d438225339d222be.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/Metal workshop, Nawabad Markazi.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.69637778,
-    "lon": 68.74364444
-  },
-  {
-    "id": 367,
+    "id": 336,
     "fileName": "Oil Pump_ Nawabad Markazi.heic",
     "title": "Oil Pump Nawabad Markazi",
     "image": "cursor_v2_map_data/photo_previews/8cc279e9f0f91018.jpg",
@@ -5136,24 +5037,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.7003348,
-    "lon": 68.7374542
+    "lon": 68.7374542,
+    "hash": "8cc279e9f0f91018"
   },
   {
-    "id": 368,
-    "fileName": "Oil Pump_ Nawabad Markazi.heic",
-    "title": "Oil Pump Nawabad Markazi",
-    "image": "cursor_v2_map_data/photo_previews/8cc279e9f0f91018.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/Oil Pump_ Nawabad Markazi.heic",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.7003348,
-    "lon": 68.7374542
-  },
-  {
-    "id": 369,
+    "id": 337,
     "fileName": "OIl pump_Nawabad Markazi.heic",
     "title": "OIl pump Nawabad Markazi",
     "image": "cursor_v2_map_data/photo_previews/6471b5b9e59e4775.jpg",
@@ -5164,24 +5052,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.6986128,
-    "lon": 68.7402638
+    "lon": 68.7402638,
+    "hash": "6471b5b9e59e4775"
   },
   {
-    "id": 370,
-    "fileName": "OIl pump_Nawabad Markazi.heic",
-    "title": "OIl pump Nawabad Markazi",
-    "image": "cursor_v2_map_data/photo_previews/6471b5b9e59e4775.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/OIl pump_Nawabad Markazi.heic",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.6986128,
-    "lon": 68.7402638
-  },
-  {
-    "id": 371,
+    "id": 338,
     "fileName": "Watergate Pul Panja, Nawabad Markazi1.HEIC",
     "title": "Watergate Pul Panja, Nawabad Markazi1",
     "image": "cursor_v2_map_data/photo_previews/ec15b233aa171df4.jpg",
@@ -5192,24 +5067,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.70557778,
-    "lon": 68.74494167
+    "lon": 68.74494167,
+    "hash": "ec15b233aa171df4"
   },
   {
-    "id": 372,
-    "fileName": "Watergate Pul Panja, Nawabad Markazi1.HEIC",
-    "title": "Watergate Pul Panja, Nawabad Markazi1",
-    "image": "cursor_v2_map_data/photo_previews/ec15b233aa171df4.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/Watergate Pul Panja, Nawabad Markazi1.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Flood / DRR",
-    "markerClass": "flood",
-    "lat": 36.70557778,
-    "lon": 68.74494167
-  },
-  {
-    "id": 373,
+    "id": 339,
     "fileName": "Watergate Pul Panja, Nawabad Markazi2.HEIC",
     "title": "Watergate Pul Panja, Nawabad Markazi2",
     "image": "cursor_v2_map_data/photo_previews/af1358c97b1a9717.jpg",
@@ -5220,24 +5082,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Flood / DRR",
     "markerClass": "flood",
     "lat": 36.70551389,
-    "lon": 68.74506389
+    "lon": 68.74506389,
+    "hash": "af1358c97b1a9717"
   },
   {
-    "id": 374,
-    "fileName": "Watergate Pul Panja, Nawabad Markazi2.HEIC",
-    "title": "Watergate Pul Panja, Nawabad Markazi2",
-    "image": "cursor_v2_map_data/photo_previews/af1358c97b1a9717.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Markazi/Watergate Pul Panja, Nawabad Markazi2.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Markazi",
-    "theme": "Flood / DRR",
-    "markerClass": "flood",
-    "lat": 36.70551389,
-    "lon": 68.74506389
-  },
-  {
-    "id": 375,
+    "id": 340,
     "fileName": "CBE class_ Nawabad Payen.HEIC",
     "title": "CBE class Nawabad Payen",
     "image": "cursor_v2_map_data/photo_previews/0cddf59bcd421042.jpg",
@@ -5248,10 +5097,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Education",
     "markerClass": "education",
     "lat": 36.69548333,
-    "lon": 68.71448611
+    "lon": 68.71448611,
+    "hash": "0cddf59bcd421042"
   },
   {
-    "id": 376,
+    "id": 341,
     "fileName": "Community Market-Nawabad Paeen.HEIC",
     "title": "Community Market Nawabad Paeen",
     "image": "cursor_v2_map_data/photo_previews/65166d3248732cd5.jpg",
@@ -5262,24 +5112,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70380833,
-    "lon": 68.72533333
+    "lon": 68.72533333,
+    "hash": "65166d3248732cd5"
   },
   {
-    "id": 377,
-    "fileName": "Community Market-Nawabad Paeen.HEIC",
-    "title": "Community Market Nawabad Paeen",
-    "image": "cursor_v2_map_data/photo_previews/65166d3248732cd5.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Community Market-Nawabad Paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70380833,
-    "lon": 68.72533333
-  },
-  {
-    "id": 378,
+    "id": 342,
     "fileName": "Eld Gah Grand Mosque, Nawabad paeen.HEIC",
     "title": "Eld Gah Grand Mosque, Nawabad paeen",
     "image": "cursor_v2_map_data/photo_previews/a88a0f83ec23b37f.jpg",
@@ -5290,24 +5127,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.69789167,
-    "lon": 68.717575
+    "lon": 68.717575,
+    "hash": "a88a0f83ec23b37f"
   },
   {
-    "id": 379,
-    "fileName": "Eld Gah Grand Mosque, Nawabad paeen.HEIC",
-    "title": "Eld Gah Grand Mosque, Nawabad paeen",
-    "image": "cursor_v2_map_data/photo_previews/a88a0f83ec23b37f.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Eld Gah Grand Mosque, Nawabad paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.69789167,
-    "lon": 68.717575
-  },
-  {
-    "id": 380,
+    "id": 343,
     "fileName": "Motorcycle Mechanic, Nawabad Paeen.HEIC",
     "title": "Motorcycle Mechanic, Nawabad Paeen",
     "image": "cursor_v2_map_data/photo_previews/409c2c2efc57fb66.jpg",
@@ -5318,24 +5142,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70358611,
-    "lon": 68.72611111
+    "lon": 68.72611111,
+    "hash": "409c2c2efc57fb66"
   },
   {
-    "id": 381,
-    "fileName": "Motorcycle Mechanic, Nawabad Paeen.HEIC",
-    "title": "Motorcycle Mechanic, Nawabad Paeen",
-    "image": "cursor_v2_map_data/photo_previews/409c2c2efc57fb66.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Motorcycle Mechanic, Nawabad Paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70358611,
-    "lon": 68.72611111
-  },
-  {
-    "id": 382,
+    "id": 344,
     "fileName": "Shanba Bazar, Nawabad paeen.HEIC",
     "title": "Shanba Bazar, Nawabad paeen",
     "image": "cursor_v2_map_data/photo_previews/471cd987f68a17f1.jpg",
@@ -5346,24 +5157,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.69591111,
-    "lon": 68.72322778
+    "lon": 68.72322778,
+    "hash": "471cd987f68a17f1"
   },
   {
-    "id": 383,
-    "fileName": "Shanba Bazar, Nawabad paeen.HEIC",
-    "title": "Shanba Bazar, Nawabad paeen",
-    "image": "cursor_v2_map_data/photo_previews/471cd987f68a17f1.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Shanba Bazar, Nawabad paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.69591111,
-    "lon": 68.72322778
-  },
-  {
-    "id": 384,
+    "id": 345,
     "fileName": "Shop, Nawabad Paeen.HEIC",
     "title": "Shop, Nawabad Paeen",
     "image": "cursor_v2_map_data/photo_previews/1ec7e400c6a6472a.jpg",
@@ -5374,24 +5172,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70405833,
-    "lon": 68.72431111
+    "lon": 68.72431111,
+    "hash": "1ec7e400c6a6472a"
   },
   {
-    "id": 385,
-    "fileName": "Shop, Nawabad Paeen.HEIC",
-    "title": "Shop, Nawabad Paeen",
-    "image": "cursor_v2_map_data/photo_previews/1ec7e400c6a6472a.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Shop, Nawabad Paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70405833,
-    "lon": 68.72431111
-  },
-  {
-    "id": 386,
+    "id": 346,
     "fileName": "Wakil Hasti Khan Grand Mosque, Nawabad Paeen.HEIC",
     "title": "Wakil Hasti Khan Grand Mosque, Nawabad Paeen",
     "image": "cursor_v2_map_data/photo_previews/757332227503c409.jpg",
@@ -5402,24 +5187,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "Other",
     "markerClass": "other",
     "lat": 36.70365278,
-    "lon": 68.7268
+    "lon": 68.7268,
+    "hash": "757332227503c409"
   },
   {
-    "id": 387,
-    "fileName": "Wakil Hasti Khan Grand Mosque, Nawabad Paeen.HEIC",
-    "title": "Wakil Hasti Khan Grand Mosque, Nawabad Paeen",
-    "image": "cursor_v2_map_data/photo_previews/757332227503c409.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Wakil Hasti Khan Grand Mosque, Nawabad Paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "Other",
-    "markerClass": "other",
-    "lat": 36.70365278,
-    "lon": 68.7268
-  },
-  {
-    "id": 388,
+    "id": 347,
     "fileName": "water Storage- Nawabad Paeen.HEIC",
     "title": "water Storage Nawabad Paeen",
     "image": "cursor_v2_map_data/photo_previews/021fb6099f6bc050.jpg",
@@ -5430,24 +5202,11 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.69825833,
-    "lon": 68.72432778
+    "lon": 68.72432778,
+    "hash": "021fb6099f6bc050"
   },
   {
-    "id": 389,
-    "fileName": "water Storage- Nawabad Paeen.HEIC",
-    "title": "water Storage Nawabad Paeen",
-    "image": "cursor_v2_map_data/photo_previews/021fb6099f6bc050.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/water Storage- Nawabad Paeen.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.69825833,
-    "lon": 68.72432778
-  },
-  {
-    "id": 390,
+    "id": 348,
     "fileName": "Water well - Nawabad Paeen Near to Muhajirin.HEIC",
     "title": "Water well Nawabad Paeen Near to Muhajirin",
     "image": "cursor_v2_map_data/photo_previews/17f9895693c04aab.jpg",
@@ -5458,21 +5217,8 @@ window.CURSOR_V2_PHOTO_INDEX = [
     "theme": "WASH",
     "markerClass": "wash",
     "lat": 36.70156944,
-    "lon": 68.72525833
-  },
-  {
-    "id": 391,
-    "fileName": "Water well - Nawabad Paeen Near to Muhajirin.HEIC",
-    "title": "Water well Nawabad Paeen Near to Muhajirin",
-    "image": "cursor_v2_map_data/photo_previews/17f9895693c04aab.jpg",
-    "sourcePath": "Assets Needed/Photos of Clusters and Sub-villages/NE_PAIDAR Project CAP Pics/Chahar Dara_Kunduz/Nawabad Payen/Water well - Nawabad Paeen Near to Muhajirin.HEIC",
-    "province": "NE_PAIDAR Project CAP Pics",
-    "cluster": "Nawabad Cluster",
-    "village": "Nawabad Paeen",
-    "theme": "WASH",
-    "markerClass": "wash",
-    "lat": 36.70156944,
-    "lon": 68.72525833
+    "lon": 68.72525833,
+    "hash": "17f9895693c04aab"
   }
 ];
 

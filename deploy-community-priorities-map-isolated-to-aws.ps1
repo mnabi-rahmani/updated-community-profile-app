@@ -4,6 +4,7 @@ Param(
     [string]$AssetBucketName = "",
     [string]$AssetPrefix = "community-priorities/priority-previews",
     [string]$TargetDir = $(Join-Path $PSScriptRoot "frontend\dist\community-priorities-map"),
+    [string]$ClusterTargetDir = $(Join-Path $PSScriptRoot "frontend\dist\cluster-priorities-map"),
     [string]$DistributionComment = "",
     [string]$AppCacheControl = "public,max-age=300",
     [string]$AssetCacheControl = "public,max-age=31536000,immutable"
@@ -122,7 +123,7 @@ if ([string]::IsNullOrWhiteSpace($AssetBucketName)) {
 }
 
 if ([string]::IsNullOrWhiteSpace($DistributionComment)) {
-    $DistributionComment = "community-priorities-map-isolated-$($identity.Account)-$Region"
+    $DistributionComment = "community-priorities-map-isolated-v4-$($identity.Account)-$Region"
 }
 
 if ($AppBucketName -eq $ProtectedAssetBucketName -or $AssetBucketName -eq $ProtectedAssetBucketName) {
@@ -138,10 +139,20 @@ Write-Host "Asset prefix         :" $AssetPrefix
 Write-Host "Distribution comment :" $DistributionComment
 Write-Host "Protected URL        :" $ProtectedCloudFrontDomain
 
+function Write-IsolatedMapConfig($ConfigPath, $Body) {
+    [System.IO.File]::WriteAllText($ConfigPath, $Body, [System.Text.UTF8Encoding]::new($false))
+}
+
 Write-Host "Packaging Community Priorities frontend..."
 & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "sync-community-priorities-map.ps1")
 if ($LASTEXITCODE -ne 0) {
-    Fail "Packaging failed."
+    Fail "Community priorities packaging failed."
+}
+
+Write-Host "Packaging Cluster Priorities frontend..."
+& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "sync-cluster-priorities-map.ps1")
+if ($LASTEXITCODE -ne 0) {
+    Fail "Cluster priorities packaging failed."
 }
 
 Ensure-Bucket $AssetBucketName
@@ -158,16 +169,59 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 $assetBaseUrl = "https://$AssetBucketName.s3.$Region.amazonaws.com/$AssetPrefix/"
-$configPath = Join-Path $TargetDir "src\config.js"
-@"
+$authApiBaseUrl = "https://tfqmwiadc8.execute-api.us-east-1.amazonaws.com"
+
+$communityConfigPath = Join-Path $TargetDir "src\config.js"
+Write-IsolatedMapConfig $communityConfigPath @"
 window.COMMUNITY_PRIORITIES_CONFIG = {
+  mapId: "assets-community-priorities",
+  navItems: [
+    {
+      id: "assets-community-priorities",
+      label: "Assets and Community Priorities Old",
+      href: "/"
+    },
+    {
+      id: "cluster-priorities-only",
+      label: "Cluster Priorities Only",
+      href: "/cluster-priorities-map/map.htm"
+    }
+  ],
   priorityPhotoBaseUrl: "$assetBaseUrl",
-  authApiBaseUrl: "https://tfqmwiadc8.execute-api.us-east-1.amazonaws.com",
+  authApiBaseUrl: "$authApiBaseUrl",
   allowedAuthModules: ["clusters_map", "all"]
 };
-"@ | ForEach-Object {
-    [System.IO.File]::WriteAllText($configPath, $_, [System.Text.UTF8Encoding]::new($false))
-}
+"@
+
+$clusterConfigPath = Join-Path $ClusterTargetDir "src\config.js"
+Write-IsolatedMapConfig $clusterConfigPath @"
+window.COMMUNITY_PRIORITIES_CONFIG = {
+  displayMode: "infrastructure",
+  priorityCountLabel: "infrastructure priorities",
+  databaseLayerLabel: "boundary layers",
+  prioritiesGlobal: "INFRASTRUCTURE_PRIORITIES",
+  filtersGlobal: "INFRASTRUCTURE_FILTERS",
+  areaPhotosGlobal: "INFRASTRUCTURE_AREA_PHOTOS",
+  areaPhotoRadiusMeters: 100,
+  mapId: "cluster-priorities-only",
+  includedLayerIds: ["boundary_cluster", "boundary_community"],
+  navItems: [
+    {
+      id: "assets-community-priorities",
+      label: "Assets and Community Priorities Old",
+      href: "/"
+    },
+    {
+      id: "cluster-priorities-only",
+      label: "Cluster Priorities Only",
+      href: "/cluster-priorities-map/map.htm"
+    }
+  ],
+  priorityPhotoBaseUrl: "$assetBaseUrl",
+  authApiBaseUrl: "$authApiBaseUrl",
+  allowedAuthModules: ["clusters_map", "all"]
+};
+"@
 
 Ensure-Bucket $AppBucketName
 Allow-Public-Read $AppBucketName "arn:aws:s3:::$AppBucketName/*"
@@ -178,7 +232,21 @@ Invoke-Aws @(
     "s3", "sync", $TargetDir, "s3://$AppBucketName/",
     "--region", $Region,
     "--delete",
-    "--cache-control", $AppCacheControl
+    "--cache-control", $AppCacheControl,
+    "--exclude", "cluster-priorities-map/*"
+)
+
+if (!(Test-Path $ClusterTargetDir)) {
+    Fail "Cluster priorities bundle '$ClusterTargetDir' was not found."
+}
+
+Write-Host "Uploading Cluster Priorities app bundle..."
+Invoke-Aws @(
+    "s3", "sync", $ClusterTargetDir, "s3://$AppBucketName/cluster-priorities-map/",
+    "--region", $Region,
+    "--delete",
+    "--cache-control", $AppCacheControl,
+    "--exclude", "cursor_v2_map_data/infrastructure_photo_previews/*"
 )
 
 $distribution = Get-IsolatedDistribution $DistributionComment
