@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "generate:data": "node scripts/generate-map-data.mjs",
+    "generate:infrastructure": "node scripts/generate-infrastructure-priorities.mjs",
     "generate:layers": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"& 'C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\propy.bat' scripts/export-gdb-layers.py\"",
     "dev": "serve . -l 5174",
     "preview": "serve . -l 5174"
@@ -13,6 +14,7 @@
     "heic-convert": "^2.1.0",
     "mammoth": "^1.12.0",
     "serve": "^14.2.4",
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "xlsx": "^0.18.5"
   }
 }

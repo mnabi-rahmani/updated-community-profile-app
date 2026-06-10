@@ -1,0 +1,852 @@
+[
+  {
+    "id": 1,
+    "priorityNumber": 1,
+    "cluster": "Cluster 1",
+    "intervention": "Construction of protection wall",
+    "location": "Shahrakh Muhajirin and dara -e -soof",
+    "level": "High",
+    "lat": 36.177959,
+    "lon": 68.778846
+  },
+  {
+    "id": 2,
+    "priorityNumber": 2,
+    "cluster": "Cluster 1",
+    "intervention": "New Solar-powerd Water Supply Network",
+    "location": "Dara-e Soof ha",
+    "level": "Medium",
+    "lat": 36.1745673,
+    "lon": 68.7738012
+  },
+  {
+    "id": 3,
+    "priorityNumber": 3,
+    "cluster": "Cluster 1",
+    "intervention": "Repair bore wells; extend water schemes",
+    "location": "Shahrak-e Muhajerin",
+    "level": "Medium",
+    "lat": 36.17925,
+    "lon": 68.77803056
+  },
+  {
+    "id": 4,
+    "priorityNumber": 4,
+    "cluster": "Cluster 1",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Laqaei Ha",
+    "level": "High",
+    "lat": 36.1743075,
+    "lon": 68.7680506
+  },
+  {
+    "id": 5,
+    "priorityNumber": 5,
+    "cluster": "Cluster 1",
+    "intervention": "Construct new classrooms & expand schools (PwV)",
+    "location": "Laqaei Ha & Dara-e-soof",
+    "level": "Low",
+    "lat": 36.16963494,
+    "lon": 68.77027597
+  },
+  {
+    "id": 6,
+    "priorityNumber": 6,
+    "cluster": "Cluster 1",
+    "intervention": "Road construction/asphalting (Community Leader)",
+    "location": "Laghaei Ha (school road 600m)",
+    "level": "Medium",
+    "lat": 36.1757278,
+    "lon": 68.7678338
+  },
+  {
+    "id": 7,
+    "priorityNumber": 7,
+    "cluster": "Cluster 1",
+    "intervention": "Small span bridge construction",
+    "location": "Laqaei Ha",
+    "level": "Medium",
+    "lat": 36.168264,
+    "lon": 68.76855194
+  },
+  {
+    "id": 8,
+    "priorityNumber": 8,
+    "cluster": "Cluster 1",
+    "intervention": "Construction of 6 water dividers",
+    "location": "Laqaei Ha",
+    "level": "High",
+    "lat": 36.1736493,
+    "lon": 68.7671471
+  },
+  {
+    "id": 9,
+    "priorityNumber": 9,
+    "cluster": "Cluster 1",
+    "intervention": "Construction of drainage systems & establishment of waste disposal infrastructure",
+    "location": "Dara-e Soof & Laghaei Ha",
+    "level": "Medium",
+    "lat": 36.1725927,
+    "lon": 68.7690998
+  },
+  {
+    "id": 10,
+    "priorityNumber": 10,
+    "cluster": "Cluster 1",
+    "intervention": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
+    "location": "Location between Shahrak Muhajirin and Dara-e-Soof Near the Base",
+    "level": "Medium",
+    "lat": 36.1757971,
+    "lon": 68.7754727
+  },
+  {
+    "id": 11,
+    "priorityNumber": 1,
+    "cluster": "Cluster 2",
+    "intervention": "construction of protection wall along Ajmir Canal",
+    "location": "Near Ajmir Canal sub-villages (Dawood Padshah, Sayed Jafar Agha, Noor Agha Padshah villages)",
+    "level": "High",
+    "lat": 36.185054,
+    "lon": 68.771738
+  },
+  {
+    "id": 12,
+    "priorityNumber": 2,
+    "cluster": "Cluster 2",
+    "intervention": "construction of protection walls in high-risk sections",
+    "location": "Near Ajmir Canal sub-villages (Dawood Padshah, Sayed Jafar Agha, Noor Agha Padshah villages)",
+    "level": "High",
+    "lat": 36.185054,
+    "lon": 68.771738
+  },
+  {
+    "id": 13,
+    "priorityNumber": 3,
+    "cluster": "Cluster 2",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Mulla Toor (most vulnerable)",
+    "level": "High",
+    "lat": 36.1873,
+    "lon": 68.772
+  },
+  {
+    "id": 14,
+    "priorityNumber": 4,
+    "cluster": "Cluster 2",
+    "intervention": "Extension of existing water supply system",
+    "location": "Extension for sayed Jafar Agha",
+    "level": "High",
+    "lat": 36.1838,
+    "lon": 68.7669
+  },
+  {
+    "id": 17,
+    "priorityNumber": 7,
+    "cluster": "Cluster 2",
+    "intervention": "Construction of classrooms for School",
+    "location": "Dawood Padshah sub-village",
+    "level": "High",
+    "lat": 36.18155556,
+    "lon": 68.75898053
+  },
+  {
+    "id": 18,
+    "priorityNumber": 8,
+    "cluster": "Cluster 2",
+    "intervention": "Establishment of a sub-health center",
+    "location": "At the center of all five sub-villages accessible for all",
+    "level": "High",
+    "lat": 36.1881888,
+    "lon": 68.7588431
+  },
+  {
+    "id": 19,
+    "priorityNumber": 9,
+    "cluster": "Cluster 2",
+    "intervention": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
+    "location": "At the center of all five sub-villages accessible for all",
+    "level": "Medium",
+    "lat": 36.1864916,
+    "lon": 68.760431
+  },
+  {
+    "id": 20,
+    "priorityNumber": 1,
+    "cluster": "Cluster 3",
+    "intervention": "Construct protection walls",
+    "location": "Chayabi Ha (along the main Ajmir canal Near to Ghandahari Ha area, 500 m length",
+    "level": "High",
+    "lat": 36.1988625,
+    "lon": 68.7710852
+  },
+  {
+    "id": 21,
+    "priorityNumber": 2,
+    "cluster": "Cluster 3",
+    "intervention": "Road releveling and graveling",
+    "location": "Godan Paein: Godan Paien main street around 1.5 KM",
+    "level": "High",
+    "lat": 36.2068619,
+    "lon": 68.761837
+  },
+  {
+    "id": 22,
+    "priorityNumber": 3,
+    "cluster": "Cluster 3",
+    "intervention": "Construction of Agricultural Canal (male FGD)",
+    "location": "Chayabi Ha: Chayei Ha main canal, 3 critical areas that are prone to flood issues and water leakage 300 m distance",
+    "level": "High",
+    "lat": 36.1970271,
+    "lon": 68.7658496
+  },
+  {
+    "id": 23,
+    "priorityNumber": 4,
+    "cluster": "Cluster 3",
+    "intervention": "Construction of Agricultural Canal (male FGD)",
+    "location": "Godan Paein: Joye Jarib sha with 1km distance",
+    "level": "High",
+    "lat": 36.2054595,
+    "lon": 68.762116
+  },
+  {
+    "id": 24,
+    "priorityNumber": 5,
+    "cluster": "Cluster 3",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Gudan Payen",
+    "level": "High",
+    "lat": 36.2047354,
+    "lon": 68.7596713
+  },
+  {
+    "id": 25,
+    "priorityNumber": 7,
+    "cluster": "Cluster 3",
+    "intervention": "Construction of school building - secondary level",
+    "location": "Godan Paein: Although there is a school building, children study in open areas or under tents (male FGD).",
+    "level": "High",
+    "lat": 36.20883,
+    "lon": 68.75916
+  },
+  {
+    "id": 26,
+    "priorityNumber": 8,
+    "cluster": "Cluster 3",
+    "intervention": "Establishment of Electricity power",
+    "location": "Gudan Payen",
+    "level": "High",
+    "lat": 36.2018524,
+    "lon": 68.7618422
+  },
+  {
+    "id": 27,
+    "priorityNumber": 9,
+    "cluster": "Cluster 3",
+    "intervention": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
+    "location": "At the center of all three sub-villages accessible for all",
+    "level": "High",
+    "lat": 36.2005452,
+    "lon": 68.7630187
+  },
+  {
+    "id": 28,
+    "priorityNumber": 1,
+    "cluster": "Cluster 4",
+    "intervention": "Water supply System",
+    "location": "Guldarayeeha",
+    "level": "High",
+    "lat": 36.1996591,
+    "lon": 68.7881393
+  },
+  {
+    "id": 29,
+    "priorityNumber": 2,
+    "cluster": "Cluster 4",
+    "intervention": "Solar-powerd Water Supply Network 1",
+    "location": "Malem Akbar",
+    "level": "High",
+    "lat": 36.2079219,
+    "lon": 68.7804135
+  },
+  {
+    "id": 30,
+    "priorityNumber": 3,
+    "cluster": "Cluster 4",
+    "intervention": "Solar-powerd Water Supply Network 2",
+    "location": "Malem Akbar",
+    "level": "High",
+    "lat": 36.2063983,
+    "lon": 68.7925157
+  },
+  {
+    "id": 31,
+    "priorityNumber": 4,
+    "cluster": "Cluster 4",
+    "intervention": "Construction of protection wall",
+    "location": "Malem Akbar & Guldarayeeha (both villages)",
+    "level": "High",
+    "lat": 36.1978334,
+    "lon": 68.7849522
+  },
+  {
+    "id": 32,
+    "priorityNumber": 5,
+    "cluster": "Cluster 4",
+    "intervention": "Expansion of school infrastructure and construction new classes",
+    "location": "Guldarayeeha sub-village",
+    "level": "High",
+    "lat": 36.1999632,
+    "lon": 68.7883639
+  },
+  {
+    "id": 33,
+    "priorityNumber": 6,
+    "cluster": "Cluster 4",
+    "intervention": "Establishment of a sub-health center",
+    "location": "Between both sub-villages / central, accessible point",
+    "level": "High",
+    "lat": 36.2052125,
+    "lon": 68.7818165
+  },
+  {
+    "id": 34,
+    "priorityNumber": 7,
+    "cluster": "Cluster 4",
+    "intervention": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
+    "location": "Between both sub-villages / central, accessible point",
+    "level": "Medium",
+    "lat": 36.206563,
+    "lon": 68.78128
+  },
+  {
+    "id": 35,
+    "priorityNumber": 8,
+    "cluster": "Cluster 4",
+    "intervention": "Leveling and graveling",
+    "location": "Main road of both sub-villages",
+    "level": "High",
+    "lat": 36.2117116,
+    "lon": 36.2117116
+  },
+  {
+    "id": 36,
+    "priorityNumber": 1,
+    "cluster": "Cluster 5",
+    "intervention": "New Water Supply System",
+    "location": "Dad Mohammad village",
+    "level": "High",
+    "lat": 36.198052,
+    "lon": 68.7878337
+  },
+  {
+    "id": 37,
+    "priorityNumber": 2,
+    "cluster": "Cluster 5",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Arbab Yahya village",
+    "level": "Medium",
+    "lat": 36.1916572,
+    "lon": 68.779231
+  },
+  {
+    "id": 38,
+    "priorityNumber": 3,
+    "cluster": "Cluster 5",
+    "intervention": "Constuction of protection wall to prevent flood",
+    "location": "Arbab Yahya and Bashi Allah dad sub-village",
+    "level": "High",
+    "lat": 36.1819,
+    "lon": 68.774262
+  },
+  {
+    "id": 39,
+    "priorityNumber": 4,
+    "cluster": "Cluster 5",
+    "intervention": "Construction of school buildings",
+    "location": "At the center of all five sub-villages accessible for all",
+    "level": "High",
+    "lat": 36.1923158,
+    "lon": 68.781258
+  },
+  {
+    "id": 40,
+    "priorityNumber": 5,
+    "cluster": "Cluster 5",
+    "intervention": "Establishment of a sub-health center",
+    "location": "At the center of all five sub-villages accessible for all",
+    "level": "High",
+    "lat": 36.1905266,
+    "lon": 68.794767
+  },
+  {
+    "id": 41,
+    "priorityNumber": 6,
+    "cluster": "Cluster 5",
+    "intervention": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
+    "location": "At the center of all five sub-villages accessible for all",
+    "level": "Medium",
+    "lat": 36.19115,
+    "lon": 68.786141
+  },
+  {
+    "id": 42,
+    "priorityNumber": 1,
+    "cluster": "Cluster 6",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Tajik Ha",
+    "level": "High",
+    "lat": 36.2011725,
+    "lon": 68.7937346
+  },
+  {
+    "id": 43,
+    "priorityNumber": 2,
+    "cluster": "Cluster 6",
+    "intervention": "Water network extension",
+    "location": "Yaka Toot",
+    "level": "Medium",
+    "lat": 36.1996487,
+    "lon": 68.816072
+  },
+  {
+    "id": 44,
+    "priorityNumber": 3,
+    "cluster": "Cluster 6",
+    "intervention": "Establishment of a sub-health center",
+    "location": "At the center of two sub-villages accessible for both",
+    "level": "High",
+    "lat": 36.1962548,
+    "lon": 68.7971892
+  },
+  {
+    "id": 45,
+    "priorityNumber": 4,
+    "cluster": "Cluster 6",
+    "intervention": "Leveling and graveling",
+    "location": "Main road and internal roads of both villages",
+    "level": "Low",
+    "lat": 36.196514,
+    "lon": 68.798115
+  },
+  {
+    "id": 46,
+    "priorityNumber": 5,
+    "cluster": "Cluster 6",
+    "intervention": "Alternative shortcut road Leveling and graveling",
+    "location": "Yaka Toot",
+    "level": "Low",
+    "lat": 36.1927,
+    "lon": 68.802943
+  },
+  {
+    "id": 47,
+    "priorityNumber": 1,
+    "cluster": "Cluster 7",
+    "intervention": "Solar-powerd Water Supply Networks",
+    "location": "Temoryan Bala",
+    "level": "High",
+    "lat": 36.3058,
+    "lon": 68.8676
+  },
+  {
+    "id": 48,
+    "priorityNumber": 2,
+    "cluster": "Cluster 7",
+    "intervention": "Repair of water storage",
+    "location": "Gujor Ha",
+    "level": "High",
+    "lat": 36.3421082,
+    "lon": 68.8510743
+  },
+  {
+    "id": 49,
+    "priorityNumber": 3,
+    "cluster": "Cluster 7",
+    "intervention": "Construction of water storage system",
+    "location": "Temoryan Payen",
+    "level": "High",
+    "lat": 36.3174227,
+    "lon": 68.849186
+  },
+  {
+    "id": 50,
+    "priorityNumber": 4,
+    "cluster": "Cluster 7",
+    "intervention": "Irrigation Canal",
+    "location": "Temoryan Payen",
+    "level": "High",
+    "lat": 36.319935,
+    "lon": 68.847604
+  },
+  {
+    "id": 51,
+    "priorityNumber": 5,
+    "cluster": "Cluster 7",
+    "intervention": "Irrigation Canal",
+    "location": "Moghul Ha",
+    "level": "High",
+    "lat": 36.338803,
+    "lon": 68.839194
+  },
+  {
+    "id": 52,
+    "priorityNumber": 6,
+    "cluster": "Cluster 7",
+    "intervention": "Leveling and graveling of Road",
+    "location": "Gujar Ha",
+    "level": "High",
+    "lat": 36.3448555,
+    "lon": 68.84752778
+  },
+  {
+    "id": 53,
+    "priorityNumber": 7,
+    "cluster": "Cluster 7",
+    "intervention": "Leveling and Graveling and Canal lining",
+    "location": "The main road in Temoryan and Tahiri Ha connects Baghlan to Kunduz Road, up to the first culvert leading to Choraq and Wardakha. (approx. 1 KM)",
+    "level": "High",
+    "lat": 36.3101263,
+    "lon": 68.8263079
+  },
+  {
+    "id": 54,
+    "priorityNumber": 8,
+    "cluster": "Cluster 7",
+    "intervention": "Establishment of a new sub-health center",
+    "location": "At the center of all five sub-villages accessible for all",
+    "level": "High",
+    "lat": 36.316734,
+    "lon": 68.8364021
+  },
+  {
+    "id": 55,
+    "priorityNumber": 9,
+    "cluster": "Cluster 7",
+    "intervention": "Installation of a steel pedestrian bridge over the Baghlan–Kunduz Road to ensure students can safely access Chaharshanba Tepa High School.",
+    "location": "Tahiri Ha sub-village including other sub-villages student",
+    "level": "High",
+    "lat": 36.3115628,
+    "lon": 68.8269505
+  },
+  {
+    "id": 56,
+    "priorityNumber": 10,
+    "cluster": "Cluster 7",
+    "intervention": "Construction of school buildings",
+    "location": "Jamaluddin Khan Secondary School (Moghul Ha Village – currently tent-based",
+    "level": "High",
+    "lat": 36.33955275,
+    "lon": 68.83972219
+  },
+  {
+    "id": 57,
+    "priorityNumber": 1,
+    "cluster": "Cluster 8",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Mata Khil",
+    "level": "High",
+    "lat": 36.3493724,
+    "lon": 68.8184165
+  },
+  {
+    "id": 58,
+    "priorityNumber": 2,
+    "cluster": "Cluster 8",
+    "intervention": "Irrigation Canal",
+    "location": "Anar Khil",
+    "level": "High",
+    "lat": 36.327722,
+    "lon": 68.822913
+  },
+  {
+    "id": 59,
+    "priorityNumber": 2,
+    "cluster": "Cluster 8",
+    "intervention": "Construction of a protection wall in Sardar Khil across Mini Bazar area (1,500 m length) (male)",
+    "location": "Sardar Khil",
+    "level": "High",
+    "lat": 36.3348756,
+    "lon": 68.8261752
+  },
+  {
+    "id": 60,
+    "priorityNumber": 5,
+    "cluster": "Cluster 8",
+    "intervention": "Construction of culvert along the river to facilitate transportation",
+    "location": "Anar Khil",
+    "level": "High",
+    "lat": 36.344071,
+    "lon": 68.810584
+  },
+  {
+    "id": 61,
+    "priorityNumber": 6,
+    "cluster": "Cluster 8",
+    "intervention": "Establishment of sub health center SHC",
+    "location": "Anar Khil Sardar Khil Mata Khil (PWV) Central location serving all three villages (female)",
+    "level": "High",
+    "lat": 36.34585097,
+    "lon": 68.81138097
+  },
+  {
+    "id": 62,
+    "priorityNumber": 7,
+    "cluster": "Cluster 8",
+    "intervention": "Construction of formal girls’ schools and",
+    "location": "Central location serving all villages",
+    "level": "Medium",
+    "lat": 36.339992,
+    "lon": 68.8122706
+  },
+  {
+    "id": 63,
+    "priorityNumber": 8,
+    "cluster": "Cluster 8",
+    "intervention": "Establishment of Electricity power",
+    "location": "Mata Khil",
+    "level": "High",
+    "lat": 36.3470435,
+    "lon": 68.8340716
+  },
+  {
+    "id": 64,
+    "priorityNumber": 9,
+    "cluster": "Cluster 8",
+    "intervention": "Establishment of women’s community centers",
+    "location": "Central location accessible to all villages",
+    "level": "Medium",
+    "lat": 36.3391622,
+    "lon": 68.8124422
+  },
+  {
+    "id": 65,
+    "priorityNumber": 1,
+    "cluster": "Cluster 9",
+    "intervention": "Construction of protection wall",
+    "location": "Wardakha",
+    "level": "High",
+    "lat": 36.28189722,
+    "lon": 68.84042219
+  },
+  {
+    "id": 66,
+    "priorityNumber": 2,
+    "cluster": "Cluster 9",
+    "intervention": "Construction of protection wall",
+    "location": "Choraq",
+    "level": "High",
+    "lat": 36.28814308,
+    "lon": 68.84805419
+  },
+  {
+    "id": 67,
+    "priorityNumber": 3,
+    "cluster": "Cluster 9",
+    "intervention": "Construction of a Canal",
+    "location": "Choraq",
+    "level": "Medium",
+    "lat": 36.28922728,
+    "lon": 68.85713878
+  },
+  {
+    "id": 68,
+    "priorityNumber": 4,
+    "cluster": "Cluster 9",
+    "intervention": "Construction of a building for School",
+    "location": "Between both sub-village",
+    "level": "High",
+    "lat": 36.28882739,
+    "lon": 68.85523958
+  },
+  {
+    "id": 69,
+    "priorityNumber": 5,
+    "cluster": "Cluster 9",
+    "intervention": "Extension of existing water supply system for all families",
+    "location": "Wardak ha",
+    "level": "Medium",
+    "lat": 36.28474167,
+    "lon": 68.83974442
+  },
+  {
+    "id": 70,
+    "priorityNumber": 6,
+    "cluster": "Cluster 9",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Choraq",
+    "level": "High",
+    "lat": 36.2861907,
+    "lon": 68.8554362
+  },
+  {
+    "id": 71,
+    "priorityNumber": 7,
+    "cluster": "Cluster 9",
+    "intervention": "Construct a basic multi‑purpose community hall (meeting room, storage, sanitation block).",
+    "location": "Between both sub-villages",
+    "level": "Medium",
+    "lat": 36.2864328,
+    "lon": 68.8472823
+  },
+  {
+    "id": 72,
+    "priorityNumber": 1,
+    "cluster": "Cluster 10",
+    "intervention": "Reconstruction of the clinic boundary wall damaged by floods.",
+    "location": "Center of Shaikh Jalal community",
+    "level": "High",
+    "lat": 36.1009916,
+    "lon": 68.85977
+  },
+  {
+    "id": 73,
+    "priorityNumber": 2,
+    "cluster": "Cluster 10",
+    "intervention": "Construction of check dams along upstream flood pathways to reduce runoff velocity and mitigate flood risks",
+    "location": "Shaikh Jalal (upstream areas)",
+    "level": "Medium",
+    "lat": 36.095635,
+    "lon": 68.865197
+  },
+  {
+    "id": 74,
+    "priorityNumber": 3,
+    "cluster": "Cluster 10",
+    "intervention": "Construction of a basic multi-purpose community hall that can be used for meetings, training, and social events.",
+    "location": "Center of Shaikh Jalal Community",
+    "level": "Medium",
+    "lat": 36.099194,
+    "lon": 36.099194
+  },
+  {
+    "id": 75,
+    "priorityNumber": 4,
+    "cluster": "Cluster 10",
+    "intervention": "Construction of a bridge to connect both sides of the village and ensure safe access to essential services year-round",
+    "location": "Near the Shaikh Jalal Basic Health Center",
+    "level": "High",
+    "lat": 36.10163,
+    "lon": 68.859955
+  },
+  {
+    "id": 77,
+    "priorityNumber": 6,
+    "cluster": "Cluster 10",
+    "intervention": "Establishment of Electricity power",
+    "location": "Shaikh Jalal",
+    "level": "High",
+    "lat": 36.1032436,
+    "lon": 68.8579245
+  },
+  {
+    "id": 78,
+    "priorityNumber": 1,
+    "cluster": "Cluster 11",
+    "intervention": "Solar-powerd Water Supply Network",
+    "location": "Oshtor Ghalt",
+    "level": "High",
+    "lat": 36.1587248,
+    "lon": 68.8376027
+  },
+  {
+    "id": 79,
+    "priorityNumber": 2,
+    "cluster": "Cluster 11",
+    "intervention": "Construction of school building",
+    "location": "Oshtor Ghalt",
+    "level": "High",
+    "lat": 36.1575814,
+    "lon": 68.8337832
+  },
+  {
+    "id": 80,
+    "priorityNumber": 3,
+    "cluster": "Cluster 11",
+    "intervention": "Repairing of existing community center hall",
+    "location": "Oshtor Ghalt",
+    "level": "Low",
+    "lat": 36.15846389,
+    "lon": 68.83536667
+  },
+  {
+    "id": 81,
+    "priorityNumber": 4,
+    "cluster": "Cluster 11",
+    "intervention": "Construction of additional rooms on top of community center building",
+    "location": "Oshtor Ghalt",
+    "level": "Medium",
+    "lat": 36.15846389,
+    "lon": 68.83536667
+  },
+  {
+    "id": 82,
+    "priorityNumber": 5,
+    "cluster": "Cluster 11",
+    "intervention": "Construction of a bridge",
+    "location": "Oshtor Ghalt",
+    "level": "Medium",
+    "lat": 36.1568538,
+    "lon": 68.8287192
+  },
+  {
+    "id": 83,
+    "priorityNumber": 6,
+    "cluster": "Cluster 11",
+    "intervention": "Construction of small check dams in upstream flood pathways to slow runoff and reduce flood intensity.",
+    "location": "Oshtor Ghalt",
+    "level": "Medium",
+    "lat": 36.1581011,
+    "lon": 68.8457566
+  },
+  {
+    "id": 84,
+    "priorityNumber": 7,
+    "cluster": "Cluster 11",
+    "intervention": "Construction of Sub Health Center",
+    "location": "Oshtor Ghalt",
+    "level": "Medium",
+    "lat": 36.159002,
+    "lon": 68.8336116
+  },
+  {
+    "id": 86,
+    "priorityNumber": 2,
+    "cluster": "Nawabad Cluster",
+    "intervention": "Leveling and gravelling of the connecting access road from Base side ( previously military base )to the Community Eid Gah",
+    "location": "Road connecting the starting point of the main road from the base side to the Community Eid Gah",
+    "level": "High",
+    "lat": 36.6893709,
+    "lon": 68.7541656
+  },
+  {
+    "id": 87,
+    "priorityNumber": 3,
+    "cluster": "Nawabad Cluster",
+    "intervention": "Construct a basic multi‑purpose community hall (meeting room, storage, sanitation block).",
+    "location": "Near the Community Eid Gah",
+    "level": "Medium",
+    "lat": 36.6978917,
+    "lon": 68.71757497
+  },
+  {
+    "id": 88,
+    "priorityNumber": 4,
+    "cluster": "Nawabad Cluster",
+    "intervention": "Progressive lining and rehabilitation of the irrigation canal to improve water management and reduce water losses",
+    "location": "Watershed and irrigation canal originating from Nawabad Konjak near to Palo Kamrak",
+    "level": "High",
+    "lat": 36.692871,
+    "lon": 68.823778
+  },
+  {
+    "id": 89,
+    "priorityNumber": 6,
+    "cluster": "Nawabad Cluster",
+    "intervention": "Drilling of a new borehole and installation of a water supply system to improve access to safe drinking wate",
+    "location": "Returnee settlements in Nawabad Bala, Nawabad Payen, and Konjak",
+    "level": "High",
+    "lat": 36.68922858,
+    "lon": 68.72894758
+  }
+]

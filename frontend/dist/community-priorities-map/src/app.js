@@ -2,9 +2,12 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     const AUTH_API_BASE_URL = (COMMUNITY_PRIORITIES_CONFIG.authApiBaseUrl || "https://tfqmwiadc8.execute-api.us-east-1.amazonaws.com").replace(/\/$/, "");
     const AUTH_ALLOWED_MODULES = new Set(COMMUNITY_PRIORITIES_CONFIG.allowedAuthModules || ["clusters_map", "all"]);
     const AUTH_STORAGE_KEY = "communityPrioritiesAuth";
-    const PRIORITY_PHOTO_BASE_URL = (COMMUNITY_PRIORITIES_CONFIG.priorityPhotoBaseUrl || "").replace(/\/?$/, "/");
+    const rawPriorityPhotoBaseUrl = String(COMMUNITY_PRIORITIES_CONFIG.priorityPhotoBaseUrl || "").trim();
+    const PRIORITY_PHOTO_BASE_URL = rawPriorityPhotoBaseUrl
+      ? rawPriorityPhotoBaseUrl.replace(/\/?$/, "/")
+      : "";
     const USE_LOCAL_PRIORITY_PHOTOS = ["localhost", "127.0.0.1", ""].includes(window.location.hostname)
-      && !window.location.pathname.includes("/community-priorities-map/");
+      && !["/community-priorities-map/", "/cluster-priorities-map/"].some((path) => window.location.pathname.includes(path));
 
     const authScreen = document.getElementById("authScreen");
     const authForm = document.getElementById("authForm");
@@ -149,7 +152,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     function resolveAssetUrl(path) {
       if (!path) return "";
       if (/^(https?:|file:|blob:|data:)/i.test(path)) return path;
-      const previewMatch = String(path).match(/photo_previews\/([^/?#]+)/i);
+      const previewMatch = String(path).match(/(?:infrastructure_)?photo_previews\/([^/?#]+)/i);
       if (previewMatch) {
         if (USE_LOCAL_PRIORITY_PHOTOS) return encodeURI(path).replace(/#/g, "%23");
         if (PRIORITY_PHOTO_BASE_URL) return PRIORITY_PHOTO_BASE_URL + previewMatch[1];
@@ -169,14 +172,41 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       };
     }
 
-    const ALL_PRIORITY_POINTS = window.PHOTO_BACKED_PRIORITIES || [];
-    const FILTER_META = window.PHOTO_BACKED_FILTERS || { clusters: [], villagesByCluster: {} };
+    const PRIORITIES_GLOBAL = COMMUNITY_PRIORITIES_CONFIG.prioritiesGlobal || "PHOTO_BACKED_PRIORITIES";
+    const FILTERS_GLOBAL = COMMUNITY_PRIORITIES_CONFIG.filtersGlobal || "PHOTO_BACKED_FILTERS";
+    const IS_INFRASTRUCTURE_DISPLAY = COMMUNITY_PRIORITIES_CONFIG.displayMode === "infrastructure";
+    const ALL_PRIORITY_POINTS = window[PRIORITIES_GLOBAL] || window.PHOTO_BACKED_PRIORITIES || [];
+    const FILTER_META = window[FILTERS_GLOBAL] || window.PHOTO_BACKED_FILTERS || { clusters: [], villagesByCluster: {} };
     const STYLES = window.CURSOR_V2_STYLES || {};
     const LAYERS = window.CURSOR_V2_LAYERS || {};
     const MANIFEST = window.CURSOR_V2_LAYER_MANIFEST || [];
+
+    function databaseManifestEntries() {
+      const ids = COMMUNITY_PRIORITIES_CONFIG.includedLayerIds;
+      if (!Array.isArray(ids) || !ids.length) return MANIFEST;
+      const allowed = new Set(ids);
+      return MANIFEST.filter((entry) => allowed.has(entry.id));
+    }
+
+    function initMapNav() {
+      const nav = document.getElementById("mapNav");
+      const items = COMMUNITY_PRIORITIES_CONFIG.navItems;
+      const activeId = COMMUNITY_PRIORITIES_CONFIG.mapId;
+      if (!nav || !Array.isArray(items) || !items.length) return;
+      nav.innerHTML = items.map((item) => {
+        const isActive = item.id === activeId;
+        const activeClass = isActive ? " map-nav-link-active" : "";
+        const ariaCurrent = isActive ? ' aria-current="page"' : "";
+        return `<a href="${item.href}" class="map-nav-link${activeClass}"${ariaCurrent}>${item.label}</a>`;
+      }).join("");
+    }
+
     const priorityBadge = document.getElementById("priorityBadge");
     if (priorityBadge) {
-      priorityBadge.textContent = `${ALL_PRIORITY_POINTS.length} photo-backed priorities + ${MANIFEST.length} Integrated Locations Database layers`;
+      const databaseLayerCount = databaseManifestEntries().length;
+      const priorityLabel = COMMUNITY_PRIORITIES_CONFIG.priorityCountLabel || "photo-backed priorities";
+      const layerLabel = COMMUNITY_PRIORITIES_CONFIG.databaseLayerLabel || "Integrated Locations Database layers";
+      priorityBadge.textContent = `${ALL_PRIORITY_POINTS.length} ${priorityLabel} + ${databaseLayerCount} ${layerLabel}`;
     }
     const BAGHLAN_CLUSTERS = new Set([
       "Cluster 1", "Cluster 2", "Cluster 3", "Cluster 4", "Cluster 5", "Cluster 6",
@@ -283,7 +313,43 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     const storyText = document.getElementById("storyText");
     const cards = document.getElementById("cards");
     const cardsEmpty = document.getElementById("cardsEmpty");
+    const sideHeaderToggle = document.getElementById("sideHeaderToggle");
+    const sideIntroPanel = document.getElementById("sideIntroPanel");
+    const SIDE_INTRO_STORAGE_KEY = "communityPrioritiesSideIntroCollapsed";
     const layerControlEntries = { "Photo-backed priorities": priorityGroup };
+
+    function setSideIntroCollapsed(collapsed) {
+      if (!sideIntroPanel || !sideHeaderToggle) return;
+      sideIntroPanel.hidden = collapsed;
+      sideHeaderToggle.setAttribute("aria-expanded", String(!collapsed));
+      const label = sideHeaderToggle.querySelector(".side-header-toggle-label");
+      if (label) label.textContent = collapsed ? "Show panel" : "Hide panel";
+      document.querySelector(".side")?.classList.toggle("side-intro-collapsed", collapsed);
+      document.body.classList.toggle("side-panel-collapsed", collapsed);
+      requestAnimationFrame(() => {
+        map.invalidateSize({ animate: false });
+        scheduleMapLayoutRefresh();
+      });
+      try {
+        window.localStorage.setItem(SIDE_INTRO_STORAGE_KEY, collapsed ? "1" : "0");
+      } catch {
+        // Ignore storage failures in private browsing.
+      }
+    }
+
+    function initSideHeaderToggle() {
+      if (!sideHeaderToggle || !sideIntroPanel) return;
+      let collapsed = false;
+      try {
+        collapsed = window.localStorage.getItem(SIDE_INTRO_STORAGE_KEY) === "1";
+      } catch {
+        collapsed = false;
+      }
+      setSideIntroCollapsed(collapsed);
+      sideHeaderToggle.addEventListener("click", () => {
+        setSideIntroCollapsed(!sideIntroPanel.hidden);
+      });
+    }
 
     let corridorLayer = null;
     let layersControl = null;
@@ -829,7 +895,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function initDatabaseLayers() {
-      MANIFEST.forEach((entry) => {
+      databaseManifestEntries().forEach((entry) => {
         if (!LAYERS[entry.id]) return;
         const group = L.layerGroup().addTo(map);
         databaseStores.set(entry.id, { entry, group, visibleCount: 0 });
@@ -840,7 +906,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       layersControl = L.control.layers(
         BASE_MAP_LAYERS,
         layerControlEntries,
-        { collapsed: false }
+        { collapsed: true }
       ).addTo(map);
 
       setTimeout(() => setupToggleAllLayersCheckbox(), 0);
@@ -873,6 +939,18 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function galleryMetaHtml(point, photo) {
+      if (IS_INFRASTRUCTURE_DISPLAY) {
+        const photoFile = photo?.file ? `<span><strong>Photo:</strong> ${escapeHtml(photo.file)}</span>` : "";
+        return `
+          <span><strong>Priority intervention:</strong> ${escapeHtml(point.intervention || point.title)}</span>
+          <span><strong>Location:</strong> ${escapeHtml(point.location || point.village)}</span>
+          <span><strong>Priority level:</strong> ${escapeHtml(point.level)}</span>
+          <span><strong>Latitude:</strong> ${Number(point.lat).toFixed(8)}</span>
+          <span><strong>Longitude:</strong> ${Number(point.lon).toFixed(8)}</span>
+          ${photoFile}
+        `;
+      }
+
       const sourceHtml = point.sourceDocument
         ? `<span><strong>Source:</strong> ${escapeHtml(point.sourceDocument)}</span>`
         : "";
@@ -902,14 +980,30 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
         image.src = imageSrc(photo.image);
         image.alt = photo.title || "Priority photo";
       }
-      galleryEl.querySelector(".popup-title").textContent = `${displayId}. ${photo.title}`;
-      galleryEl.querySelector(".popup-gallery-note").textContent = photo.note || "";
+      galleryEl.querySelector(".popup-title").textContent = IS_INFRASTRUCTURE_DISPLAY
+        ? `${displayId}. ${galleryEl.dataset.intervention || photo.file || "Infrastructure priority"}`
+        : `${displayId}. ${photo.title || photo.file}`;
+      const noteEl = galleryEl.querySelector(".popup-gallery-note");
+      if (noteEl) {
+        noteEl.textContent = IS_INFRASTRUCTURE_DISPLAY ? "" : (photo.note || "");
+        noteEl.hidden = IS_INFRASTRUCTURE_DISPLAY;
+      }
       galleryEl.querySelector(".popup-gallery-meta").innerHTML = galleryMetaHtml(
-        {
-          cluster: galleryEl.dataset.cluster,
-          village: galleryEl.dataset.village,
-          sourceDocument: galleryEl.dataset.sourceDocument
-        },
+        IS_INFRASTRUCTURE_DISPLAY
+          ? {
+            intervention: galleryEl.dataset.intervention,
+            location: galleryEl.dataset.location,
+            level: galleryEl.dataset.level,
+            lat: Number(galleryEl.dataset.lat),
+            lon: Number(galleryEl.dataset.lon),
+            title: galleryEl.dataset.intervention,
+            village: galleryEl.dataset.location
+          }
+          : {
+            cluster: galleryEl.dataset.cluster,
+            village: galleryEl.dataset.village,
+            sourceDocument: galleryEl.dataset.sourceDocument
+          },
         photo
       );
       if (counter) counter.textContent = `${index + 1} / ${photos.length}`;
@@ -928,6 +1022,22 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       priorityGalleryStore.set(point.id, photos);
       const first = photos[0];
       const multi = photos.length > 1;
+      const popupTitle = IS_INFRASTRUCTURE_DISPLAY
+        ? `${point.displayId}. ${point.intervention || point.title}`
+        : `${point.displayId}. ${escapeHtml(first.title || first.file || point.title)}`;
+      const noteHtml = IS_INFRASTRUCTURE_DISPLAY
+        ? ""
+        : `<p class="popup-text popup-gallery-note">${escapeHtml(first.note || "")}</p>`;
+      const photoBlock = first?.image
+        ? `
+          <div class="popup-gallery-frame">
+            ${multi ? '<button type="button" class="gallery-btn gallery-prev" aria-label="Previous photo">&lsaquo;</button>' : ""}
+            <img class="popup-photo" src="${imageSrc(first.image)}" alt="${escapeHtml(first.file || first.title || "Field photo")}" data-display-src="${imageSrc(first.image)}">
+            ${multi ? '<button type="button" class="gallery-btn gallery-next" aria-label="Next photo">&rsaquo;</button>' : ""}
+          </div>
+          ${multi ? `<div class="gallery-counter">1 / ${photos.length}</div>` : ""}
+        `
+        : "";
 
       return `
         <div
@@ -937,17 +1047,17 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
           data-photo-index="0"
           data-cluster="${escapeHtml(point.cluster)}"
           data-village="${escapeHtml(point.village)}"
-          data-source-document="${escapeHtml(point.sourceDocument)}"
+          data-intervention="${escapeHtml(point.intervention || point.title)}"
+          data-location="${escapeHtml(point.location || point.village)}"
+          data-level="${escapeHtml(point.level)}"
+          data-lat="${point.lat}"
+          data-lon="${point.lon}"
+          data-source-document="${escapeHtml(point.sourceDocument || "")}"
         >
-          <div class="popup-gallery-frame">
-            ${multi ? '<button type="button" class="gallery-btn gallery-prev" aria-label="Previous photo">&lsaquo;</button>' : ""}
-            <img class="popup-photo" src="${imageSrc(first.image)}" alt="${escapeHtml(first.title)}" data-display-src="${imageSrc(first.image)}">
-            ${multi ? '<button type="button" class="gallery-btn gallery-next" aria-label="Next photo">&rsaquo;</button>' : ""}
-          </div>
-          ${multi ? `<div class="gallery-counter">1 / ${photos.length}</div>` : ""}
-          <h3 class="popup-title">${point.displayId}. ${escapeHtml(first.title)}</h3>
-          <p class="popup-text popup-gallery-note">${escapeHtml(first.note)}</p>
-          <div class="popup-meta popup-gallery-meta">${galleryMetaHtml(point, first)}</div>
+          ${photoBlock}
+          <h3 class="popup-title">${popupTitle}</h3>
+          ${noteHtml}
+          <div class="popup-meta popup-gallery-meta">${galleryMetaHtml(point, first || {})}</div>
         </div>
       `;
     }
@@ -1005,7 +1115,7 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
         ? FILTER_META.villagesByCluster.All || []
         : FILTER_META.villagesByCluster[selectedCluster] || [];
       villageFilter.innerHTML = [
-        `<option value="All">All villages</option>`,
+        `<option value="All">${IS_INFRASTRUCTURE_DISPLAY ? "All locations" : "All villages"}</option>`,
         ...villages.map((village) => `<option value="${village}">${village}</option>`)
       ].join("");
     }
@@ -1028,6 +1138,13 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function updateStoryText() {
+      if (!storyText) return;
+      if (IS_INFRASTRUCTURE_DISPLAY) {
+        storyText.textContent = "";
+        storyText.closest(".section")?.setAttribute("hidden", "");
+        return;
+      }
+      storyText.closest(".section")?.removeAttribute("hidden");
       const cluster = clusterFilter.value;
       const points = filteredPriorityPoints();
       if (CLUSTER_STORIES[cluster]) {
@@ -1061,11 +1178,12 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
         card.className = "card";
         card.dataset.id = String(point.id);
         card.innerHTML = `
-          <img src="${imageSrc(point.image)}" alt="">
+          ${point.image ? `<img src="${imageSrc(point.image)}" alt="">` : `<span class="card-photo-placeholder" aria-hidden="true"></span>`}
           <span>
-            <strong>${point.displayId}. ${point.title}</strong>
-            <span>${point.cluster} · ${point.village}</span>
-            <span>${point.theme} · ${point.level}</span>
+            <strong>${point.displayId}. ${IS_INFRASTRUCTURE_DISPLAY ? escapeHtml(point.intervention || point.title) : point.title}</strong>
+            <span>${point.cluster}${IS_INFRASTRUCTURE_DISPLAY ? "" : ` · ${point.village}`}</span>
+            <span>${IS_INFRASTRUCTURE_DISPLAY ? escapeHtml(point.location || point.village) : `${point.theme} · ${point.level}`}</span>
+            ${IS_INFRASTRUCTURE_DISPLAY ? `<span>${escapeHtml(point.level)}</span>` : ""}
             ${point.photoCount > 1 ? `<span class="card-photo-count">${point.photoCount} photos</span>` : ""}
           </span>
         `;
@@ -1195,7 +1313,9 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       renderPriorityMarkers(points);
       renderPriorityCards(points);
       updateStoryText();
-      filterSummary.textContent = `Showing ${points.length} priority locations (${countPriorityPhotos(points)} of ${ALL_PRIORITY_POINTS.reduce((total, point) => total + (point.photoCount || pointPhotos(point).length || 1), 0)} photos) and ${countVisibleFacilities()} Integrated Locations Database features`;
+      filterSummary.textContent = IS_INFRASTRUCTURE_DISPLAY
+        ? `Showing ${points.length} infrastructure priorities (${countPriorityPhotos(points)} matched photos).`
+        : `Showing ${points.length} priority locations (${countPriorityPhotos(points)} of ${ALL_PRIORITY_POINTS.reduce((total, point) => total + (point.photoCount || pointPhotos(point).length || 1), 0)} photos) and ${countVisibleFacilities()} Integrated Locations Database features`;
       if (shouldFitBounds) fitToSelection(points);
       scheduleMapLayoutRefresh();
     }
@@ -1213,6 +1333,8 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     populateBasemapFilter();
     populateClusterFilter();
     populateVillageFilter();
+    initMapNav();
+    initSideHeaderToggle();
     initPriorityMarkers();
     initDatabaseLayers();
     applyFilters(false);

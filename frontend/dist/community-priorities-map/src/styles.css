@@ -37,6 +37,38 @@
       min-height: 100vh;
     }
 
+    body.side-panel-collapsed {
+      grid-template-columns: 1fr;
+    }
+
+    body.side-panel-collapsed #map {
+      height: 100vh;
+      min-height: 100vh;
+    }
+
+    body.side-panel-collapsed .side {
+      position: fixed;
+      bottom: 24px;
+      right: 10px;
+      top: auto;
+      z-index: 1000;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    body.side-panel-collapsed .side-header-controls {
+      padding: 0;
+    }
+
+    body.side-panel-collapsed .side-header-toggle {
+      background: #ffffff;
+      box-shadow: 0 8px 24px rgba(22, 32, 30, 0.18);
+    }
+
     .auth-screen {
       position: fixed;
       inset: 0;
@@ -136,6 +168,49 @@
       background: #dbe2dc;
     }
 
+    .map-nav {
+      position: fixed;
+      top: 10px;
+      left: 52px;
+      z-index: 1000;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      max-width: min(560px, calc(100vw - 120px));
+    }
+
+    .map-nav-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 8px 24px rgba(22, 32, 30, 0.12);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .map-nav-link:hover {
+      border-color: #879690;
+      background: #ffffff;
+    }
+
+    .map-nav-link-active {
+      color: #ffffff;
+      border-color: var(--flood);
+      background: var(--flood);
+    }
+
+    .map-nav-link-active:hover {
+      color: #ffffff;
+      border-color: #256b61;
+      background: #256b61;
+    }
+
     .side {
       height: 100vh;
       overflow: auto;
@@ -144,9 +219,47 @@
       box-shadow: var(--shadow);
     }
 
+    .side-header-controls {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 24px 0;
+    }
+
+    .side.side-intro-collapsed {
+      height: auto;
+      overflow: visible;
+    }
+
+    .side.side-intro-collapsed .side-header-controls {
+      padding: 0;
+      border-bottom: 0;
+    }
+
+    .side-intro-panel[hidden] {
+      display: none;
+    }
+
     .side-header {
-      padding: 24px 24px 18px;
+      padding: 0 24px 18px;
       border-bottom: 1px solid var(--line);
+    }
+
+    .side-header-toggle {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      color: var(--muted);
+      background: var(--soft);
+      font: inherit;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .side-header-toggle:hover {
+      color: var(--ink);
+      border-color: #879690;
+      background: #f7faf8;
     }
 
     .eyebrow {
@@ -258,6 +371,16 @@
     .dot.irrigation { background: var(--irrigation); }
     .dot.cluster { background: var(--v8-cluster-fill); border: 1px solid var(--v8-cluster-stroke); }
     .dot.community { background: var(--v8-community-fill); }
+    .dot.infrastructure { background: #4a5568; }
+
+    .priority-marker.infrastructure { background: #4a5568; }
+
+    .card-photo-placeholder {
+      width: 86px;
+      height: 76px;
+      border-radius: 6px;
+      background: var(--soft);
+    }
 
     .filters {
       display: grid;
@@ -583,6 +706,16 @@
     .leaflet-control-layers,
     .leaflet-bar { border-radius: 8px; }
 
+    .leaflet-control-layers-toggle {
+      width: 36px;
+      height: 36px;
+      background-size: 20px 20px;
+    }
+
+    .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+      background-color: #f5f7f6;
+    }
+
     .leaflet-control-layers-list {
       max-height: 420px;
       overflow-y: auto;
@@ -686,4 +819,11 @@
       body { grid-template-columns: 1fr; }
       #map { height: 62vh; min-height: 480px; }
       .side { height: auto; border-left: 0; border-top: 1px solid var(--line); }
+      body.side-panel-collapsed .side { border-top: 0; }
+      .map-nav {
+        left: 10px;
+        top: auto;
+        bottom: 72px;
+        max-width: calc(100vw - 20px);
+      }
     }

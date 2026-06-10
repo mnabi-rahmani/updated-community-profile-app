@@ -6,6 +6,9 @@
     "dev": "serve dist -l 5173 --single",
     "preview": "serve dist -l 5173 --single",
     "sync:priorities": "powershell -NoProfile -ExecutionPolicy Bypass -File ../sync-community-priorities-map.ps1",
+    "sync:cluster-priorities": "powershell -NoProfile -ExecutionPolicy Bypass -File ../sync-cluster-priorities-map.ps1",
+    "generate:cluster-priorities": "npm --prefix ../deployed run generate:infrastructure",
+    "sync:all-priorities": "npm run sync:priorities && npm run sync:cluster-priorities",
     "deploy:priorities:isolated": "powershell -NoProfile -ExecutionPolicy Bypass -File ../deploy-community-priorities-map-isolated-to-aws.ps1",
     "regenerate:priorities-source": "node ../scripts/extract-community-priorities-source.mjs"
   },
