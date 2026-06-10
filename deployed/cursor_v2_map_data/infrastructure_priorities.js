@@ -12,10 +12,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of protection wall",
     "village": "Shahrakh Muhajirin and dara -e -soof",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/485c22351b00913b.jpg",
+    "file": "Shahrak Muhajirin elemntry School1.HEIC",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/485c22351b00913b.jpg",
+        "file": "Shahrak Muhajirin elemntry School1.HEIC",
+        "lat": 36.17785556,
+        "lon": 68.77894722,
+        "distanceMeters": 14.66
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/1a167669bda03752.jpg",
+        "file": "flood way and protection wall_ Shahrak Muhajirin2.HEIC",
+        "lat": 36.17782222,
+        "lon": 68.77899167,
+        "distanceMeters": 20.06
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/6549635882e3f6a6.jpg",
+        "file": "Flood way and protection wall_Shahrak Muhajirin.HEIC",
+        "lat": 36.17781111,
+        "lon": 68.779,
+        "distanceMeters": 21.48
+      }
+    ]
   },
   {
     "id": 2,
@@ -29,10 +51,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "New Solar-powerd Water Supply Network",
     "village": "Dara-e Soof ha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/5a897e5783645753.jpg",
+    "file": "Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/5a897e5783645753.jpg",
+        "file": "Hazrat Mohammad Mustafa Jami Mosque, Dara e Sof Laqai ha.HEIC",
+        "lat": 36.17480556,
+        "lon": 68.77307222,
+        "distanceMeters": 70.59
+      }
+    ]
   },
   {
     "id": 3,
@@ -46,10 +76,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Repair bore wells; extend water schemes",
     "village": "Shahrak-e Muhajerin",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/1885af54545ac300.jpg",
+    "file": "Water Storage, Shahrak Muhajirin.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/1885af54545ac300.jpg",
+        "file": "Water Storage, Shahrak Muhajirin.HEIC",
+        "lat": 36.17925,
+        "lon": 68.77803056,
+        "distanceMeters": 0
+      }
+    ]
   },
   {
     "id": 4,
@@ -80,10 +118,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construct new classrooms & expand schools (PwV)",
     "village": "Laqaei Ha & Dara-e-soof",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/2b17c91a5c787d95.jpg",
+    "file": "End Point of Laqai Ha.jpg",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/2b17c91a5c787d95.jpg",
+        "file": "End Point of Laqai Ha.jpg",
+        "lat": 36.16963497,
+        "lon": 68.77027597,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/3ca6b95f5d98179f.jpg",
+        "file": "Laqai Ha Secondry School.jpg",
+        "lat": 36.16963497,
+        "lon": 68.77027597,
+        "distanceMeters": 0
+      }
+    ]
   },
   {
     "id": 6,
@@ -114,10 +167,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Small span bridge construction",
     "village": "Laqaei Ha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/34e46c2fe7567e6d.jpg",
+    "file": "Damage bridge, Laqai Ha.jpg",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/34e46c2fe7567e6d.jpg",
+        "file": "Damage bridge, Laqai Ha.jpg",
+        "lat": 36.168264,
+        "lon": 68.76855197,
+        "distanceMeters": 0
+      }
+    ]
   },
   {
     "id": 8,
@@ -182,10 +243,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "construction of protection wall along Ajmir Canal",
     "village": "Near Ajmir Canal sub-villages (Dawood Padshah, Sayed Jafar Agha, Noor Agha Padshah villages)",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/c6d45cac9810a2c3.jpg",
+    "file": "End point of Syed Jafar Agha Village.jpg",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c6d45cac9810a2c3.jpg",
+        "file": "End point of Syed Jafar Agha Village.jpg",
+        "lat": 36.18528897,
+        "lon": 68.77194,
+        "distanceMeters": 31.8
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/cc6873f7a72a4f71.jpg",
+        "file": "Flood-affected point of Syed Jafar Agha Village.jpg",
+        "lat": 36.18528897,
+        "lon": 68.77194,
+        "distanceMeters": 31.8
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/1b4c6d588a0f6a7a.jpg",
+        "file": "Flood-prone Area, Mulla Toor.HEIC",
+        "lat": 36.18561944,
+        "lon": 68.77210278,
+        "distanceMeters": 70.89
+      }
+    ]
   },
   {
     "id": 12,
@@ -199,10 +282,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "construction of protection walls in high-risk sections",
     "village": "Near Ajmir Canal sub-villages (Dawood Padshah, Sayed Jafar Agha, Noor Agha Padshah villages)",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/c6d45cac9810a2c3.jpg",
+    "file": "End point of Syed Jafar Agha Village.jpg",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c6d45cac9810a2c3.jpg",
+        "file": "End point of Syed Jafar Agha Village.jpg",
+        "lat": 36.18528897,
+        "lon": 68.77194,
+        "distanceMeters": 31.8
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/cc6873f7a72a4f71.jpg",
+        "file": "Flood-affected point of Syed Jafar Agha Village.jpg",
+        "lat": 36.18528897,
+        "lon": 68.77194,
+        "distanceMeters": 31.8
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/1b4c6d588a0f6a7a.jpg",
+        "file": "Flood-prone Area, Mulla Toor.HEIC",
+        "lat": 36.18561944,
+        "lon": 68.77210278,
+        "distanceMeters": 70.89
+      }
+    ]
   },
   {
     "id": 13,
@@ -216,10 +321,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Solar-powerd Water Supply Network",
     "village": "Mulla Toor (most vulnerable)",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/72a2f99644781ae4.jpg",
+    "file": "Shop, Mulla Toor.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/72a2f99644781ae4.jpg",
+        "file": "Shop, Mulla Toor.HEIC",
+        "lat": 36.18803889,
+        "lon": 68.77205,
+        "distanceMeters": 82.28
+      }
+    ]
   },
   {
     "id": 14,
@@ -250,10 +363,53 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of classrooms for School",
     "village": "Dawood Padshah sub-village",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/d2c412a61615e56c.jpg",
+    "file": "Noor Agha_primary shcool.HEIC",
+    "photoCount": 6,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/d2c412a61615e56c.jpg",
+        "file": "Noor Agha_primary shcool.HEIC",
+        "lat": 36.18155556,
+        "lon": 68.75898056,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/72059afb9c7489da.jpg",
+        "file": "Noor Agha_primary school endpoint.HEIC",
+        "lat": 36.18148056,
+        "lon": 68.75886667,
+        "distanceMeters": 13.19
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/6e525d84034cabf7.jpg",
+        "file": "Noor Agha_primary school inside.HEIC",
+        "lat": 36.18150278,
+        "lon": 68.75880556,
+        "distanceMeters": 16.76
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/9ef0fbc45bba9554.jpg",
+        "file": "Noor Agha_primary school insde2.HEIC",
+        "lat": 36.18151111,
+        "lon": 68.75879722,
+        "distanceMeters": 17.18
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/831051060876dbba.jpg",
+        "file": "Noor Agha_primary school tent.HEIC",
+        "lat": 36.18150278,
+        "lon": 68.75878889,
+        "distanceMeters": 18.17
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/95b3d3e8c6ad5c01.jpg",
+        "file": "The starting point of the village of Syed Jafer Ag.jpg",
+        "lat": 36.18145897,
+        "lon": 68.759972,
+        "distanceMeters": 89.63
+      }
+    ]
   },
   {
     "id": 18,
@@ -284,10 +440,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
     "village": "At the center of all five sub-villages accessible for all",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/84aa4884368d7f31.jpg",
+    "file": "Dawood Padshah_destroyed handpump.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/84aa4884368d7f31.jpg",
+        "file": "Dawood Padshah_destroyed handpump.HEIC",
+        "lat": 36.18671667,
+        "lon": 68.75936944,
+        "distanceMeters": 98.5
+      }
+    ]
   },
   {
     "id": 20,
@@ -335,10 +499,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of Agricultural Canal (male FGD)",
     "village": "Chayabi Ha: Chayei Ha main canal, 3 critical areas that are prone to flood issues and water leakage 300 m distance",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/578b0d84d5410617.jpg",
+    "file": "Flood-prone Area, Chah abi ha.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/578b0d84d5410617.jpg",
+        "file": "Flood-prone Area, Chah abi ha.HEIC",
+        "lat": 36.19619722,
+        "lon": 68.76578611,
+        "distanceMeters": 92.45
+      }
+    ]
   },
   {
     "id": 23,
@@ -386,10 +558,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of school building - secondary level",
     "village": "Godan Paein: Although there is a school building, children study in open areas or under tents (male FGD).",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/1193345769e909bf.jpg",
+    "file": "Gudan Payen School_without shelter.jpg",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/1193345769e909bf.jpg",
+        "file": "Gudan Payen School_without shelter.jpg",
+        "lat": 36.208832,
+        "lon": 68.759156,
+        "distanceMeters": 0.42
+      }
+    ]
   },
   {
     "id": 26,
@@ -437,10 +617,46 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Water supply System",
     "village": "Guldarayeeha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/00854787cc87840c.jpg",
+    "file": "cluster4_ Gul dariha high school2.HEIC",
+    "photoCount": 5,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/00854787cc87840c.jpg",
+        "file": "cluster4_ Gul dariha high school2.HEIC",
+        "lat": 36.19979444,
+        "lon": 68.78861944,
+        "distanceMeters": 45.64
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/129e9d705272750a.jpg",
+        "file": "big Ajmeer Nahr.heic",
+        "lat": 36.199183,
+        "lon": 68.7882623,
+        "distanceMeters": 54.08
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c5a309fba99bdee8.jpg",
+        "file": "community contribution protection system for flood.heic",
+        "lat": 36.199183,
+        "lon": 68.7882623,
+        "distanceMeters": 54.08
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/09aeb7950f5a2f96.jpg",
+        "file": "Gul dariha_shop.HEIC",
+        "lat": 36.19966111,
+        "lon": 68.78883333,
+        "distanceMeters": 62.28
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c8f1713dbe68ef2b.jpg",
+        "file": "bridge between _shahzada and guldariha , need to destroy and build higher.heic",
+        "lat": 36.1991076,
+        "lon": 68.7883773,
+        "distanceMeters": 64.94
+      }
+    ]
   },
   {
     "id": 29,
@@ -454,10 +670,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Solar-powerd Water Supply Network 1",
     "village": "Malem Akbar",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/87b63ba52c03bd52.jpg",
+    "file": "Bridge, malem Akbar.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/87b63ba52c03bd52.jpg",
+        "file": "Bridge, malem Akbar.HEIC",
+        "lat": 36.20785833,
+        "lon": 68.77978611,
+        "distanceMeters": 56.73
+      }
+    ]
   },
   {
     "id": 30,
@@ -505,10 +729,46 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Expansion of school infrastructure and construction new classes",
     "village": "Guldarayeeha sub-village",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/00854787cc87840c.jpg",
+    "file": "cluster4_ Gul dariha high school2.HEIC",
+    "photoCount": 5,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/00854787cc87840c.jpg",
+        "file": "cluster4_ Gul dariha high school2.HEIC",
+        "lat": 36.19979444,
+        "lon": 68.78861944,
+        "distanceMeters": 29.63
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/09aeb7950f5a2f96.jpg",
+        "file": "Gul dariha_shop.HEIC",
+        "lat": 36.19966111,
+        "lon": 68.78883333,
+        "distanceMeters": 53.88
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/129e9d705272750a.jpg",
+        "file": "big Ajmeer Nahr.heic",
+        "lat": 36.199183,
+        "lon": 68.7882623,
+        "distanceMeters": 87.23
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c5a309fba99bdee8.jpg",
+        "file": "community contribution protection system for flood.heic",
+        "lat": 36.199183,
+        "lon": 68.7882623,
+        "distanceMeters": 87.23
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c8f1713dbe68ef2b.jpg",
+        "file": "bridge between _shahzada and guldariha , need to destroy and build higher.heic",
+        "lat": 36.1991076,
+        "lon": 68.7883773,
+        "distanceMeters": 95.15
+      }
+    ]
   },
   {
     "id": 33,
@@ -539,10 +799,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
     "village": "Between both sub-villages / central, accessible point",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/7266d6e036a511a5.jpg",
+    "file": "Khalifa Bashir Grand Mosque, Malem Akbar.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/7266d6e036a511a5.jpg",
+        "file": "Khalifa Bashir Grand Mosque, Malem Akbar.HEIC",
+        "lat": 36.20681389,
+        "lon": 68.78134167,
+        "distanceMeters": 28.44
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/b0ff75f276912149.jpg",
+        "file": "Flour Mill, Malem Akbar.HEIC",
+        "lat": 36.20677222,
+        "lon": 68.78146389,
+        "distanceMeters": 28.52
+      }
+    ]
   },
   {
     "id": 35,
@@ -590,10 +865,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Solar-powerd Water Supply Network",
     "village": "Arbab Yahya village",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/6fc7cc6f536e8bdd.jpg",
+    "file": "Starting point of Haji Fati Village.jpg",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/6fc7cc6f536e8bdd.jpg",
+        "file": "Starting point of Haji Fati Village.jpg",
+        "lat": 36.19131097,
+        "lon": 68.780259,
+        "distanceMeters": 99.96
+      }
+    ]
   },
   {
     "id": 38,
@@ -607,10 +890,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Constuction of protection wall to prevent flood",
     "village": "Arbab Yahya and Bashi Allah dad sub-village",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/08e2208ddbb4108f.jpg",
+    "file": "Point Where UNDP will Apply project.HEIC",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/08e2208ddbb4108f.jpg",
+        "file": "Point Where UNDP will Apply project.HEIC",
+        "lat": 36.18189167,
+        "lon": 68.77408611,
+        "distanceMeters": 15.81
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/b5d9e7f9b591da89.jpg",
+        "file": "Flood way_Arbab Yahya and Bashi Allah dad.heic",
+        "lat": 36.1820709,
+        "lon": 68.7740743,
+        "distanceMeters": 25.4
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/195506bab7b92b9e.jpg",
+        "file": "Start Point of Bashi Allah Dad and Arbab Yahya.HEIC",
+        "lat": 36.18206389,
+        "lon": 68.77400833,
+        "distanceMeters": 29.16
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/859df6e640eeaded.jpg",
+        "file": "End Point of Bashi Allah Dad and Arbab Yahya.HEIC",
+        "lat": 36.18195278,
+        "lon": 68.77375833,
+        "distanceMeters": 45.58
+      }
+    ]
   },
   {
     "id": 39,
@@ -641,10 +953,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Establishment of a sub-health center",
     "village": "At the center of all five sub-villages accessible for all",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/37f4fe852528898f.jpg",
+    "file": "Cemetery, Shared Raees Bahram & Dad Mohammad.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/37f4fe852528898f.jpg",
+        "file": "Cemetery, Shared Raees Bahram & Dad Mohammad.HEIC",
+        "lat": 36.18974722,
+        "lon": 68.79528056,
+        "distanceMeters": 98.16
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/87ca0b0bbcc4632a.jpg",
+        "file": "Clinic located in Reis Bahram, used by the residen.jpg",
+        "lat": 36.18972997,
+        "lon": 68.795282,
+        "distanceMeters": 99.91
+      }
+    ]
   },
   {
     "id": 41,
@@ -658,10 +985,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construct a basic multi purpose community hall (meeting room, storage, sanitation block).",
     "village": "At the center of all five sub-villages accessible for all",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/6e129048854bc0d7.jpg",
+    "file": "Start  Point of Raees Bahram.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/6e129048854bc0d7.jpg",
+        "file": "Start  Point of Raees Bahram.HEIC",
+        "lat": 36.19167222,
+        "lon": 68.78546944,
+        "distanceMeters": 83.69
+      }
+    ]
   },
   {
     "id": 42,
@@ -692,10 +1027,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Water network extension",
     "village": "Yaka Toot",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/34f484323bf3ffb7.jpg",
+    "file": "FGD_cluster 6.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/34f484323bf3ffb7.jpg",
+        "file": "FGD_cluster 6.HEIC",
+        "lat": 36.19936389,
+        "lon": 68.817025,
+        "distanceMeters": 91.19
+      }
+    ]
   },
   {
     "id": 44,
@@ -709,10 +1052,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Establishment of a sub-health center",
     "village": "At the center of two sub-villages accessible for both",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/856946e733a9d2de.jpg",
+    "file": "Shop, Tajek Ha.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/856946e733a9d2de.jpg",
+        "file": "Shop, Tajek Ha.HEIC",
+        "lat": 36.19661667,
+        "lon": 68.79714167,
+        "distanceMeters": 40.46
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/5e8286ebd1420095.jpg",
+        "file": "Water Tank made by Government, Tajek ha.HEIC",
+        "lat": 36.19664444,
+        "lon": 68.796975,
+        "distanceMeters": 47.4
+      }
+    ]
   },
   {
     "id": 45,
@@ -726,10 +1084,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Leveling and graveling",
     "village": "Main road and internal roads of both villages",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/856946e733a9d2de.jpg",
+    "file": "Shop, Tajek Ha.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/856946e733a9d2de.jpg",
+        "file": "Shop, Tajek Ha.HEIC",
+        "lat": 36.19661667,
+        "lon": 68.79714167,
+        "distanceMeters": 88.08
+      }
+    ]
   },
   {
     "id": 46,
@@ -777,10 +1143,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Repair of water storage",
     "village": "Gujor Ha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/583b4e552af40e49.jpg",
+    "file": "Main road-needs atleast graveling2.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/583b4e552af40e49.jpg",
+        "file": "Main road-needs atleast graveling2.HEIC",
+        "lat": 36.34164167,
+        "lon": 68.8508,
+        "distanceMeters": 57.4
+      }
+    ]
   },
   {
     "id": 49,
@@ -811,10 +1185,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Irrigation Canal",
     "village": "Temoryan Payen",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/1182faf20cf8f64d.jpg",
+    "file": "a water tank made by ACTED, Temoryan Paeen.HEIC",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/1182faf20cf8f64d.jpg",
+        "file": "a water tank made by ACTED, Temoryan Paeen.HEIC",
+        "lat": 36.31929722,
+        "lon": 68.84765,
+        "distanceMeters": 71.04
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/3e2e97dabb134b8e.jpg",
+        "file": "Irrigation structure, Made by UNDP, Temoryan Paeen3.HEIC",
+        "lat": 36.31923611,
+        "lon": 68.84760278,
+        "distanceMeters": 77.71
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/ecf95a1d45c6153d.jpg",
+        "file": "Irrigation Canale under Plan, Temoryan Paeen.HEIC",
+        "lat": 36.32069722,
+        "lon": 68.84761111,
+        "distanceMeters": 84.76
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/aa6c2aa17d18cec6.jpg",
+        "file": "point where UNDP will apply a project, temoryan paeen.HEIC",
+        "lat": 36.3208,
+        "lon": 68.84761111,
+        "distanceMeters": 96.19
+      }
+    ]
   },
   {
     "id": 51,
@@ -828,10 +1231,60 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Irrigation Canal",
     "village": "Moghul Ha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/4e10f7ca828da570.jpg",
+    "file": "Irrigation Canale under Plan, Mughulan Gerdab2.HEIC",
+    "photoCount": 7,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/4e10f7ca828da570.jpg",
+        "file": "Irrigation Canale under Plan, Mughulan Gerdab2.HEIC",
+        "lat": 36.33873611,
+        "lon": 68.83928611,
+        "distanceMeters": 11.11
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/8f7f9d72339eb81b.jpg",
+        "file": "Public bridge of Mughlo Village (requires construc.jpg",
+        "lat": 36.33866497,
+        "lon": 68.83928297,
+        "distanceMeters": 17.29
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/2fe18a238c1c6e22.jpg",
+        "file": "Shop, Mughul Qishlaq.jpg",
+        "lat": 36.33866497,
+        "lon": 68.83928297,
+        "distanceMeters": 17.29
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/d92a06b3c3f5b6b4.jpg",
+        "file": "Jamaluddin Khan Secondry School1, Moghul Ha Cluster 7.HEIC",
+        "lat": 36.339,
+        "lon": 68.83895833,
+        "distanceMeters": 30.42
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/3c7bc879af6f4cff.jpg",
+        "file": "School in Mughlo Village.jpg",
+        "lat": 36.33906797,
+        "lon": 68.83904697,
+        "distanceMeters": 32.27
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/efb2d1ce46be4381.jpg",
+        "file": "Jamaluddin Khan Secondry School Classroom, Moghul Ha Cluster 7.HEIC",
+        "lat": 36.33916111,
+        "lon": 68.83863056,
+        "distanceMeters": 64.29
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/8c5dd4e7c49f2f26.jpg",
+        "file": "Jamaluddin Khan Secondry School, Moghul Ha Cluster 7.HEIC",
+        "lat": 36.33955278,
+        "lon": 68.83972222,
+        "distanceMeters": 95.86
+      }
+    ]
   },
   {
     "id": 52,
@@ -845,10 +1298,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Leveling and graveling of Road",
     "village": "Gujar Ha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/a1953eb4fb11b561.jpg",
+    "file": "Main Road need to repair, Gujar Ha Cluster 7.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/a1953eb4fb11b561.jpg",
+        "file": "Main Road need to repair, Gujar Ha Cluster 7.HEIC",
+        "lat": 36.34483611,
+        "lon": 68.84751944,
+        "distanceMeters": 2.28
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/82a6854ee8d176e4.jpg",
+        "file": "Main road-needs atleast graveling.HEIC",
+        "lat": 36.34428056,
+        "lon": 68.84820556,
+        "distanceMeters": 88.16
+      }
+    ]
   },
   {
     "id": 53,
@@ -862,10 +1330,46 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Leveling and Graveling and Canal lining",
     "village": "The main road in Temoryan and Tahiri Ha connects Baghlan to Kunduz Road, up to the first culvert leading to Choraq and Wardakha. (approx. 1 KM)",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/e34ee577023dc035.jpg",
+    "file": "Metalworking shop related to Cluster 7 & 8.jpg",
+    "photoCount": 5,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/e34ee577023dc035.jpg",
+        "file": "Metalworking shop related to Cluster 7 & 8.jpg",
+        "lat": 36.309863,
+        "lon": 68.826329,
+        "distanceMeters": 29.34
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/5763e667776919f8.jpg",
+        "file": "Tailoring shop of Cluster 7 & 8.jpg",
+        "lat": 36.310307,
+        "lon": 68.82654897,
+        "distanceMeters": 29.5
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/5d9c5b1d22bba0d2.jpg",
+        "file": "End point of the general market of Cluster 7 & 8.jpg",
+        "lat": 36.30985197,
+        "lon": 68.82635197,
+        "distanceMeters": 30.76
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/a75e13d8557bb9b8.jpg",
+        "file": "Start point of Taheryan Border with Main street.HEIC",
+        "lat": 36.31012778,
+        "lon": 68.82679722,
+        "distanceMeters": 43.85
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/287dc44aeb0f87c1.jpg",
+        "file": "Private pharmacy Cluster 9.HEIC",
+        "lat": 36.31018333,
+        "lon": 68.82697222,
+        "distanceMeters": 59.86
+      }
+    ]
   },
   {
     "id": 54,
@@ -896,10 +1400,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Installation of a steel pedestrian bridge over the Baghlan–Kunduz Road to ensure students can safely access Chaharshanba Tepa High School.",
     "village": "Tahiri Ha sub-village including other sub-villages student",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/5912ccfd06b4bedf.jpg",
+    "file": "Flour mill shop related to Cluster 7 & 8.jpg",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/5912ccfd06b4bedf.jpg",
+        "file": "Flour mill shop related to Cluster 7 & 8.jpg",
+        "lat": 36.311826,
+        "lon": 68.82697697,
+        "distanceMeters": 29.36
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/355a6ff6cafa0ea4.jpg",
+        "file": "Motorcycle repair shop of Cluster 7 & 8.jpg",
+        "lat": 36.31112097,
+        "lon": 68.826684,
+        "distanceMeters": 54.62
+      }
+    ]
   },
   {
     "id": 56,
@@ -913,10 +1432,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of school buildings",
     "village": "Jamaluddin Khan Secondary School (Moghul Ha Village – currently tent-based",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/8c5dd4e7c49f2f26.jpg",
+    "file": "Jamaluddin Khan Secondry School, Moghul Ha Cluster 7.HEIC",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/8c5dd4e7c49f2f26.jpg",
+        "file": "Jamaluddin Khan Secondry School, Moghul Ha Cluster 7.HEIC",
+        "lat": 36.33955278,
+        "lon": 68.83972222,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/3c7bc879af6f4cff.jpg",
+        "file": "School in Mughlo Village.jpg",
+        "lat": 36.33906797,
+        "lon": 68.83904697,
+        "distanceMeters": 81.02
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/d92a06b3c3f5b6b4.jpg",
+        "file": "Jamaluddin Khan Secondry School1, Moghul Ha Cluster 7.HEIC",
+        "lat": 36.339,
+        "lon": 68.83895833,
+        "distanceMeters": 91.97
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/4e10f7ca828da570.jpg",
+        "file": "Irrigation Canale under Plan, Mughulan Gerdab2.HEIC",
+        "lat": 36.33873611,
+        "lon": 68.83928611,
+        "distanceMeters": 98.85
+      }
+    ]
   },
   {
     "id": 57,
@@ -930,10 +1478,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Solar-powerd Water Supply Network",
     "village": "Mata Khil",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/de0fa8596e4be0ca.jpg",
+    "file": "End point of Matakhil Cluster 8.HEIC",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/de0fa8596e4be0ca.jpg",
+        "file": "End point of Matakhil Cluster 8.HEIC",
+        "lat": 36.34944167,
+        "lon": 68.81879444,
+        "distanceMeters": 34.71
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/192f55d96cdf34c9.jpg",
+        "file": "Central (Jami) Mosque of Anarkhel Village.jpg",
+        "lat": 36.348599,
+        "lon": 68.81896297,
+        "distanceMeters": 98.95
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/04385c7d76d256fe.jpg",
+        "file": "School of Anarkhel Village.jpg",
+        "lat": 36.348599,
+        "lon": 68.81896297,
+        "distanceMeters": 98.95
+      }
+    ]
   },
   {
     "id": 58,
@@ -981,10 +1551,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of culvert along the river to facilitate transportation",
     "village": "Anar Khil",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/6849a512d736baa8.jpg",
+    "file": "Ending point of Anarkhel Village.jpg",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/6849a512d736baa8.jpg",
+        "file": "Ending point of Anarkhel Village.jpg",
+        "lat": 36.344081,
+        "lon": 68.810619,
+        "distanceMeters": 3.33
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/0cc9ba1181b42175.jpg",
+        "file": "Starting point of Sardar Khail Village.jpg",
+        "lat": 36.343983,
+        "lon": 68.80992997,
+        "distanceMeters": 59.39
+      }
+    ]
   },
   {
     "id": 61,
@@ -998,10 +1583,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Establishment of sub health center SHC",
     "village": "Anar Khil Sardar Khil Mata Khil (PWV) Central location serving all three villages (female)",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/7d3fc9b85358d1e8.jpg",
+    "file": "FHH_Anarkhel Village constructed by Aga Khan.jpg",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/7d3fc9b85358d1e8.jpg",
+        "file": "FHH_Anarkhel Village constructed by Aga Khan.jpg",
+        "lat": 36.345851,
+        "lon": 68.81138097,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/e26a423976ee7392.jpg",
+        "file": "Damaged water well of Anarkhel Village.jpg",
+        "lat": 36.345815,
+        "lon": 68.81136997,
+        "distanceMeters": 4.12
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/d186362213c2ef86.jpg",
+        "file": "Water well,  Anar khil.jpg",
+        "lat": 36.345815,
+        "lon": 68.81136997,
+        "distanceMeters": 4.12
+      }
+    ]
   },
   {
     "id": 62,
@@ -1066,10 +1673,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of protection wall",
     "village": "Wardakha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/9078f68b86001ae5.jpg",
+    "file": "the protection wall is needed,  wardak ha.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/9078f68b86001ae5.jpg",
+        "file": "the protection wall is needed,  wardak ha.HEIC",
+        "lat": 36.28189722,
+        "lon": 68.84042222,
+        "distanceMeters": 0
+      }
+    ]
   },
   {
     "id": 66,
@@ -1083,10 +1698,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of protection wall",
     "village": "Choraq",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/6575fa7e970c57fe.jpg",
+    "file": "Choraq Nahr_ need protection wall.heic",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/6575fa7e970c57fe.jpg",
+        "file": "Choraq Nahr_ need protection wall.heic",
+        "lat": 36.2881431,
+        "lon": 68.8480542,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/443ce9c09462a7e8.jpg",
+        "file": "Tapstand_choraq.heic",
+        "lat": 36.288169,
+        "lon": 68.8479637,
+        "distanceMeters": 8.61
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/86341e972f5dd102.jpg",
+        "file": "Tailoring service choraq 2.HEIC",
+        "lat": 36.28813056,
+        "lon": 68.84794722,
+        "distanceMeters": 9.69
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/396d30b3de61946b.jpg",
+        "file": "Jami Mosque, choraq.HEIC",
+        "lat": 36.2882,
+        "lon": 68.84763333,
+        "distanceMeters": 38.25
+      }
+    ]
   },
   {
     "id": 67,
@@ -1100,10 +1744,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of a Canal",
     "village": "Choraq",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/024ced5518715f33.jpg",
+    "file": "canal require cleaning for flood season.heic",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/024ced5518715f33.jpg",
+        "file": "canal require cleaning for flood season.heic",
+        "lat": 36.2892273,
+        "lon": 68.8571388,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/83ec745639a7fcd4.jpg",
+        "file": "CL9 Choraq Village flood prone Area.HEIC",
+        "lat": 36.28922222,
+        "lon": 68.85725278,
+        "distanceMeters": 10.23
+      }
+    ]
   },
   {
     "id": 68,
@@ -1117,10 +1776,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of a building for School",
     "village": "Between both sub-village",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/76cad6e7ce528847.jpg",
+    "file": "choraq_primary school.heic",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/76cad6e7ce528847.jpg",
+        "file": "choraq_primary school.heic",
+        "lat": 36.2888274,
+        "lon": 68.8552396,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/cebe584046a0dc2d.jpg",
+        "file": "primary school in choraq without shelter (2).heic",
+        "lat": 36.2888274,
+        "lon": 68.8552396,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/dd36748835a827c4.jpg",
+        "file": "Primary school, choraq.HEIC",
+        "lat": 36.28884444,
+        "lon": 68.85519444,
+        "distanceMeters": 4.47
+      }
+    ]
   },
   {
     "id": 69,
@@ -1134,10 +1815,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Extension of existing water supply system for all families",
     "village": "Wardak ha",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/0f33136db6716ef9.jpg",
+    "file": "Water Storage, made by UNICEF wardak ha.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/0f33136db6716ef9.jpg",
+        "file": "Water Storage, made by UNICEF wardak ha.HEIC",
+        "lat": 36.28474167,
+        "lon": 68.83974444,
+        "distanceMeters": 0
+      }
+    ]
   },
   {
     "id": 70,
@@ -1185,10 +1874,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Reconstruction of the clinic boundary wall damaged by floods.",
     "village": "Center of Shaikh Jalal community",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/a17b2f9604c89070.jpg",
+    "file": "BHC - Shaikh Jalal.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/a17b2f9604c89070.jpg",
+        "file": "BHC - Shaikh Jalal.HEIC",
+        "lat": 36.1012,
+        "lon": 68.86004722,
+        "distanceMeters": 34.02
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/65e1f0030eeb4d60.jpg",
+        "file": "Check Dam, Shaikh Jalal.HEIC",
+        "lat": 36.10163889,
+        "lon": 68.85995556,
+        "distanceMeters": 73.88
+      }
+    ]
   },
   {
     "id": 73,
@@ -1202,10 +1906,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of check dams along upstream flood pathways to reduce runoff velocity and mitigate flood risks",
     "village": "Shaikh Jalal (upstream areas)",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/c9823b4e49f0c355.jpg",
+    "file": "Water Storage, Shaikh jalal.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c9823b4e49f0c355.jpg",
+        "file": "Water Storage, Shaikh jalal.HEIC",
+        "lat": 36.09581111,
+        "lon": 68.86607222,
+        "distanceMeters": 81.04
+      }
+    ]
   },
   {
     "id": 74,
@@ -1236,10 +1948,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of a bridge to connect both sides of the village and ensure safe access to essential services year-round",
     "village": "Near the Shaikh Jalal Basic Health Center",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/65e1f0030eeb4d60.jpg",
+    "file": "Check Dam, Shaikh Jalal.HEIC",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/65e1f0030eeb4d60.jpg",
+        "file": "Check Dam, Shaikh Jalal.HEIC",
+        "lat": 36.10163889,
+        "lon": 68.85995556,
+        "distanceMeters": 0.99
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/a17b2f9604c89070.jpg",
+        "file": "BHC - Shaikh Jalal.HEIC",
+        "lat": 36.1012,
+        "lon": 68.86004722,
+        "distanceMeters": 48.53
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/c3e7851425e6c27e.jpg",
+        "file": "Shaikh Jalal Baba High School.HEIC",
+        "lat": 36.10200833,
+        "lon": 68.85952778,
+        "distanceMeters": 56.95
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/bf926beccdfab656.jpg",
+        "file": "Community Market, Shaikh Jalal.HEIC",
+        "lat": 36.10243611,
+        "lon": 68.85957222,
+        "distanceMeters": 96.01
+      }
+    ]
   },
   {
     "id": 77,
@@ -1287,10 +2028,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of school building",
     "village": "Oshtor Ghalt",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/d6f8850d9e8982dc.jpg",
+    "file": "Oshtor Ghal_shop1.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/d6f8850d9e8982dc.jpg",
+        "file": "Oshtor Ghal_shop1.HEIC",
+        "lat": 36.15821111,
+        "lon": 68.83374722,
+        "distanceMeters": 70.1
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/153b497567e2b13b.jpg",
+        "file": "Oshtor Ghal_shop1,.HEIC",
+        "lat": 36.15826389,
+        "lon": 68.83368056,
+        "distanceMeters": 76.45
+      }
+    ]
   },
   {
     "id": 80,
@@ -1304,10 +2060,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Repairing of existing community center hall",
     "village": "Oshtor Ghalt",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/2c530d742e3febb5.jpg",
+    "file": "Oshtor Ghal_school madrasa.HEIC",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/2c530d742e3febb5.jpg",
+        "file": "Oshtor Ghal_school madrasa.HEIC",
+        "lat": 36.15846389,
+        "lon": 68.83536667,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/e489da4b6bc380cc.jpg",
+        "file": "School of Shatarghal Village.jpg",
+        "lat": 36.15842597,
+        "lon": 68.835367,
+        "distanceMeters": 4.22
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/18790fe1f00da64f.jpg",
+        "file": "Central Mosque_Oshtor Ghalt.jpg",
+        "lat": 36.158396,
+        "lon": 68.835379,
+        "distanceMeters": 7.63
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/f7860eab75fc511a.jpg",
+        "file": "Oshtor Ghal_mosque2.HEIC",
+        "lat": 36.15821944,
+        "lon": 68.83544167,
+        "distanceMeters": 28
+      }
+    ]
   },
   {
     "id": 81,
@@ -1321,10 +2106,39 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of additional rooms on top of community center building",
     "village": "Oshtor Ghalt",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/2c530d742e3febb5.jpg",
+    "file": "Oshtor Ghal_school madrasa.HEIC",
+    "photoCount": 4,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/2c530d742e3febb5.jpg",
+        "file": "Oshtor Ghal_school madrasa.HEIC",
+        "lat": 36.15846389,
+        "lon": 68.83536667,
+        "distanceMeters": 0
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/e489da4b6bc380cc.jpg",
+        "file": "School of Shatarghal Village.jpg",
+        "lat": 36.15842597,
+        "lon": 68.835367,
+        "distanceMeters": 4.22
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/18790fe1f00da64f.jpg",
+        "file": "Central Mosque_Oshtor Ghalt.jpg",
+        "lat": 36.158396,
+        "lon": 68.835379,
+        "distanceMeters": 7.63
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/f7860eab75fc511a.jpg",
+        "file": "Oshtor Ghal_mosque2.HEIC",
+        "lat": 36.15821944,
+        "lon": 68.83544167,
+        "distanceMeters": 28
+      }
+    ]
   },
   {
     "id": 82,
@@ -1355,10 +2169,32 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of small check dams in upstream flood pathways to slow runoff and reduce flood intensity.",
     "village": "Oshtor Ghalt",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/0121dcab3e48ad12.jpg",
+    "file": "Flood prone area_Oshtor Ghalt.jpg",
+    "photoCount": 3,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/0121dcab3e48ad12.jpg",
+        "file": "Flood prone area_Oshtor Ghalt.jpg",
+        "lat": 36.15804297,
+        "lon": 68.84583397,
+        "distanceMeters": 9.49
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/aaba57b92eb9e237.jpg",
+        "file": "Oshtor Ghal_flood area2..HEIC",
+        "lat": 36.15803611,
+        "lon": 68.84583333,
+        "distanceMeters": 9.98
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/08014ec1e4744bba.jpg",
+        "file": "Oshtor Ghal_flood area3.HEIC",
+        "lat": 36.15803611,
+        "lon": 68.84584167,
+        "distanceMeters": 10.51
+      }
+    ]
   },
   {
     "id": 84,
@@ -1372,10 +2208,25 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construction of Sub Health Center",
     "village": "Oshtor Ghalt",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/153b497567e2b13b.jpg",
+    "file": "Oshtor Ghal_shop1,.HEIC",
+    "photoCount": 2,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/153b497567e2b13b.jpg",
+        "file": "Oshtor Ghal_shop1,.HEIC",
+        "lat": 36.15826389,
+        "lon": 68.83368056,
+        "distanceMeters": 82.31
+      },
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/d6f8850d9e8982dc.jpg",
+        "file": "Oshtor Ghal_shop1.HEIC",
+        "lat": 36.15821111,
+        "lon": 68.83374722,
+        "distanceMeters": 88.78
+      }
+    ]
   },
   {
     "id": 86,
@@ -1406,10 +2257,18 @@ window.INFRASTRUCTURE_PRIORITIES = [
     "title": "Construct a basic multi‑purpose community hall (meeting room, storage, sanitation block).",
     "village": "Near the Community Eid Gah",
     "markerClass": "infrastructure",
-    "image": "",
-    "file": "",
-    "photoCount": 0,
-    "photos": []
+    "image": "cursor_v2_map_data/infrastructure_photo_previews/a88a0f83ec23b37f.jpg",
+    "file": "Eid Gah Nawabad Payeen.HEIC",
+    "photoCount": 1,
+    "photos": [
+      {
+        "image": "cursor_v2_map_data/infrastructure_photo_previews/a88a0f83ec23b37f.jpg",
+        "file": "Eid Gah Nawabad Payeen.HEIC",
+        "lat": 36.69789167,
+        "lon": 68.717575,
+        "distanceMeters": 0
+      }
+    ]
   },
   {
     "id": 88,

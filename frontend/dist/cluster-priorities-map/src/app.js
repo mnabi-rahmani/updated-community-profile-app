@@ -473,8 +473,15 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
       `;
     }
 
+    function infrastructurePriorityPhotos(point) {
+      if (Array.isArray(point.photos) && point.photos.length) {
+        return point.photos;
+      }
+      return areaPhotosNear(point.lat, point.lon);
+    }
+
     function infrastructurePopupHtml(point) {
-      const nearbyPhotos = areaPhotosNear(point.lat, point.lon);
+      const nearbyPhotos = infrastructurePriorityPhotos(point);
       const areaLinkHtml = nearbyPhotos.length
         ? `<button type="button" class="popup-area-photos-link" data-point-id="${point.id}">View photos in the area (${nearbyPhotos.length})</button>`
         : `<p class="popup-area-photos-empty">No GPS-tagged photos within ${AREA_PHOTO_RADIUS_METERS} m of this priority.</p>`;
@@ -493,7 +500,9 @@ const COMMUNITY_PRIORITIES_CONFIG = window.COMMUNITY_PRIORITIES_CONFIG || {};
     }
 
     function openAreaPhotosForPoint(point) {
-      const nearbyPhotos = areaPhotosNear(point.lat, point.lon);
+      const nearbyPhotos = IS_INFRASTRUCTURE_DISPLAY
+        ? infrastructurePriorityPhotos(point)
+        : areaPhotosNear(point.lat, point.lon);
       if (!nearbyPhotos.length) return;
       lightboxCaption = `Photos near priority ${point.displayId}. These images may not relate to this priority; they were taken within ${AREA_PHOTO_RADIUS_METERS} m of the GPS point.`;
       openPhotoLightbox(

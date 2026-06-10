@@ -6,6 +6,7 @@
     "generate:data": "node scripts/generate-map-data.mjs",
     "generate:infrastructure": "node scripts/generate-infrastructure-priorities.mjs",
     "audit:photo-orphans": "node scripts/audit-photo-orphans.mjs",
+    "audit:infrastructure-photos": "node scripts/audit-infrastructure-priority-photos.mjs",
     "generate:layers": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"& 'C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\propy.bat' scripts/export-gdb-layers.py\"",
     "dev": "serve . -l 5174",
     "preview": "serve . -l 5174"

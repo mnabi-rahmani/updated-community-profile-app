@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-06-10T09:35:31.947Z",
+  "radiusMeters": 100,
+  "priorities": 85,
+  "prioritiesWithPhotos": 47,
+  "totalAssignedPhotos": 116,
+  "issues": [],
+  "topPhotoCounts": [
+    {
+      "id": 51,
+      "cluster": "Cluster 7",
+      "intervention": "Irrigation Canal",
+      "photoCount": 7,
+      "maxDistanceMeters": 95.86
+    },
+    {
+      "id": 17,
+      "cluster": "Cluster 2",
+      "intervention": "Construction of classrooms for School",
+      "photoCount": 6,
+      "maxDistanceMeters": 89.63
+    },
+    {
+      "id": 28,
+      "cluster": "Cluster 4",
+      "intervention": "Water supply System",
+      "photoCount": 5,
+      "maxDistanceMeters": 64.94
+    },
+    {
+      "id": 32,
+      "cluster": "Cluster 4",
+      "intervention": "Expansion of school infrastructure and construction new classes",
+      "photoCount": 5,
+      "maxDistanceMeters": 95.15
+    },
+    {
+      "id": 53,
+      "cluster": "Cluster 7",
+      "intervention": "Leveling and Graveling and Canal lining",
+      "photoCount": 5,
+      "maxDistanceMeters": 59.86
+    },
+    {
+      "id": 38,
+      "cluster": "Cluster 5",
+      "intervention": "Constuction of protection wall to prevent flood",
+      "photoCount": 4,
+      "maxDistanceMeters": 45.58
+    },
+    {
+      "id": 50,
+      "cluster": "Cluster 7",
+      "intervention": "Irrigation Canal",
+      "photoCount": 4,
+      "maxDistanceMeters": 96.19
+    },
+    {
+      "id": 56,
+      "cluster": "Cluster 7",
+      "intervention": "Construction of school buildings",
+      "photoCount": 4,
+      "maxDistanceMeters": 98.85
+    },
+    {
+      "id": 66,
+      "cluster": "Cluster 9",
+      "intervention": "Construction of protection wall",
+      "photoCount": 4,
+      "maxDistanceMeters": 38.25
+    },
+    {
+      "id": 75,
+      "cluster": "Cluster 10",
+      "intervention": "Construction of a bridge to connect both sides of the village and ensure safe access to essential services year-round",
+      "photoCount": 4,
+      "maxDistanceMeters": 96.01
+    },
+    {
+      "id": 80,
+      "cluster": "Cluster 11",
+      "intervention": "Repairing of existing community center hall",
+      "photoCount": 4,
+      "maxDistanceMeters": 28
+    },
+    {
+      "id": 81,
+      "cluster": "Cluster 11",
+      "intervention": "Construction of additional rooms on top of community center building",
+      "photoCount": 4,
+      "maxDistanceMeters": 28
+    },
+    {
+      "id": 1,
+      "cluster": "Cluster 1",
+      "intervention": "Construction of protection wall",
+      "photoCount": 3,
+      "maxDistanceMeters": 21.48
+    },
+    {
+      "id": 11,
+      "cluster": "Cluster 2",
+      "intervention": "construction of protection wall along Ajmir Canal",
+      "photoCount": 3,
+      "maxDistanceMeters": 70.89
+    },
+    {
+      "id": 12,
+      "cluster": "Cluster 2",
+      "intervention": "construction of protection walls in high-risk sections",
+      "photoCount": 3,
+      "maxDistanceMeters": 70.89
+    }
+  ]
+}

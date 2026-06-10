@@ -74,6 +74,31 @@ function normalizePriorityLevel(value) {
   return text;
 }
 
+const meetingPhotoPattern =
+  /\b(fgd|awaaz|facilitation|card distribution|awareness)\b|^cluster\s*\d+\s*-|_cluster\s*\d+_/i;
+
+function haversineMeters(lat1, lon1, lat2, lon2) {
+  const radius = 6371000;
+  const phi1 = lat1 * Math.PI / 180;
+  const phi2 = lat2 * Math.PI / 180;
+  const dPhi = (lat2 - lat1) * Math.PI / 180;
+  const dLambda = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dPhi / 2) ** 2
+    + Math.cos(phi1) * Math.cos(phi2) * Math.sin(dLambda / 2) ** 2;
+  return 2 * radius * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function isMeetingPhoto(fileName) {
+  return meetingPhotoPattern.test(String(fileName || ""));
+}
+
+function burstGroupKey(fileName) {
+  let base = path.basename(String(fileName || ""), path.extname(String(fileName || "")));
+  base = base.replace(/\s*\(\d+\)\s*$/i, "");
+  base = base.replace(/(\D)\d+$/i, "$1");
+  return base.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
 function buildAreaPhotoRecords(photos) {
   return photos
     .filter((photo) => photo.lat != null && photo.lon != null && photo.image)
@@ -83,6 +108,102 @@ function buildAreaPhotoRecords(photos) {
       lat: Number(photo.lat.toFixed(8)),
       lon: Number(photo.lon.toFixed(8))
     }));
+}
+
+function selectPhotosForPriority(point, areaPhotos, radiusMeters = areaPhotoRadiusMeters) {
+  const nearbyPhotos = areaPhotos
+    .filter((photo) => !isMeetingPhoto(photo.file))
+    .map((photo) => ({
+      ...photo,
+      distanceMeters: haversineMeters(point.lat, point.lon, photo.lat, photo.lon)
+    }))
+    .filter((photo) => photo.distanceMeters <= radiusMeters + 0.001)
+    .sort((left, right) => left.distanceMeters - right.distanceMeters);
+
+  const uniqueByImage = [];
+  const seenImages = new Set();
+  for (const photo of nearbyPhotos) {
+    if (seenImages.has(photo.image)) continue;
+    seenImages.add(photo.image);
+    uniqueByImage.push(photo);
+  }
+
+  const uniqueByBurst = [];
+  const seenBurstGroups = new Set();
+  for (const photo of uniqueByImage) {
+    const burstKey = burstGroupKey(photo.file);
+    if (seenBurstGroups.has(burstKey)) continue;
+    seenBurstGroups.add(burstKey);
+    uniqueByBurst.push(photo);
+  }
+
+  return uniqueByBurst.map((photo) => ({
+    image: photo.image,
+    file: photo.file,
+    lat: photo.lat,
+    lon: photo.lon,
+    distanceMeters: Number(photo.distanceMeters.toFixed(2))
+  }));
+}
+
+function assignPhotosToPriorities(priorityPoints, areaPhotos) {
+  for (const point of priorityPoints) {
+    const photos = selectPhotosForPriority(point, areaPhotos);
+    point.photos = photos;
+    point.photoCount = photos.length;
+    point.image = photos[0]?.image || "";
+    point.file = photos[0]?.file || "";
+  }
+
+  return priorityPoints;
+}
+
+function validatePriorityPhotoAssignments(priorityPoints) {
+  const issues = [];
+
+  for (const point of priorityPoints) {
+    const photos = point.photos || [];
+    const imageSet = new Set();
+    const burstSet = new Set();
+
+    for (const photo of photos) {
+      const distance = haversineMeters(point.lat, point.lon, photo.lat, photo.lon);
+      if (distance > areaPhotoRadiusMeters + 0.001) {
+        issues.push({
+          type: "distance",
+          priorityId: point.id,
+          intervention: point.intervention,
+          file: photo.file,
+          distanceMeters: Number(distance.toFixed(2))
+        });
+      }
+
+      if (imageSet.has(photo.image)) {
+        issues.push({
+          type: "duplicate-image",
+          priorityId: point.id,
+          intervention: point.intervention,
+          file: photo.file,
+          image: photo.image
+        });
+      }
+      imageSet.add(photo.image);
+
+      const burstKey = burstGroupKey(photo.file);
+      if (burstSet.has(burstKey)) {
+        issues.push({
+          type: "duplicate-burst",
+          priorityId: point.id,
+          intervention: point.intervention,
+          file: photo.file,
+          burstKey
+        });
+      }
+      burstSet.add(burstKey);
+    }
+  }
+
+  return issues;
 }
 
 async function hashFile(absolutePath) {
@@ -325,13 +446,31 @@ async function main() {
     console.log(`Removed ${duplicateCount} duplicate photos (${uniqueGpsPhotos.length} unique by content hash).`);
   }
 
-  const areaPhotos = buildAreaPhotoRecords(uniqueGpsPhotos);
-  const referencedHashes = collectPreviewHashesFromRecords(areaPhotos);
+  const fieldPhotos = uniqueGpsPhotos.filter((photo) => !isMeetingPhoto(photo.fileName));
+  const areaPhotos = buildAreaPhotoRecords(fieldPhotos);
+  const priorityPoints = buildPriorityPoints(rows);
+  assignPhotosToPriorities(priorityPoints, areaPhotos);
+
+  const assignmentIssues = validatePriorityPhotoAssignments(priorityPoints);
+  if (assignmentIssues.length) {
+    console.error("Invalid infrastructure priority photo assignments detected:");
+    console.error(JSON.stringify(assignmentIssues.slice(0, 20), null, 2));
+    throw new Error(`${assignmentIssues.length} infrastructure priority photo assignment issue(s) found.`);
+  }
+
+  const referencedHashes = collectPreviewHashesFromRecords([...areaPhotos, ...priorityPoints]);
   const removedOrphans = await removeOrphanPreviewFiles(previewDir, referencedHashes);
   if (removedOrphans) {
     console.log(`Removed ${removedOrphans} unreferenced infrastructure preview file(s).`);
   }
-  const priorityPoints = buildPriorityPoints(rows);
+
+  const prioritiesWithPhotos = priorityPoints.filter((point) => point.photoCount > 0).length;
+  const assignedPhotoTotal = priorityPoints.reduce((total, point) => total + point.photoCount, 0);
+  console.log(
+    `Assigned ${assignedPhotoTotal} photo(s) across ${prioritiesWithPhotos}/${priorityPoints.length} priorities `
+    + `(<= ${areaPhotoRadiusMeters} m, deduplicated).`
+  );
+
   const filters = buildFilters(priorityPoints);
 
   const reviewReport = priorityPoints.map((point) => ({
@@ -342,7 +481,9 @@ async function main() {
     location: point.location,
     level: point.level,
     lat: point.lat,
-    lon: point.lon
+    lon: point.lon,
+    photoCount: point.photoCount,
+    photos: point.photos
   }));
 
   const content = [

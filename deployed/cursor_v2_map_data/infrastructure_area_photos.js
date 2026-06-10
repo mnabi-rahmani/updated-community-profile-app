@@ -1,54 +1,6 @@
 // GPS-tagged field photos within 100 m can be browsed per priority in the map UI.
 window.INFRASTRUCTURE_AREA_PHOTOS = [
   {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/e9434bb314c42689.jpg",
-    "file": "Cluster 5 -Baghlan i Jadid (1).HEIC",
-    "lat": 36.18800278,
-    "lon": 68.77659722
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/12f8203f5ac707ff.jpg",
-    "file": "Cluster 5 -Baghlan i Jadid (2).HEIC",
-    "lat": 36.18801389,
-    "lon": 68.77658056
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/eeb50df3656ac663.jpg",
-    "file": "Cluster 5 -Baghlan i Jadid (3).HEIC",
-    "lat": 36.188,
-    "lon": 68.77654167
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/fbed38b459a481d5.jpg",
-    "file": "FGD, AWAAZ Awareness 2- Cluster 3.HEIC",
-    "lat": 36.19305,
-    "lon": 68.75343333
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/8e6c8daf4cd3baa0.jpg",
-    "file": "FGD, AWAAZ Card Distribution 1- Cluster 6.HEIC",
-    "lat": 36.19927222,
-    "lon": 68.81706111
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/77e24ee189b9071e.jpg",
-    "file": "FGD, Facilitation,1 Cluster 3.HEIC",
-    "lat": 36.193025,
-    "lon": 68.75328889
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/459d27bf44dd6adb.jpg",
-    "file": "FGD, Facilitation,1 Cluster 6.HEIC",
-    "lat": 36.19929444,
-    "lon": 68.81706944
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/e6885b2255b6727f.jpg",
-    "file": "FGD- AWAAZ Awareness_Cluster Nawabad.HEIC",
-    "lat": 36.7052,
-    "lon": 68.71624722
-  },
-  {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/3eb121027a3b9ea5.jpg",
     "file": "FGD_ Cluster Nawabad.HEIC",
     "lat": 36.70517222,
@@ -83,48 +35,6 @@ window.INFRASTRUCTURE_AREA_PHOTOS = [
     "file": "FGD_Cluster Nawabad 2.HEIC",
     "lat": 36.70516944,
     "lon": 68.71618611
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/64bcba8c98339ea8.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (1).HEIC",
-    "lat": 36.10076944,
-    "lon": 68.860375
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/305d7788b9df32c4.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (2).HEIC",
-    "lat": 36.10076944,
-    "lon": 68.86032778
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/46cd45fde2efeb28.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (3).HEIC",
-    "lat": 36.10079444,
-    "lon": 68.86038889
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/5e809eb0462afb28.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (4).HEIC",
-    "lat": 36.10082222,
-    "lon": 68.86039722
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/9050dfa770053482.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (5).HEIC",
-    "lat": 36.10082222,
-    "lon": 68.86039722
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/a551dcc72366aba9.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (6).HEIC",
-    "lat": 36.10067778,
-    "lon": 68.86034444
-  },
-  {
-    "image": "cursor_v2_map_data/infrastructure_photo_previews/35b8e3a141c9ea39.jpg",
-    "file": "Shaikh Jalal_Cluster 10_Baghlan i Jadid (7).HEIC",
-    "lat": 36.10073333,
-    "lon": 68.86030556
   },
   {
     "image": "cursor_v2_map_data/infrastructure_photo_previews/61c16cd6e0b1759c.jpg",
